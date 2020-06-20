@@ -11,6 +11,7 @@ class ListNode:
         self.next = None
 
 class Solution:
+    # 方法一: 快慢指针
     # 44 ms	    37.07%
     # 13.6 MB   14.29%
     def middleNode(self, head: ListNode) -> ListNode:
