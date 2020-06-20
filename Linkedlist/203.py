@@ -11,6 +11,7 @@ class ListNode:
         self.next = None
 
 class Solution:
+    # 方法一: 先删除开始所以值为val的节点，然后再遍历删除后面的值为val的节点
     def removeElements(self, head: ListNode, val: int) -> ListNode:
         while head and head.val == val:
             head = head.next
