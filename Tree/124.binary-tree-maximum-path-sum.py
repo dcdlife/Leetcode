@@ -12,7 +12,6 @@ class TreeNode:
         self.right = None
 
 class Solution:
-
     # 方法一: 递归求解。
     # 节点的最大路径和为 节点的值 + max(左节点路径最大值, 0) + max(右节点的路径最大值, 0)
     # 156 ms	10.09%
