@@ -4,6 +4,8 @@
 https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/
 """
 
+from typing import List
+
 class Solution:
     def findLength(self, A: List[int], B: List[int]) -> int:
         n, m = len(A), len(B)
