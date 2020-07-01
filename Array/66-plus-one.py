@@ -1,3 +1,9 @@
+"""
+66. 加一
+简单
+https://leetcode-cn.com/problems/plus-one/
+"""
+
 from typing import List
 
 class Solution:
