@@ -1,3 +1,9 @@
+"""
+32. 最长有效括号
+困难
+https://leetcode-cn.com/problems/longest-valid-parentheses/
+"""
+
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         stack = []
