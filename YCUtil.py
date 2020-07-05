@@ -1,10 +1,21 @@
 import json
+import sys
+import io
 
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
+
+def stringToString(input):
+    return input[1:-1]
+
+def readlines():
+    file = open('./testcase.txt')
+    lines = [stringToString(line.strip('\n')) for line in file.readlines()]
+    file.close()
+    return lines
 
 def stringToIntegerList(input):
     return json.loads(input)
