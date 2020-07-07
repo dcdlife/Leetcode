@@ -5,13 +5,17 @@ https://leetcode-cn.com/problems/path-sum/
 """
 
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution:
+    # 方法一: 递归
+
+    # 60 ms	    42.86%
+    # 15.3 MB   6.多%
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
         if root == None:
             return False
