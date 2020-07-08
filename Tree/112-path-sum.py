@@ -15,7 +15,7 @@ class Solution:
     # 方法一: 递归
 
     # 60 ms	    42.86%
-    # 15.3 MB   6.多%
+    # 15.3 MB   6.67%
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
         if root == None:
             return False
