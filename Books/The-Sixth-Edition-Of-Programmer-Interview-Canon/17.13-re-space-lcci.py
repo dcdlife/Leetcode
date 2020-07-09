@@ -1,6 +1,16 @@
+"""
+面试题 17.13. 恢复空格
+中等
+https://leetcode-cn.com/problems/re-space-lcci/
+"""
+
 from typing import List
 
 class Solution:
+    # 方法一: O(n^2)解法
+
+    # 584 ms    70.16%
+    # 13.7 MB   100.00%
     def respace(self, dictionary: List[str], sentence: str) -> int:
         if len(sentence) == 0: 
             return 0
