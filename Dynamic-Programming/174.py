@@ -1,3 +1,9 @@
+"""
+174. 地下城游戏
+困难
+https://leetcode-cn.com/problems/dungeon-game/
+"""
+
 from typing import List
 
 class Solution:
@@ -16,3 +22,10 @@ class Solution:
         return dp[0][0]
 
 
+if __name__ == "__main__":
+    su = Solution()
+    tests = [
+        [[-2,-3,3],[-5,-10,1],[10,30,-5]]
+    ]
+    for test in tests:
+        print(su.calculateMinimumHP(test))
