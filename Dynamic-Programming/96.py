@@ -1,3 +1,9 @@
+"""
+96. 不同的二叉搜索树
+中等
+https://leetcode-cn.com/problems/unique-binary-search-trees/
+"""
+
 class Solution:
     # 方法一: 动态规划
     # dp[i] = dp[0] + dp[i] + ... + dp[i - 1]
