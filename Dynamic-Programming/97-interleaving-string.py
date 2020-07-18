@@ -1,5 +1,15 @@
+"""
+97.交错字符串
+中等
+https://leetcode-cn.com/problems/interleaving-string/
+"""
+
 class Solution:
     # 方法一: 动态规划
+    # 规划方程: 
+    # p = i + j - 1
+    # dp[i][j] = (dp[i][j] = dp[i - 1][j] and s1[i - 1] == s3[p]) or (dp[i][j] = dp[i][j - 1] and s2[j - 1] == s3[p])
+
     # 52 ms	    60.92%
     # 13.8 MB   16.67%
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
@@ -19,5 +29,4 @@ class Solution:
                     dp[i][j] = dp[i - 1][j] and s1[i - 1] == s3[p]
                 if j > 0 and dp[i][j] == False:
                     dp[i][j] = dp[i][j - 1] and s2[j - 1] == s3[p]
-        print(dp)
         return dp[m][n]
