@@ -22,47 +22,59 @@ https://leetcode-cn.com/problems/3sum-closest/
 
 from typing import List
 
+"""
+[-1,2,1,-4]
+1
+[1,2,3]
+1
+
+此用例频繁出错
+[0,2,1,-3]
+1
+"""
+
 class Solution:
-    # 方法一：排序+双指针
-    # 152 ms	38.11%
-    # 13.8 MB   
+
+    # 排序+双指针 
+    # 时间复杂度 O(n^2)； 空间复杂度 
+    # 执行用时：336 ms, 在所有 Python3 提交中击败了12.30%的用户
+    # 内存消耗：13.6 MB, 在所有 Python3 提交中击败了86.64%的用户
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums = sorted(nums)
-        res = sum(nums[:3])
-        distance = abs(res - target)
         length = len(nums)
+        res = nums[0] + nums[1] + nums[2]
         for i in range(length - 2):
-            num_i = nums[i]
-            j = i + 1
-            k = length - 1
-            while j < k:
-                tempSum = num_i + nums[j] + nums[k]
-                tempDistance = abs(tempSum - target)
-
-                if tempDistance == 0:
-                    return tempSum
-
-                if tempDistance < distance:
-                    distance = tempDistance # 提交错误时，遗漏此行代码
-                    res = tempSum
-
-                if tempSum >= target:
-                    while k - 1 >= j:
-                        if nums[k - 1] != nums[k]:
-                            k -= 1
-                            break
+            # 去掉重复的第一个元素
+            if i == 0 or nums[i] != nums[i - 1]:
+                value_i = nums[i]
+                j = i + 1
+                k = length - 1
+                while j < k:
+                    # 去掉重复的第二个元素
+                    if j == i + 1 or nums[j] != nums[j - 1]:
+                        value_j = nums[j]
+                        # 去掉重复的第三个元素
+                        if k == length - 1 or nums[k] != nums[k + 1]:
+                            value_k = nums[k]
+                            sumijk = value_i + value_j + value_k
+                            # 错误写法
+                            # if target > sumijk:
+                            # 正确写法
+                            if sumijk - target > 0:
+                                k -= 1
+                            else:
+                                j += 1
+                            if abs(target - sumijk) < abs(target - res):
+                                res = sumijk
                         else:
                             k -= 1
-                else:
-                    while j + 1 <= k:
-                        if nums[j + 1] != nums[j]:
-                            j += 1
-                            break
-                        else:
-                            j += 1
+                    else:
+                        j += 1
         return res
 
 if __name__ == "__main__":
     su = Solution()
     # print(su.threeSumClosest([-1, 2, 1, -4], 1))
-    print(su.threeSumClosest([0,2,1,-3], 1)) # leetcode 提交错误
+
+    # leetcode 提交错误 多次犯错
+    print(su.threeSumClosest([0,2,1,-3], 1)) 
