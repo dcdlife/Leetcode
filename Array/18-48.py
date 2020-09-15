@@ -45,10 +45,30 @@ https://leetcode-cn.com/problems/rotate-image/
 
 """
 
+from typing import List
+
 class Solution:
+    # 方法一: 先按左上到右小的对角线反转，然后再反转每一行。
+    # 时间复杂度: O(n)
     def rotate(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
         """
+        if not matrix:
+            return None
+        
+        rows = len(matrix)
+        cols = len(matrix[0])
+        for i in range(rows):
+            for j in range(i, rows):
+                print(i, j)
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+        
+        print(matrix)
+
+
+if __name__ == "__main__":
+    su = Solution()
+    su.rotate([[1,2,3], [4,5,6], [7,8,9]])
 
         
