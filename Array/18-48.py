@@ -48,11 +48,57 @@ https://leetcode-cn.com/problems/rotate-image/
 from typing import List
 
 class Solution:
-    # 方法一: 先按左上到右下的对角线反转，然后再反转每一行。
-    # 时间复杂度: O(n)
+
+    # 方法三：法二的精简版。
+    def rotate(self, matrix):
+      """
+      :type matrix: List[List[int]]
+      :rtype: void Do not return anything, modify matrix in-place instead.
+      """
+      n = len(matrix[0])        
+      for i in range(n // 2 + n % 2):
+          for j in range(n // 2):
+              tmp = matrix[n - 1 - j][i]
+              matrix[n - 1 - j][i] = matrix[n - 1 - i][n - j - 1]
+              matrix[n - 1 - i][n - j - 1] = matrix[j][n - 1 - i]
+              matrix[j][n - 1 - i] = matrix[i][j]
+              matrix[i][j] = tmp
+              print(
+                tmp,
+                matrix[n - 1 - j][i], 
+                matrix[n - 1 - i][n - j - 1],
+                matrix[j][n - 1 - i],
+                matrix[i][j]
+                )
+
+    # 方法二：每次旋转4个点。
+    # 复杂度：时间O(n^2)。空间O(1)
+    def rotate2(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: void Do not return anything, modify matrix in-place instead.
+        """
+        n = len(matrix[0])
+        for i in range(n // 2 + n % 2):
+            for j in range(n // 2):
+                tmp = [0] * 4
+                row, col = i, j
+                print(row, col)
+                # store 4 elements in tmp
+                for k in range(4):
+                    tmp[k] = matrix[row][col]
+                    row, col = col, n - 1 - row
+                # rotate 4 elements   
+                for k in range(4):
+                    matrix[row][col] = tmp[(k - 1) % 4]
+                    row, col = col, n - 1 - row
+
+        print(matrix)
+    # 方法一: 两次矩阵操作。先按左上到右下的对角线反转，然后再反转每一行。
+    # 时间复杂度: O(n^2)
     # 执行用时：28 ms, 在所有 Python3 提交中击败了99.28%的用户
     # 内存消耗：13.4 MB, 在所有 Python3 提交中击败了17.28%的用户
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotate1(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
         """
