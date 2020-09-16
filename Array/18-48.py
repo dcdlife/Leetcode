@@ -48,8 +48,10 @@ https://leetcode-cn.com/problems/rotate-image/
 from typing import List
 
 class Solution:
-    # 方法一: 先按左上到右小的对角线反转，然后再反转每一行。
+    # 方法一: 先按左上到右下的对角线反转，然后再反转每一行。
     # 时间复杂度: O(n)
+    # 执行用时：28 ms, 在所有 Python3 提交中击败了99.28%的用户
+    # 内存消耗：13.4 MB, 在所有 Python3 提交中击败了17.28%的用户
     def rotate(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
@@ -58,17 +60,24 @@ class Solution:
             return None
         
         rows = len(matrix)
-        cols = len(matrix[0])
         for i in range(rows):
             for j in range(i, rows):
-                print(i, j)
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
         
-        print(matrix)
-
+        for i in range(rows):
+          left, right = 0, rows - 1
+          while left < right:
+            matrix[i][left], matrix[i][right] = matrix[i][right], matrix[i][left]
+            left += 1
+            right -= 1
 
 if __name__ == "__main__":
     su = Solution()
-    su.rotate([[1,2,3], [4,5,6], [7,8,9]])
+    su.rotate([
+      [ 5, 1, 9,11],
+      [ 2, 4, 8,10],
+      [13, 3, 6, 7],
+      [15,14,12,16]
+    ])
 
         
