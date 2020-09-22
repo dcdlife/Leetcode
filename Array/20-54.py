@@ -28,64 +28,57 @@ https://leetcode-cn.com/problems/spiral-matrix/
 from typing import List
 
 class Solution:
+
+    # 方法2: 按层模拟。依次从外圈遍历到内圈
+    # 复杂度: 时间O(mn), 空间O(1)
+    # 执行用时：36 ms, 在所有 Python3 提交中击败了85.51%的用户
+    # 内存消耗：13.4 MB, 在所有 Python3 提交中击败了35.26%的用户
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        if not matrix:
-            return []
-
-        size = len(matrix)
-        if size == 0:
-            return []
-
-        res = []
-        rows = size
-        cols = len(matrix[0])
-        xs = cols // 2 + cols % 2
-        if cols == 1:
-            for i in range(rows):
-                res.append(matrix[i][0])
-            return res
-        if rows == 1:
-            for i in range(cols):
-                res.append(matrix[0][i])
-            return res
+        if not matrix or not matrix[0]:
+            return list()
         
-        if rows == 2 or cols == 2:
-            i = 0
-            maxCol = cols - 1
-            maxRow = rows - 1
-            for col in range(i, maxCol + 1):
-                res.append(matrix[i][col])
-            for row in range(i + 1, maxRow + 1):
-                res.append(matrix[row][maxCol])
-            for col in range(maxCol - 1, i - 1, -1):
-                res.append(matrix[maxRow][col])
-            for row in range(maxRow - 1, i, -1):
-                res.append(matrix[row][i])
-            return res
+        rows, columns = len(matrix), len(matrix[0])
+        order = list()
+        left, right, top, bottom = 0, columns - 1, 0, rows - 1
+        while left <= right and top <= bottom:
+            for column in range(left, right + 1):
+                order.append(matrix[top][column])
+            for row in range(top + 1, bottom + 1):
+                order.append(matrix[row][right])
+            if left < right and top < bottom:
+                for column in range(right - 1, left, -1):
+                    order.append(matrix[bottom][column])
+                for row in range(bottom, top, -1):
+                    order.append(matrix[row][left])
+            left, right, top, bottom = left + 1, right - 1, top + 1, bottom - 1
+        return order
 
-        for i in range(xs):
-            if (rows % 2 == 0 and cols % 2 == 0) or i != xs - 1: 
-                maxCol = cols - i - 1
-                maxRow = rows - i - 1
-                for col in range(i, maxCol + 1):
-                    res.append(matrix[i][col])
-                for row in range(i + 1, maxRow + 1):
-                    res.append(matrix[row][maxCol])
-                for col in range(maxCol - 1, i - 1, -1):
-                    res.append(matrix[maxRow][col])
-                for row in range(maxRow - 1, i, -1):
-                    res.append(matrix[row][i])
-            else:
-                if rows % 2 == 1:
-                    if cols % 2 == 1:
-                        res.append(matrix[xs - 1][xs - 1])
-                    else:
-                        for i in range(xs - 1, cols - xs + 1):
-                            res.append(matrix[xs - 1][i])
-                else:
-                    for i in range(xs - 1, rows - xs + 1):
-                        res.append(matrix[i][xs - 1])
-        return res
+    # 方法1: 顺时针打印，模拟旋转路径。创建一个同样的矩阵用来标记是否被遍历过,当遇到边界/或者遍历过，就执行旋转，调整打印方向。
+    # 复杂度: 时间O(mn), 空间O(mn)
+    # 执行用时：40 ms, 在所有 Python3 提交中击败了65.34%的用户
+    # 内存消耗：13.4 MB, 在所有 Python3 提交中击败了27.23%的用户
+    def spiralOrder1(self, matrix: List[List[int]]) -> List[int]:
+        if not matrix or not matrix[0]:
+            return []
+            
+        rows, cols = len(matrix), len(matrix[0])
+        visited = [[False] * cols for _ in range(rows)]
+        total = rows * cols
+        order = [0] * total
+        row, col = 0, 0
+        directions = [[0,1], [1,0], [0,-1], [-1,0]]
+        directionIndex = 0
+        for i in range(total):
+            order[i] = matrix[row][col]
+            visited[row][col] = True
+            nextRow, nexCol = row + directions[directionIndex][0], col + directions[directionIndex][1]
+            # 校验nextRow及nextCol
+            if not (0 <= nextRow < rows and 0 <= nexCol < cols and not visited[nextRow][nexCol]):
+                directionIndex = (directionIndex + 1) % 4
+            row += directions[directionIndex][0]
+            col += directions[directionIndex][1]
+        
+        return order
 
 if __name__ == "__main__":
     su = Solution()
