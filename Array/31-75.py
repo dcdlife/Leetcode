@@ -42,6 +42,8 @@ class Solution:
             elif nums[cur] == 0:
                 nums[cur], nums[p0] = nums[p0], nums[cur]
                 p0 += 1
+                # ① p0 < curr，这种情况下 nums【p0】==1（因为只有遇到了1之后，p0和curr才会拉开距离），那么交换之后就可以直接curr++ 
+                # ② p0 == curr，这种情况下，显然也应该直接右移，即curr++。
                 cur += 1
             else:
                 cur += 1
