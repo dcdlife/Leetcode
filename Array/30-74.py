@@ -31,11 +31,37 @@ target = 13
 from typing import List
 
 class Solution:
+
+    # 方法二：标准的二分查找。把二维数组想象成一维。利用 index // n 来得出行， index % n 来得出列
+    # 复杂度: 时间O(log(mn)) 空间O(1)
+    # 执行用时：36 ms, 在所有 Python3 提交中击败了92.18%的用户
+    # 内存消耗：14.4 MB, 在所有 Python3 提交中击败了5.11%的用户
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        m = len(matrix)
+        if m == 0:
+            return False
+        n = len(matrix[0])
+        
+        #二分查找
+        left, right = 0, m * n - 1
+        while left <= right:
+                pivot_idx = (left + right) // 2
+                pivot_element = matrix[pivot_idx // n][pivot_idx % n]
+                if target == pivot_element:
+                    return True
+                else:
+                    if target < pivot_element:
+                        right = pivot_idx - 1
+                    else:
+                        left = pivot_idx + 1
+        return False
+
+
     # 方法一: 先找到行，然后再用折半查找在找到的行中查找
     # 复杂度: 时间O(n) 空间O(1)
     # 执行用时：32 ms, 在所有 Python3 提交中击败了97.90%的用户
     # 内存消耗：14.3 MB, 在所有 Python3 提交中击败了9.86%的用户
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+    def searchMatrix1(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or not matrix[0]:
             return False
         rows = len(matrix)
