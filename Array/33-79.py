@@ -78,8 +78,11 @@ class Solution:
             return False
         for i in range(len(board)):
             for j in range(len(board[0])):
-                    if findNext(i,j, word):
+                if board[i][j] == word[0]:
+                    visits[i][j] = True
+                    if findNext(i,j, word[1:]):
                         return True
+                    visits[i][j] = False
         return False
 
 if __name__ == "__main__":
