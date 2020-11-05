@@ -51,6 +51,11 @@ class Solution:
 
 
 if __name__ == "__main__":
+    # 测试用例：
+    # 1. 功能测试：
+    #   1. 输入的链表有多个节点
+    #   2. 输入的链表只有一个节点
+    # 2. 特殊输入测试：输入的链表头节点指针为nullptr
     su = Solution()
     head = ListNode(1)
     node2 = ListNode(2)
