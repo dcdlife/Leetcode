@@ -86,7 +86,7 @@ class ArrayList {
         return old
     }
     
-    /// 删除index位置对应的元素
+    /// 删除index位置对应的元素（思考：最后一个元素如何处理？）
     func remove(_ index: Int) -> Int? {
         if !rangeCheck(index) {
             return nil
