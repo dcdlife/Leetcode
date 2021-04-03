@@ -7,6 +7,24 @@
 
 import Foundation
 
+func createListNode(values: [Int]) -> ListNode? {
+    var resNode: ListNode? = nil
+    if values.count > 0 {
+        var lastNode: ListNode? = nil
+        for value in values {
+            let node = ListNode(value)
+            if lastNode != nil {
+                lastNode?.next = node
+                lastNode = node
+            } else {
+                lastNode = node
+                resNode = lastNode
+            }
+        }
+    }
+    return resNode
+}
+
 /// 依次打印链表节点
 func printListNode(rootNode: ListNode?) {
     if rootNode == nil {
