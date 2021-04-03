@@ -7,8 +7,6 @@
 
 import Foundation
 
-//let su1 = Solution1()
-//su1.test()
 
-let su206 = Solution206()
-su206.test()
+let su = Solution141()
+su.test()
