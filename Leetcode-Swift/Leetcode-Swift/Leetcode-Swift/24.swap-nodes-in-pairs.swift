@@ -13,14 +13,14 @@ import Foundation
 
 class Solution24 {
     /*
-     思路：
+     思路 迭代：
      依次遍历，每次cur指向下一对的第一个节点，并用last保存上一对转换后的第二个节点（用来连接新的一对）
      1. 保存下一对的第一个节点
      2. last指向cur.next，连接上新的一对节点
      3. 交换当前对的指向
      4. 调到1重复执行
      */
-    func swapPairs(_ head: ListNode?) -> ListNode? {
+    func swapPairs_iteration(_ head: ListNode?) -> ListNode? {
         if head?.next == nil {
             return head
         }
@@ -38,6 +38,18 @@ class Solution24 {
             last = cur
         }
         return resHead
+    }
+    
+    // 递归解法
+    func swapPairs(_ head: ListNode?) -> ListNode? {
+        if head?.next == nil {
+            return head
+        }
+        let second = head
+        let newHead = head?.next
+        second?.next = swapPairs(head?.next?.next)
+        newHead?.next =  second
+        return newHead
     }
     
     /*
