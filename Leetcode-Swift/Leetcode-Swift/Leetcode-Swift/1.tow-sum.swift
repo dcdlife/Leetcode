@@ -1,3 +1,12 @@
+//
+//  1.tow-sum.swift
+//  Leetcode-Swift
+//
+//  Created by 尹冲 on 2021/4/3.
+//
+
+import Foundation
+
 //: 1.两数之和（简单）
 //: https://leetcode-cn.com/problems/two-sum
 
@@ -38,7 +47,7 @@
  时间复杂度：O(n)。花费在依次遍历nums数组时
  空间复杂度：O(n)。创建的哈希表
  */
-class Solution {
+class Solution1 {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict: Dictionary<Int, Int> = [:]
         let count = nums.count
@@ -50,8 +59,10 @@ class Solution {
         }
         return []
     }
+    
+    func test() {
+        let su = Solution1()
+        print(su.twoSum([2,7,11,15], 9))
+    }
 }
-
-let su = Solution()
-su.twoSum([2,7,11,15], 9)
 
