@@ -18,6 +18,7 @@
 		8EB8A55D261938F7001408FD /* 25.reverse-nodes-in-k-group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A55C261938F7001408FD /* 25.reverse-nodes-in-k-group.swift */; };
 		8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */; };
 		8EB8A56526198CD3001408FD /* 225.implement-stack-using-queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56426198CD3001408FD /* 225.implement-stack-using-queues.swift */; };
+		8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56826199380001408FD /* 20.valid-parentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		8EB8A55C261938F7001408FD /* 25.reverse-nodes-in-k-group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "25.reverse-nodes-in-k-group.swift"; sourceTree = "<group>"; };
 		8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.implement-queue-using-stacks.swift"; sourceTree = "<group>"; };
 		8EB8A56426198CD3001408FD /* 225.implement-stack-using-queues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "225.implement-stack-using-queues.swift"; sourceTree = "<group>"; };
+		8EB8A56826199380001408FD /* 20.valid-parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.valid-parentheses.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */,
 				8EB8A56426198CD3001408FD /* 225.implement-stack-using-queues.swift */,
 				8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */,
+				8EB8A56826199380001408FD /* 20.valid-parentheses.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */,
 				8EB8A53A2617838E001408FD /* main.swift in Sources */,
 				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
 				8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */,
