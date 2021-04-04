@@ -73,17 +73,25 @@
 		8EB8A5382617838E001408FD /* Leetcode-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				8EB8A5392617838E001408FD /* main.swift */,
-				8EB8A541261783B7001408FD /* 1.tow-sum.swift */,
-				8EB8A55526180BA9001408FD /* 24.swap-nodes-in-pairs.swift */,
-				8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */,
-				8EB8A54726178470001408FD /* commonStructure.swift */,
+				8EB8A55F2619554A001408FD /* leetcode */,
 				8EB8A54A2617849E001408FD /* commonMethods.swift */,
-				8EB8A54E261801AE001408FD /* 141.linked-list-cycle.swift */,
-				8EB8A55926181CC9001408FD /* 142.linked-list-cycle-ii.swift */,
-				8EB8A55C261938F7001408FD /* 25.reverse-nodes-in-k-group.swift */,
+				8EB8A54726178470001408FD /* commonStructure.swift */,
+				8EB8A5392617838E001408FD /* main.swift */,
 			);
 			path = "Leetcode-Swift";
+			sourceTree = "<group>";
+		};
+		8EB8A55F2619554A001408FD /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8A541261783B7001408FD /* 1.tow-sum.swift */,
+				8EB8A55526180BA9001408FD /* 24.swap-nodes-in-pairs.swift */,
+				8EB8A55C261938F7001408FD /* 25.reverse-nodes-in-k-group.swift */,
+				8EB8A54E261801AE001408FD /* 141.linked-list-cycle.swift */,
+				8EB8A55926181CC9001408FD /* 142.linked-list-cycle-ii.swift */,
+				8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */,
+			);
+			path = leetcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
