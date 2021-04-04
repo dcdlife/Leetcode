@@ -49,6 +49,10 @@ class MyQueue232 {
     func empty() -> Bool {
         return inputStack.count == 0 && outputStack.count == 0
     }
+    
+    func size() -> Int {
+        return inputStack.count + outputStack.count
+    }
 }
 
 class Solution232 {
