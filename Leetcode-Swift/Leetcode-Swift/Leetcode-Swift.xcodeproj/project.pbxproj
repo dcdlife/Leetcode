@@ -16,6 +16,7 @@
 		8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A55526180BA9001408FD /* 24.swap-nodes-in-pairs.swift */; };
 		8EB8A55A26181CC9001408FD /* 142.linked-list-cycle-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A55926181CC9001408FD /* 142.linked-list-cycle-ii.swift */; };
 		8EB8A55D261938F7001408FD /* 25.reverse-nodes-in-k-group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A55C261938F7001408FD /* 25.reverse-nodes-in-k-group.swift */; };
+		8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		8EB8A55526180BA9001408FD /* 24.swap-nodes-in-pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "24.swap-nodes-in-pairs.swift"; sourceTree = "<group>"; };
 		8EB8A55926181CC9001408FD /* 142.linked-list-cycle-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142.linked-list-cycle-ii.swift"; sourceTree = "<group>"; };
 		8EB8A55C261938F7001408FD /* 25.reverse-nodes-in-k-group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "25.reverse-nodes-in-k-group.swift"; sourceTree = "<group>"; };
+		8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.implement-queue-using-stacks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				8EB8A54E261801AE001408FD /* 141.linked-list-cycle.swift */,
 				8EB8A55926181CC9001408FD /* 142.linked-list-cycle-ii.swift */,
 				8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */,
+				8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				8EB8A53A2617838E001408FD /* main.swift in Sources */,
 				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
+				8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */,
 				8EB8A55A26181CC9001408FD /* 142.linked-list-cycle-ii.swift in Sources */,
 				8EB8A55D261938F7001408FD /* 25.reverse-nodes-in-k-group.swift in Sources */,
 				8EB8A54826178470001408FD /* commonStructure.swift in Sources */,
