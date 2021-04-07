@@ -21,6 +21,7 @@
 		8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56826199380001408FD /* 20.valid-parentheses.swift */; };
 		8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */; };
 		8EB8A571261BE648001408FD /* [x]239.sliding-window-maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */; };
+		8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		8EB8A56826199380001408FD /* 20.valid-parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.valid-parentheses.swift"; sourceTree = "<group>"; };
 		8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703.kth-largest-element-in-a-stream.swift"; sourceTree = "<group>"; };
 		8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[x]239.sliding-window-maximum.swift"; sourceTree = "<group>"; };
+		8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242.valid-anagram.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				8EB8A56426198CD3001408FD /* 225.implement-stack-using-queues.swift */,
 				8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */,
 				8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */,
+				8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				8EB8A54826178470001408FD /* commonStructure.swift in Sources */,
 				8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */,
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
+				8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */,
 				8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */,
 				8EB8A54F261801AE001408FD /* 141.linked-list-cycle.swift in Sources */,
 			);
