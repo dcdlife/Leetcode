@@ -12,6 +12,9 @@ import Foundation
  */
 
 class Solution15 {
+    /*
+     思路：排序+双指针
+     */
     func threeSum(_ nums: [Int]) -> [[Int]] {
         if nums.count < 3 {
             return []

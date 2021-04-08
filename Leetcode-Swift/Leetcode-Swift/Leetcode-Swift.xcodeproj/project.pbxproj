@@ -23,6 +23,7 @@
 		8EB8A571261BE648001408FD /* [x]239.sliding-window-maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */; };
 		8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */; };
 		8EB8A579261E00F5001408FD /* 15.3sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A578261E00F5001408FD /* 15.3sum.swift */; };
+		8EB8A57C261F4E6F001408FD /* 18.4sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A57B261F4E6F001408FD /* 18.4sum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[x]239.sliding-window-maximum.swift"; sourceTree = "<group>"; };
 		8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242.valid-anagram.swift"; sourceTree = "<group>"; };
 		8EB8A578261E00F5001408FD /* 15.3sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15.3sum.swift; sourceTree = "<group>"; };
+		8EB8A57B261F4E6F001408FD /* 18.4sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18.4sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */,
 				8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */,
 				8EB8A578261E00F5001408FD /* 15.3sum.swift */,
+				8EB8A57B261F4E6F001408FD /* 18.4sum.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
 				8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */,
 				8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */,
+				8EB8A57C261F4E6F001408FD /* 18.4sum.swift in Sources */,
 				8EB8A54F261801AE001408FD /* 141.linked-list-cycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
