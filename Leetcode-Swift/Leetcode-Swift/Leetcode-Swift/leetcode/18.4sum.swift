@@ -76,7 +76,7 @@ class Solution18 {
     /*
      思路：排序+双指针
      */
-    func threeSum_self(_ nums: [Int], _ target: Int) -> [[Int]] {
+    func threeSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         if nums.count < 3 {
             return []
         }
@@ -115,7 +115,7 @@ class Solution18 {
         return res
     }
     
-    func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
+    func fourSum_self(_ nums: [Int], _ target: Int) -> [[Int]] {
         if nums.count < 4 {
             return []
         }
