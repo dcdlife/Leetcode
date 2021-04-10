@@ -62,3 +62,32 @@ func printListNode(rootNode: ListNode?) {
     
     print(result, separator: ",", terminator: "\n")
 }
+
+func createTreeNode(_ list: [Int?]) -> TreeNode? {
+    if list.count < 3 || list[0] == nil {
+        return nil
+    }
+    var queue: [Int?] = list
+    let root = TreeNode(list[0]!)
+    queue.removeFirst()
+    var waitToSetNodes: [TreeNode] = [root]
+    while queue.count != 0 {
+        var tmpNewNodes: [TreeNode] = []
+        for node in waitToSetNodes {
+            if queue[0] != nil {
+                let left = TreeNode(queue[0]!)
+                node.left = left
+                tmpNewNodes.append(left)
+            }
+            queue.removeFirst()
+            if queue[0] != nil {
+                let right = TreeNode(queue[0]!)
+                node.right = right
+                tmpNewNodes.append(right)
+            }
+            queue.removeFirst()
+        }
+        waitToSetNodes = tmpNewNodes
+    }
+    return root
+}
