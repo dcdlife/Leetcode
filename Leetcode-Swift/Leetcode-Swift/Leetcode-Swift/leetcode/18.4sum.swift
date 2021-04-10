@@ -12,10 +12,71 @@ import Foundation
  */
 
 class Solution18 {
+    
+    func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
+        guard nums.count >= 4 else {
+            return []
+        }
+
+        let sorted = nums.sorted()
+        let n = nums.count
+
+        var res = [[Int]]()
+
+        for i in 0..<(n - 3) {
+            // 去重
+            if i > 0 && sorted[i] == sorted[i - 1] {
+                continue
+            }
+
+            // 当前值和最大的三个值之和
+            if sorted[i] + sorted[n - 3] + sorted[n - 2] + sorted[n - 1] < target {
+                continue
+            }
+            // 当前值和最小的三个值之和
+            if sorted[i] + sorted[i + 1] + sorted[i + 2] + sorted[i + 3] > target {
+                break
+            }
+
+            for j in (i + 1)..<(n - 2) {
+                // 去重
+                if j > i + 1 && sorted[j] == sorted[j - 1] {
+                    continue
+                }
+
+                // 当前值和最大的两个值之和
+                if sorted[i] + sorted[j] + sorted[n - 2] + sorted[n - 1] < target {
+                    continue
+                }
+                // 当前值和最小的两个值之和
+                if sorted[i] + sorted[j] + sorted[j + 1] + sorted[j + 2] > target {
+                    break
+                }
+
+                var l = j + 1, r = n - 1
+                while l < r {
+                    let sum = sorted[i] + sorted[j] + sorted[l] + sorted[r]
+                    if sum == target {
+                        res.append([sorted[i], sorted[j], sorted[l], sorted[r]])
+                        while l < r && sorted[l] == sorted[l + 1] { l += 1 }
+                        while l < r && sorted[r] == sorted[r - 1] { r -= 1 }
+                        l += 1
+                        r -= 1
+                    } else if sum > target {
+                        r -= 1
+                    } else {
+                        l += 1
+                    }
+                }
+            }
+        }
+
+        return res
+    }
     /*
      思路：排序+双指针
      */
-    func threeSum(_ nums: [Int], _ target: Int) -> [[Int]] {
+    func threeSum_self(_ nums: [Int], _ target: Int) -> [[Int]] {
         if nums.count < 3 {
             return []
         }
