@@ -17,6 +17,7 @@
 		8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */; };
 		8E63A692262503E40078BA4C /* 10.02.group-anagrams-lcci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A691262503E40078BA4C /* 10.02.group-anagrams-lcci.swift */; };
 		8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */; };
+		8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -60,6 +61,7 @@
 		8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1347.minimum-number-of-steps-to-make-two-strings-anagram.swift"; sourceTree = "<group>"; };
 		8E63A691262503E40078BA4C /* 10.02.group-anagrams-lcci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10.02.group-anagrams-lcci.swift"; sourceTree = "<group>"; };
 		8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.best-time-to-buy-and-sell-stock-ii.swift"; sourceTree = "<group>"; };
+		8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.best-time-to-buy-and-sell-stock.swift"; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */,
 				8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */,
 				8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */,
+				8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */,
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
 				8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */,
+				8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */,
 				8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */,
 				8EB8A57F261F558D001408FD /* 49.group-anagrams.swift in Sources */,
 				8EB8A57C261F4E6F001408FD /* 18.4sum.swift in Sources */,
