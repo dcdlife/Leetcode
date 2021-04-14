@@ -20,6 +20,7 @@
 		8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */; };
 		8E63A69C26264E400078BA4C /* 860.lemonade-change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69B26264E400078BA4C /* 860.lemonade-change.swift */; };
 		8E63A69F262653140078BA4C /* 455.assign-cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69E262653140078BA4C /* 455.assign-cookies.swift */; };
+		8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A6A126271A6C0078BA4C /* 874.walking-robot-simulation.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -66,6 +67,7 @@
 		8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.best-time-to-buy-and-sell-stock.swift"; sourceTree = "<group>"; };
 		8E63A69B26264E400078BA4C /* 860.lemonade-change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "860.lemonade-change.swift"; sourceTree = "<group>"; };
 		8E63A69E262653140078BA4C /* 455.assign-cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "455.assign-cookies.swift"; sourceTree = "<group>"; };
+		8E63A6A126271A6C0078BA4C /* 874.walking-robot-simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "874.walking-robot-simulation.swift"; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */,
 				8E63A69B26264E400078BA4C /* 860.lemonade-change.swift */,
 				8E63A69E262653140078BA4C /* 455.assign-cookies.swift */,
+				8E63A6A126271A6C0078BA4C /* 874.walking-robot-simulation.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */,
 				8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */,
 				8EB8A53A2617838E001408FD /* main.swift in Sources */,
 				8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */,
