@@ -65,3 +65,57 @@ public class TreeNode {
         return inorder(root?.left) +  inorder(root?.right) + [root!.val]
     }
 }
+
+/// Trie树（字典树）
+class Trie {
+    class Node {
+        var isEndOfWord = false
+        var nexts = [Character: Node]()
+    }
+    
+    let root = Node()
+    
+    /** Inserts a word into the trie. */
+    func insert(_ word: String) {
+        var next = root
+
+        for character in word {
+            if let temp = next.nexts[character] {
+                next = temp
+            } else {
+                let temp = Node()
+                next.nexts[character] = temp
+                next = temp
+            }
+        }
+
+        next.isEndOfWord = true
+    }
+    
+    func searchPrefix(_ prefix: String) -> Node? {
+        if prefix.count == 0 {
+            return nil
+        }
+        
+        var next = root
+        for character in prefix {
+            if let temp = next.nexts[character] {
+                next = temp
+            } else {
+                return nil
+            }
+        }
+        return next
+    }
+    
+    /** Returns if the word is in the trie. */
+    func search(_ word: String) -> Bool {
+        let searchedNode = searchPrefix(word)
+        return searchedNode != nil && searchedNode!.isEndOfWord
+    }
+    
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    func startsWith(_ prefix: String) -> Bool {
+        return searchPrefix(prefix) != nil
+    }
+}
