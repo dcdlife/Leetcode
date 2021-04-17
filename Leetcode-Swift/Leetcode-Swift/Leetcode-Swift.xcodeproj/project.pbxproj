@@ -28,6 +28,7 @@
 		8E63DAB1262A908F00BD8398 /* [x:2]51.n-queens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAB0262A908F00BD8398 /* [x:2]51.n-queens.swift */; };
 		8E63DAB4262A910D00BD8398 /* 52.n-queens-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAB3262A910D00BD8398 /* 52.n-queens-ii.swift */; };
 		8E63DAB8262A948900BD8398 /* 36.valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */; };
+		8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -82,6 +83,7 @@
 		8E63DAB0262A908F00BD8398 /* [x:2]51.n-queens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "[x:2]51.n-queens.swift"; sourceTree = "<group>"; };
 		8E63DAB3262A910D00BD8398 /* 52.n-queens-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "52.n-queens-ii.swift"; sourceTree = "<group>"; };
 		8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36.valid-sudoku.swift"; sourceTree = "<group>"; };
+		8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[x]37.sudoku-solver.swift"; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				8E63DAB0262A908F00BD8398 /* [x:2]51.n-queens.swift */,
+				8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */,
 				8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */,
 				8EB8A541261783B7001408FD /* 1.tow-sum.swift */,
 				8EB8A578261E00F5001408FD /* 15.3sum.swift */,
@@ -162,8 +165,10 @@
 				8E63DAAA2628F21800BD8398 /* 22.generate-parentheses.swift */,
 				8EB8A55526180BA9001408FD /* 24.swap-nodes-in-pairs.swift */,
 				8EB8A55C261938F7001408FD /* 25.reverse-nodes-in-k-group.swift */,
+				8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */,
 				8EB8A57E261F558D001408FD /* 49.group-anagrams.swift */,
 				8E63A67E2622706B0078BA4C /* 50.powx-n.swift */,
+				8E63DAB3262A910D00BD8398 /* 52.n-queens-ii.swift */,
 				8E63A6862622D9120078BA4C /* 53.maximum-subarray.swift */,
 				8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */,
 				8E63DAA12627974300BD8398 /* 102.binary-tree-level-order-traversal.swift */,
@@ -186,8 +191,6 @@
 				8E63A69B26264E400078BA4C /* 860.lemonade-change.swift */,
 				8E63A6A126271A6C0078BA4C /* 874.walking-robot-simulation.swift */,
 				8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */,
-				8E63DAB3262A910D00BD8398 /* 52.n-queens-ii.swift */,
-				8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				8EB8A579261E00F5001408FD /* 15.3sum.swift in Sources */,
 				8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */,
 				8E63A67F2622706B0078BA4C /* 50.powx-n.swift in Sources */,
+				8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */,
 				8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */,
 				8EB8A55A26181CC9001408FD /* 142.linked-list-cycle-ii.swift in Sources */,
 				8E63DAA22627974300BD8398 /* 102.binary-tree-level-order-traversal.swift in Sources */,
