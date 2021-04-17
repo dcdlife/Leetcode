@@ -30,6 +30,7 @@
 		8E63DAB8262A948900BD8398 /* 36.valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */; };
 		8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */; };
 		8E63DABE262AEF3B00BD8398 /* 69.sqrtx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DABD262AEF3B00BD8398 /* 69.sqrtx.swift */; };
+		8E63DAC2262B155600BD8398 /* 367.valid-perfect-square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAC1262B155600BD8398 /* 367.valid-perfect-square.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -86,6 +87,7 @@
 		8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36.valid-sudoku.swift"; sourceTree = "<group>"; };
 		8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[x]37.sudoku-solver.swift"; sourceTree = "<group>"; };
 		8E63DABD262AEF3B00BD8398 /* 69.sqrtx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 69.sqrtx.swift; sourceTree = "<group>"; };
+		8E63DAC1262B155600BD8398 /* 367.valid-perfect-square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "367.valid-perfect-square.swift"; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				8E63A6A126271A6C0078BA4C /* 874.walking-robot-simulation.swift */,
 				8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */,
 				8E63DABD262AEF3B00BD8398 /* 69.sqrtx.swift */,
+				8E63DAC1262B155600BD8398 /* 367.valid-perfect-square.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */,
 				8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */,
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
+				8E63DAC2262B155600BD8398 /* 367.valid-perfect-square.swift in Sources */,
 				8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */,
 				8E63DAB1262A908F00BD8398 /* [x:2]51.n-queens.swift in Sources */,
 				8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */,
