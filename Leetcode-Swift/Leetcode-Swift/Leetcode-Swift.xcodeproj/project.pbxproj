@@ -37,6 +37,7 @@
 		8E63DACE262C7EEE00BD8398 /* 231.power-of-two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */; };
 		8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */; };
 		8E63DAD4262CE59100BD8398 /* 70.climbing-stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */; };
+		8E63DAD7262CE91600BD8398 /* 120.triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD6262CE91600BD8398 /* 120.triangle.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -100,6 +101,7 @@
 		8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "231.power-of-two.swift"; sourceTree = "<group>"; };
 		8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338.counting-bits.swift"; sourceTree = "<group>"; };
 		8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70.climbing-stairs.swift"; sourceTree = "<group>"; };
+		8E63DAD6262CE91600BD8398 /* 120.triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120.triangle.swift; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */,
 				8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */,
 				8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */,
+				8E63DAD6262CE91600BD8398 /* 120.triangle.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				8E63A67F2622706B0078BA4C /* 50.powx-n.swift in Sources */,
 				8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */,
 				8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */,
+				8E63DAD7262CE91600BD8398 /* 120.triangle.swift in Sources */,
 				8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */,
 				8EB8A55A26181CC9001408FD /* 142.linked-list-cycle-ii.swift in Sources */,
 				8E63DAD4262CE59100BD8398 /* 70.climbing-stairs.swift in Sources */,
