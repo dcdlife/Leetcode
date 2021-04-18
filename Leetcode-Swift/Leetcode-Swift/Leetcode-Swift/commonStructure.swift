@@ -68,22 +68,18 @@ public class TreeNode {
 
 /// Trie树（字典树）
 class Trie {
-    class Node {
-        var isEndOfWord = false
-        var nexts = [Character: Node]()
-    }
-    
-    let root = Node()
+    var isEndOfWord = false
+    var nexts = [Character: Trie]()
     
     /** Inserts a word into the trie. */
     func insert(_ word: String) {
-        var next = root
+        var next = self
 
         for character in word {
             if let temp = next.nexts[character] {
                 next = temp
             } else {
-                let temp = Node()
+                let temp = Trie()
                 next.nexts[character] = temp
                 next = temp
             }
@@ -92,12 +88,12 @@ class Trie {
         next.isEndOfWord = true
     }
     
-    func searchPrefix(_ prefix: String) -> Node? {
+    func searchPrefix(_ prefix: String) -> Trie? {
         if prefix.count == 0 {
             return nil
         }
         
-        var next = root
+        var next = self
         for character in prefix {
             if let temp = next.nexts[character] {
                 next = temp
