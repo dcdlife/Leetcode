@@ -43,6 +43,7 @@
 		8E63DAE0262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */; };
 		8E63DAE4262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAE3262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift */; };
 		8E63DAE7262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAE6262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift */; };
+		8E63DAEE263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -112,6 +113,7 @@
 		8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "188.best-time-to-buy-and-sell-stock-iv.swift"; sourceTree = "<group>"; };
 		8E63DAE3262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309.best-time-to-buy-and-sell-stock-with-cooldown.swift"; sourceTree = "<group>"; };
 		8E63DAE6262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift"; sourceTree = "<group>"; };
+		8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "[x:2]300.longest-increasing-subsequence.swift"; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */,
 				8E63DAE3262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift */,
 				8E63DAE6262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift */,
+				8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				8E63DAA22627974300BD8398 /* 102.binary-tree-level-order-traversal.swift in Sources */,
 				8E63DAC8262BB17700BD8398 /* 212.word-search-ii.swift in Sources */,
 				8EB8A571261BE648001408FD /* [x]239.sliding-window-maximum.swift in Sources */,
+				8E63DAEE263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift in Sources */,
 				8E63DAB4262A910D00BD8398 /* 52.n-queens-ii.swift in Sources */,
 				8EB8A56526198CD3001408FD /* 225.implement-stack-using-queues.swift in Sources */,
 				8E63A67826214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */,
