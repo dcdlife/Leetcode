@@ -13,7 +13,6 @@ import Foundation
  */
 
 class Solution547 {
-    
     func findCircleNum(_ isConnected: [[Int]]) -> Int {
         if isConnected.count == 0 || isConnected[0].count == 0 {
             return 0
