@@ -49,6 +49,7 @@
 		8E63DAF72631B94100BD8398 /* 200.number-of-islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAF62631B94100BD8398 /* 200.number-of-islands.swift */; };
 		8E63DAFD26322E6000BD8398 /* 547.number-of-provinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAF92631C68C00BD8398 /* 547.number-of-provinces.swift */; };
 		8E63DB0026330C0100BD8398 /* 146.lru-cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAFF26330C0100BD8398 /* 146.lru-cache.swift */; };
+		8E63DB322634CA4700BD8398 /* 03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DB312634CA4700BD8398 /* 03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -124,6 +125,7 @@
 		8E63DAF62631B94100BD8398 /* 200.number-of-islands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "200.number-of-islands.swift"; sourceTree = "<group>"; };
 		8E63DAF92631C68C00BD8398 /* 547.number-of-provinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "547.number-of-provinces.swift"; sourceTree = "<group>"; };
 		8E63DAFF26330C0100BD8398 /* 146.lru-cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "146.lru-cache.swift"; sourceTree = "<group>"; };
+		8E63DB312634CA4700BD8398 /* 03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof.swift"; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -164,6 +166,14 @@
 			path = "程序员面试金典(第6版)";
 			sourceTree = "<group>";
 		};
+		8E63DB302634CA2600BD8398 /* 剑指Offer */ = {
+			isa = PBXGroup;
+			children = (
+				8E63DB312634CA4700BD8398 /* 03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof.swift */,
+			);
+			path = "剑指Offer";
+			sourceTree = "<group>";
+		};
 		8EB8A52D2617838E001408FD = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +193,7 @@
 		8EB8A5382617838E001408FD /* Leetcode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8E63DB302634CA2600BD8398 /* 剑指Offer */,
 				8E63A690262503C80078BA4C /* 程序员面试金典(第6版) */,
 				8EB8A55F2619554A001408FD /* leetcode */,
 				8EB8A54A2617849E001408FD /* commonMethods.swift */,
@@ -350,6 +361,7 @@
 				8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */,
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
 				8E63DAC2262B155600BD8398 /* 367.valid-perfect-square.swift in Sources */,
+				8E63DB322634CA4700BD8398 /* 03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof.swift in Sources */,
 				8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */,
 				8E63DADA262E2E5F00BD8398 /* 152.maximum-product-subarray.swift in Sources */,
 				8E63DAF72631B94100BD8398 /* 200.number-of-islands.swift in Sources */,
