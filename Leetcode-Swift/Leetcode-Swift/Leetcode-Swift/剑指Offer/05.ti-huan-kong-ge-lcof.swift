@@ -41,16 +41,18 @@ class Solution_Offer_05 {
     
     /*
      测试用例：
-     1. 1个或多个空格在第一个；最后一个；在中间
+     1. 1个或多个空格在第一个；最后一个；在中间；字符串中有连续的空格
      2. 无空格
-     3. 空串
+     3. 空串；全是空格
      */
     func test() {
         print(replaceSpace(" 123"))
         print(replaceSpace("  123"))
         print(replaceSpace("1 2  3"))
         print(replaceSpace("123  "))
+        print(replaceSpace("1   3"))
         print(replaceSpace("123"))
         print(replaceSpace(""))
+        print(replaceSpace("   "))
     }
 }
