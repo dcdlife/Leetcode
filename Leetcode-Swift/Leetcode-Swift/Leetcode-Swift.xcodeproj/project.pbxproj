@@ -53,6 +53,7 @@
 		8E63DB352634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DB342634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift */; };
 		8E63DB382634D76100BD8398 /* 05.ti-huan-kong-ge-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DB372634D76100BD8398 /* 05.ti-huan-kong-ge-lcof.swift */; };
 		8E63DB3B2635AE4900BD8398 /* 06.cong-wei-dao-tou-da-yin-lian-biao-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DB3A2635AE4900BD8398 /* 06.cong-wei-dao-tou-da-yin-lian-biao-lcof.swift */; };
+		8E63DB412636222D00BD8398 /* [x:2]07.zhong-jian-er-cha-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DB402636222D00BD8398 /* [x:2]07.zhong-jian-er-cha-shu-lcof.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -132,6 +133,7 @@
 		8E63DB342634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift"; sourceTree = "<group>"; };
 		8E63DB372634D76100BD8398 /* 05.ti-huan-kong-ge-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05.ti-huan-kong-ge-lcof.swift"; sourceTree = "<group>"; };
 		8E63DB3A2635AE4900BD8398 /* 06.cong-wei-dao-tou-da-yin-lian-biao-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06.cong-wei-dao-tou-da-yin-lian-biao-lcof.swift"; sourceTree = "<group>"; };
+		8E63DB402636222D00BD8398 /* [x:2]07.zhong-jian-er-cha-shu-lcof.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "[x:2]07.zhong-jian-er-cha-shu-lcof.swift"; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				8E63DB342634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift */,
 				8E63DB372634D76100BD8398 /* 05.ti-huan-kong-ge-lcof.swift */,
 				8E63DB3A2635AE4900BD8398 /* 06.cong-wei-dao-tou-da-yin-lian-biao-lcof.swift */,
+				8E63DB402636222D00BD8398 /* [x:2]07.zhong-jian-er-cha-shu-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */,
 				8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */,
 				8E63DAF42630D7F800BD8398 /* 72.edit-distance.swift in Sources */,
+				8E63DB412636222D00BD8398 /* [x:2]07.zhong-jian-er-cha-shu-lcof.swift in Sources */,
 				8E63DB382634D76100BD8398 /* 05.ti-huan-kong-ge-lcof.swift in Sources */,
 				8E63DAD7262CE91600BD8398 /* 120.triangle.swift in Sources */,
 				8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */,
