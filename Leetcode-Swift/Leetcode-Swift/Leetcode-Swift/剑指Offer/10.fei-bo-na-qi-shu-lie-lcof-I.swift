@@ -21,7 +21,7 @@ class Solution_Offer_10_1 {
         var f1 = 1
         var ans = 0
         for _ in 2...n {
-            ans = (f0 + f1) % 1000000007
+            ans = (f0 + f1) % 1000000007 // https://xie.infoq.cn/article/b07c8af0a2924b4eafdfba2a2
             f0 = f1
             f1 = ans
         }
