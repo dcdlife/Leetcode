@@ -30,7 +30,7 @@ class Solution_Offer_15 {
         }
         while n != 0 {
             ans += 1
-            n = (n - 1) & n // 去除最左侧的1
+            n = (n - 1) & n // 去除最右侧的1
         }
         return ans
     }
@@ -53,6 +53,9 @@ class Solution_Offer_15 {
      1. 功能测试：正数/负数有1、奇数/偶数有1
      2. 边界值测试：0、负数最大、正数最大
      3. 特殊测试：仅1个1、全是1
+     
+     正数边界值 1、0x7FFFFFFF
+     负数边界值：0x80000000、0xFFFFFFFF
      */
     func test() {
         print(Int32.min)
