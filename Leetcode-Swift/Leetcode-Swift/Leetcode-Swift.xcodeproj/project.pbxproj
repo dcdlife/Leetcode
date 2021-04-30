@@ -79,6 +79,7 @@
 		8EB8A579261E00F5001408FD /* 15.3sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A578261E00F5001408FD /* 15.3sum.swift */; };
 		8EB8A57C261F4E6F001408FD /* 18.4sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A57B261F4E6F001408FD /* 18.4sum.swift */; };
 		8EB8A57F261F558D001408FD /* 49.group-anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A57E261F558D001408FD /* 49.group-anagrams.swift */; };
+		8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,6 +168,7 @@
 		8EB8A578261E00F5001408FD /* 15.3sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15.3sum.swift; sourceTree = "<group>"; };
 		8EB8A57B261F4E6F001408FD /* 18.4sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18.4sum.swift; sourceTree = "<group>"; };
 		8EB8A57E261F558D001408FD /* 49.group-anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49.group-anagrams.swift"; sourceTree = "<group>"; };
+		8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14-2.jian-sheng-zi-ii-lcof.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				8E63DB4F2638B59800BD8398 /* 12.ju-zhen-zhong-de-lu-jing-lcof.swift */,
 				8E63DB522638C0EE00BD8398 /* 13.ji-qi-ren-de-yun-dong-fan-wei-lcof.swift */,
 				8E63DB552638D1DA00BD8398 /* 14-1.jian-sheng-zi-lcof.swift */,
+				8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */,
 				8E63DB532638C0EE00BD8398 /* 13.ji-qi-ren-de-yun-dong-fan-wei-lcof.swift in Sources */,
 				8E63DADA262E2E5F00BD8398 /* 152.maximum-product-subarray.swift in Sources */,
+				8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */,
 				8E63DAF72631B94100BD8398 /* 200.number-of-islands.swift in Sources */,
 				8E63DAB1262A908F00BD8398 /* [x:2]51.n-queens.swift in Sources */,
 				8E63DB4D26376AA200BD8398 /* 11.xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.swift in Sources */,
