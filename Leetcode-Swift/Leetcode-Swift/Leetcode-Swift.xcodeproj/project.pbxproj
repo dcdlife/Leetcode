@@ -80,6 +80,7 @@
 		8EB8A57C261F4E6F001408FD /* 18.4sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A57B261F4E6F001408FD /* 18.4sum.swift */; };
 		8EB8A57F261F558D001408FD /* 49.group-anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A57E261F558D001408FD /* 49.group-anagrams.swift */; };
 		8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */; };
+		8EC51994263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -169,6 +170,7 @@
 		8EB8A57B261F4E6F001408FD /* 18.4sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18.4sum.swift; sourceTree = "<group>"; };
 		8EB8A57E261F558D001408FD /* 49.group-anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49.group-anagrams.swift"; sourceTree = "<group>"; };
 		8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14-2.jian-sheng-zi-ii-lcof.swift"; sourceTree = "<group>"; };
+		8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				8E63DB522638C0EE00BD8398 /* 13.ji-qi-ren-de-yun-dong-fan-wei-lcof.swift */,
 				8E63DB552638D1DA00BD8398 /* 14-1.jian-sheng-zi-lcof.swift */,
 				8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */,
+				8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				8EB8A54F261801AE001408FD /* 141.linked-list-cycle.swift in Sources */,
 				8E63DB3B2635AE4900BD8398 /* 06.cong-wei-dao-tou-da-yin-lian-biao-lcof.swift in Sources */,
 				8E63DB442636299700BD8398 /* 09.yong-liang-ge-zhan-shi-xian-dui-lie-lcof.swift in Sources */,
+				8EC51994263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift in Sources */,
 				8E63DADD262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift in Sources */,
 				8E63DABE262AEF3B00BD8398 /* 69.sqrtx.swift in Sources */,
 				8E63DAC5262B940200BD8398 /* 208.implement-trie-prefix-tree.swift in Sources */,

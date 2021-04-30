@@ -57,9 +57,13 @@ class Solution_Offer_14_2 {
         return dp[n]
     }
     
+    /*
+     测试用例：
+     1. 功能测试：长度大于5
+     2. 边界值测试：0、1、2、3、4
+     */
     func test() {
         print(cuttingRope_dp(999))
         print(cuttingRope(999))
-        
     }
 }
