@@ -59,10 +59,9 @@ class Solution_Offer_16 {
         if n == 1 {
             return x
         }
-        let isOdd = n & 1 == 1
-        var ans = isOdd ? myPow(x, (abs(n) - 1) / 2) : myPow(x, abs(n) / 2)
+        var ans = myPow(x, abs(n) >> 1)
         ans *= ans
-        ans = isOdd ? ans * x : ans
+        ans = n & 1 == 1 ? ans * x : ans
         return n < 0 ? 1 / ans : ans
     }
     
@@ -70,7 +69,7 @@ class Solution_Offer_16 {
      测试用例：
      1. 功能测试：x为正数、负数；n为正数、负数
      2. 边界值测试：x为0、n为0
-     3. 特殊输入测试：暂无
+     3. 特殊输入测试：底数为0，指数为负数，理论上应该以某种方式报错
      */
     func test() {
         print(myPow(2, 4))

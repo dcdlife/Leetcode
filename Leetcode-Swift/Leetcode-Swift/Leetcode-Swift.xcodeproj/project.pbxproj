@@ -82,6 +82,7 @@
 		8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */; };
 		8EC51994263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */; };
 		8EC51997263CB25300DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51996263CB25200DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift */; };
+		8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51999263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -173,6 +174,7 @@
 		8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14-2.jian-sheng-zi-ii-lcof.swift"; sourceTree = "<group>"; };
 		8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift"; sourceTree = "<group>"; };
 		8EC51996263CB25200DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift"; sourceTree = "<group>"; };
+		8EC51999263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */,
 				8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */,
 				8EC51996263CB25200DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift */,
+				8EC51999263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E63DAAB2628F21800BD8398 /* 22.generate-parentheses.swift in Sources */,
+				8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */,
 				8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */,
 				8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */,
 				8E63DAA82628EA8900BD8398 /* 111.minimum-depth-of-binary-tree.swift in Sources */,
