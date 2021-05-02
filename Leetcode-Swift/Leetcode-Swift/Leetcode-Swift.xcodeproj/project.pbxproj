@@ -83,6 +83,7 @@
 		8EC51994263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */; };
 		8EC51997263CB25300DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51996263CB25200DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift */; };
 		8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51999263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift */; };
+		8EC5199D263E4F5900DD36D9 /* 18.shan-chu-lian-biao-de-jie-dian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5199C263E4F5900DD36D9 /* 18.shan-chu-lian-biao-de-jie-dian-lcof.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -175,6 +176,7 @@
 		8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift"; sourceTree = "<group>"; };
 		8EC51996263CB25200DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift"; sourceTree = "<group>"; };
 		8EC51999263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift"; sourceTree = "<group>"; };
+		8EC5199C263E4F5900DD36D9 /* 18.shan-chu-lian-biao-de-jie-dian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18.shan-chu-lian-biao-de-jie-dian-lcof.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */,
 				8EC51996263CB25200DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift */,
 				8EC51999263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift */,
+				8EC5199C263E4F5900DD36D9 /* 18.shan-chu-lian-biao-de-jie-dian-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */,
 				8EB8A57F261F558D001408FD /* 49.group-anagrams.swift in Sources */,
 				8E63A69C26264E400078BA4C /* 860.lemonade-change.swift in Sources */,
+				8EC5199D263E4F5900DD36D9 /* 18.shan-chu-lian-biao-de-jie-dian-lcof.swift in Sources */,
 				8EB8A57C261F4E6F001408FD /* 18.4sum.swift in Sources */,
 				8E63DB352634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift in Sources */,
 				8E63A692262503E40078BA4C /* 10.02.group-anagrams-lcci.swift in Sources */,
