@@ -20,6 +20,10 @@ import Foundation
  */
 class Solution_Offer_21 {
     func exchange(_ nums: [Int]) -> [Int] {
+        return _exchange(nums, conditionFn: isEven(_:))
+    }
+    
+    func _exchange(_ nums: [Int], conditionFn: (Int) -> Bool) -> [Int] {
         if nums.count == 0 {
             return []
         }
@@ -27,10 +31,10 @@ class Solution_Offer_21 {
         var end = nums.count - 1
         var nums = nums
         while begin < end {
-            while begin < end && !isEven(nums[begin]) {
+            while begin < end && !conditionFn(nums[begin]) {
                 begin += 1
             }
-            while begin < end && isEven(nums[end]) {
+            while begin < end && conditionFn(nums[end]) {
                 end -= 1
             }
             if begin < end {
