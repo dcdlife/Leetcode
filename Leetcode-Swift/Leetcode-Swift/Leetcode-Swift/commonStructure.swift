@@ -35,12 +35,16 @@ public class TreeNode {
         return TreeNode.inorder(self)
     }
     
-    func preorder(_ root: TreeNode?) -> [Int] {
+    func preorder() -> [Int] {
         return TreeNode.preorder(self)
     }
     
-    func postorder(_ root: TreeNode?) -> [Int] {
+    func postorder() -> [Int] {
         return TreeNode.preorder(self)
+    }
+    
+    func levelOrder() -> [Int] {
+        return TreeNode.levelOrder(self)
     }
     
     // MARK: - 类方法
@@ -55,14 +59,34 @@ public class TreeNode {
         if root == nil {
             return []
         }
-        return [root!.val] + inorder(root?.left) +  inorder(root?.right)
+        return [root!.val] + preorder(root?.left) +  preorder(root?.right)
     }
     
     public static func postorder(_ root: TreeNode?) -> [Int] {
         if root == nil {
             return []
         }
-        return inorder(root?.left) +  inorder(root?.right) + [root!.val]
+        return postorder(root?.left) +  postorder(root?.right) + [root!.val]
+    }
+    
+    public static func levelOrder(_ root: TreeNode?) -> [Int] {
+        if root == nil {
+            return []
+        }
+        var queue1 = [root]
+        var ans = [Int]()
+        while queue1.count > 0 {
+            let head = queue1.removeFirst()!
+            ans.append(head.val)
+            
+            if head.left != nil {
+                queue1.append(head.left!)
+            }
+            if head.right != nil {
+                queue1.append(head.right!)
+            }
+        }
+        return ans
     }
 }
 
