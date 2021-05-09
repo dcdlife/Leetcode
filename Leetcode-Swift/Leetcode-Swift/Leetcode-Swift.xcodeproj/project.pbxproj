@@ -19,6 +19,7 @@
 		8E1D008826478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D008726478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift */; };
 		8E1D00C326488E000067FD06 /* 31.zhan-de-ya-ru-dan-chu-xu-lie-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00C226488E000067FD06 /* 31.zhan-de-ya-ru-dan-chu-xu-lie-lcof.swift */; };
 		8E1D00C62648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00C52648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift */; };
+		8E1D00C926489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00C826489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift */; };
 		8E63A675261FE1010078BA4C /* 98.validate-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */; };
 		8E63A67826214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */; };
 		8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */; };
@@ -124,6 +125,7 @@
 		8E1D008726478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "30.bao-han-minhan-shu-de-zhan-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00C226488E000067FD06 /* 31.zhan-de-ya-ru-dan-chu-xu-lie-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "31.zhan-de-ya-ru-dan-chu-xu-lie-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00C52648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift"; sourceTree = "<group>"; };
+		8E1D00C826489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift"; sourceTree = "<group>"; };
 		8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98.validate-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "235.lowest-common-ancestor-of-a-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236.lowest-common-ancestor-of-a-binary-tree.swift"; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				8E1D008726478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift */,
 				8E1D00C226488E000067FD06 /* 31.zhan-de-ya-ru-dan-chu-xu-lie-lcof.swift */,
 				8E1D00C52648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift */,
+				8E1D00C826489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				8E63DAE4262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift in Sources */,
 				8E1D008826478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift in Sources */,
 				8E63DB4726362E3500BD8398 /* 10.fei-bo-na-qi-shu-lie-lcof-I.swift in Sources */,
+				8E1D00C926489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift in Sources */,
 				8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */,
 				8E63A69F262653140078BA4C /* 455.assign-cookies.swift in Sources */,
 				8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */,
