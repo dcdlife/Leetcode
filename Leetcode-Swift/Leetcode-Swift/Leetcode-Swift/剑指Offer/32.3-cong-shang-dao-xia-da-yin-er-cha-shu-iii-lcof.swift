@@ -13,7 +13,49 @@ import Foundation
  */
 
 class Solution_Offer_32_3 {
+    
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
+        if root == nil {
+            return []
+        }
+        
+        var stacks = [[TreeNode](), [TreeNode]()]
+        var current = 0
+        var next = 1
+        
+        stacks[current] = [root!]
+        var ans = [[Int]]()
+        var vals = [Int]()
+        while !stacks[0].isEmpty || !stacks[1].isEmpty {
+            let node = stacks[current].popLast()!
+            vals.append(node.val)
+            if current == 0 {
+                if node.left != nil {
+                    stacks[next].append(node.left!)
+                }
+                if node.right != nil {
+                    stacks[next].append(node.right!)
+                }
+            } else {
+                if node.right != nil {
+                    stacks[next].append(node.right!)
+                }
+                if node.left != nil {
+                    stacks[next].append(node.left!)
+                }
+            }
+            
+            if stacks[current].isEmpty {
+                current = 1 - current
+                next = 1 - next
+                ans.append(vals)
+                vals = [Int]()
+            }
+        }
+        return ans
+    }
+    
+    func levelOrder_1(_ root: TreeNode?) -> [[Int]] {
         if root == nil {
             return []
         }
