@@ -23,6 +23,7 @@
 		8E1D00CC2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00CB2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift */; };
 		8E1D00CF264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00CE264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift */; };
 		8E1D00D2264B3CF90067FD06 /* 34.er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00D1264B3CF90067FD06 /* 34.er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.swift */; };
+		8E1D00FD264C87330067FD06 /* 35.fu-za-lian-biao-de-fu-zhi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00FC264C87330067FD06 /* 35.fu-za-lian-biao-de-fu-zhi-lcof.swift */; };
 		8E63A675261FE1010078BA4C /* 98.validate-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */; };
 		8E63A67826214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */; };
 		8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */; };
@@ -132,6 +133,7 @@
 		8E1D00CB2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00CE264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00D1264B3CF90067FD06 /* 34.er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "34.er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.swift"; sourceTree = "<group>"; };
+		8E1D00FC264C87330067FD06 /* 35.fu-za-lian-biao-de-fu-zhi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.fu-za-lian-biao-de-fu-zhi-lcof.swift"; sourceTree = "<group>"; };
 		8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98.validate-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "235.lowest-common-ancestor-of-a-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236.lowest-common-ancestor-of-a-binary-tree.swift"; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				8E1D00CB2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift */,
 				8E1D00CE264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift */,
 				8E1D00D1264B3CF90067FD06 /* 34.er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.swift */,
+				8E1D00FC264C87330067FD06 /* 35.fu-za-lian-biao-de-fu-zhi-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
 				8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */,
 				8EB8A579261E00F5001408FD /* 15.3sum.swift in Sources */,
+				8E1D00FD264C87330067FD06 /* 35.fu-za-lian-biao-de-fu-zhi-lcof.swift in Sources */,
 				8E1D00462645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift in Sources */,
 				8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */,
 				8E63A67F2622706B0078BA4C /* 50.powx-n.swift in Sources */,
