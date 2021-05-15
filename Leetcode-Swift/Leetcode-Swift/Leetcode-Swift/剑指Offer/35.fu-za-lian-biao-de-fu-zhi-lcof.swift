@@ -10,6 +10,7 @@ import Foundation
 /*
  剑指 Offer 35. 复杂链表的复制 (中等)
  https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/
+ 同主站138.复制带随机指针的链表: https://leetcode-cn.com/problems/copy-list-with-random-pointer/
  */
 
 class Solution_Offer_35 {
