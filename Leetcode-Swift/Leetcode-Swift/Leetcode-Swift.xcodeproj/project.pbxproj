@@ -112,6 +112,7 @@
 		8ECF898C26547417000652B7 /* 42.lian-xu-zi-shu-zu-de-zui-da-he-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF898B26547417000652B7 /* 42.lian-xu-zi-shu-zu-de-zui-da-he-lcof.swift */; };
 		8ECF89952655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89942655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift */; };
 		8ECF89982655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */; };
+		8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -233,6 +234,7 @@
 		8ECF898B26547417000652B7 /* 42.lian-xu-zi-shu-zu-de-zui-da-he-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42.lian-xu-zi-shu-zu-de-zui-da-he-lcof.swift"; sourceTree = "<group>"; };
 		8ECF89942655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift"; sourceTree = "<group>"; };
 		8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift"; sourceTree = "<group>"; };
+		8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +303,7 @@
 				8ECF898B26547417000652B7 /* 42.lian-xu-zi-shu-zu-de-zui-da-he-lcof.swift */,
 				8ECF89942655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift */,
 				8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */,
+				8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */,
 				8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */,
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
+				8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */,
 				8E63DAC2262B155600BD8398 /* 367.valid-perfect-square.swift in Sources */,
 				8E63DB322634CA4700BD8398 /* 03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof.swift in Sources */,
 				8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */,
