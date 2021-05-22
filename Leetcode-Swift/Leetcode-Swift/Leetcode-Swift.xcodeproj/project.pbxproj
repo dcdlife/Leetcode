@@ -114,6 +114,7 @@
 		8ECF89982655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */; };
 		8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */; };
 		8ECF899E26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */; };
+		8ECF89EF26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89EE26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -237,6 +238,7 @@
 		8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift"; sourceTree = "<group>"; };
 		8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift"; sourceTree = "<group>"; };
 		8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
+		8ECF89EE26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47.li-wu-de-zui-da-jie-zhi-lcof.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +309,7 @@
 				8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */,
 				8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */,
 				8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */,
+				8ECF89EE26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */,
 				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
 				8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */,
+				8ECF89EF26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift in Sources */,
 				8EB8A579261E00F5001408FD /* 15.3sum.swift in Sources */,
 				8E1D00FD264C87330067FD06 /* 35.fu-za-lian-biao-de-fu-zhi-lcof.swift in Sources */,
 				8E1D00462645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift in Sources */,
