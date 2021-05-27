@@ -60,6 +60,11 @@ class Solution_Offer_55_2 {
         return max(maxDepth(root?.left), maxDepth(root?.right)) + 1
     }
     
+    /*
+     测试用例：
+     1. 功能：平衡二叉树；不平衡二叉树；均在左子树；均在右子树
+     2. 特殊输入：空树；仅1个节点的数
+     */
     func test() {
         let tests = [
             [3,9,20,nil,nil,15,7],
