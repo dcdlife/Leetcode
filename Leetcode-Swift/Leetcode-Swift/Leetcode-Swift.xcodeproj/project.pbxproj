@@ -16,6 +16,7 @@
 		8E0AE969265DAF2F007FA553 /* 53.2.que-shi-de-shu-zi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE968265DAF2F007FA553 /* 53.2.que-shi-de-shu-zi-lcof.swift */; };
 		8E0AE96C265E7DD8007FA553 /* 54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE96B265E7DD8007FA553 /* 54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift */; };
 		8E0AE96F265F07F3007FA553 /* 55.1.er-cha-shu-de-shen-du-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE96E265F07F3007FA553 /* 55.1.er-cha-shu-de-shen-du-lcof.swift */; };
+		8E0AE972265F0919007FA553 /* 55.2.ping-heng-er-cha-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE971265F0919007FA553 /* 55.2.ping-heng-er-cha-shu-lcof.swift */; };
 		8E1D003526449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */; };
 		8E1D00382644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */; };
 		8E1D003B2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */; };
@@ -148,6 +149,7 @@
 		8E0AE968265DAF2F007FA553 /* 53.2.que-shi-de-shu-zi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53.2.que-shi-de-shu-zi-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE96B265E7DD8007FA553 /* 54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE96E265F07F3007FA553 /* 55.1.er-cha-shu-de-shen-du-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55.1.er-cha-shu-de-shen-du-lcof.swift"; sourceTree = "<group>"; };
+		8E0AE971265F0919007FA553 /* 55.2.ping-heng-er-cha-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55.2.ping-heng-er-cha-shu-lcof.swift"; sourceTree = "<group>"; };
 		8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift"; sourceTree = "<group>"; };
 		8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift"; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 				8E0AE968265DAF2F007FA553 /* 53.2.que-shi-de-shu-zi-lcof.swift */,
 				8E0AE96B265E7DD8007FA553 /* 54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift */,
 				8E0AE96E265F07F3007FA553 /* 55.1.er-cha-shu-de-shen-du-lcof.swift */,
+				8E0AE971265F0919007FA553 /* 55.2.ping-heng-er-cha-shu-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */,
 				8E0AE965265C62FB007FA553 /* 53.1.zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.swift in Sources */,
 				8E0AE8B9265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift in Sources */,
+				8E0AE972265F0919007FA553 /* 55.2.ping-heng-er-cha-shu-lcof.swift in Sources */,
 				8ECF89952655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift in Sources */,
 				8E63DAF126306A1300BD8398 /* 322.coin-change.swift in Sources */,
 				8E1D0100264DD6BB0067FD06 /* 36.er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.swift in Sources */,

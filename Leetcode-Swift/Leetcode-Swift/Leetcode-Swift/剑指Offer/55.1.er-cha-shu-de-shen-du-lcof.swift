@@ -12,7 +12,7 @@ import Foundation
  https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/
  */
 
-class Solution_Offer_56 {
+class Solution_Offer_55_1 {
     func maxDepth(_ root: TreeNode?) -> Int {
         if root == nil {
             return 0
