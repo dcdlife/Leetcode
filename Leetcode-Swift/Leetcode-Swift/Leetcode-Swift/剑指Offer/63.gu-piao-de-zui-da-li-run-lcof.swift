@@ -8,7 +8,7 @@
 import Foundation
 
 /*
- 剑指 Offer 63. 股票的最大利润 (困难)
+ 剑指 Offer 63. 股票的最大利润 (中等)
  https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/
  */
 
