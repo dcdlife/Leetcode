@@ -32,6 +32,7 @@
 		8E0AE9AE26698AA4007FA553 /* 64.qiu-12n-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE9AD26698AA4007FA553 /* 64.qiu-12n-lcof.swift */; };
 		8E0AE9B126699BDC007FA553 /* 65.bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE9B026699BDC007FA553 /* 65.bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.swift */; };
 		8E0AE9B4266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE9B3266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift */; };
+		8E0AE9B7266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE9B6266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift */; };
 		8E1D003526449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */; };
 		8E1D00382644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */; };
 		8E1D003B2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */; };
@@ -180,6 +181,7 @@
 		8E0AE9AD26698AA4007FA553 /* 64.qiu-12n-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64.qiu-12n-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE9B026699BDC007FA553 /* 65.bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "65.bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE9B3266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66.gou-jian-cheng-ji-shu-zu-lcof.swift"; sourceTree = "<group>"; };
+		8E0AE9B6266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift"; sourceTree = "<group>"; };
 		8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift"; sourceTree = "<group>"; };
 		8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift"; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 				8E0AE9AD26698AA4007FA553 /* 64.qiu-12n-lcof.swift */,
 				8E0AE9B026699BDC007FA553 /* 65.bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.swift */,
 				8E0AE9B3266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift */,
+				8E0AE9B6266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
 				8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */,
 				8ECF89EF26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift in Sources */,
+				8E0AE9B7266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift in Sources */,
 				8EB8A579261E00F5001408FD /* 15.3sum.swift in Sources */,
 				8E1D00FD264C87330067FD06 /* 35.fu-za-lian-biao-de-fu-zhi-lcof.swift in Sources */,
 				8E1D00462645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift in Sources */,
