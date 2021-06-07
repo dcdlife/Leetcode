@@ -91,3 +91,46 @@ func createTreeNode(_ list: [Int?]) -> TreeNode? {
     }
     return root
 }
+
+public class LeetCodeTestCaseTool {
+    
+    /// LeetCode二维数组字符串转数组
+    /// - Parameter text: 二维数组字符串
+    /// Something like this:
+    /// [1,1,2,3,4,5]
+    /// [1,2,3,1,2,3]
+    /// [1,2,3,4,10]
+    /// []
+    /// - Returns: 二维数组
+    static func arrayWithMultilineText(_ text: String) -> [[Int]] {
+        var items = text.split(separator: "\n")
+        for (index, i) in items.enumerated() {
+            if i.count > 0 && i.first! == "[" {
+                items[index].removeFirst()
+            }
+            if i.count > 0 && i.last! == "]" {
+                items[index].removeLast()
+            }
+        }
+        if items.count > 0 && items.last! == "" {
+            items.removeLast()
+        }
+        
+        if items.count == 0 {
+            return []
+        }
+        
+        var ans = [[Int]]()
+        for i in items {
+            ans.append(i.split(separator: ",").map { (value) -> Int in
+                let val = Int(value)
+                if val == nil {
+                    assert(false, "\(value) 不能转为Int，请检查~")
+                }
+                return val!
+            })
+        }
+        
+        return ans
+    }
+}
