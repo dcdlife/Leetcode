@@ -112,9 +112,9 @@ public class LeetCodeTestCaseTool {
                 items[index].removeLast()
             }
         }
-        if items.count > 0 && items.last! == "" {
-            items.removeLast()
-        }
+//        if items.count > 0 && items.last! == "" {
+//            items.removeLast()
+//        }
         
         if items.count == 0 {
             return []
