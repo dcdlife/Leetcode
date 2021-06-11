@@ -145,6 +145,7 @@
 		8ECF89EF26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89EE26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift */; };
 		8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */; };
 		8EE95EC62672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */; };
+		8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -299,6 +300,7 @@
 		8ECF89EE26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47.li-wu-de-zui-da-jie-zhi-lcof.swift"; sourceTree = "<group>"; };
 		8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61.rotate-list.swift"; sourceTree = "<group>"; };
 		8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82.remove-duplicates-from-sorted-list-ii.swift"; sourceTree = "<group>"; };
+		8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.palindrome-linked-list.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -501,6 +503,7 @@
 			children = (
 				8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */,
 				8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */,
+				8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E63DAAB2628F21800BD8398 /* 22.generate-parentheses.swift in Sources */,
+				8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */,
 				8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */,
 				8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */,
 				8E0AE9BA266C3329007FA553 /* 68.1.er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift in Sources */,
