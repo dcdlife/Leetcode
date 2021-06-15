@@ -150,6 +150,7 @@
 		8EE95ECF26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */; };
 		8EE95ED22676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */; };
 		8EE95ED52678DC5A00E0C20C /* 143.reorder-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */; };
+		8EE95ED82679547600E0C20C /* 147.insertion-sort-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -309,6 +310,7 @@
 		8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.reverse-linked-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "109.convert-sorted-list-to-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "143.reorder-list.swift"; sourceTree = "<group>"; };
+		8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "147.insertion-sort-list.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,6 +518,7 @@
 				8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */,
 				8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */,
 				8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */,
+				8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -700,6 +703,7 @@
 				8EB8A54F261801AE001408FD /* 141.linked-list-cycle.swift in Sources */,
 				8E0AE98726644655007FA553 /* 59.1.hua-dong-chuang-kou-de-zui-da-zhi-lcof.swift in Sources */,
 				8E0AE96C265E7DD8007FA553 /* 54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift in Sources */,
+				8EE95ED82679547600E0C20C /* 147.insertion-sort-list.swift in Sources */,
 				8E63DB3B2635AE4900BD8398 /* 06.cong-wei-dao-tou-da-yin-lian-biao-lcof.swift in Sources */,
 				8E63DB442636299700BD8398 /* 09.yong-liang-ge-zhan-shi-xian-dui-lie-lcof.swift in Sources */,
 				8EC51994263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift in Sources */,
