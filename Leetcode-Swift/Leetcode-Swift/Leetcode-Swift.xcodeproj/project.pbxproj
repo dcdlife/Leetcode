@@ -149,6 +149,7 @@
 		8EE95ECC26741E6800E0C20C /* 86.partition-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ECB26741E6800E0C20C /* 86.partition-list.swift */; };
 		8EE95ECF26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */; };
 		8EE95ED22676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */; };
+		8EE95ED52678DC5A00E0C20C /* 143.reorder-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -307,6 +308,7 @@
 		8EE95ECB26741E6800E0C20C /* 86.partition-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86.partition-list.swift"; sourceTree = "<group>"; };
 		8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.reverse-linked-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "109.convert-sorted-list-to-binary-search-tree.swift"; sourceTree = "<group>"; };
+		8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "143.reorder-list.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -513,6 +515,7 @@
 				8EE95ECB26741E6800E0C20C /* 86.partition-list.swift */,
 				8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */,
 				8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */,
+				8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -690,6 +693,7 @@
 				8E0AE962265B1322007FA553 /* 52.liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.swift in Sources */,
 				8EC5199D263E4F5900DD36D9 /* 18.shan-chu-lian-biao-de-jie-dian-lcof.swift in Sources */,
 				8EB8A57C261F4E6F001408FD /* 18.4sum.swift in Sources */,
+				8EE95ED52678DC5A00E0C20C /* 143.reorder-list.swift in Sources */,
 				8E0AE9912666EDF2007FA553 /* 61.bu-ke-pai-zhong-de-shun-zi-lcof.swift in Sources */,
 				8E63DB352634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift in Sources */,
 				8E63A692262503E40078BA4C /* 10.02.group-anagrams-lcci.swift in Sources */,
