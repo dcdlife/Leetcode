@@ -51,6 +51,7 @@ func createCycleListNode(_ values: [Int], pos: Int) -> ListNode? {
 /// 依次打印链表节点
 func printListNode(rootNode: ListNode?) {
     if rootNode == nil {
+        print("nil")
         return
     }
     var curNode = rootNode
