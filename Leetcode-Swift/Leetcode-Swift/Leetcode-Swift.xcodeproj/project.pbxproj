@@ -156,6 +156,7 @@
 		8EE95EE1267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */; };
 		8EE95EE4267EA02400E0C20C /* 725.split-linked-list-in-parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */; };
 		8EE95EE7267FEB1900E0C20C /* 430.flatten-a-multilevel-doubly-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EE6267FEB1900E0C20C /* 430.flatten-a-multilevel-doubly-linked-list.swift */; };
+		8EE95EEA26813A4C00E0C20C /* 817.linked-list-components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EE926813A4C00E0C20C /* 817.linked-list-components.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -321,6 +322,7 @@
 		8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1721.swapping-nodes-in-a-linked-list.swift"; sourceTree = "<group>"; };
 		8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "725.split-linked-list-in-parts.swift"; sourceTree = "<group>"; };
 		8EE95EE6267FEB1900E0C20C /* 430.flatten-a-multilevel-doubly-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "430.flatten-a-multilevel-doubly-linked-list.swift"; sourceTree = "<group>"; };
+		8EE95EE926813A4C00E0C20C /* 817.linked-list-components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "817.linked-list-components.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -534,6 +536,7 @@
 				8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */,
 				8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */,
 				8EE95EE6267FEB1900E0C20C /* 430.flatten-a-multilevel-doubly-linked-list.swift */,
+				8EE95EE926813A4C00E0C20C /* 817.linked-list-components.swift */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -597,6 +600,7 @@
 			files = (
 				8EE95EDB267AA24E00E0C20C /* 328.odd-even-linked-list.swift in Sources */,
 				8E63DAAB2628F21800BD8398 /* 22.generate-parentheses.swift in Sources */,
+				8EE95EEA26813A4C00E0C20C /* 817.linked-list-components.swift in Sources */,
 				8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */,
 				8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */,
 				8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */,
