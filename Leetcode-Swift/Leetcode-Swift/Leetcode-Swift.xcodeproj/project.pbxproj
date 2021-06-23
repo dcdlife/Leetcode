@@ -34,6 +34,7 @@
 		8E0AE9B4266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE9B3266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift */; };
 		8E0AE9B7266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE9B6266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift */; };
 		8E0AE9BA266C3329007FA553 /* 68.1.er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE9B9266C3329007FA553 /* 68.1.er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift */; };
+		8E1C653D2683A45200B561D7 /* 707.design-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C653C2683A45200B561D7 /* 707.design-linked-list.swift */; };
 		8E1D003526449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */; };
 		8E1D00382644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */; };
 		8E1D003B2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */; };
@@ -199,6 +200,7 @@
 		8E0AE9B3266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66.gou-jian-cheng-ji-shu-zu-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE9B6266B1A84007FA553 /* 67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "67.ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE9B9266C3329007FA553 /* 68.1.er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "68.1.er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift"; sourceTree = "<group>"; };
+		8E1C653C2683A45200B561D7 /* 707.design-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "707.design-linked-list.swift"; sourceTree = "<group>"; };
 		8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift"; sourceTree = "<group>"; };
 		8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift"; sourceTree = "<group>"; };
@@ -537,6 +539,7 @@
 				8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */,
 				8EE95EE6267FEB1900E0C20C /* 430.flatten-a-multilevel-doubly-linked-list.swift */,
 				8EE95EE926813A4C00E0C20C /* 817.linked-list-components.swift */,
+				8E1C653C2683A45200B561D7 /* 707.design-linked-list.swift */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -730,6 +733,7 @@
 				8E63DB442636299700BD8398 /* 09.yong-liang-ge-zhan-shi-xian-dui-lie-lcof.swift in Sources */,
 				8EC51994263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift in Sources */,
 				8E1D00D2264B3CF90067FD06 /* 34.er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.swift in Sources */,
+				8E1C653D2683A45200B561D7 /* 707.design-linked-list.swift in Sources */,
 				8E63DADD262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift in Sources */,
 				8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */,
 				8E63DABE262AEF3B00BD8398 /* 69.sqrtx.swift in Sources */,
