@@ -8,5 +8,5 @@
 import Foundation
 
 
-let su = Solution_1171()
+let su = Solution_1290()
 su.test()
