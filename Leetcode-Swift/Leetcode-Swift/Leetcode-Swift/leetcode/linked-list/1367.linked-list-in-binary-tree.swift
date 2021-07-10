@@ -24,6 +24,7 @@ class Solution_1367 {
         return dfs(head, root) || isSubPath(head, root?.left) || isSubPath(head, root?.right)
     }
     
+    // 超时方法名：isSubPathCore
     func dfs(_ head: ListNode?, _ root: TreeNode?) -> Bool {
         if head == nil {
             return true

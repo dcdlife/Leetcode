@@ -49,6 +49,7 @@
 		8E1C656126950F8900B561D7 /* 1290.convert-binary-number-in-a-linked-list-to-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C656026950F8900B561D7 /* 1290.convert-binary-number-in-a-linked-list-to-integer.swift */; };
 		8E1C65642696567D00B561D7 /* 1669.merge-in-between-linked-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C65632696567D00B561D7 /* 1669.merge-in-between-linked-lists.swift */; };
 		8E1C65672697A8E000B561D7 /* 1367.linked-list-in-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C65662697A8E000B561D7 /* 1367.linked-list-in-binary-tree.swift */; };
+		8E1C656A269921BB00B561D7 /* 1472.design-browser-history.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C6569269921BB00B561D7 /* 1472.design-browser-history.swift */; };
 		8E1D003526449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */; };
 		8E1D00382644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */; };
 		8E1D003B2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */; };
@@ -229,6 +230,7 @@
 		8E1C656026950F8900B561D7 /* 1290.convert-binary-number-in-a-linked-list-to-integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290.convert-binary-number-in-a-linked-list-to-integer.swift"; sourceTree = "<group>"; };
 		8E1C65632696567D00B561D7 /* 1669.merge-in-between-linked-lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1669.merge-in-between-linked-lists.swift"; sourceTree = "<group>"; };
 		8E1C65662697A8E000B561D7 /* 1367.linked-list-in-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1367.linked-list-in-binary-tree.swift"; sourceTree = "<group>"; };
+		8E1C6569269921BB00B561D7 /* 1472.design-browser-history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1472.design-browser-history.swift"; sourceTree = "<group>"; };
 		8E1D003426449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift"; sourceTree = "<group>"; };
 		8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift"; sourceTree = "<group>"; };
@@ -582,6 +584,7 @@
 				8E1C656026950F8900B561D7 /* 1290.convert-binary-number-in-a-linked-list-to-integer.swift */,
 				8E1C65632696567D00B561D7 /* 1669.merge-in-between-linked-lists.swift */,
 				8E1C65662697A8E000B561D7 /* 1367.linked-list-in-binary-tree.swift */,
+				8E1C6569269921BB00B561D7 /* 1472.design-browser-history.swift */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -733,6 +736,7 @@
 				8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */,
 				8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */,
 				8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */,
+				8E1C656A269921BB00B561D7 /* 1472.design-browser-history.swift in Sources */,
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
 				8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */,
 				8E63DAC2262B155600BD8398 /* 367.valid-perfect-square.swift in Sources */,
