@@ -14,7 +14,7 @@ import Foundation
 /*
  参考leetcode 49
  */
-class Solution10_02 {
+class Solution_Jindian_10_02 {
     func groupAnagrams(_ strs: [String]) -> [[String]] {
         let aUnicodeValue = Int("a".unicodeScalars.first!.value)
         var strDic = [[Int]: [String]]()
