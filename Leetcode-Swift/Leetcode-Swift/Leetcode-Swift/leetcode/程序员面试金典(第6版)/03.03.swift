@@ -28,6 +28,7 @@ class Solution_Jindian_03_03 {
             if stacks.isEmpty || stacks.last!.count == cap {
                 stacks.append([Int]())
             }
+//            stacks.last.append
             var lastStack = stacks.last!
             lastStack.append(val)
             stacks[stacks.count - 1] = lastStack
