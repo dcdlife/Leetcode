@@ -135,6 +135,7 @@
 		8EAC2ACB26A4D98100F8783A /* 94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACA26A4D98100F8783A /* 94.swift */; };
 		8EAC2ACD26A6270300F8783A /* 144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACC26A6270300F8783A /* 144.swift */; };
 		8EAC2ACF26A62A5200F8783A /* 145.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACE26A62A5200F8783A /* 145.swift */; };
+		8EAC2AD126A7868600F8783A /* 150.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2AD026A7868600F8783A /* 150.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
@@ -327,6 +328,7 @@
 		8EAC2ACA26A4D98100F8783A /* 94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 94.swift; sourceTree = "<group>"; };
 		8EAC2ACC26A6270300F8783A /* 144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 144.swift; sourceTree = "<group>"; };
 		8EAC2ACE26A62A5200F8783A /* 145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 145.swift; sourceTree = "<group>"; };
+		8EAC2AD026A7868600F8783A /* 150.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 150.swift; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
@@ -495,6 +497,7 @@
 				8EAC2ACA26A4D98100F8783A /* 94.swift */,
 				8EAC2ACC26A6270300F8783A /* 144.swift */,
 				8EAC2ACE26A62A5200F8783A /* 145.swift */,
+				8EAC2AD026A7868600F8783A /* 150.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -713,6 +716,7 @@
 				8E63DAB8262A948900BD8398 /* 36.valid-sudoku.swift in Sources */,
 				8E1D007F26476B5B0067FD06 /* 27.er-cha-shu-de-jing-xiang-lcof.swift in Sources */,
 				8ECF89832651D0E2000652B7 /* 39.shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.swift in Sources */,
+				8EAC2AD126A7868600F8783A /* 150.swift in Sources */,
 				8E63DB502638B59800BD8398 /* 12.ju-zhen-zhong-de-lu-jing-lcof.swift in Sources */,
 				8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */,
 				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
