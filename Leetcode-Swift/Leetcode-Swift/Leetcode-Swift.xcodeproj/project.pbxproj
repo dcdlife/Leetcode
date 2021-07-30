@@ -136,6 +136,7 @@
 		8E73CD0626AF75DE00549806 /* 387.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0526AF75DE00549806 /* 387.swift */; };
 		8E73CD0826B0C07000549806 /* 649.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0726B0C07000549806 /* 649.swift */; };
 		8E73CD0A26B2246700549806 /* 862.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0926B2246700549806 /* 862.swift */; };
+		8E73CD0C26B37EAC00549806 /* 918.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0B26B37EAC00549806 /* 918.swift */; };
 		8EAC2ACB26A4D98100F8783A /* 94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACA26A4D98100F8783A /* 94.swift */; };
 		8EAC2ACD26A6270300F8783A /* 144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACC26A6270300F8783A /* 144.swift */; };
 		8EAC2ACF26A62A5200F8783A /* 145.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACE26A62A5200F8783A /* 145.swift */; };
@@ -337,6 +338,7 @@
 		8E73CD0526AF75DE00549806 /* 387.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 387.swift; sourceTree = "<group>"; };
 		8E73CD0726B0C07000549806 /* 649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 649.swift; sourceTree = "<group>"; };
 		8E73CD0926B2246700549806 /* 862.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 862.swift; sourceTree = "<group>"; };
+		8E73CD0B26B37EAC00549806 /* 918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 918.swift; sourceTree = "<group>"; };
 		8EAC2ACA26A4D98100F8783A /* 94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 94.swift; sourceTree = "<group>"; };
 		8EAC2ACC26A6270300F8783A /* 144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 144.swift; sourceTree = "<group>"; };
 		8EAC2ACE26A62A5200F8783A /* 145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 145.swift; sourceTree = "<group>"; };
@@ -514,6 +516,7 @@
 				8E73CD0526AF75DE00549806 /* 387.swift */,
 				8E73CD0726B0C07000549806 /* 649.swift */,
 				8E73CD0926B2246700549806 /* 862.swift */,
+				8E73CD0B26B37EAC00549806 /* 918.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -798,6 +801,7 @@
 				8ECF898926532340000652B7 /* 41.shu-ju-liu-zhong-de-zhong-wei-shu-lcof.swift in Sources */,
 				8E63DAEE263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift in Sources */,
 				8E1D0103264F3F5A0067FD06 /* 37.xu-lie-hua-er-cha-shu-lcof.swift in Sources */,
+				8E73CD0C26B37EAC00549806 /* 918.swift in Sources */,
 				8E63DAB4262A910D00BD8398 /* 52.n-queens-ii.swift in Sources */,
 				8E1C654C268BD21600B561D7 /* 355.design-twitter.swift in Sources */,
 				8EE95ECF26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift in Sources */,
