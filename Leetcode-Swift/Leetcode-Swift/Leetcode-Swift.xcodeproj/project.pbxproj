@@ -138,6 +138,7 @@
 		8E73CD0A26B2246700549806 /* 862.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0926B2246700549806 /* 862.swift */; };
 		8E73CD0C26B37EAC00549806 /* 918.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0B26B37EAC00549806 /* 918.swift */; };
 		8E972F1B26B4F1CE00E575B6 /* 950.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E972F1A26B4F1CE00E575B6 /* 950.swift */; };
+		8E972F1D26B635A000E575B6 /* 1425.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E972F1C26B635A000E575B6 /* 1425.swift */; };
 		8EAC2ACB26A4D98100F8783A /* 94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACA26A4D98100F8783A /* 94.swift */; };
 		8EAC2ACD26A6270300F8783A /* 144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACC26A6270300F8783A /* 144.swift */; };
 		8EAC2ACF26A62A5200F8783A /* 145.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACE26A62A5200F8783A /* 145.swift */; };
@@ -341,6 +342,7 @@
 		8E73CD0926B2246700549806 /* 862.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 862.swift; sourceTree = "<group>"; };
 		8E73CD0B26B37EAC00549806 /* 918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 918.swift; sourceTree = "<group>"; };
 		8E972F1A26B4F1CE00E575B6 /* 950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 950.swift; sourceTree = "<group>"; };
+		8E972F1C26B635A000E575B6 /* 1425.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1425.swift; sourceTree = "<group>"; };
 		8EAC2ACA26A4D98100F8783A /* 94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 94.swift; sourceTree = "<group>"; };
 		8EAC2ACC26A6270300F8783A /* 144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 144.swift; sourceTree = "<group>"; };
 		8EAC2ACE26A62A5200F8783A /* 145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 145.swift; sourceTree = "<group>"; };
@@ -520,6 +522,7 @@
 				8E73CD0926B2246700549806 /* 862.swift */,
 				8E73CD0B26B37EAC00549806 /* 918.swift */,
 				8E972F1A26B4F1CE00E575B6 /* 950.swift */,
+				8E972F1C26B635A000E575B6 /* 1425.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -823,6 +826,7 @@
 				8E63DB0026330C0100BD8398 /* 146.lru-cache.swift in Sources */,
 				8E0AE9B4266B0958007FA553 /* 66.gou-jian-cheng-ji-shu-zu-lcof.swift in Sources */,
 				8E0AE8B62659C97B007FA553 /* 49.chou-shu-lcof.swift in Sources */,
+				8E972F1D26B635A000E575B6 /* 1425.swift in Sources */,
 				8ECF89982655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift in Sources */,
 				8EB8A54826178470001408FD /* commonStructure.swift in Sources */,
 				8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */,
