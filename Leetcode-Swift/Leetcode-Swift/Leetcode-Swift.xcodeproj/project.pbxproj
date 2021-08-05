@@ -135,6 +135,8 @@
 		8E6A39AB26B758F5005296B6 /* 60.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A39AA26B758F5005296B6 /* 60.swift */; };
 		8E6A39AD26B8ABF3005296B6 /* 241.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A39AC26B8ABF3005296B6 /* 241.swift */; };
 		8E6A39AF26B9FA76005296B6 /* 273.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A39AE26B9FA76005296B6 /* 273.swift */; };
+		8E6A39B126BB5E20005296B6 /* 326.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A39B026BB5E20005296B6 /* 326.swift */; };
+		8E6A39B326BB6255005296B6 /* 342.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A39B226BB6255005296B6 /* 342.swift */; };
 		8E73CD0426AF03CE00549806 /* 341.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0326AF03CE00549806 /* 341.swift */; };
 		8E73CD0626AF75DE00549806 /* 387.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0526AF75DE00549806 /* 387.swift */; };
 		8E73CD0826B0C07000549806 /* 649.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73CD0726B0C07000549806 /* 649.swift */; };
@@ -342,6 +344,8 @@
 		8E6A39AA26B758F5005296B6 /* 60.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 60.swift; sourceTree = "<group>"; };
 		8E6A39AC26B8ABF3005296B6 /* 241.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 241.swift; sourceTree = "<group>"; };
 		8E6A39AE26B9FA76005296B6 /* 273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 273.swift; sourceTree = "<group>"; };
+		8E6A39B026BB5E20005296B6 /* 326.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 326.swift; sourceTree = "<group>"; };
+		8E6A39B226BB6255005296B6 /* 342.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 342.swift; sourceTree = "<group>"; };
 		8E73CD0326AF03CE00549806 /* 341.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 341.swift; sourceTree = "<group>"; };
 		8E73CD0526AF75DE00549806 /* 387.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 387.swift; sourceTree = "<group>"; };
 		8E73CD0726B0C07000549806 /* 649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 649.swift; sourceTree = "<group>"; };
@@ -525,6 +529,8 @@
 				8E6A39AA26B758F5005296B6 /* 60.swift */,
 				8E6A39AC26B8ABF3005296B6 /* 241.swift */,
 				8E6A39AE26B9FA76005296B6 /* 273.swift */,
+				8E6A39B026BB5E20005296B6 /* 326.swift */,
+				8E6A39B226BB6255005296B6 /* 342.swift */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -885,6 +891,7 @@
 				8E63DB4726362E3500BD8398 /* 10.fei-bo-na-qi-shu-lie-lcof-I.swift in Sources */,
 				8E0AE97826623763007FA553 /* 56.2.shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.swift in Sources */,
 				8E1C65402683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift in Sources */,
+				8E6A39B326BB6255005296B6 /* 342.swift in Sources */,
 				8E1D00C926489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift in Sources */,
 				8E0AE98D26653E28007FA553 /* [x]60.nge-tou-zi-de-dian-shu-lcof.swift in Sources */,
 				8E1C655B26926C6800B561D7 /* 622.design-circular-queue.swift in Sources */,
@@ -940,6 +947,7 @@
 				8E63DACB262C7CFE00BD8398 /* 191.number-of-1-bits.swift in Sources */,
 				8E1D004C2645FDD30067FD06 /* 26.problems:shu-de-zi-jie-gou-lcof.swift in Sources */,
 				8E0AE97B26624388007FA553 /* 57.1.he-wei-sde-liang-ge-shu-zi-lcof.swift in Sources */,
+				8E6A39B126BB5E20005296B6 /* 326.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
