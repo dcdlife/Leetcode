@@ -8,7 +8,7 @@
 import Foundation
 
 /*
- 342. 4的幂 (简单)
+ 342. 4的幂 (简单) 
  https://leetcode-cn.com/problems/power-of-four/
  
  思路：
