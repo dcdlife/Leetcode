@@ -190,6 +190,9 @@
 		8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */; };
 		8ECF899E26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */; };
 		8ECF89EF26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89EE26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift */; };
+		8ECF982C26C09FC800941E47 /* 704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982B26C09FC800941E47 /* 704.swift */; };
+		8ECF982E26C0A34F00941E47 /* 278.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982D26C0A34F00941E47 /* 278.swift */; };
+		8ECF983026C0A92700941E47 /* 35.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982F26C0A92700941E47 /* 35.swift */; };
 		8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */; };
 		8EE95EC62672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */; };
 		8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */; };
@@ -403,6 +406,9 @@
 		8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift"; sourceTree = "<group>"; };
 		8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
 		8ECF89EE26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47.li-wu-de-zui-da-jie-zhi-lcof.swift"; sourceTree = "<group>"; };
+		8ECF982B26C09FC800941E47 /* 704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 704.swift; sourceTree = "<group>"; };
+		8ECF982D26C0A34F00941E47 /* 278.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 278.swift; sourceTree = "<group>"; };
+		8ECF982F26C0A92700941E47 /* 35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35.swift; sourceTree = "<group>"; };
 		8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61.rotate-list.swift"; sourceTree = "<group>"; };
 		8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82.remove-duplicates-from-sorted-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.palindrome-linked-list.swift"; sourceTree = "<group>"; };
@@ -603,6 +609,7 @@
 		8EB8A55F2619554A001408FD /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				8ECF982926C09F7C00941E47 /* LeetCode官方 - 学习计划 */,
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8E73CD0226AF03C400549806 /* Queue */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
@@ -668,6 +675,24 @@
 				8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */,
 			);
 			path = leetcode;
+			sourceTree = "<group>";
+		};
+		8ECF982926C09F7C00941E47 /* LeetCode官方 - 学习计划 */ = {
+			isa = PBXGroup;
+			children = (
+				8ECF982A26C09F9F00941E47 /* 20天「算法」刷题计划 */,
+			);
+			path = "LeetCode官方 - 学习计划";
+			sourceTree = "<group>";
+		};
+		8ECF982A26C09F9F00941E47 /* 20天「算法」刷题计划 */ = {
+			isa = PBXGroup;
+			children = (
+				8ECF982B26C09FC800941E47 /* 704.swift */,
+				8ECF982D26C0A34F00941E47 /* 278.swift */,
+				8ECF982F26C0A92700941E47 /* 35.swift */,
+			);
+			path = "20天「算法」刷题计划";
 			sourceTree = "<group>";
 		};
 		8EE95EC126716E4900E0C20C /* linked-list */ = {
@@ -768,6 +793,7 @@
 				8E63DAAB2628F21800BD8398 /* 22.generate-parentheses.swift in Sources */,
 				8EE95EEA26813A4C00E0C20C /* 817.linked-list-components.swift in Sources */,
 				8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */,
+				8ECF982C26C09FC800941E47 /* 704.swift in Sources */,
 				8E1C654326854A4500B561D7 /* 705.design-hashset.swift in Sources */,
 				8E73CD0A26B2246700549806 /* 862.swift in Sources */,
 				8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */,
@@ -824,6 +850,7 @@
 				8ECF89952655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift in Sources */,
 				8E63DAF126306A1300BD8398 /* 322.coin-change.swift in Sources */,
 				8E0AE9AE26698AA4007FA553 /* 64.qiu-12n-lcof.swift in Sources */,
+				8ECF982E26C0A34F00941E47 /* 278.swift in Sources */,
 				8EE95EDE267CE0B400E0C20C /* 445.add-two-numbers-ii.swift in Sources */,
 				8E1D0100264DD6BB0067FD06 /* 36.er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.swift in Sources */,
 				8EC51997263CB25300DD36D9 /* 16.shu-zhi-de-zheng-shu-ci-fang-lcof.swift in Sources */,
@@ -884,6 +911,7 @@
 				8ECF899E26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift in Sources */,
 				8E63DADA262E2E5F00BD8398 /* 152.maximum-product-subarray.swift in Sources */,
 				8E1D00CF264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift in Sources */,
+				8ECF983026C0A92700941E47 /* 35.swift in Sources */,
 				8EAC2AD526AA29AA00F8783A /* 224.swift in Sources */,
 				8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */,
 				8E1C658326A4382700B561D7 /* 02.08.swift in Sources */,
