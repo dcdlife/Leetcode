@@ -12,7 +12,7 @@ import Foundation
  https://leetcode-cn.com/problems/middle-of-the-linked-list/
  */
 
-class Solution_876_Day20Play {
+class Solution_876_Day20Plan {
     func middleNode(_ head: ListNode?) -> ListNode? {
         if head == nil {
             return nil

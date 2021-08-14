@@ -12,7 +12,7 @@ import Foundation
  https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
  */
 
-class Solution_19_Day20Play {
+class Solution_19_Day20Plan {
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
         var head = head
         var step = n
