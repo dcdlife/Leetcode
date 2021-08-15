@@ -203,6 +203,8 @@
 		8ECF984026C5D5A800941E47 /* 19_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF983F26C5D5A800941E47 /* 19_Day20Plan.swift */; };
 		8ECF984226C7A79400941E47 /* 3_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF984126C7A79400941E47 /* 3_Day20Plan.swift */; };
 		8ECF984426C7B30200941E47 /* 567_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF984326C7B30200941E47 /* 567_Day20Plan.swift */; };
+		8ECF984626C8D87A00941E47 /* 733_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF984526C8D87A00941E47 /* 733_Day20Plan.swift */; };
+		8ED4204B26C8E2DF00E4D9DF /* 695_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4204A26C8E2DF00E4D9DF /* 695_Day20Plan.swift */; };
 		8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */; };
 		8EE95EC62672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */; };
 		8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */; };
@@ -429,6 +431,8 @@
 		8ECF983F26C5D5A800941E47 /* 19_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19_Day20Plan.swift; sourceTree = "<group>"; };
 		8ECF984126C7A79400941E47 /* 3_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_Day20Plan.swift; sourceTree = "<group>"; };
 		8ECF984326C7B30200941E47 /* 567_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 567_Day20Plan.swift; sourceTree = "<group>"; };
+		8ECF984526C8D87A00941E47 /* 733_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 733_Day20Plan.swift; sourceTree = "<group>"; };
+		8ED4204A26C8E2DF00E4D9DF /* 695_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 695_Day20Plan.swift; sourceTree = "<group>"; };
 		8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61.rotate-list.swift"; sourceTree = "<group>"; };
 		8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82.remove-duplicates-from-sorted-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.palindrome-linked-list.swift"; sourceTree = "<group>"; };
@@ -721,6 +725,8 @@
 				8ECF983F26C5D5A800941E47 /* 19_Day20Plan.swift */,
 				8ECF984126C7A79400941E47 /* 3_Day20Plan.swift */,
 				8ECF984326C7B30200941E47 /* 567_Day20Plan.swift */,
+				8ECF984526C8D87A00941E47 /* 733_Day20Plan.swift */,
+				8ED4204A26C8E2DF00E4D9DF /* 695_Day20Plan.swift */,
 			);
 			path = "20天「算法」刷题计划";
 			sourceTree = "<group>";
@@ -866,6 +872,7 @@
 				8EAC2ACF26A62A5200F8783A /* 145.swift in Sources */,
 				8E1D00462645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift in Sources */,
 				8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */,
+				8ED4204B26C8E2DF00E4D9DF /* 695_Day20Plan.swift in Sources */,
 				8E63A67F2622706B0078BA4C /* 50.powx-n.swift in Sources */,
 				8E0AE96F265F07F3007FA553 /* 55.1.er-cha-shu-de-shen-du-lcof.swift in Sources */,
 				8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */,
@@ -917,6 +924,7 @@
 				8EC519A0263E6C4F00DD36D9 /* [x]19.zheng-ze-biao-da-shi-pi-pei-lcof.swift in Sources */,
 				8E1D00C326488E000067FD06 /* 31.zhan-de-ya-ru-dan-chu-xu-lie-lcof.swift in Sources */,
 				8EB8A55D261938F7001408FD /* 25.reverse-nodes-in-k-group.swift in Sources */,
+				8ECF984626C8D87A00941E47 /* 733_Day20Plan.swift in Sources */,
 				8E63DB0026330C0100BD8398 /* 146.lru-cache.swift in Sources */,
 				8E6A39AB26B758F5005296B6 /* 60.swift in Sources */,
 				8ECF983C26C4A03700941E47 /* 557-Day20Plan.swift in Sources */,
