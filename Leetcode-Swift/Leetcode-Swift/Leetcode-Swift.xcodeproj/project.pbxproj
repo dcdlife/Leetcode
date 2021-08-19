@@ -217,6 +217,8 @@
 		8ED4205F26CD6BA600E4D9DF /* 70_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4205E26CD6BA600E4D9DF /* 70_Day20Plan.swift */; };
 		8ED4206126CD6CF200E4D9DF /* 198_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206026CD6CF200E4D9DF /* 198_Day20Plan.swift */; };
 		8ED4206326CD6FE600E4D9DF /* 120_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206226CD6FE600E4D9DF /* 120_Day20Plan.swift */; };
+		8ED4206526CF0CE500E4D9DF /* 213_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206426CF0CE500E4D9DF /* 213_Day20Plan.swift */; };
+		8ED4206726CF107700E4D9DF /* 191_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206626CF107700E4D9DF /* 191_Day20Plan.swift */; };
 		8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */; };
 		8EE95EC62672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */; };
 		8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */; };
@@ -457,6 +459,8 @@
 		8ED4205E26CD6BA600E4D9DF /* 70_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70_Day20Plan.swift; sourceTree = "<group>"; };
 		8ED4206026CD6CF200E4D9DF /* 198_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 198_Day20Plan.swift; sourceTree = "<group>"; };
 		8ED4206226CD6FE600E4D9DF /* 120_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120_Day20Plan.swift; sourceTree = "<group>"; };
+		8ED4206426CF0CE500E4D9DF /* 213_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 213_Day20Plan.swift; sourceTree = "<group>"; };
+		8ED4206626CF107700E4D9DF /* 191_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 191_Day20Plan.swift; sourceTree = "<group>"; };
 		8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61.rotate-list.swift"; sourceTree = "<group>"; };
 		8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82.remove-duplicates-from-sorted-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.palindrome-linked-list.swift"; sourceTree = "<group>"; };
@@ -763,6 +767,8 @@
 				8ED4205E26CD6BA600E4D9DF /* 70_Day20Plan.swift */,
 				8ED4206026CD6CF200E4D9DF /* 198_Day20Plan.swift */,
 				8ED4206226CD6FE600E4D9DF /* 120_Day20Plan.swift */,
+				8ED4206426CF0CE500E4D9DF /* 213_Day20Plan.swift */,
+				8ED4206626CF107700E4D9DF /* 191_Day20Plan.swift */,
 			);
 			path = "20天「算法」刷题计划";
 			sourceTree = "<group>";
@@ -922,6 +928,7 @@
 				8E63DB382634D76100BD8398 /* 05.ti-huan-kong-ge-lcof.swift in Sources */,
 				8E63DAD7262CE91600BD8398 /* 120.triangle.swift in Sources */,
 				8ED4206126CD6CF200E4D9DF /* 198_Day20Plan.swift in Sources */,
+				8ED4206526CF0CE500E4D9DF /* 213_Day20Plan.swift in Sources */,
 				8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */,
 				8E1C654F268D22FF00B561D7 /* 432.all-oone-data-structure.swift in Sources */,
 				8E0AE965265C62FB007FA553 /* 53.1.zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.swift in Sources */,
@@ -1040,6 +1047,7 @@
 				8E1C656126950F8900B561D7 /* 1290.convert-binary-number-in-a-linked-list-to-integer.swift in Sources */,
 				8E63DB352634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift in Sources */,
 				8E63A692262503E40078BA4C /* 10.02.group-anagrams-lcci.swift in Sources */,
+				8ED4206726CF107700E4D9DF /* 191_Day20Plan.swift in Sources */,
 				8EB8A54F261801AE001408FD /* 141.linked-list-cycle.swift in Sources */,
 				8E0AE98726644655007FA553 /* 59.1.hua-dong-chuang-kou-de-zui-da-zhi-lcof.swift in Sources */,
 				8E0AE96C265E7DD8007FA553 /* 54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift in Sources */,
