@@ -219,6 +219,8 @@
 		8ED4206326CD6FE600E4D9DF /* 120_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206226CD6FE600E4D9DF /* 120_Day20Plan.swift */; };
 		8ED4206526CF0CE500E4D9DF /* 213_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206426CF0CE500E4D9DF /* 213_Day20Plan.swift */; };
 		8ED4206726CF107700E4D9DF /* 191_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206626CF107700E4D9DF /* 191_Day20Plan.swift */; };
+		8ED4206926D023F800E4D9DF /* 190_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206826D023F800E4D9DF /* 190_Day20Plan.swift */; };
+		8ED4206B26D02E0600E4D9DF /* 136_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206A26D02E0600E4D9DF /* 136_Day20Plan.swift */; };
 		8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */; };
 		8EE95EC62672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */; };
 		8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */; };
@@ -461,6 +463,8 @@
 		8ED4206226CD6FE600E4D9DF /* 120_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120_Day20Plan.swift; sourceTree = "<group>"; };
 		8ED4206426CF0CE500E4D9DF /* 213_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 213_Day20Plan.swift; sourceTree = "<group>"; };
 		8ED4206626CF107700E4D9DF /* 191_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 191_Day20Plan.swift; sourceTree = "<group>"; };
+		8ED4206826D023F800E4D9DF /* 190_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 190_Day20Plan.swift; sourceTree = "<group>"; };
+		8ED4206A26D02E0600E4D9DF /* 136_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 136_Day20Plan.swift; sourceTree = "<group>"; };
 		8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61.rotate-list.swift"; sourceTree = "<group>"; };
 		8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82.remove-duplicates-from-sorted-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95EC82672CE1E00E0C20C /* 234.palindrome-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.palindrome-linked-list.swift"; sourceTree = "<group>"; };
@@ -769,6 +773,8 @@
 				8ED4206226CD6FE600E4D9DF /* 120_Day20Plan.swift */,
 				8ED4206426CF0CE500E4D9DF /* 213_Day20Plan.swift */,
 				8ED4206626CF107700E4D9DF /* 191_Day20Plan.swift */,
+				8ED4206826D023F800E4D9DF /* 190_Day20Plan.swift */,
+				8ED4206A26D02E0600E4D9DF /* 136_Day20Plan.swift */,
 			);
 			path = "20天「算法」刷题计划";
 			sourceTree = "<group>";
@@ -886,6 +892,7 @@
 				8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */,
 				8ECF895526509C89000652B7 /* 38.zi-fu-chuan-de-pai-lie-lcof.swift in Sources */,
 				8E63DAA82628EA8900BD8398 /* 111.minimum-depth-of-binary-tree.swift in Sources */,
+				8ED4206926D023F800E4D9DF /* 190_Day20Plan.swift in Sources */,
 				8EB8A53A2617838E001408FD /* main.swift in Sources */,
 				8E0AE95F265B0CC0007FA553 /* 51.shu-zu-zhong-de-ni-xu-dui-lcof.swift in Sources */,
 				8E63DB4A2637690300BD8398 /* 10.qing-wa-tiao-tai-jie-wen-ti-lcof-II.swift in Sources */,
@@ -1063,6 +1070,7 @@
 				8E1C653D2683A45200B561D7 /* 707.design-linked-list.swift in Sources */,
 				8E63DADD262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift in Sources */,
 				8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */,
+				8ED4206B26D02E0600E4D9DF /* 136_Day20Plan.swift in Sources */,
 				8ED4205326CB205300E4D9DF /* 994_Day20Plan.swift in Sources */,
 				8E63DABE262AEF3B00BD8398 /* 69.sqrtx.swift in Sources */,
 				8ED4205D26CD590D00E4D9DF /* 784_Day20Plan.swift in Sources */,
