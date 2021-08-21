@@ -2,7 +2,7 @@
 //  705.design-hashset.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/6/25.
+//  Created by devshiye on 2021/6/25.
 //
 
 import Foundation

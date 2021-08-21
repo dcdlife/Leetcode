@@ -2,7 +2,7 @@
 //  58.1.fan-zhuan-dan-ci-shun-xu-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/5/30.
+//  Created by devshiye on 2021/5/30.
 //
 
 import Foundation

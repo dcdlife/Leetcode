@@ -2,7 +2,7 @@
 //  57.2.he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/5/29.
+//  Created by devshiye on 2021/5/29.
 //
 
 import Foundation

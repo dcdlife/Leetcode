@@ -2,7 +2,7 @@
 //  60.nge-tou-zi-de-dian-shu-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/5/31.
+//  Created by devshiye on 2021/5/31.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  02.07.intersection-of-two-linked-lists-lcci.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/7/1.
+//  Created by devshiye on 2021/7/1.
 //
 
 import Foundation

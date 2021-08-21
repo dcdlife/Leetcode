@@ -2,7 +2,7 @@
 //  147.insertion-sort-list.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/6/16.
+//  Created by devshiye on 2021/6/16.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  65.bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/6/4.
+//  Created by devshiye on 2021/6/4.
 //
 
 import Foundation

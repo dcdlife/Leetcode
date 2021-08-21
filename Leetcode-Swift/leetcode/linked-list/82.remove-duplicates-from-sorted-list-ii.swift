@@ -2,7 +2,7 @@
 //  82.remove-duplicates-from-sorted-list-ii.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/6/11.
+//  Created by devshiye on 2021/6/11.
 //
 
 import Foundation

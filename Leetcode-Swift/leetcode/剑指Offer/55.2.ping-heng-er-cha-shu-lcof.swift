@@ -2,7 +2,7 @@
 //  55.2.ping-heng-er-cha-shu-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/5/27.
+//  Created by devshiye on 2021/5/27.
 //
 
 import Foundation

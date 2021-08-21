@@ -2,7 +2,7 @@
 //  57.1.he-wei-sde-liang-ge-shu-zi-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/5/29.
+//  Created by devshiye on 2021/5/29.
 //
 
 import Foundation

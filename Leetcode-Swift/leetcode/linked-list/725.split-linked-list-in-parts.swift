@@ -2,7 +2,7 @@
 //  725.split-linked-list-in-parts.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/6/20.
+//  Created by devshiye on 2021/6/20.
 //
 
 import Foundation

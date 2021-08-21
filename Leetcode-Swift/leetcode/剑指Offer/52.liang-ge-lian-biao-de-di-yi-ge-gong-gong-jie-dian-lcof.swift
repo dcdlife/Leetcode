@@ -2,7 +2,7 @@
 //  52.liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/5/24.
+//  Created by devshiye on 2021/5/24.
 //
 
 import Foundation

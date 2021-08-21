@@ -2,7 +2,7 @@
 //  94.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/7/19.
+//  Created by devshiye on 2021/7/19.
 //
 
 import Foundation

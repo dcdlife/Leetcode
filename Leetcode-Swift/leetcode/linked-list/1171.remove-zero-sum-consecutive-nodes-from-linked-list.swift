@@ -2,7 +2,7 @@
 //  1171.remove-zero-sum-consecutive-nodes-from-linked-list.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/7/6.
+//  Created by devshiye on 2021/7/6.
 //
 
 import Foundation

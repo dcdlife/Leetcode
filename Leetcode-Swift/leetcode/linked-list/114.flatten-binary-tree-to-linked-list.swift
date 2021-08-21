@@ -2,7 +2,7 @@
 //  114.flatten-binary-tree-to-linked-list.swift
 //  Leetcode-Swift
 //
-//  Created by devyc on 2021/6/29.
+//  Created by devshiye on 2021/6/29.
 //
 
 import Foundation
