@@ -710,13 +710,13 @@
 			children = (
 				8ECF982926C09F7C00941E47 /* LeetCode官方学习计划 */,
 				8E6DC32C26D1C32D00938673 /* Common */,
-				8EB8A55F2619554A001408FD /* leetcode */,
+				8EB8A55F2619554A001408FD /* Leetcode */,
 				8EB8A5392617838E001408FD /* main.swift */,
 			);
 			path = "Leetcode-Swift";
 			sourceTree = "<group>";
 		};
-		8EB8A55F2619554A001408FD /* leetcode */ = {
+		8EB8A55F2619554A001408FD /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
 				8E6A39A926B757DE005296B6 /* Recursion */,
@@ -783,7 +783,7 @@
 				8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */,
 				8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */,
 			);
-			path = leetcode;
+			path = Leetcode;
 			sourceTree = "<group>";
 		};
 		8ECF982926C09F7C00941E47 /* LeetCode官方学习计划 */ = {
