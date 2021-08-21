@@ -1,5 +1,5 @@
 //
-//  977.swift
+//  977_Day20Plan.swift
 //  Leetcode-Swift
 //
 //  Created by devyc on 2021/8/10.
@@ -12,7 +12,7 @@ import Foundation
  https://leetcode-cn.com/problems/squares-of-a-sorted-array/
  */
 
-class Solution_977 {
+class Solution_977_Day20Plan {
     func sortedSquares(_ nums: [Int]) -> [Int] {
         if nums.isEmpty {
             return []
