@@ -22,6 +22,7 @@ class VersionControl {
 
 class Solution_278_Day20Plan : VersionControl {
     
+    // 优化后
     func firstBadVersion(_ n: Int) -> Int {
         var l = 1;
         var r = n;
@@ -29,15 +30,17 @@ class Solution_278_Day20Plan : VersionControl {
         while l < r {
             let m = (l + r) / 2
             if isBadVersion(m) {
-                r = m;
+                r = m; // 此处, r赋值为m是因为，m或m-1都可能是第一个错误的版本，因此下一个搜索区间应该是 [l,m]
             } else {
                 l = m + 1;
             }
         }
 
+        // 来到这里说明 l == r，即l/r均为第一个错误的版本的索引
         return l;
     }
     
+    // 初版
     func firstBadVersion_self(_ n: Int) -> Int {
         var left = 1
         var right = n
@@ -62,7 +65,6 @@ class Solution_278_Day20Plan : VersionControl {
     func isBadVersion(_ version: Int) -> Bool {
         return badVersion == version
     }
-    
     
     func test() {
         badVersion = 4
