@@ -651,6 +651,15 @@
 			path = "算法基础";
 			sourceTree = "<group>";
 		};
+		8E6DC32C26D1C32D00938673 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8A54A2617849E001408FD /* commonMethods.swift */,
+				8EB8A54726178470001408FD /* commonStructure.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		8E73CD0226AF03C400549806 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
@@ -699,9 +708,9 @@
 		8EB8A5382617838E001408FD /* Leetcode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8ECF982926C09F7C00941E47 /* LeetCode官方学习计划 */,
+				8E6DC32C26D1C32D00938673 /* Common */,
 				8EB8A55F2619554A001408FD /* leetcode */,
-				8EB8A54A2617849E001408FD /* commonMethods.swift */,
-				8EB8A54726178470001408FD /* commonStructure.swift */,
 				8EB8A5392617838E001408FD /* main.swift */,
 			);
 			path = "Leetcode-Swift";
@@ -710,7 +719,6 @@
 		8EB8A55F2619554A001408FD /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				8ECF982926C09F7C00941E47 /* LeetCode官方 - 学习计划 */,
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8E73CD0226AF03C400549806 /* Queue */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
@@ -778,12 +786,12 @@
 			path = leetcode;
 			sourceTree = "<group>";
 		};
-		8ECF982926C09F7C00941E47 /* LeetCode官方 - 学习计划 */ = {
+		8ECF982926C09F7C00941E47 /* LeetCode官方学习计划 */ = {
 			isa = PBXGroup;
 			children = (
 				8ECF982A26C09F9F00941E47 /* 20天「算法」刷题计划 */,
 			);
-			path = "LeetCode官方 - 学习计划";
+			path = "LeetCode官方学习计划";
 			sourceTree = "<group>";
 		};
 		8ECF982A26C09F9F00941E47 /* 20天「算法」刷题计划 */ = {
