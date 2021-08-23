@@ -179,6 +179,8 @@
 		8EB8A57F261F558D001408FD /* 49.group-anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A57E261F558D001408FD /* 49.group-anagrams.swift */; };
 		8EBA554926D3086600A52A2D /* 04_153_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA554826D3086600A52A2D /* 04_153_Day20Plan.swift */; };
 		8EBA554B26D30F2300A52A2D /* 05_162_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA554A26D30F2300A52A2D /* 05_162_Day20Plan.swift */; };
+		8EBA554D26D452F500A52A2D /* 06_82_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA554C26D452F500A52A2D /* 06_82_Day20Plan.swift */; };
+		8EBA554F26D45D3E00A52A2D /* 07_15_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA554E26D45D3E00A52A2D /* 07_15_Day20Plan.swift */; };
 		8EC4A1F1266C3AEE00405E66 /* 68.2.er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4A1F0266C3AEE00405E66 /* 68.2.er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift */; };
 		8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */; };
 		8EC51994263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */; };
@@ -428,6 +430,8 @@
 		8EB8A57E261F558D001408FD /* 49.group-anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49.group-anagrams.swift"; sourceTree = "<group>"; };
 		8EBA554826D3086600A52A2D /* 04_153_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 04_153_Day20Plan.swift; sourceTree = "<group>"; };
 		8EBA554A26D30F2300A52A2D /* 05_162_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 05_162_Day20Plan.swift; sourceTree = "<group>"; };
+		8EBA554C26D452F500A52A2D /* 06_82_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 06_82_Day20Plan.swift; sourceTree = "<group>"; };
+		8EBA554E26D45D3E00A52A2D /* 07_15_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 07_15_Day20Plan.swift; sourceTree = "<group>"; };
 		8EC4A1F0266C3AEE00405E66 /* 68.2.er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "68.2.er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift"; sourceTree = "<group>"; };
 		8EC51990263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14-2.jian-sheng-zi-ii-lcof.swift"; sourceTree = "<group>"; };
 		8EC51993263C2C9F00DD36D9 /* 15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.er-jin-zhi-zhong-1de-ge-shu-lcof.swift"; sourceTree = "<group>"; };
@@ -662,6 +666,8 @@
 				8E6DC33126D1EBBA00938673 /* 03_74_Day20Plan.swift */,
 				8EBA554826D3086600A52A2D /* 04_153_Day20Plan.swift */,
 				8EBA554A26D30F2300A52A2D /* 05_162_Day20Plan.swift */,
+				8EBA554C26D452F500A52A2D /* 06_82_Day20Plan.swift */,
+				8EBA554E26D45D3E00A52A2D /* 07_15_Day20Plan.swift */,
 			);
 			path = "算法基础";
 			sourceTree = "<group>";
@@ -1030,6 +1036,7 @@
 				8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */,
 				8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */,
 				8EAC2AD326A8D3E800F8783A /* 173.swift in Sources */,
+				8EBA554D26D452F500A52A2D /* 06_82_Day20Plan.swift in Sources */,
 				8ECF984026C5D5A800941E47 /* 11_19_Day20Plan.swift in Sources */,
 				8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */,
 				8E1C656A269921BB00B561D7 /* 1472.design-browser-history.swift in Sources */,
@@ -1093,6 +1100,7 @@
 				8EE95ED52678DC5A00E0C20C /* 143.reorder-list.swift in Sources */,
 				8E0AE9912666EDF2007FA553 /* 61.bu-ke-pai-zhong-de-shun-zi-lcof.swift in Sources */,
 				8E1C656126950F8900B561D7 /* 1290.convert-binary-number-in-a-linked-list-to-integer.swift in Sources */,
+				8EBA554F26D45D3E00A52A2D /* 07_15_Day20Plan.swift in Sources */,
 				8E63DB352634D08100BD8398 /* 04.er-wei-shu-zu-zhong-de-cha-zhao-lcof.swift in Sources */,
 				8E63A692262503E40078BA4C /* 10.02.group-anagrams-lcci.swift in Sources */,
 				8ED4206726CF107700E4D9DF /* 29_191_Day20Plan.swift in Sources */,
