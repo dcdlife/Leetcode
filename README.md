@@ -20,12 +20,12 @@ Leetcode题目Swift实现，个人做题记录~
   * 殿堂级经典
     * [《计算机程序设计艺术》](https://book.douban.com/series/12331)
 * 视频
-  * [MJ-《恋上数据结构与算法》](https://ke.qq.com/course/385223)
+  * [MJ-《恋上数据结构与算法》](https://ke.qq.com/course/package/26119)
 * 专栏
   * [极客时间 - 《数据结构与算法之美》](https://time.geekbang.org/column/intro/126)
   * [拉钩教育 - 《重学数据结构与算法》](https://kaiwu.lagou.com/course/courseInfo.htm?courseId=185#/content)
 
 ### LeetCode官方学习计划
 
-* [20天「算法」刷题计划](./AllMDFiles/LeetcodeStudyPlan/01.md)
+* [20天「算法」刷题计划（进行中）](./AllMDFiles/LeetcodeStudyPlan/01.md)
 
