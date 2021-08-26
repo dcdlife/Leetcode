@@ -8,5 +8,5 @@
 import Foundation
 
 
-let su = Solution_10_11_Day20Plan()
+let su = Solution_12_713_Day20Plan()
 su.test()

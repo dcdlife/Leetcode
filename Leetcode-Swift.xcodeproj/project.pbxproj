@@ -154,6 +154,9 @@
 		8E995DC026D5CCA40007E9D6 /* 08_844_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E995DBF26D5CCA40007E9D6 /* 08_844_Day20Plan.swift */; };
 		8E995DC226D5EC500007E9D6 /* 09_986_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E995DC126D5EC500007E9D6 /* 09_986_Day20Plan.swift */; };
 		8E995DC426D61C2C0007E9D6 /* 10_11_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E995DC326D61C2C0007E9D6 /* 10_11_Day20Plan.swift */; };
+		8E995DCE26D6FB060007E9D6 /* 11_438_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E995DCD26D6FB060007E9D6 /* 11_438_Day20Plan.swift */; };
+		8E995DD026D709870007E9D6 /* 12_713_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E995DCF26D709870007E9D6 /* 12_713_Day20Plan.swift */; };
+		8E995DD226D724220007E9D6 /* 13_209_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E995DD126D724220007E9D6 /* 13_209_Day20Plan.swift */; };
 		8EAC2ACB26A4D98100F8783A /* 94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACA26A4D98100F8783A /* 94.swift */; };
 		8EAC2ACD26A6270300F8783A /* 144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACC26A6270300F8783A /* 144.swift */; };
 		8EAC2ACF26A62A5200F8783A /* 145.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2ACE26A62A5200F8783A /* 145.swift */; };
@@ -407,6 +410,9 @@
 		8E995DBF26D5CCA40007E9D6 /* 08_844_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 08_844_Day20Plan.swift; sourceTree = "<group>"; };
 		8E995DC126D5EC500007E9D6 /* 09_986_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 09_986_Day20Plan.swift; sourceTree = "<group>"; };
 		8E995DC326D61C2C0007E9D6 /* 10_11_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_11_Day20Plan.swift; sourceTree = "<group>"; };
+		8E995DCD26D6FB060007E9D6 /* 11_438_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_438_Day20Plan.swift; sourceTree = "<group>"; };
+		8E995DCF26D709870007E9D6 /* 12_713_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_713_Day20Plan.swift; sourceTree = "<group>"; };
+		8E995DD126D724220007E9D6 /* 13_209_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13_209_Day20Plan.swift; sourceTree = "<group>"; };
 		8EAC2ACA26A4D98100F8783A /* 94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 94.swift; sourceTree = "<group>"; };
 		8EAC2ACC26A6270300F8783A /* 144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 144.swift; sourceTree = "<group>"; };
 		8EAC2ACE26A62A5200F8783A /* 145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 145.swift; sourceTree = "<group>"; };
@@ -677,6 +683,9 @@
 				8E995DBF26D5CCA40007E9D6 /* 08_844_Day20Plan.swift */,
 				8E995DC126D5EC500007E9D6 /* 09_986_Day20Plan.swift */,
 				8E995DC326D61C2C0007E9D6 /* 10_11_Day20Plan.swift */,
+				8E995DCD26D6FB060007E9D6 /* 11_438_Day20Plan.swift */,
+				8E995DCF26D709870007E9D6 /* 12_713_Day20Plan.swift */,
+				8E995DD126D724220007E9D6 /* 13_209_Day20Plan.swift */,
 			);
 			path = "算法基础";
 			sourceTree = "<group>";
@@ -940,6 +949,7 @@
 				8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */,
 				8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */,
 				8E0AE9BA266C3329007FA553 /* 68.1.er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift in Sources */,
+				8E995DD226D724220007E9D6 /* 13_209_Day20Plan.swift in Sources */,
 				8E1D00382644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift in Sources */,
 				8E0AE8B32659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift in Sources */,
 				8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */,
@@ -998,6 +1008,7 @@
 				8ECF89952655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift in Sources */,
 				8E63DAF126306A1300BD8398 /* 322.coin-change.swift in Sources */,
 				8E0AE9AE26698AA4007FA553 /* 64.qiu-12n-lcof.swift in Sources */,
+				8E995DD026D709870007E9D6 /* 12_713_Day20Plan.swift in Sources */,
 				8ECF982E26C0A34F00941E47 /* 02_278_Day20Plan.swift in Sources */,
 				8EE95EDE267CE0B400E0C20C /* 445.add-two-numbers-ii.swift in Sources */,
 				8E1D0100264DD6BB0067FD06 /* 36.er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.swift in Sources */,
@@ -1021,6 +1032,7 @@
 				8E1C654C268BD21600B561D7 /* 355.design-twitter.swift in Sources */,
 				8EE95ECF26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift in Sources */,
 				8E0AE98A266533AE007FA553 /* 59.2.dui-lie-de-zui-da-zhi-lcof.swift in Sources */,
+				8E995DCE26D6FB060007E9D6 /* 11_438_Day20Plan.swift in Sources */,
 				8EB8A56526198CD3001408FD /* 225.implement-stack-using-queues.swift in Sources */,
 				8ED4205B26CD51A200E4D9DF /* 23_46_Day20Plan.swift in Sources */,
 				8ED4205926CC805000E4D9DF /* 22_77_Day20Plan.swift in Sources */,
