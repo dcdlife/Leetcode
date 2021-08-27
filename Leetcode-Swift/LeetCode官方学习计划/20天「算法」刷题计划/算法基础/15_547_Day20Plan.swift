@@ -1,8 +1,8 @@
 //
-//  547.number-of-provinces.swift
+//  15_547_Day20Plan.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/4/22.
+//  Created by devshiye on 2021/8/27.
 //
 
 import Foundation
@@ -12,7 +12,7 @@ import Foundation
  https://leetcode-cn.com/problems/number-of-provinces/
  */
 
-class Solution547 {
+class Solution_15_547_Day20Plan {
     /// 深度优先搜索
     func findCircleNum(_ isConnected: [[Int]]) -> Int {
         if isConnected.isEmpty || isConnected[0].isEmpty {
@@ -80,27 +80,7 @@ class Solution547 {
     }
     
     func test() {
-        print(findCircleNum([
-            [1,1,0],
-            [1,1,0],
-            [0,0,1]
-        ]))
-        print(findCircleNum([
-            [1,0,0],
-            [0,1,0],
-            [0,0,1]
-        ]))
-        
-        // 未过用例
-        /*
-         [[1,0,0,1],
-          [0,1,1,0],
-          [0,1,1,1],
-          [1,0,1,1]]
-         */
-        print(findCircleNum([[1,0,0,1],
-                              [0,1,1,0],
-                              [0,1,1,1],
-                              [1,0,1,1]]))
+        print(findCircleNum([[1,1,0],[1,1,0],[0,0,1]]))
+        print(findCircleNum([[1,0,0],[0,1,0],[0,0,1]]))
     }
 }
