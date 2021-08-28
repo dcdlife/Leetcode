@@ -16,7 +16,6 @@ public class ListNode {
     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
 
-
 // Definition for a binary tree node.
 public class TreeNode {
     public var val: Int
@@ -87,6 +86,45 @@ public class TreeNode {
             }
         }
         return ans
+    }
+}
+
+// Definition for a Node.
+public class Node {
+    public var val: Int
+    public var left: Node?
+    public var right: Node?
+    public var next: Node?
+    public init(_ val: Int) {
+        self.val = val
+        self.left = nil
+        self.right = nil
+        self.next = nil
+    }
+    
+    static func printLevelNext(_ root: Node?) {
+        if root == nil {
+            return
+        }
+        
+        var ans = [String]()
+        var head = root
+        while head != nil {
+            var newHead: Node? = nil
+            while head != nil {
+                if newHead == nil {
+                    newHead = head?.left
+                }
+                if newHead == nil {
+                    newHead = head?.right
+                }
+                ans.append("\(head!.val)")
+                head = head?.next
+            }
+            ans.append("#")
+            head = newHead
+        }
+        print(ans)
     }
 }
 

@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 func createListNode(values: [Int]) -> ListNode? {
     var resNode: ListNode? = nil
     if values.count > 0 {
@@ -83,6 +84,35 @@ func createTreeNode(_ list: [Int?]) -> TreeNode? {
             queue.removeFirst()
             if queue[0] != nil {
                 let right = TreeNode(queue[0]!)
+                node.right = right
+                tmpNewNodes.append(right)
+            }
+            queue.removeFirst()
+        }
+        waitToSetNodes = tmpNewNodes
+    }
+    return root
+}
+
+func createNode(_ list: [Int?]) -> Node? {
+    if list.count < 3 || list[0] == nil {
+        return nil
+    }
+    var queue: [Int?] = list
+    let root = Node(list[0]!)
+    queue.removeFirst()
+    var waitToSetNodes: [Node] = [root]
+    while queue.count != 0 {
+        var tmpNewNodes: [Node] = []
+        for node in waitToSetNodes {
+            if queue[0] != nil {
+                let left = Node(queue[0]!)
+                node.left = left
+                tmpNewNodes.append(left)
+            }
+            queue.removeFirst()
+            if queue[0] != nil {
+                let right = Node(queue[0]!)
                 node.right = right
                 tmpNewNodes.append(right)
             }
