@@ -89,6 +89,8 @@
 		8E1D0106264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */; };
 		8E4F32A926E18615007AD3EE /* 31_45_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32A826E18615007AD3EE /* 31_45_Day20Plan.swift */; };
 		8E4F32AB26E18B9B007AD3EE /* 32_62_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */; };
+		8E4F32AD26E2ED1F007AD3EE /* 33_05_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */; };
+		8E4F32AF26E30A89007AD3EE /* 34_413_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AE26E30A89007AD3EE /* 34_413_Day20Plan.swift */; };
 		8E63A675261FE1010078BA4C /* 98.validate-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */; };
 		8E63A67826214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */; };
 		8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */; };
@@ -365,6 +367,8 @@
 		8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "297.serialize-and-deserialize-binary-tree.swift"; sourceTree = "<group>"; };
 		8E4F32A826E18615007AD3EE /* 31_45_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31_45_Day20Plan.swift; sourceTree = "<group>"; };
 		8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 32_62_Day20Plan.swift; sourceTree = "<group>"; };
+		8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 33_05_Day20Plan.swift; sourceTree = "<group>"; };
+		8E4F32AE26E30A89007AD3EE /* 34_413_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 34_413_Day20Plan.swift; sourceTree = "<group>"; };
 		8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98.validate-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "235.lowest-common-ancestor-of-a-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236.lowest-common-ancestor-of-a-binary-tree.swift"; sourceTree = "<group>"; };
@@ -745,6 +749,8 @@
 				8E0D613626E02D1F00C2A8D9 /* 30_55_Day20Plan.swift */,
 				8E4F32A826E18615007AD3EE /* 31_45_Day20Plan.swift */,
 				8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */,
+				8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */,
+				8E4F32AE26E30A89007AD3EE /* 34_413_Day20Plan.swift */,
 			);
 			path = "算法基础";
 			sourceTree = "<group>";
@@ -1013,6 +1019,7 @@
 				8ED4204D26C9001700E4D9DF /* 16_617_Day20Plan.swift in Sources */,
 				8ECF982C26C09FC800941E47 /* 01_704_Day20Plan.swift in Sources */,
 				8E1C654326854A4500B561D7 /* 705.design-hashset.swift in Sources */,
+				8E4F32AD26E2ED1F007AD3EE /* 33_05_Day20Plan.swift in Sources */,
 				8ECF984226C7A79400941E47 /* 12_3_Day20Plan.swift in Sources */,
 				8E73CD0A26B2246700549806 /* 862.swift in Sources */,
 				8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */,
@@ -1061,6 +1068,7 @@
 				8E63A67F2622706B0078BA4C /* 50.powx-n.swift in Sources */,
 				8E0AE96F265F07F3007FA553 /* 55.1.er-cha-shu-de-shen-du-lcof.swift in Sources */,
 				8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */,
+				8E4F32AF26E30A89007AD3EE /* 34_413_Day20Plan.swift in Sources */,
 				8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */,
 				8E0AE984266325ED007FA553 /* 58.2.zuo-xuan-zhuan-zi-fu-chuan-lcof.swift in Sources */,
 				8EBA554926D3086600A52A2D /* 04_153_Day20Plan.swift in Sources */,
