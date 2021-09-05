@@ -91,6 +91,8 @@
 		8E4F32AB26E18B9B007AD3EE /* 32_62_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */; };
 		8E4F32AD26E2ED1F007AD3EE /* 33_05_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */; };
 		8E4F32AF26E30A89007AD3EE /* 34_413_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AE26E30A89007AD3EE /* 34_413_Day20Plan.swift */; };
+		8E4F32CC26E43B92007AD3EE /* 35_91_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32CB26E43B92007AD3EE /* 35_91_Day20Plan.swift */; };
+		8E4F32CE26E44AC6007AD3EE /* 36_139_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32CD26E44AC5007AD3EE /* 36_139_Day20Plan.swift */; };
 		8E63A675261FE1010078BA4C /* 98.validate-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */; };
 		8E63A67826214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */; };
 		8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */; };
@@ -369,6 +371,8 @@
 		8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 32_62_Day20Plan.swift; sourceTree = "<group>"; };
 		8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 33_05_Day20Plan.swift; sourceTree = "<group>"; };
 		8E4F32AE26E30A89007AD3EE /* 34_413_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 34_413_Day20Plan.swift; sourceTree = "<group>"; };
+		8E4F32CB26E43B92007AD3EE /* 35_91_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_91_Day20Plan.swift; sourceTree = "<group>"; };
+		8E4F32CD26E44AC5007AD3EE /* 36_139_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_139_Day20Plan.swift; sourceTree = "<group>"; };
 		8E63A674261FE1010078BA4C /* 98.validate-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98.validate-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "235.lowest-common-ancestor-of-a-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8E63A67A2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236.lowest-common-ancestor-of-a-binary-tree.swift"; sourceTree = "<group>"; };
@@ -751,6 +755,8 @@
 				8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */,
 				8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */,
 				8E4F32AE26E30A89007AD3EE /* 34_413_Day20Plan.swift */,
+				8E4F32CB26E43B92007AD3EE /* 35_91_Day20Plan.swift */,
+				8E4F32CD26E44AC5007AD3EE /* 36_139_Day20Plan.swift */,
 			);
 			path = "算法基础";
 			sourceTree = "<group>";
@@ -1016,6 +1022,7 @@
 				8EE95EEA26813A4C00E0C20C /* 817.linked-list-components.swift in Sources */,
 				8EE95EC92672CE1E00E0C20C /* 234.palindrome-linked-list.swift in Sources */,
 				8E0D613126DFB99200C2A8D9 /* 27_22_Day20Plan.swift in Sources */,
+				8E4F32CE26E44AC6007AD3EE /* 36_139_Day20Plan.swift in Sources */,
 				8ED4204D26C9001700E4D9DF /* 16_617_Day20Plan.swift in Sources */,
 				8ECF982C26C09FC800941E47 /* 01_704_Day20Plan.swift in Sources */,
 				8E1C654326854A4500B561D7 /* 705.design-hashset.swift in Sources */,
@@ -1052,6 +1059,7 @@
 				8E63DB502638B59800BD8398 /* 12.ju-zhen-zhong-de-lu-jing-lcof.swift in Sources */,
 				8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */,
 				8E73CD0426AF03CE00549806 /* 341.swift in Sources */,
+				8E4F32CC26E43B92007AD3EE /* 35_91_Day20Plan.swift in Sources */,
 				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
 				8E1C658026A24CF900B561D7 /* 03.03.swift in Sources */,
 				8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */,
