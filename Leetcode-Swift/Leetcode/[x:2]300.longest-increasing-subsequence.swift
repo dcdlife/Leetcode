@@ -13,8 +13,6 @@ import Foundation
  */
 
 class Solution300 {
-    
-    
     func lengthOfLIS(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return 0
