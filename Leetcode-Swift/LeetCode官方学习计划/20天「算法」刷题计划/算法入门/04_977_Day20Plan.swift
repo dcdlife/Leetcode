@@ -13,16 +13,15 @@ import Foundation
  */
 
 class Solution_977_Day20Plan {
+    /// 双指针
     func sortedSquares(_ nums: [Int]) -> [Int] {
-        if nums.isEmpty {
-            return []
-        }
-        
         let len = nums.count
         var ans = [Int](repeating: 0, count: len)
         
         var left = 0
         var right = len - 1
+        // 由于存在负数，且负数的平方可能大于某些正数的平方。
+        // 因此从两端往中间搜索元素的平方和，并将较大的平方和插入ans未填入的元素的末尾
         var index = right
         while left <= right {
             let leftVal = nums[left] * nums[left]
