@@ -27,5 +27,5 @@ Leetcode题目Swift实现，个人做题记录~
 
 ### LeetCode官方学习计划
 
-* [20天「算法」刷题计划（进行中）](./AllMDFiles/LeetcodeStudyPlan/01.md)
+* [20天「算法」刷题计划（解题代码整理中）](./AllMDFiles/LeetcodeStudyPlan/01.md)
 
