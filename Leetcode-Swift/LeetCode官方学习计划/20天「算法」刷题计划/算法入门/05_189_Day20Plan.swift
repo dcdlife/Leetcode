@@ -11,6 +11,9 @@ import Foundation
  189. 旋转数组 (中等)
  https://leetcode-cn.com/problems/rotate-array/
  
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode-solution-nipk/
+ 
  方法：
  法一：使用额外数组（将元素重新放到新数组的 (i + k) % 数组长度）
  法二：环状替换（参考官方题解；https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode-solution-nipk/）

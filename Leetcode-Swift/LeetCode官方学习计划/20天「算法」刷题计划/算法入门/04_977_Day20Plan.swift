@@ -10,6 +10,9 @@ import Foundation
 /*
  977. 有序数组的平方 (简单)
  https://leetcode-cn.com/problems/squares-of-a-sorted-array/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/squares-of-a-sorted-array/solution/you-xu-shu-zu-de-ping-fang-by-leetcode-solution/
  */
 
 class Solution_977_Day20Plan {

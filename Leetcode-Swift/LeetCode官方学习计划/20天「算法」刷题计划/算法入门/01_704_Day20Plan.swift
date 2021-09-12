@@ -10,6 +10,9 @@ import Foundation
 /*
  704. 二分查找 (简单)
  https://leetcode-cn.com/problems/binary-search/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-leetcode-solution-f0xw/
  */
 
 class Solution_704_Day20Plan {

@@ -10,6 +10,9 @@ import Foundation
 /*
  35. 搜索插入位置 (简单)
  https://leetcode-cn.com/problems/search-insert-position/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/search-insert-position/solution/sou-suo-cha-ru-wei-zhi-by-leetcode-solution/
  */
 
 class Solution_35_Day20Plan {

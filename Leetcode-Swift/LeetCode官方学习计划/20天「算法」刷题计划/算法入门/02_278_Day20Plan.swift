@@ -10,6 +10,9 @@ import Foundation
 /*
  278. 第一个错误的版本 (简单)
  https://leetcode-cn.com/problems/first-bad-version/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/first-bad-version/solution/di-yi-ge-cuo-wu-de-ban-ben-by-leetcode-s-pf8h/
  */
 
 /**
