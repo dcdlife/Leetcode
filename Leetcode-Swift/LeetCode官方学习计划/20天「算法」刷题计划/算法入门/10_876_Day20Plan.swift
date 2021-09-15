@@ -20,12 +20,12 @@ class Solution_876_Day20Plan {
         
         var slow = head
         var fast = head
-        while slow?.next != nil && fast?.next?.next != nil {
+        while fast != nil && fast?.next != nil {
             slow = slow?.next
             fast = fast?.next?.next
         }
         
-        return fast?.next == nil ? slow : slow?.next
+        return slow
     }
     
     func test() {

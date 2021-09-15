@@ -14,28 +14,23 @@ import Foundation
 
 class Solution_19_Day20Plan {
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
-        var head = head
-        var step = n
-        var slow = head
+        // 哑节点，next指向head，可减少对head的特殊判断
+        var dummy: ListNode? = ListNode(0, head)
+        
         var fast = head
+        var slow = dummy
         
-        while step > 0 {
+        for _ in 0..<n {
             fast = fast?.next
-            step -= 1
         }
         
-        while fast?.next != nil {
+        while fast != nil {
+            fast = fast?.next
             slow = slow?.next
-            fast = fast?.next
         }
-        
-        if fast == nil {
-            head = head?.next
-        } else {
-            slow?.next = slow?.next?.next
-        }
-        
-        return head
+        slow?.next = slow?.next?.next
+        dummy = dummy?.next
+        return dummy
     }
     
     func test() {
