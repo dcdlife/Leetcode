@@ -13,7 +13,34 @@ import Foundation
  */
 
 class Solution_733_Day20Plan {
+    /// 深度优先搜索
     func floodFill(_ image: [[Int]], _ sr: Int, _ sc: Int, _ newColor: Int) -> [[Int]] {
+        let rows = image.count
+        let cols = image[0].count
+        
+        var image = image
+        let oldColor = image[sr][sc]
+        
+        func dfs(_ x: Int, _ y: Int, _ oldColor: Int, _ newColor: Int) {
+            image[x][y] = newColor
+            
+            for (row, col) in [(x, y - 1), (x, y + 1), (x - 1, y), (x + 1, y)] {
+                if row < 0 || row >= rows || col < 0 || col >= cols || image[row][col] != oldColor {
+                    continue
+                }
+                dfs(row, col, oldColor, newColor)
+            }
+        }
+        
+        if oldColor != newColor {
+            dfs(sr, sc, oldColor, newColor)
+        }
+        
+        return image
+    }
+    
+    /// 广度优先搜索
+    func floodFill_1(_ image: [[Int]], _ sr: Int, _ sc: Int, _ newColor: Int) -> [[Int]] {
         let rows = image.count
         let cols = image[0].count
         
@@ -50,6 +77,8 @@ class Solution_733_Day20Plan {
     }
     
     func test() {
-        print(floodFill([[1,1,1], [1,1,0],[1,0,1]], 1, 1, 2))
+        print(floodFill([[1,1,1],
+                         [1,1,0],
+                         [1,0,1]], 1, 1, 2))
     }
 }
