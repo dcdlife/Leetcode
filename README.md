@@ -25,7 +25,7 @@ Leetcode题目Swift实现，个人做题记录~
   * [极客时间 - 《数据结构与算法之美》](https://time.geekbang.org/column/intro/126)
   * [拉钩教育 - 《重学数据结构与算法》](https://kaiwu.lagou.com/course/courseInfo.htm?courseId=185#/content)
 
-### LeetCode官方学习计划
+### [LeetCode官方学习计划](https://leetcode-cn.com/study-plan/)
 
 * [20天「算法」刷题计划（解题代码整理中）](./AllMDFiles/LeetcodeStudyPlan/01.md)
 
