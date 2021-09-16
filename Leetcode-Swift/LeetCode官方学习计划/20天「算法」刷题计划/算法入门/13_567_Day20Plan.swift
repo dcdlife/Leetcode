@@ -13,9 +13,44 @@ import Foundation
  */
 
 class Solution_567_Day20Plan {
-    
-    /// 滑动窗口
+    /// 思路：双指针
     func checkInclusion(_ s1: String, _ s2: String) -> Bool {
+        if s1.count > s2.count {
+            return false
+        }
+        
+        let s1 = Array(s1)
+        let s2 = Array(s2)
+        let s1Count = s1.count
+        let s2Count = s2.count
+        
+        var cnt = [Int](repeating: 0, count: 26)
+        for i in s1 {
+            cnt[cToInt(i)] -= 1
+        }
+        
+        var left = 0
+        for i in 0..<s2Count {
+            let val = cToInt(s2[i])
+            cnt[val] += 1
+            while cnt[val] > 0 {
+                cnt[cToInt(s2[left])] -= 1
+                left += 1
+            }
+            if i - left + 1 == s1Count {
+                return true
+            }
+        }
+        
+        func cToInt(_ c: Character) -> Int {
+            return Int(c.unicodeScalars.first!.value) - 97
+        }
+        
+        return false
+    }
+    
+    /// 思路：利用滑动窗口，判断每次窗口中的字符是否和s1的所有字符相等
+    func checkInclusion_1(_ s1: String, _ s2: String) -> Bool {
         if s1.count > s2.count {
             return false
         }
@@ -85,14 +120,14 @@ class Solution_567_Day20Plan {
     }
     
     func test() {
-//        print(checkInclusion("ab", "eidbaooo"))
-//        print(checkInclusion("ab", "eidboaoo"))
+        print(checkInclusion("ab", "eidbaooo"))
+        print(checkInclusion("ab", "eidboaoo"))
 
         print(checkInclusion("a", "a"))
-//        print(checkInclusion("ab", "ab"))
-//        print(checkInclusion("abc", "ab"))
-//
-//        print(checkInclusion("adc", "dcda"))
-//        print(checkInclusion("abcd", "abdeeeeabcd"))
+        print(checkInclusion("ab", "ab"))
+        print(checkInclusion("abc", "ab"))
+
+        print(checkInclusion("adc", "dcda"))
+        print(checkInclusion("abcd", "abdeeeeabcd"))
     }
 }
