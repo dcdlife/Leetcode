@@ -27,8 +27,30 @@ class Solution_116_Day20Plan {
         }
     }
     
-    /// 使用已建立的next指针
+    /// 借助已建立的next指针（深度优先搜索）
     func connect(_ root: Node?) -> Node? {
+        if root == nil {
+            return nil
+        }
+        
+        func connectCore(_ root: Node?, _ rootNext: Node?) {
+            guard let root = root else {
+                return
+            }
+            
+            root.left?.next = root.right
+            root.right?.next = rootNext?.left
+            connectCore(root.left, root.left?.next)
+            connectCore(root.right, root.right?.next)
+        }
+        
+        connectCore(root, nil)
+        
+        return root
+    }
+    
+    /// 借助已建立的next指针（广度优先搜索）
+    func connect_2(_ root: Node?) -> Node? {
         if root == nil {
             return nil
         }
@@ -56,9 +78,8 @@ class Solution_116_Day20Plan {
         
         var queue = [Node]()
         queue.append(root!)
-        var levelCount = 1
         while !queue.isEmpty {
-            var count = levelCount
+            var count = queue.count
             while count > 0 {
                 let node = queue.removeFirst()
                 if let left = node.left {
@@ -72,8 +93,6 @@ class Solution_116_Day20Plan {
                 }
                 count -= 1
             }
-            
-            levelCount *= 2
         }
         
         return root
