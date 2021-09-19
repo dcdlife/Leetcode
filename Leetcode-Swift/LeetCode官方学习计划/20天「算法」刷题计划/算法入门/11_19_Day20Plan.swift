@@ -10,6 +10,9 @@ import Foundation
 /*
  19. 删除链表的倒数第 N 个结点 (中等)
  https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-b-61/
  */
 
 class Solution_19_Day20Plan {

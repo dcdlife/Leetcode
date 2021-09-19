@@ -10,6 +10,9 @@ import Foundation
 /*
  617. 合并二叉树 (简单)
  https://leetcode-cn.com/problems/merge-two-binary-trees/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/merge-two-binary-trees/solution/he-bing-er-cha-shu-by-leetcode-solution/
  */
 
 class Solution_617_Day20Plan {

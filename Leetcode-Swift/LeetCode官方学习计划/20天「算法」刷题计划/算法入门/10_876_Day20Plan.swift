@@ -10,6 +10,9 @@ import Foundation
 /*
  876. 链表的中间结点 (简单)
  https://leetcode-cn.com/problems/middle-of-the-linked-list/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/middle-of-the-linked-list/solution/lian-biao-de-zhong-jian-jie-dian-by-leetcode-solut/
  */
 
 class Solution_876_Day20Plan {

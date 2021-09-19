@@ -10,6 +10,9 @@ import Foundation
 /*
  567. 字符串的排列 (中等)
  https://leetcode-cn.com/problems/permutation-in-string/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/permutation-in-string/solution/zi-fu-chuan-de-pai-lie-by-leetcode-solut-7k7u/
  */
 
 class Solution_567_Day20Plan {

@@ -10,6 +10,9 @@ import Foundation
 /*
  695. 岛屿的最大面积 (中等)
  https://leetcode-cn.com/problems/max-area-of-island/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/max-area-of-island/solution/dao-yu-de-zui-da-mian-ji-by-leetcode-solution/
  */
 
 class Solution_695_Day20Plan {

@@ -10,6 +10,9 @@ import Foundation
 /*
  3. 无重复字符的最长子串 (中等)
  https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2/
  */
 
 class Solution_3_Day20Plan {

@@ -10,6 +10,9 @@ import Foundation
 /*
  116. 填充每个节点的下一个右侧节点指针 (中等)
  https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-2-4/
  */
 
 class Solution_116_Day20Plan {
