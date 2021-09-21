@@ -575,6 +575,7 @@
 		8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "725.split-linked-list-in-parts.swift"; sourceTree = "<group>"; };
 		8EE95EE6267FEB1900E0C20C /* 430.flatten-a-multilevel-doubly-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "430.flatten-a-multilevel-doubly-linked-list.swift"; sourceTree = "<group>"; };
 		8EE95EE926813A4C00E0C20C /* 817.linked-list-components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "817.linked-list-components.swift"; sourceTree = "<group>"; };
+		8EEA6E6226FA892300191747 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -942,6 +943,7 @@
 			isa = PBXGroup;
 			children = (
 				8ECF982A26C09F9F00941E47 /* 20天「算法」刷题计划 */,
+				8EEA6E6126FA88C400191747 /* 3周攻克「数据结构」 */,
 			);
 			path = "LeetCode官方学习计划";
 			sourceTree = "<group>";
@@ -989,6 +991,14 @@
 				8E1C6569269921BB00B561D7 /* 1472.design-browser-history.swift */,
 			);
 			path = "linked-list";
+			sourceTree = "<group>";
+		};
+		8EEA6E6126FA88C400191747 /* 3周攻克「数据结构」 */ = {
+			isa = PBXGroup;
+			children = (
+				8EEA6E6226FA892300191747 /* README.md */,
+			);
+			path = "3周攻克「数据结构」";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
