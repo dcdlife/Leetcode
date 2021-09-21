@@ -10,6 +10,9 @@ import Foundation
 /*
  21. 合并两个有序链表 (简单)
  https://leetcode-cn.com/problems/merge-two-sorted-lists/
+ 
+ 推荐题解：
+ 1. https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/he-bing-liang-ge-you-xu-lian-biao-by-leetcode-solu/
  */
 
 /**
