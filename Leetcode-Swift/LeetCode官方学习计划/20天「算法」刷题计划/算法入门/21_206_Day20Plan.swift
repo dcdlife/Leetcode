@@ -23,7 +23,19 @@ import Foundation
  * }
  */
 class Solution_206_Day20Plan {
+    /// 递归
     func reverseList(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head
+        }
+        let newHead = reverseList(head?.next)
+        head?.next?.next = head
+        head?.next = nil
+        return newHead
+    }
+    
+    /// 迭代
+    func reverseList_1(_ head: ListNode?) -> ListNode? {
         if head == nil {
             return nil
         }

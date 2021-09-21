@@ -26,26 +26,38 @@ import Foundation
  * }
  */
 class Solution_21_Day20Plan {
-    // 递归解法
+    /// 迭代
     func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        let preHead = ListNode(-1)
+        var pre: ListNode? = preHead
+        var l1 = l1, l2 = l2
+        while l1 != nil && l2 != nil {
+            if l1!.val < l2!.val {
+                pre?.next = l1
+                l1 = l1?.next
+            } else {
+                pre?.next = l2
+                l2 = l2?.next
+            }
+            pre = pre?.next
+        }
+        pre?.next = l1 != nil ? l1 : l2
+        return preHead.next
+    }
+    
+    /// 递归解法
+    func mergeTwoLists_1(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         if l1 == nil {
             return l2
-        }
-        
-        if l2 == nil {
+        } else if l2 == nil {
             return l1
-        }
-        
-        var root: ListNode? = nil
-        if l1!.val <= l2!.val {
-            root = ListNode(l1!.val)
-            root?.next = mergeTwoLists(l1?.next, l2)
+        } else if (l1!.val < l2!.val) {
+            l1?.next = mergeTwoLists(l1?.next, l2)
+            return l1
         } else {
-            root = ListNode(l2!.val)
-            root?.next = mergeTwoLists(l1, l2?.next)
+            l2?.next = mergeTwoLists(l1, l2?.next)
+            return l2
         }
-        
-        return root
     }
     
     func test() {
