@@ -8,5 +8,5 @@
 import Foundation
 
 
-let su = Solution_242_3weeksDataStructures()
+let su = Solution_203_3weeksDataStructures()
 su.test()

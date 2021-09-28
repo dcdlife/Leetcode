@@ -11,7 +11,7 @@ import Foundation
  https://leetcode-cn.com/problems/linked-list-cycle/
  */
 
-class Solution141 {
+class Solution_141 {
     // 思路：快慢指针
     func hasCycle(_ head: ListNode?) -> Bool {
         var slow = head, fast = head?.next
