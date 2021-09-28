@@ -20,7 +20,7 @@ import Foundation
  你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
  */
 
-class Solution206 {
+class Solution_206 {
     // 递归解法：
     func reverseList(_ head: ListNode?) -> ListNode? {
         if head?.next == nil {
@@ -53,7 +53,7 @@ class Solution206 {
 
         printListNode(rootNode: node1)
 
-        let su = Solution206()
+        let su = Solution_206()
         let newRootNode = su.reverseList_iteration(node1)
         print(newRootNode!.val)
         printListNode(rootNode: newRootNode)
