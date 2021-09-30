@@ -55,7 +55,7 @@ class MyQueue232 {
     }
 }
 
-class Solution232 {
+class Solution_232 {
     func test() {
         let obj = MyQueue232()
         obj.push(1)

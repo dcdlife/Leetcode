@@ -11,7 +11,7 @@ import Foundation
  https://leetcode-cn.com/problems/valid-parentheses/
  */
 
-class Solution20 {
+class Solution_20 {
     func isValid(_ s: String) -> Bool {
         var stack: [Character] = []
         let dict: [Character : Character] = ["{":"}", "(":")", "[":"]"]
