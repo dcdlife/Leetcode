@@ -303,6 +303,9 @@
 		8EEA6E8D270352D100191747 /* 18_83.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA6E8C270352D100191747 /* 18_83.swift */; };
 		8EEA6E8F2705E2E900191747 /* 19_20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA6E8E2705E2E900191747 /* 19_20.swift */; };
 		8EEA6E912705E4D000191747 /* 20_232.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA6E902705E4D000191747 /* 20_232.swift */; };
+		8EEA6EA02706903000191747 /* 21_144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA6E9F2706903000191747 /* 21_144.swift */; };
+		8EEA6EA2270691E700191747 /* 22_94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA6EA1270691E700191747 /* 22_94.swift */; };
+		8EEA6EA42706926200191747 /* 23_145.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA6EA32706926200191747 /* 23_145.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -616,6 +619,9 @@
 		8EEA6E8C270352D100191747 /* 18_83.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18_83.swift; sourceTree = "<group>"; };
 		8EEA6E8E2705E2E900191747 /* 19_20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19_20.swift; sourceTree = "<group>"; };
 		8EEA6E902705E4D000191747 /* 20_232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_232.swift; sourceTree = "<group>"; };
+		8EEA6E9F2706903000191747 /* 21_144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_144.swift; sourceTree = "<group>"; };
+		8EEA6EA1270691E700191747 /* 22_94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22_94.swift; sourceTree = "<group>"; };
+		8EEA6EA32706926200191747 /* 23_145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23_145.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1065,6 +1071,9 @@
 				8EEA6E8C270352D100191747 /* 18_83.swift */,
 				8EEA6E8E2705E2E900191747 /* 19_20.swift */,
 				8EEA6E902705E4D000191747 /* 20_232.swift */,
+				8EEA6E9F2706903000191747 /* 21_144.swift */,
+				8EEA6EA1270691E700191747 /* 22_94.swift */,
+				8EEA6EA32706926200191747 /* 23_145.swift */,
 			);
 			path = "数据结构入门";
 			sourceTree = "<group>";
@@ -1299,6 +1308,7 @@
 				8E1C6555268FE9FB00B561D7 /* 706.design-hashmap.swift in Sources */,
 				8E1C657D26A0EF6F00B561D7 /* 04.03.swift in Sources */,
 				8E1D003526449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift in Sources */,
+				8EEA6EA42706926200191747 /* 23_145.swift in Sources */,
 				8ECF899E26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift in Sources */,
 				8E995DC226D5EC500007E9D6 /* 09_986_Day20Plan.swift in Sources */,
 				8ED4204F26C9025200E4D9DF /* 17_116_Day20Plan.swift in Sources */,
@@ -1322,6 +1332,7 @@
 				8E6DC32E26D1C7F600938673 /* 01_34_Day20Plan.swift in Sources */,
 				8E1C6552268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift in Sources */,
 				8E63DAB1262A908F00BD8398 /* [x:2]51.n-queens.swift in Sources */,
+				8EEA6EA02706903000191747 /* 21_144.swift in Sources */,
 				8E1D00C62648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift in Sources */,
 				8E63DB4D26376AA200BD8398 /* 11.xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.swift in Sources */,
 				8E0D610C26DC56F000C2A8D9 /* 22_90_Day20Plan.swift in Sources */,
@@ -1347,6 +1358,7 @@
 				8EB8A57F261F558D001408FD /* 49.group-anagrams.swift in Sources */,
 				8ECF983426C2058100941E47 /* 05_189_Day20Plan.swift in Sources */,
 				8E63A69C26264E400078BA4C /* 860.lemonade-change.swift in Sources */,
+				8EEA6EA2270691E700191747 /* 22_94.swift in Sources */,
 				8E0AE962265B1322007FA553 /* 52.liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.swift in Sources */,
 				8EC5199D263E4F5900DD36D9 /* 18.shan-chu-lian-biao-de-jie-dian-lcof.swift in Sources */,
 				8E96642926EAC51200477CCB /* 46_202_Day20Plan.swift in Sources */,
