@@ -17,7 +17,7 @@ import Foundation
  1. 递归
  2. 迭代
  */
-class Solution104 {
+class Solution_104 {
     
     /// 思路：迭代
     func maxDepth(_ root: TreeNode?) -> Int {
@@ -46,9 +46,6 @@ class Solution104 {
     func maxDepth_recursive(_ root: TreeNode?) -> Int {
         if root == nil {
             return 0
-        }
-        if root?.left == nil, root?.right == nil {
-            return 1
         }
         return max(maxDepth(root?.left), maxDepth(root?.right)) + 1
     }

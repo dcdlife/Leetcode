@@ -12,32 +12,28 @@ import Foundation
  https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
  */
 
-class Solution102 {
+class Solution_102 {
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
         if root == nil {
             return []
         }
-        var queue1 = [root]
-        var queue2 = [TreeNode]()
+        
+        var queue = [root]
         var ans = [[Int]]()
-        var levelVals = [Int]()
-        while queue1.count > 0 {
-            let head = queue1.removeFirst()!
-            levelVals.append(head.val)
-            
-            if head.left != nil {
-                queue2.append(head.left!)
+        while !queue.isEmpty {
+            var vals = [Int]()
+            let len = queue.count
+            for _ in 0..<len {
+                let head = queue.removeFirst()!
+                vals.append(head.val)
+                if let left = head.left {
+                    queue.append(left)
+                }
+                if let right = head.right {
+                    queue.append(right)
+                }
             }
-            if head.right != nil {
-                queue2.append(head.right!)
-            }
-            
-            if queue1.count == 0 {
-                ans.append(levelVals)
-                levelVals = [Int]()
-                queue1 = queue2
-                queue2 = [TreeNode]()
-            }
+            ans.append(vals)
         }
         return ans
     }
