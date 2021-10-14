@@ -11,24 +11,24 @@ import Foundation
  https://leetcode-cn.com/problems/validate-binary-search-tree/
  */
 
-class Solution98 {
+class Solution_98 {
     /*
      思路2：递归
      时间复杂度：O(n）
      空间复杂度：O(n）
      */
     func isValidBST_recursive(_ root: TreeNode?) -> Bool {
-        return isValidBST_assist(root, Int.min, Int.max)
+        return isValidBST_core(root, Int.min, Int.max)
     }
     
-    func isValidBST_assist(_ root: TreeNode?, _ min: Int?, _ max: Int?) -> Bool {
+    func isValidBST_core(_ root: TreeNode?, _ min: Int?, _ max: Int?) -> Bool {
         if root == nil {
             return true
         }
         if root!.val <= min! || root!.val >= max! {
             return false
         }
-        return isValidBST_assist(root?.left, min, root!.val) && isValidBST_assist(root?.right, root!.val, max)
+        return isValidBST_core(root?.left, min, root!.val) && isValidBST_core(root?.right, root!.val, max)
     }
 
     
