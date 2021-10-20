@@ -88,6 +88,9 @@
 		8E1D0103264F3F5A0067FD06 /* 37.xu-lie-hua-er-cha-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0102264F3F5A0067FD06 /* 37.xu-lie-hua-er-cha-shu-lcof.swift */; };
 		8E1D0106264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */; };
 		8E3605F3271E21AF0005A43E /* 148.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3605F2271E21AF0005A43E /* 148.swift */; };
+		8E3605F5272051DD0005A43E /* 207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3605F4272051DD0005A43E /* 207.swift */; };
+		8E3605F9272052B80005A43E /* 01_509.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3605F8272052B80005A43E /* 01_509.swift */; };
+		8E3605FB272056B90005A43E /* 02_1137.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3605FA272056B90005A43E /* 02_1137.swift */; };
 		8E3B94BC271077BF003BCD22 /* 24_102.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B94BB271077BF003BCD22 /* 24_102.swift */; };
 		8E3B94BE2710796D003BCD22 /* 25_104.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B94BD2710796D003BCD22 /* 25_104.swift */; };
 		8E3B94C027107A17003BCD22 /* 26_101.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B94BF27107A17003BCD22 /* 26_101.swift */; };
@@ -413,6 +416,9 @@
 		8E1D0102264F3F5A0067FD06 /* 37.xu-lie-hua-er-cha-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "37.xu-lie-hua-er-cha-shu-lcof.swift"; sourceTree = "<group>"; };
 		8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "297.serialize-and-deserialize-binary-tree.swift"; sourceTree = "<group>"; };
 		8E3605F2271E21AF0005A43E /* 148.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 148.swift; sourceTree = "<group>"; };
+		8E3605F4272051DD0005A43E /* 207.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 207.swift; sourceTree = "<group>"; };
+		8E3605F8272052B80005A43E /* 01_509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01_509.swift; sourceTree = "<group>"; };
+		8E3605FA272056B90005A43E /* 02_1137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02_1137.swift; sourceTree = "<group>"; };
 		8E3B94BB271077BF003BCD22 /* 24_102.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24_102.swift; sourceTree = "<group>"; };
 		8E3B94BD2710796D003BCD22 /* 25_104.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25_104.swift; sourceTree = "<group>"; };
 		8E3B94BF27107A17003BCD22 /* 26_101.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26_101.swift; sourceTree = "<group>"; };
@@ -657,6 +663,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E3605F62720525B0005A43E /* 「动态规划」刷题指南 */ = {
+			isa = PBXGroup;
+			children = (
+				8E3605F7272052870005A43E /* 动态规划入门 */,
+			);
+			path = "「动态规划」刷题指南";
+			sourceTree = "<group>";
+		};
+		8E3605F7272052870005A43E /* 动态规划入门 */ = {
+			isa = PBXGroup;
+			children = (
+				8E3605F8272052B80005A43E /* 01_509.swift */,
+				8E3605FA272056B90005A43E /* 02_1137.swift */,
+			);
+			path = "动态规划入门";
+			sourceTree = "<group>";
+		};
 		8E63A690262503C80078BA4C /* 程序员面试金典(第6版) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1004,6 +1027,7 @@
 				8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */,
 				8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */,
 				8E3605F2271E21AF0005A43E /* 148.swift */,
+				8E3605F4272051DD0005A43E /* 207.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1013,6 +1037,7 @@
 			children = (
 				8ECF982A26C09F9F00941E47 /* 20天「算法」刷题计划 */,
 				8EEA6E6126FA88C400191747 /* 3周攻克「数据结构」 */,
+				8E3605F62720525B0005A43E /* 「动态规划」刷题指南 */,
 			);
 			path = "LeetCode官方学习计划";
 			sourceTree = "<group>";
@@ -1237,6 +1262,7 @@
 				8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */,
 				8E4F32AF26E30A89007AD3EE /* 34_413_Day20Plan.swift in Sources */,
 				8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */,
+				8E3605F9272052B80005A43E /* 01_509.swift in Sources */,
 				8E0AE984266325ED007FA553 /* 58.2.zuo-xuan-zhuan-zi-fu-chuan-lcof.swift in Sources */,
 				8EBA554926D3086600A52A2D /* 04_153_Day20Plan.swift in Sources */,
 				8E995E1A26DB14460007E9D6 /* 18_1091_Day20Plan.swift in Sources */,
@@ -1361,6 +1387,7 @@
 				8E4F32D826E580FF007AD3EE /* 38_673_Day20Plan.swift in Sources */,
 				8EAC2AD526AA29AA00F8783A /* 224.swift in Sources */,
 				8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */,
+				8E3605F5272051DD0005A43E /* 207.swift in Sources */,
 				8E3B9538271BB89C003BCD22 /* 33_235.swift in Sources */,
 				8E3B9530271798B1003BCD22 /* 29_700.swift in Sources */,
 				8E1C658326A4382700B561D7 /* 02.08.swift in Sources */,
@@ -1385,6 +1412,7 @@
 				8E0AE97826623763007FA553 /* 56.2.shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.swift in Sources */,
 				8EEA6E81270133B100191747 /* 12_383.swift in Sources */,
 				8E1C65402683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift in Sources */,
+				8E3605FB272056B90005A43E /* 02_1137.swift in Sources */,
 				8E0D612F26DFB3EB00C2A8D9 /* 26_17_Day20Plan.swift in Sources */,
 				8E6A39B326BB6255005296B6 /* 342.swift in Sources */,
 				8E995DC426D61C2C0007E9D6 /* 10_11_Day20Plan.swift in Sources */,
