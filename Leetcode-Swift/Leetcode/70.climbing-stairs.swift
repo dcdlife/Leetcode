@@ -12,7 +12,7 @@ import Foundation
  https://leetcode-cn.com/problems/climbing-stairs/
  */
 
-class Solution70 {
+class Solution_70 {
     func climbStairs(_ n: Int) -> Int {
         if n <= 2 {
             return n
