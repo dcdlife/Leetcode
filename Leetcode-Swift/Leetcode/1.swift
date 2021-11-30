@@ -44,25 +44,28 @@ import Foundation
  思路：利用一个哈希表（里面存放为 key：元素，value：元素索引），依次遍历数组元素，以目标值减去当前元素的值为key，
  在哈希表中查找，如果找到，返回[当前遍历元素的索引, 哈希表中目标值减去当前元素的值为key所对应的value]
  
- 时间复杂度：O(n)。花费在依次遍历nums数组时
- 空间复杂度：O(n)。创建的哈希表
+ 时间复杂度：O(n)
+ 空间复杂度：O(n)
  */
-class Solution1 {
+class Solution_1 {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var dict: Dictionary<Int, Int> = [:]
-        let count = nums.count
-        for index1 in 0..<count {
-            if let index2 = dict[target - nums[index1]] {
-                return [index1, index2]
+        // 如果nums的个数小于2，直接返回
+        if nums.count < 2 {
+            return []
+        }
+        // 初始化字典，用来记录已经遍历过的值，以及其索引
+        var dict = [Int:Int]()
+        for (index, i) in nums.enumerated() {
+            if let idx = dict[target - i] {
+                return [index, idx]
             }
-            dict[nums[index1]] = index1
+            dict[i] = index
         }
         return []
     }
     
     func test() {
-        let su = Solution1()
-        print(su.twoSum([2,7,11,15], 9))
+        print(twoSum([2,7,11,15], 9))
     }
 }
 

@@ -217,7 +217,7 @@
 		8EAC2AD726AB8B7300F8783A /* 227.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2AD626AB8B7300F8783A /* 227.swift */; };
 		8EAC2AD926ACEDC400F8783A /* 316.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2AD826ACEDC400F8783A /* 316.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
-		8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.tow-sum.swift */; };
+		8EB8A542261783B7001408FD /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.swift */; };
 		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
 		8EB8A54826178470001408FD /* commonStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54726178470001408FD /* commonStructure.swift */; };
 		8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54A2617849E001408FD /* commonMethods.swift */; };
@@ -548,7 +548,7 @@
 		8EAC2AD826ACEDC400F8783A /* 316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 316.swift; sourceTree = "<group>"; };
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8EB8A541261783B7001408FD /* 1.tow-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.tow-sum.swift"; sourceTree = "<group>"; };
+		8EB8A541261783B7001408FD /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 		8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.reverse-linked-list.swift"; sourceTree = "<group>"; };
 		8EB8A54726178470001408FD /* commonStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonStructure.swift; sourceTree = "<group>"; };
 		8EB8A54A2617849E001408FD /* commonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonMethods.swift; sourceTree = "<group>"; };
@@ -979,7 +979,7 @@
 				8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */,
 				8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */,
 				8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */,
-				8EB8A541261783B7001408FD /* 1.tow-sum.swift */,
+				8EB8A541261783B7001408FD /* 1.swift */,
 				8EB8A578261E00F5001408FD /* 15.3sum.swift */,
 				8EB8A57B261F4E6F001408FD /* 18.4sum.swift */,
 				8EB8A56826199380001408FD /* 20.valid-parentheses.swift */,
@@ -1361,7 +1361,7 @@
 				8ECF89982655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift in Sources */,
 				8EB8A54826178470001408FD /* commonStructure.swift in Sources */,
 				8E63A67B2621926A0078BA4C /* 236.lowest-common-ancestor-of-a-binary-tree.swift in Sources */,
-				8EB8A542261783B7001408FD /* 1.tow-sum.swift in Sources */,
+				8EB8A542261783B7001408FD /* 1.swift in Sources */,
 				8EAC2AD326A8D3E800F8783A /* 173.swift in Sources */,
 				8EBA554D26D452F500A52A2D /* 06_82_Day20Plan.swift in Sources */,
 				8ECF984026C5D5A800941E47 /* 11_19_Day20Plan.swift in Sources */,
