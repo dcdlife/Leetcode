@@ -13,7 +13,35 @@ import Foundation
  */
 
 class Solution_Offer_61 {
+    /// 优化版本
     func isStraight(_ nums: [Int]) -> Bool {
+        if nums.isEmpty {
+            return false
+        }
+        
+        var dup = [Bool](repeating: false, count: 14)
+        
+        // 寻找最大值、最小值、以及0的个数
+        var maxVal = -1
+        var minVal = 14
+        for i in nums {
+            if i != 0 {
+                // 去重判断
+                if dup[i] {
+                    return false
+                }
+                dup[i] = true
+                
+                maxVal = maxVal > i ? maxVal : i
+                minVal = minVal < i ? minVal : i
+            }
+        }
+        
+        return (maxVal - minVal) < 5
+    }
+    
+    /// 旧版本
+    func isStraight_old(_ nums: [Int]) -> Bool {
         if nums.count == 0 {
             return true
         }
