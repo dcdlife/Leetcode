@@ -970,6 +970,8 @@
 				8E995E1D26DB3C090007E9D6 /* Extension */,
 				8ECF982926C09F7C00941E47 /* LeetCode官方学习计划 */,
 				8E6DC32C26D1C32D00938673 /* Common */,
+				8E63DB302634CA2600BD8398 /* 剑指Offer */,
+				8E63A690262503C80078BA4C /* 程序员面试金典(第6版) */,
 				8EB8A55F2619554A001408FD /* Leetcode */,
 				8EB8A5392617838E001408FD /* main.swift */,
 			);
@@ -982,8 +984,6 @@
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8E73CD0226AF03C400549806 /* Queue */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
-				8E63A690262503C80078BA4C /* 程序员面试金典(第6版) */,
-				8E63DB302634CA2600BD8398 /* 剑指Offer */,
 				8EE95EC126716E4900E0C20C /* linked-list */,
 				8E63DAB0262A908F00BD8398 /* [x:2]51.n-queens.swift */,
 				8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */,
