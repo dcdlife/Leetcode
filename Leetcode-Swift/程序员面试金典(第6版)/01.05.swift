@@ -55,4 +55,8 @@ class Solution_jindian_0105 {
 
         return true
     }
+    
+    func test() {
+        print("test")
+    }
 }
