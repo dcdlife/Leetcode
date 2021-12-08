@@ -14,38 +14,42 @@ import Foundation
 
 class Solution_Offer_25 {
     func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-        if l1 == nil || l2 == nil {
-            return l1 == nil ? l2 : l1
+        // 参数校验
+        if l1 == nil {
+            return l2
         }
-        var head1 = l1
-        var head2 = l2
-        var ansHead: ListNode? = nil
-        if head1!.val <= head2!.val {
-            ansHead = head1
-            head1 = head1?.next
-        } else {
-            ansHead = head2
-            head2 = head2?.next
-        }
-        var tailNode = ansHead
-        while head1 != nil && head2 != nil {
-            if head1!.val <= head2!.val {
-                tailNode?.next = head1
-                head1 = head1?.next
-            } else {
-                tailNode?.next = head2
-                head2 = head2?.next
-            }
-            tailNode = tailNode?.next
-        }
-        if head1 != nil {
-            tailNode?.next = head1
-        }
-        if head2 != nil {
-            tailNode?.next = head2
+        if l2 == nil {
+            return l1
         }
         
-        return ansHead
+        // 创建哨兵节点
+        let guardNode = ListNode(0)
+        // 尾节点
+        var tail: ListNode? = guardNode
+        var l1 = l1
+        var l2 = l2
+        // 依次往尾节点插入较小的元素
+        while l1 != nil, l2 != nil {
+            if l1!.val <= l2!.val {
+                tail?.next = l1
+                tail = tail?.next
+                l1 = l1?.next
+            } else {
+                tail?.next = l2
+                tail = tail?.next
+                l2 = l2?.next
+            }
+        }
+        
+        // 连接剩余的节点
+        if l1 != nil {
+            tail?.next = l1
+        }
+        if l2 != nil {
+            tail?.next = l2
+        }
+        
+        return guardNode.next
     }
     
     /*

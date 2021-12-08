@@ -71,7 +71,7 @@
 		8E1D00382644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */; };
 		8E1D003B2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */; };
 		8E1D00462645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00452645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift */; };
-		8E1D00492645F9560067FD06 /* 25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00482645F9560067FD06 /* 25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof.swift */; };
+		8E1D00492645F9560067FD06 /* 25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00482645F9560067FD06 /* 25.swift */; };
 		8E1D004C2645FDD30067FD06 /* 26.problems:shu-de-zi-jie-gou-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D004B2645FDD30067FD06 /* 26.problems:shu-de-zi-jie-gou-lcof.swift */; };
 		8E1D007F26476B5B0067FD06 /* 27.er-cha-shu-de-jing-xiang-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D007E26476B5B0067FD06 /* 27.er-cha-shu-de-jing-xiang-lcof.swift */; };
 		8E1D0082264774BD0067FD06 /* 28.dui-cheng-de-er-cha-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0081264774BD0067FD06 /* 28.dui-cheng-de-er-cha-shu-lcof.swift */; };
@@ -418,7 +418,7 @@
 		8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift"; sourceTree = "<group>"; };
 		8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00452645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24.fan-zhuan-lian-biao-lcof.swift"; sourceTree = "<group>"; };
-		8E1D00482645F9560067FD06 /* 25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof.swift"; sourceTree = "<group>"; };
+		8E1D00482645F9560067FD06 /* 25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.swift; sourceTree = "<group>"; };
 		8E1D004B2645FDD30067FD06 /* 26.problems:shu-de-zi-jie-gou-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26.problems:shu-de-zi-jie-gou-lcof.swift"; sourceTree = "<group>"; };
 		8E1D007E26476B5B0067FD06 /* 27.er-cha-shu-de-jing-xiang-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27.er-cha-shu-de-jing-xiang-lcof.swift"; sourceTree = "<group>"; };
 		8E1D0081264774BD0067FD06 /* 28.dui-cheng-de-er-cha-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.dui-cheng-de-er-cha-shu-lcof.swift"; sourceTree = "<group>"; };
@@ -767,7 +767,7 @@
 				8E1D00372644A9690067FD06 /* 21.diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.swift */,
 				8E1D003A2644AF990067FD06 /* 22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift */,
 				8E1D00452645F2EE0067FD06 /* 24.fan-zhuan-lian-biao-lcof.swift */,
-				8E1D00482645F9560067FD06 /* 25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof.swift */,
+				8E1D00482645F9560067FD06 /* 25.swift */,
 				8E1D004B2645FDD30067FD06 /* 26.problems:shu-de-zi-jie-gou-lcof.swift */,
 				8E1D007E26476B5B0067FD06 /* 27.er-cha-shu-de-jing-xiang-lcof.swift */,
 				8E1D0081264774BD0067FD06 /* 28.dui-cheng-de-er-cha-shu-lcof.swift */,
@@ -1557,7 +1557,7 @@
 				8EE95ECC26741E6800E0C20C /* 86.partition-list.swift in Sources */,
 				8E63DAE0262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift in Sources */,
 				8E6A39B726BE1667005296B6 /* 486.swift in Sources */,
-				8E1D00492645F9560067FD06 /* 25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof.swift in Sources */,
+				8E1D00492645F9560067FD06 /* 25.swift in Sources */,
 				8E1C657A269F942D00B561D7 /* 16.25.swift in Sources */,
 				8E1D0082264774BD0067FD06 /* 28.dui-cheng-de-er-cha-shu-lcof.swift in Sources */,
 				8E0D612D26DE5FC800C2A8D9 /* 25_40_Day20Plan.swift in Sources */,
