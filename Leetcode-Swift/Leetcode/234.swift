@@ -21,9 +21,10 @@ class Solution_234 {
     
     func isPalindrome(_ head: ListNode?) -> Bool {
         if head == nil {
-            return false
+            return true
         }
         
+        // 计算节点的个数
         var count = 0
         var node = head
         while node != nil {
@@ -31,26 +32,41 @@ class Solution_234 {
             node = node?.next
         }
         
-        let mid = count / 2
-        var pre: ListNode? = nil
-        var cur = head
-        for _ in 0..<mid {
-            let next = cur!.next
-            cur?.next = pre
-            pre = cur
-            cur = next
+        // 寻找第二部分的起始节点并翻转
+        let startIndex = count / 2 + (count & 1)
+        var beginNode = head
+        for _ in 0..<startIndex {
+            beginNode = beginNode?.next
         }
         
-        cur = count & 1 == 0 ? cur : cur!.next
-        for _ in 0..<mid {
-            if pre?.val != cur?.val {
+        // 依次判断是否相等
+        var l1 = head
+        var l2 = reverseList(beginNode)
+        while l1 != nil && l2 != nil {
+            if l1!.val != l2!.val {
                 return false
             }
-            pre = pre?.next
-            cur = cur?.next
+            l1 = l1?.next
+            l2 = l2?.next
         }
         
         return true
+    }
+
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        if head == nil {
+            return nil
+        }
+        
+        var pre: ListNode?
+        var cur = head
+        while cur != nil {
+            let tmp = cur?.next
+            cur?.next = pre
+            pre = cur
+            cur = tmp
+        }
+        return pre
     }
     
     func isPalindrome_1(_ head: ListNode?) -> Bool {
