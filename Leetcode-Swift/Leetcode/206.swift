@@ -7,17 +7,9 @@
 
 import Foundation
 
-//: 206. 反转链表（简单）
-//: https://leetcode-cn.com/problems/reverse-linked-list/
 /*
- 反转一个单链表。
-
- 示例:
-
- 输入: 1->2->3->4->5->NULL
- 输出: 5->4->3->2->1->NULL
- 进阶:
- 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
+ 206. 反转链表（简单）
+ https://leetcode-cn.com/problems/reverse-linked-list/
  */
 
 class Solution_206 {
@@ -34,13 +26,19 @@ class Solution_206 {
     
     // 迭代解法
     func reverseList_iteration(_ head: ListNode?) -> ListNode? {
-        var pre: ListNode? = nil, cur = head
+        if head == nil {
+            return nil
+        }
+        
+        var pre: ListNode?
+        var cur = head
         while cur != nil {
-            let next = cur?.next
+            let tmp = cur?.next
             cur?.next = pre
             pre = cur
-            cur = next
+            cur = tmp
         }
+        
         return pre
     }
     

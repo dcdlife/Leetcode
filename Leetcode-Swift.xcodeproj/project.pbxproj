@@ -236,7 +236,7 @@
 		8EAC2AD926ACEDC400F8783A /* 316.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC2AD826ACEDC400F8783A /* 316.swift */; };
 		8EB8A53A2617838E001408FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A5392617838E001408FD /* main.swift */; };
 		8EB8A542261783B7001408FD /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A541261783B7001408FD /* 1.swift */; };
-		8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */; };
+		8EB8A54526178459001408FD /* 206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54426178459001408FD /* 206.swift */; };
 		8EB8A54826178470001408FD /* commonStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54726178470001408FD /* commonStructure.swift */; };
 		8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54A2617849E001408FD /* commonMethods.swift */; };
 		8EB8A54F261801AE001408FD /* 141.linked-list-cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A54E261801AE001408FD /* 141.linked-list-cycle.swift */; };
@@ -585,7 +585,7 @@
 		8EB8A5362617838E001408FD /* Leetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8A5392617838E001408FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EB8A541261783B7001408FD /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
-		8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.reverse-linked-list.swift"; sourceTree = "<group>"; };
+		8EB8A54426178459001408FD /* 206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 206.swift; sourceTree = "<group>"; };
 		8EB8A54726178470001408FD /* commonStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonStructure.swift; sourceTree = "<group>"; };
 		8EB8A54A2617849E001408FD /* commonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonMethods.swift; sourceTree = "<group>"; };
 		8EB8A54E261801AE001408FD /* 141.linked-list-cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.linked-list-cycle.swift"; sourceTree = "<group>"; };
@@ -1053,7 +1053,7 @@
 				8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */,
 				8E63DACA262C7CFE00BD8398 /* 191.number-of-1-bits.swift */,
 				8E63DAF62631B94100BD8398 /* 200.number-of-islands.swift */,
-				8EB8A54426178459001408FD /* 206.reverse-linked-list.swift */,
+				8EB8A54426178459001408FD /* 206.swift */,
 				8E3605F4272051DD0005A43E /* 207.swift */,
 				8E63DAC4262B940200BD8398 /* 208.implement-trie-prefix-tree.swift */,
 				8E63DAC7262BB17700BD8398 /* 212.word-search-ii.swift */,
@@ -1302,7 +1302,7 @@
 				8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */,
 				8E73CD0426AF03CE00549806 /* 341.swift in Sources */,
 				8E4F32CC26E43B92007AD3EE /* 35_91_Day20Plan.swift in Sources */,
-				8EB8A54526178459001408FD /* 206.reverse-linked-list.swift in Sources */,
+				8EB8A54526178459001408FD /* 206.swift in Sources */,
 				8E1C658026A24CF900B561D7 /* 03.03.swift in Sources */,
 				8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */,
 				8ECF89EF26588AEA000652B7 /* 47.li-wu-de-zui-da-jie-zhi-lcof.swift in Sources */,
