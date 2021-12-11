@@ -14,6 +14,70 @@ import Foundation
 
 class Solution25 {
     
+    func reverseKGroup_2021_1211(_ head: ListNode?, _ k: Int) -> ListNode? {
+        if head == nil {
+            return nil
+        }
+        
+        // 定义虚拟头节点
+        let virtualHead: ListNode? = ListNode(0)
+        // 定义尾节点，每次往尾节点进行拼接
+        var tail = virtualHead
+        
+        // p代表单个group的头节点；q代表单个group的尾节点
+        var p = head, q = head
+        var val = 1
+        while q != nil {
+            if val == k {
+                // 保存q?.next（下一个group的头节点）
+                let tmp = q?.next
+                // 截断当前的group
+                q?.next = nil
+                // 翻转当前的group
+                let (p1, q1) = reverse_2021_1211(p)
+                // 拼接
+                tail?.next = p1
+                tail = q1
+                // 重新寻找下一个group
+                p = tmp
+                q = tmp
+                val = 1
+            } else {
+                q = q?.next
+                val += 1
+            }
+        }
+        
+        // 如果有未翻转的（即不足k个的情况，保持原有顺序，拼接到尾节点）
+        if p != nil {
+            tail?.next = p
+        }
+        
+        return virtualHead?.next
+    }
+
+    /// 翻转链表(头插法)
+    /// - Parameter head: 链表的头指针
+    /// - Returns: 元组（头节点，尾节点）
+    func reverse_2021_1211(_ head: ListNode?) -> (ListNode?, ListNode?) {
+        if head == nil {
+            return (nil, nil)
+        }
+        
+        var virtualHead: ListNode? = nil
+        
+        var cur = head
+        while cur != nil {
+            let tmp = cur?.next
+            cur?.next = virtualHead
+            virtualHead = cur
+            cur = tmp
+        }
+        
+        return (virtualHead, head)
+    }
+    
+    // MARK: - 以下为旧实现
     func reverse(_ head: ListNode?, tail: ListNode?) -> (head: ListNode?, tail: ListNode?) {
         var pre = tail?.next, cur = head
         while pre !== tail {
