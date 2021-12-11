@@ -14,6 +14,33 @@ import Foundation
 
 class Solution_Offer_22 {
     func getKthFromEnd(_ head: ListNode?, _ k: Int) -> ListNode? {
+        // 参数校验
+        if head == nil {
+            return nil
+        }
+        
+        // 定义fast快指针，先走k步
+        var fast = head
+        var val = k
+        while val > 0 {
+            if fast == nil {
+                return nil
+            }
+            fast = fast?.next
+            val -= 1
+        }
+        
+        // 定义slow慢指针（然后快慢指针一起走，直到快指针为空，慢指针即为倒数第k个节点）
+        var slow = head
+        while fast != nil {
+            slow = slow?.next
+            fast = fast?.next
+        }
+        
+        return slow
+    }
+    
+    func getKthFromEnd_old(_ head: ListNode?, _ k: Int) -> ListNode? {
         if head == nil || k <= 0 {
             return nil
         }
