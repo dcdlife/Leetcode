@@ -14,6 +14,39 @@ import Foundation
 
 class Solution_328 {
     func oddEvenList(_ head: ListNode?) -> ListNode? {
+        if head == nil {
+            return nil
+        }
+        
+        let oddHeadNode: ListNode? = ListNode(0)
+        var oddTailNode = oddHeadNode
+        let evenHeadNode: ListNode? = ListNode(0)
+        var evenTailNode = evenHeadNode
+        
+        var cur = head
+        var val = 1
+        while cur != nil {
+            let tmp = cur?.next
+            cur?.next = nil
+            
+            if val % 2 == 0 {
+                evenTailNode?.next = cur
+                evenTailNode = cur
+            } else {
+                oddTailNode?.next = cur
+                oddTailNode = cur
+            }
+
+            cur = tmp
+            val += 1
+        }
+        
+        oddTailNode?.next = evenHeadNode?.next
+        
+        return oddHeadNode?.next
+    }
+    
+    func oddEvenList_old(_ head: ListNode?) -> ListNode? {
         if head == nil || head?.next == nil {
             return head
         }

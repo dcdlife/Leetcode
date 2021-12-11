@@ -311,7 +311,7 @@
 		8EE95ED22676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */; };
 		8EE95ED52678DC5A00E0C20C /* 143.reorder-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */; };
 		8EE95ED82679547600E0C20C /* 147.insertion-sort-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */; };
-		8EE95EDB267AA24E00E0C20C /* 328.odd-even-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EDA267AA24E00E0C20C /* 328.odd-even-linked-list.swift */; };
+		8EE95EDB267AA24E00E0C20C /* 328.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EDA267AA24E00E0C20C /* 328.swift */; };
 		8EE95EDE267CE0B400E0C20C /* 445.add-two-numbers-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EDD267CE0B400E0C20C /* 445.add-two-numbers-ii.swift */; };
 		8EE95EE1267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */; };
 		8EE95EE4267EA02400E0C20C /* 725.split-linked-list-in-parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */; };
@@ -660,7 +660,7 @@
 		8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "109.convert-sorted-list-to-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "143.reorder-list.swift"; sourceTree = "<group>"; };
 		8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "147.insertion-sort-list.swift"; sourceTree = "<group>"; };
-		8EE95EDA267AA24E00E0C20C /* 328.odd-even-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "328.odd-even-linked-list.swift"; sourceTree = "<group>"; };
+		8EE95EDA267AA24E00E0C20C /* 328.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 328.swift; sourceTree = "<group>"; };
 		8EE95EDD267CE0B400E0C20C /* 445.add-two-numbers-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "445.add-two-numbers-ii.swift"; sourceTree = "<group>"; };
 		8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1721.swapping-nodes-in-a-linked-list.swift"; sourceTree = "<group>"; };
 		8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "725.split-linked-list-in-parts.swift"; sourceTree = "<group>"; };
@@ -1073,6 +1073,7 @@
 				8E1D0105264F72980067FD06 /* 297.serialize-and-deserialize-binary-tree.swift */,
 				8E63DAE3262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift */,
 				8E63DAF026306A1300BD8398 /* 322.coin-change.swift */,
+				8EE95EDA267AA24E00E0C20C /* 328.swift */,
 				8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */,
 				8E63DAC1262B155600BD8398 /* 367.valid-perfect-square.swift */,
 				8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */,
@@ -1122,7 +1123,6 @@
 				8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */,
 				8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */,
 				8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */,
-				8EE95EDA267AA24E00E0C20C /* 328.odd-even-linked-list.swift */,
 				8EE95EDD267CE0B400E0C20C /* 445.add-two-numbers-ii.swift */,
 				8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */,
 				8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */,
@@ -1254,7 +1254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ECF984426C7B30200941E47 /* 13_567_Day20Plan.swift in Sources */,
-				8EE95EDB267AA24E00E0C20C /* 328.odd-even-linked-list.swift in Sources */,
+				8EE95EDB267AA24E00E0C20C /* 328.swift in Sources */,
 				8E1C6571269BADD800B561D7 /* 02.03.delete-middle-node-lcci.swift in Sources */,
 				8E63DAAB2628F21800BD8398 /* 22.generate-parentheses.swift in Sources */,
 				8EE95EEA26813A4C00E0C20C /* 817.linked-list-components.swift in Sources */,
