@@ -124,6 +124,7 @@
 		8E4EFD87275FA20A00160AC9 /* 83.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFD86275FA20A00160AC9 /* 83.swift */; };
 		8E4EFD892760F49800160AC9 /* 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFD882760F49800160AC9 /* 2.swift */; };
 		8E4EFD8B27649BE400160AC9 /* 19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFD8A27649BE400160AC9 /* 19.swift */; };
+		8E4EFD8D2764D51900160AC9 /* 160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFD8C2764D51900160AC9 /* 160.swift */; };
 		8E4F32A926E18615007AD3EE /* 31_45_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32A826E18615007AD3EE /* 31_45_Day20Plan.swift */; };
 		8E4F32AB26E18B9B007AD3EE /* 32_62_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */; };
 		8E4F32AD26E2ED1F007AD3EE /* 33_05_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */; };
@@ -473,6 +474,7 @@
 		8E4EFD86275FA20A00160AC9 /* 83.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 83.swift; sourceTree = "<group>"; };
 		8E4EFD882760F49800160AC9 /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
 		8E4EFD8A27649BE400160AC9 /* 19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19.swift; sourceTree = "<group>"; };
+		8E4EFD8C2764D51900160AC9 /* 160.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 160.swift; sourceTree = "<group>"; };
 		8E4F32A826E18615007AD3EE /* 31_45_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31_45_Day20Plan.swift; sourceTree = "<group>"; };
 		8E4F32AA26E18B9B007AD3EE /* 32_62_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 32_62_Day20Plan.swift; sourceTree = "<group>"; };
 		8E4F32AC26E2ED1F007AD3EE /* 33_05_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 33_05_Day20Plan.swift; sourceTree = "<group>"; };
@@ -1093,6 +1095,7 @@
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
 				8E4EFD8A27649BE400160AC9 /* 19.swift */,
+				8E4EFD8C2764D51900160AC9 /* 160.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1496,6 +1499,7 @@
 				8E1D00C926489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift in Sources */,
 				8E0AE98D26653E28007FA553 /* [x]60.nge-tou-zi-de-dian-shu-lcof.swift in Sources */,
 				8E1C655B26926C6800B561D7 /* 622.design-circular-queue.swift in Sources */,
+				8E4EFD8D2764D51900160AC9 /* 160.swift in Sources */,
 				8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */,
 				8E63A69F262653140078BA4C /* 455.assign-cookies.swift in Sources */,
 				8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */,
