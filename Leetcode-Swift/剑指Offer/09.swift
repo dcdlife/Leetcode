@@ -27,9 +27,9 @@ class Solution_Offer_09 {
         }
         
         func deleteHead() -> Int {
-            if outputStack.count == 0 {
-                while inputStack.count > 0 {
-                    outputStack.append(inputStack.popLast() ?? -1)
+            if outputStack.isEmpty {
+                while !inputStack.isEmpty {
+                    outputStack.append(inputStack.popLast()!)
                 }
             }
             return outputStack.popLast() ?? -1
