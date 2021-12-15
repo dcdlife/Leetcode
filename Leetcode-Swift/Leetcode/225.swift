@@ -10,42 +10,39 @@ import Foundation
  225. 用队列实现栈 (简单)
  https://leetcode-cn.com/problems/implement-stack-using-queues/
  */
-class MyStack {
-    var queue1: [Int] = []
-    var queue2: [Int] = []
-    
-    /** Initialize your data structure here. */
-    init() {
 
-    }
+class MyStack {
+
+    var queue1 = [Int]()
+    var queue2 = [Int]()
     
-    /** Push element x onto stack. */
+    init() {}
+    
     func push(_ x: Int) {
         self.queue1.append(x)
     }
     
-    /** Removes the element on top of the stack and returns that element. */
     func pop() -> Int {
         while self.queue1.count > 1 {
             self.queue2.append(self.queue1.removeFirst())
         }
-        let topValue = self.queue1.first
-        self.queue1.removeFirst()
-        swap(&self.queue1, &self.queue2)
-        return topValue ?? 0
+        if !self.queue1.isEmpty {
+            let value = self.queue1.removeFirst()
+            swap(&self.queue1, &self.queue2)
+            return value
+        }
+        return -1
     }
     
-    /** Get the top element. */
     func top() -> Int {
         while self.queue1.count > 1 {
             self.queue2.append(self.queue1.removeFirst())
         }
-        return self.queue1.first ?? 0
+        return self.queue1.first ?? -1
     }
     
-    /** Returns whether the stack is empty. */
     func empty() -> Bool {
-        return self.queue1.count == 0 && self.queue2.count == 0
+        return self.queue1.isEmpty && self.queue2.isEmpty
     }
 }
 
