@@ -14,35 +14,39 @@ import Foundation
 
 class Solution_Offer_31 {
     func validateStackSequences(_ pushed: [Int], _ popped: [Int]) -> Bool {
-        if pushed.count == 0 && popped.count == 0 {
+        // 参数校验
+        if pushed.isEmpty || popped.isEmpty {
             return true
         }
-        var valid = false
-        if pushed.count != 0 && pushed.count == popped.count {
-            var pushIndex = 0
-            let pushEnd = pushed.count - 1
-            var popIndex = 0
-            let popEnd = popped.count - 1
-            var stack = [Int]()
-            while popIndex <= popEnd {
-                while stack.isEmpty || stack.last! != popped[popIndex] {
-                    if pushIndex > pushEnd {
+        if pushed.count != popped.count {
+            return false
+        }
+        
+        var poppedQueue = popped
+        
+        var stack = [Int]()
+        for i in pushed {
+            if i == poppedQueue.first! {
+                poppedQueue.removeFirst()
+            } else {
+                while !stack.isEmpty && !poppedQueue.isEmpty {
+                    if stack.last! != poppedQueue.first! {
                         break
                     }
-                    stack.append(pushed[pushIndex])
-                    pushIndex += 1
+                    stack.removeLast()
+                    poppedQueue.removeFirst()
                 }
-                if stack.last! != popped[popIndex] {
-                    break
-                }
-                stack.removeLast()
-                popIndex += 1
-            }
-            if stack.isEmpty && popIndex == popEnd + 1 {
-                valid = true
+                stack.append(i)
             }
         }
-        return valid
+        
+        while !stack.isEmpty && !poppedQueue.isEmpty {
+            if stack.removeLast() != poppedQueue.removeFirst() {
+                return false
+            }
+        }
+        
+        return stack.isEmpty && poppedQueue.isEmpty
     }
     
     /*
