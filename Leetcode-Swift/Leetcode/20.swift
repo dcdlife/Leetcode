@@ -13,6 +13,37 @@ import Foundation
 
 class Solution_20 {
     func isValid(_ s: String) -> Bool {
+        if s.isEmpty {
+            return true
+        }
+        let dict: [Character: Character] = [
+            "(": ")",
+            "[": "]",
+            "{": "}"
+            ]
+        var stack = [Character]()
+        for ch in s {
+            if let _ = dict[ch] {
+                // 如果是左括号入栈
+                stack.append(ch)
+            } else {
+                // 如果是右括号，应该与栈顶的左括号进行匹配
+                // 栈顶为空，直接返回false
+                if stack.isEmpty {
+                    return false
+                }
+                // 取出栈顶元素，判断是否和栈顶的左括号匹配
+                let top = stack.removeLast()
+                if let val = dict[top], val != ch {
+                    return false
+                }
+            }
+        }
+
+        return stack.isEmpty
+    }
+    
+    func isValid_old(_ s: String) -> Bool {
         var stack: [Character] = []
         let dict: [Character : Character] = ["{":"}", "(":")", "[":"]"]
         for char in s {

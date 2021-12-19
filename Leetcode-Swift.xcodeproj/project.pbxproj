@@ -249,7 +249,7 @@
 		8EB8A55D261938F7001408FD /* 25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A55C261938F7001408FD /* 25.swift */; };
 		8EB8A56126195C0B001408FD /* 232.implement-queue-using-stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */; };
 		8EB8A56526198CD3001408FD /* 225.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56426198CD3001408FD /* 225.swift */; };
-		8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56826199380001408FD /* 20.valid-parentheses.swift */; };
+		8EB8A56926199380001408FD /* 20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56826199380001408FD /* 20.swift */; };
 		8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */; };
 		8EB8A571261BE648001408FD /* [x]239.sliding-window-maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */; };
 		8EB8A576261DF8E2001408FD /* 242.valid-anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */; };
@@ -308,6 +308,7 @@
 		8ED4206726CF107700E4D9DF /* 29_191_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206626CF107700E4D9DF /* 29_191_Day20Plan.swift */; };
 		8ED4206926D023F800E4D9DF /* 30_190_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206826D023F800E4D9DF /* 30_190_Day20Plan.swift */; };
 		8ED4206B26D02E0600E4D9DF /* 31_136_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4206A26D02E0600E4D9DF /* 31_136_Day20Plan.swift */; };
+		8EE68BA0276ED79500550C7A /* 16.26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE68B9F276ED79500550C7A /* 16.26.swift */; };
 		8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */; };
 		8EE95EC62672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */; };
 		8EE95EC92672CE1E00E0C20C /* 234.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EC82672CE1E00E0C20C /* 234.swift */; };
@@ -603,7 +604,7 @@
 		8EB8A55C261938F7001408FD /* 25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.swift; sourceTree = "<group>"; };
 		8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.implement-queue-using-stacks.swift"; sourceTree = "<group>"; };
 		8EB8A56426198CD3001408FD /* 225.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 225.swift; sourceTree = "<group>"; };
-		8EB8A56826199380001408FD /* 20.valid-parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.valid-parentheses.swift"; sourceTree = "<group>"; };
+		8EB8A56826199380001408FD /* 20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.swift; sourceTree = "<group>"; };
 		8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703.kth-largest-element-in-a-stream.swift"; sourceTree = "<group>"; };
 		8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[x]239.sliding-window-maximum.swift"; sourceTree = "<group>"; };
 		8EB8A575261DF8E2001408FD /* 242.valid-anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242.valid-anagram.swift"; sourceTree = "<group>"; };
@@ -662,6 +663,7 @@
 		8ED4206626CF107700E4D9DF /* 29_191_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 29_191_Day20Plan.swift; sourceTree = "<group>"; };
 		8ED4206826D023F800E4D9DF /* 30_190_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 30_190_Day20Plan.swift; sourceTree = "<group>"; };
 		8ED4206A26D02E0600E4D9DF /* 31_136_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31_136_Day20Plan.swift; sourceTree = "<group>"; };
+		8EE68B9F276ED79500550C7A /* 16.26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16.26.swift; sourceTree = "<group>"; };
 		8EE95EC226716E8100E0C20C /* 61.rotate-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61.rotate-list.swift"; sourceTree = "<group>"; };
 		8EE95EC52672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82.remove-duplicates-from-sorted-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95EC82672CE1E00E0C20C /* 234.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 234.swift; sourceTree = "<group>"; };
@@ -752,6 +754,7 @@
 				8E1C6573269CF04500B561D7 /* 17.12.swift */,
 				8ECB991C276A297A00085C1A /* 0305.swift */,
 				8E5AECDF276A34480056BEEC /* 03.01.swift */,
+				8EE68B9F276ED79500550C7A /* 16.26.swift */,
 			);
 			path = "程序员面试金典(第6版)";
 			sourceTree = "<group>";
@@ -1033,7 +1036,7 @@
 				8E4EFD572757B9F000160AC9 /* 9.swift */,
 				8EB8A578261E00F5001408FD /* 15.3sum.swift */,
 				8EB8A57B261F4E6F001408FD /* 18.4sum.swift */,
-				8EB8A56826199380001408FD /* 20.valid-parentheses.swift */,
+				8EB8A56826199380001408FD /* 20.swift */,
 				8E63DAAA2628F21800BD8398 /* 22.generate-parentheses.swift */,
 				8EB8A55526180BA9001408FD /* 24.swap-nodes-in-pairs.swift */,
 				8EB8A55C261938F7001408FD /* 25.swift */,
@@ -1291,7 +1294,7 @@
 				8E4F32DE26E81E01007AD3EE /* 41_72_Day20Plan.swift in Sources */,
 				8EEA6E8F2705E2E900191747 /* 19_20.swift in Sources */,
 				8E0AE8B32659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift in Sources */,
-				8EB8A56926199380001408FD /* 20.valid-parentheses.swift in Sources */,
+				8EB8A56926199380001408FD /* 20.swift in Sources */,
 				8ECF895526509C89000652B7 /* 38.zi-fu-chuan-de-pai-lie-lcof.swift in Sources */,
 				8EEA6E8D270352D100191747 /* 18_83.swift in Sources */,
 				8E0D613726E02D1F00C2A8D9 /* 30_55_Day20Plan.swift in Sources */,
@@ -1581,6 +1584,7 @@
 				8EE95ECC26741E6800E0C20C /* 86.partition-list.swift in Sources */,
 				8E63DAE0262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift in Sources */,
 				8E6A39B726BE1667005296B6 /* 486.swift in Sources */,
+				8EE68BA0276ED79500550C7A /* 16.26.swift in Sources */,
 				8E1D00492645F9560067FD06 /* 25_Offer.swift in Sources */,
 				8E1C657A269F942D00B561D7 /* 16.25.swift in Sources */,
 				8E1D0082264774BD0067FD06 /* 28.dui-cheng-de-er-cha-shu-lcof.swift in Sources */,
