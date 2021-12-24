@@ -13,7 +13,30 @@ import Foundation
  */
 
 class Solution_Offer_24 {
+    // 递归
     func reverseList(_ head: ListNode?) -> ListNode? {
+        if head == nil {
+            return nil
+        }
+        return reverseList_recursive(head).0
+    }
+
+    func reverseList_recursive(_ head: ListNode?) -> (ListNode?, ListNode?) {
+        if head == nil {
+            return (nil, nil)
+        }
+        if head?.next == nil {
+            return (head, head)
+        }
+
+        let (newHead, tail) = reverseList_recursive(head?.next)
+        head?.next = nil
+        tail?.next = head
+        return (newHead, head)
+    }
+    
+    // 迭代
+    func reverseList_old(_ head: ListNode?) -> ListNode? {
         if head == nil {
             return nil
         }
