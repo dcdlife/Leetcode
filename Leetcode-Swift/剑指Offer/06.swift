@@ -12,7 +12,24 @@ import Foundation
  https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
  */
 class Solution_Offer_06 {
+    
+    // 递归
     func reversePrint(_ head: ListNode?) -> [Int] {
+        var ans = [Int]()
+        reversePrint_recursive(head, &ans)
+        return ans
+    }
+
+    func reversePrint_recursive(_ head: ListNode?, _ res: inout [Int]) {
+        if head == nil {
+            return
+        }
+        reversePrint_recursive(head?.next, &res)
+        res.append(head!.val)
+    }
+    
+    // 迭代
+    func reversePrint_old(_ head: ListNode?) -> [Int] {
         if head == nil {
             return []
         }
