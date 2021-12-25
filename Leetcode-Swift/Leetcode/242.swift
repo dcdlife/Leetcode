@@ -13,7 +13,30 @@ import Foundation
 
 class Solution242 {
     
+    // 构建字符unicode值数组，然后排序，判断排序后的两个数组是否相等
     func isAnagram(_ s: String, _ t: String) -> Bool {
+        guard s.count == t.count else {
+            return false
+        }
+        var sUnicodeVals = [UInt32](repeating: 0, count: s.count)
+        var tUnicodeVals = [UInt32](repeating: 0, count: t.count)
+
+        for (idx, ch) in s.enumerated() {
+            sUnicodeVals[idx] = ch.unicodeScalars.first!.value
+        }
+        for (idx, ch) in t.enumerated() {
+            tUnicodeVals[idx] = ch.unicodeScalars.first!.value
+        }
+        
+        // 将字符对应的unicode值数组排序
+        sUnicodeVals.sort()
+        tUnicodeVals.sort()
+        
+        return sUnicodeVals.elementsEqual(tUnicodeVals)
+    }
+    
+    // 利用数组，第一次遍历增加每个字母出现的次数，第二次遍历减去对应字母的出现次数；最后判断每个字母是否为0，如果有一个不为0，代表不是异位词。
+    func isAnagram_1(_ s: String, _ t: String) -> Bool {
         guard s.count == t.count else {
             return false
         }
@@ -34,7 +57,7 @@ class Solution242 {
     }
     
     // 自写：利用哈希表记录字母个数
-    func isAnagram_byself(_ s: String, _ t: String) -> Bool {
+    func isAnagram_2(_ s: String, _ t: String) -> Bool {
         if (s.count != t.count) {
             return false
         }
