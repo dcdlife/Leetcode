@@ -59,7 +59,7 @@ class Solution_Offer_16 {
         if n == 1 {
             return x
         }
-        var ans = myPow(x, abs(n) >> 1)
+        var ans = myPow(x, abs(n) >> 1) // abs(n)存在溢出的情况: x=2.00000 n=-2147483638
         ans *= ans
         ans = n & 1 == 1 ? ans * x : ans
         return n < 0 ? 1 / ans : ans
