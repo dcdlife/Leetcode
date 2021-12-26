@@ -19,7 +19,29 @@ import Foundation
  法3. 对双指针的优化
  */
 class Solution_Offer_21 {
+    
+    // 2021/12/26
     func exchange(_ nums: [Int]) -> [Int] {
+        var nums = nums
+        var left = 0
+        var right = nums.count - 1
+        while left < right {
+            while left < right && (nums[left] & 1 == 1) {
+                left += 1
+            }
+            while left < right && (nums[right] & 1 == 0) {
+                right -= 1
+            }
+            if left < right {
+                let tmp = nums[left]
+                nums[left] = nums[right]
+                nums[right] = tmp
+            }
+        }
+        return nums
+    }
+    
+    func exchange_1(_ nums: [Int]) -> [Int] {
         return _exchange(nums, conditionFn: isEven(_:))
     }
     
