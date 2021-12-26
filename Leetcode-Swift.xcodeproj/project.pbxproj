@@ -326,7 +326,7 @@
 		8EE95ECF26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */; };
 		8EE95ED22676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */; };
 		8EE95ED52678DC5A00E0C20C /* 143.reorder-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */; };
-		8EE95ED82679547600E0C20C /* 147.insertion-sort-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */; };
+		8EE95ED82679547600E0C20C /* 147.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95ED72679547600E0C20C /* 147.swift */; };
 		8EE95EDB267AA24E00E0C20C /* 328.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EDA267AA24E00E0C20C /* 328.swift */; };
 		8EE95EDE267CE0B400E0C20C /* 445.add-two-numbers-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EDD267CE0B400E0C20C /* 445.add-two-numbers-ii.swift */; };
 		8EE95EE1267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */; };
@@ -691,7 +691,7 @@
 		8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.reverse-linked-list-ii.swift"; sourceTree = "<group>"; };
 		8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "109.convert-sorted-list-to-binary-search-tree.swift"; sourceTree = "<group>"; };
 		8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "143.reorder-list.swift"; sourceTree = "<group>"; };
-		8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "147.insertion-sort-list.swift"; sourceTree = "<group>"; };
+		8EE95ED72679547600E0C20C /* 147.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 147.swift; sourceTree = "<group>"; };
 		8EE95EDA267AA24E00E0C20C /* 328.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 328.swift; sourceTree = "<group>"; };
 		8EE95EDD267CE0B400E0C20C /* 445.add-two-numbers-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "445.add-two-numbers-ii.swift"; sourceTree = "<group>"; };
 		8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1721.swapping-nodes-in-a-linked-list.swift"; sourceTree = "<group>"; };
@@ -1091,6 +1091,7 @@
 				8EB8A54E261801AE001408FD /* 141.linked-list-cycle.swift */,
 				8EB8A55926181CC9001408FD /* 142.linked-list-cycle-ii.swift */,
 				8E63DAFF26330C0100BD8398 /* 146.lru-cache.swift */,
+				8EE95ED72679547600E0C20C /* 147.swift */,
 				8E3605F2271E21AF0005A43E /* 148.swift */,
 				8E63DAD9262E2E5F00BD8398 /* 152.maximum-product-subarray.swift */,
 				8E5AECDD276A31D10056BEEC /* 155.swift */,
@@ -1170,7 +1171,6 @@
 				8EE95ECE26757D5E00E0C20C /* 92.reverse-linked-list-ii.swift */,
 				8EE95ED12676BDC300E0C20C /* 109.convert-sorted-list-to-binary-search-tree.swift */,
 				8EE95ED42678DC5A00E0C20C /* 143.reorder-list.swift */,
-				8EE95ED72679547600E0C20C /* 147.insertion-sort-list.swift */,
 				8EE95EDD267CE0B400E0C20C /* 445.add-two-numbers-ii.swift */,
 				8EE95EE0267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift */,
 				8EE95EE3267EA02400E0C20C /* 725.split-linked-list-in-parts.swift */,
@@ -1588,7 +1588,7 @@
 				8E4EFD7B275BAEA700160AC9 /* 55.swift in Sources */,
 				8E0AE98726644655007FA553 /* 59.1.hua-dong-chuang-kou-de-zui-da-zhi-lcof.swift in Sources */,
 				8E0AE96C265E7DD8007FA553 /* 54.er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.swift in Sources */,
-				8EE95ED82679547600E0C20C /* 147.insertion-sort-list.swift in Sources */,
+				8EE95ED82679547600E0C20C /* 147.swift in Sources */,
 				8E0D612B26DE3EC600C2A8D9 /* 24_39_Day20Plan.swift in Sources */,
 				8E63DB3B2635AE4900BD8398 /* 06.swift in Sources */,
 				8E73CD0826B0C07000549806 /* 649.swift in Sources */,

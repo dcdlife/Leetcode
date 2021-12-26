@@ -13,41 +13,36 @@ import Foundation
  */
 
 class Solution_147 {
+
     func insertionSortList(_ head: ListNode?) -> ListNode? {
-        if head == nil || head?.next == nil {
-            return head
+        if head == nil {
+            return nil
         }
-        
-        var ans = head
-        var cur = head?.next
-        ans?.next = nil
-        
-        while cur != nil {
-            let next = cur?.next
-            cur?.next = nil
-            
-            var tmpPre: ListNode? = nil
-            var tmpCur: ListNode? = ans
-            while tmpCur != nil {
-                if cur!.val <= tmpCur!.val  {
-                    break
-                }
-                tmpPre = tmpCur
-                tmpCur = tmpCur?.next
+
+        // 默认头节点已经在排序后的链表中
+        let dummyNode: ListNode? = ListNode(0, head)
+        var p = head?.next
+        head?.next = nil
+
+        while p != nil {
+            // 保存下一个待排序的节点
+            let tmp = p?.next
+
+            // 从已排序的链表中查找插入位置
+            var cur = dummyNode
+            let val = p!.val
+            while cur?.next != nil && cur!.next!.val < val {
+                cur = cur?.next
             }
-            
-            if tmpPre == nil {
-                cur?.next =  ans
-                ans = cur
-            } else {
-                tmpPre?.next = cur
-                cur?.next = tmpCur
-            }
-            
-            cur = next
+            // cur?.next即为插入位置
+            p?.next = cur?.next
+            cur?.next = p
+
+            // p指向下一个待排序的节点
+            p = tmp
         }
-        
-        return ans
+
+        return dummyNode?.next
     }
     
     /*
