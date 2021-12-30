@@ -19,18 +19,23 @@ import Foundation
  */
 class Solution69 {
     func mySqrt(_ x: Int) -> Int {
-        var left: Int = 1, right: Int = x
-        var ans = 0
-        while left <= right {
-            let mid = left + (right - left) / 2
-            if mid * mid <= x {
+         var low = 0
+         var high = x
+         var ans = 0
+
+         while low <= high {
+             let mid = low + (high - low) / 2
+             let square = mid * mid
+
+             if square <= x {
                 ans = mid
-                left = mid + 1
-            } else {
-                right = mid - 1
-            }
-        }
-        return ans
+                low = mid + 1
+             } else {
+                high = mid - 1
+             }
+         }
+
+         return ans
     }
     
     /*

@@ -26,6 +26,7 @@ class Solution_852 {
 
         while low <= high {
             let mid = low + (high - low) / 2
+            
             if arr[mid] > arr[mid + 1] {
                 ans = mid
                 high = mid - 1

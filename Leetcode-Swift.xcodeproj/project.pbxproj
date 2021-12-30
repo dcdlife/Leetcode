@@ -50,6 +50,7 @@
 		8E19CD83277CA81C00CB4E20 /* 33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD82277CA81C00CB4E20 /* 33.swift */; };
 		8E19CD85277DE9CD00CB4E20 /* 153.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD84277DE9CD00CB4E20 /* 153.swift */; };
 		8E19CD87277DEC7E00CB4E20 /* 852.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD86277DEC7E00CB4E20 /* 852.swift */; };
+		8E19CD89277DF28800CB4E20 /* 162.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD88277DF28800CB4E20 /* 162.swift */; };
 		8E1C653D2683A45200B561D7 /* 707.design-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C653C2683A45200B561D7 /* 707.design-linked-list.swift */; };
 		8E1C65402683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C653F2683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift */; };
 		8E1C654326854A4500B561D7 /* 705.design-hashset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C654226854A4500B561D7 /* 705.design-hashset.swift */; };
@@ -178,8 +179,8 @@
 		8E63DAB4262A910D00BD8398 /* 52.n-queens-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAB3262A910D00BD8398 /* 52.n-queens-ii.swift */; };
 		8E63DAB8262A948900BD8398 /* 36.valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */; };
 		8E63DABB262AE19900BD8398 /* [x]37.sudoku-solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */; };
-		8E63DABE262AEF3B00BD8398 /* 69.sqrtx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DABD262AEF3B00BD8398 /* 69.sqrtx.swift */; };
-		8E63DAC2262B155600BD8398 /* 367.valid-perfect-square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAC1262B155600BD8398 /* 367.valid-perfect-square.swift */; };
+		8E63DABE262AEF3B00BD8398 /* 69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DABD262AEF3B00BD8398 /* 69.swift */; };
+		8E63DAC2262B155600BD8398 /* 367.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAC1262B155600BD8398 /* 367.swift */; };
 		8E63DAC5262B940200BD8398 /* 208.implement-trie-prefix-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAC4262B940200BD8398 /* 208.implement-trie-prefix-tree.swift */; };
 		8E63DAC8262BB17700BD8398 /* 212.word-search-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAC7262BB17700BD8398 /* 212.word-search-ii.swift */; };
 		8E63DACB262C7CFE00BD8398 /* 191.number-of-1-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACA262C7CFE00BD8398 /* 191.number-of-1-bits.swift */; };
@@ -425,6 +426,7 @@
 		8E19CD82277CA81C00CB4E20 /* 33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 33.swift; sourceTree = "<group>"; };
 		8E19CD84277DE9CD00CB4E20 /* 153.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153.swift; sourceTree = "<group>"; };
 		8E19CD86277DEC7E00CB4E20 /* 852.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 852.swift; sourceTree = "<group>"; };
+		8E19CD88277DF28800CB4E20 /* 162.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 162.swift; sourceTree = "<group>"; };
 		8E1C653C2683A45200B561D7 /* 707.design-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "707.design-linked-list.swift"; sourceTree = "<group>"; };
 		8E1C653F2683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1019.next-greater-node-in-linked-lis.swift"; sourceTree = "<group>"; };
 		8E1C654226854A4500B561D7 /* 705.design-hashset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "705.design-hashset.swift"; sourceTree = "<group>"; };
@@ -553,8 +555,8 @@
 		8E63DAB3262A910D00BD8398 /* 52.n-queens-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "52.n-queens-ii.swift"; sourceTree = "<group>"; };
 		8E63DAB7262A948900BD8398 /* 36.valid-sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36.valid-sudoku.swift"; sourceTree = "<group>"; };
 		8E63DABA262AE19900BD8398 /* [x]37.sudoku-solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[x]37.sudoku-solver.swift"; sourceTree = "<group>"; };
-		8E63DABD262AEF3B00BD8398 /* 69.sqrtx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 69.sqrtx.swift; sourceTree = "<group>"; };
-		8E63DAC1262B155600BD8398 /* 367.valid-perfect-square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "367.valid-perfect-square.swift"; sourceTree = "<group>"; };
+		8E63DABD262AEF3B00BD8398 /* 69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 69.swift; sourceTree = "<group>"; };
+		8E63DAC1262B155600BD8398 /* 367.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 367.swift; sourceTree = "<group>"; };
 		8E63DAC4262B940200BD8398 /* 208.implement-trie-prefix-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "208.implement-trie-prefix-tree.swift"; sourceTree = "<group>"; };
 		8E63DAC7262BB17700BD8398 /* 212.word-search-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "212.word-search-ii.swift"; sourceTree = "<group>"; };
 		8E63DACA262C7CFE00BD8398 /* 191.number-of-1-bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191.number-of-1-bits.swift"; sourceTree = "<group>"; };
@@ -1100,7 +1102,7 @@
 				8E4EFD7A275BAEA700160AC9 /* 55.swift */,
 				8E3EF19C2778132F00111609 /* 56.swift */,
 				8E4EFD592757C01800160AC9 /* 58.swift */,
-				8E63DABD262AEF3B00BD8398 /* 69.sqrtx.swift */,
+				8E63DABD262AEF3B00BD8398 /* 69.swift */,
 				8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */,
 				8E63DAF32630D7F800BD8398 /* 72.edit-distance.swift */,
 				8E3EF19E27782E5E00111609 /* 75.swift */,
@@ -1145,7 +1147,7 @@
 				8E63DAF026306A1300BD8398 /* 322.coin-change.swift */,
 				8EE95EDA267AA24E00E0C20C /* 328.swift */,
 				8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */,
-				8E63DAC1262B155600BD8398 /* 367.valid-perfect-square.swift */,
+				8E63DAC1262B155600BD8398 /* 367.swift */,
 				8E2D98F3277B4CF7005EA957 /* 374.swift */,
 				8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */,
 				8E63A69E262653140078BA4C /* 455.assign-cookies.swift */,
@@ -1172,6 +1174,7 @@
 				8E19CD82277CA81C00CB4E20 /* 33.swift */,
 				8E19CD84277DE9CD00CB4E20 /* 153.swift */,
 				8E19CD86277DEC7E00CB4E20 /* 852.swift */,
+				8E19CD88277DF28800CB4E20 /* 162.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1434,6 +1437,7 @@
 				8E0AE965265C62FB007FA553 /* 53.1.zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.swift in Sources */,
 				8E0AE8B9265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift in Sources */,
 				8E0AE972265F0919007FA553 /* 55.2.ping-heng-er-cha-shu-lcof.swift in Sources */,
+				8E19CD89277DF28800CB4E20 /* 162.swift in Sources */,
 				8E3EF19527760C7100111609 /* 08.01.swift in Sources */,
 				8E19CD85277DE9CD00CB4E20 /* 153.swift in Sources */,
 				8ECF89952655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift in Sources */,
@@ -1528,7 +1532,7 @@
 				8E4EFD8B27649BE400160AC9 /* 19.swift in Sources */,
 				8EB8A55626180BA9001408FD /* 24.swap-nodes-in-pairs.swift in Sources */,
 				8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */,
-				8E63DAC2262B155600BD8398 /* 367.valid-perfect-square.swift in Sources */,
+				8E63DAC2262B155600BD8398 /* 367.swift in Sources */,
 				8E63DB322634CA4700BD8398 /* 03.swift in Sources */,
 				8EB8A576261DF8E2001408FD /* 242.swift in Sources */,
 				8E4EFD7D275BB89C00160AC9 /* 48.swift in Sources */,
@@ -1653,7 +1657,7 @@
 				8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */,
 				8ED4206B26D02E0600E4D9DF /* 31_136_Day20Plan.swift in Sources */,
 				8ED4205326CB205300E4D9DF /* 19_994_Day20Plan.swift in Sources */,
-				8E63DABE262AEF3B00BD8398 /* 69.sqrtx.swift in Sources */,
+				8E63DABE262AEF3B00BD8398 /* 69.swift in Sources */,
 				8ED4205D26CD590D00E4D9DF /* 24_784_Day20Plan.swift in Sources */,
 				8E0D613326DFBC3300C2A8D9 /* 28_79_Day20Plan.swift in Sources */,
 				8E63DAC5262B940200BD8398 /* 208.implement-trie-prefix-tree.swift in Sources */,
