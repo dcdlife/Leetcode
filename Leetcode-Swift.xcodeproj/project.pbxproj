@@ -49,6 +49,7 @@
 		8E19CD81277C9CE100CB4E20 /* 10.05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD80277C9CE100CB4E20 /* 10.05.swift */; };
 		8E19CD83277CA81C00CB4E20 /* 33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD82277CA81C00CB4E20 /* 33.swift */; };
 		8E19CD85277DE9CD00CB4E20 /* 153.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD84277DE9CD00CB4E20 /* 153.swift */; };
+		8E19CD87277DEC7E00CB4E20 /* 852.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CD86277DEC7E00CB4E20 /* 852.swift */; };
 		8E1C653D2683A45200B561D7 /* 707.design-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C653C2683A45200B561D7 /* 707.design-linked-list.swift */; };
 		8E1C65402683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C653F2683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift */; };
 		8E1C654326854A4500B561D7 /* 705.design-hashset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C654226854A4500B561D7 /* 705.design-hashset.swift */; };
@@ -423,6 +424,7 @@
 		8E19CD80277C9CE100CB4E20 /* 10.05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10.05.swift; sourceTree = "<group>"; };
 		8E19CD82277CA81C00CB4E20 /* 33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 33.swift; sourceTree = "<group>"; };
 		8E19CD84277DE9CD00CB4E20 /* 153.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153.swift; sourceTree = "<group>"; };
+		8E19CD86277DEC7E00CB4E20 /* 852.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 852.swift; sourceTree = "<group>"; };
 		8E1C653C2683A45200B561D7 /* 707.design-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "707.design-linked-list.swift"; sourceTree = "<group>"; };
 		8E1C653F2683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1019.next-greater-node-in-linked-lis.swift"; sourceTree = "<group>"; };
 		8E1C654226854A4500B561D7 /* 705.design-hashset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "705.design-hashset.swift"; sourceTree = "<group>"; };
@@ -1169,6 +1171,7 @@
 				8E19CD7E277C999900CB4E20 /* 34.swift */,
 				8E19CD82277CA81C00CB4E20 /* 33.swift */,
 				8E19CD84277DE9CD00CB4E20 /* 153.swift */,
+				8E19CD86277DEC7E00CB4E20 /* 852.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1334,6 +1337,7 @@
 				8ECF984426C7B30200941E47 /* 13_567_Day20Plan.swift in Sources */,
 				8EE95EDB267AA24E00E0C20C /* 328.swift in Sources */,
 				8E1C6571269BADD800B561D7 /* 02.03.delete-middle-node-lcci.swift in Sources */,
+				8E19CD87277DEC7E00CB4E20 /* 852.swift in Sources */,
 				8E63DAAB2628F21800BD8398 /* 22.generate-parentheses.swift in Sources */,
 				8EE95EEA26813A4C00E0C20C /* 817.linked-list-components.swift in Sources */,
 				8EE95EC92672CE1E00E0C20C /* 234.swift in Sources */,
