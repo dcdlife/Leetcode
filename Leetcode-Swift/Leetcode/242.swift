@@ -58,28 +58,30 @@ class Solution242 {
     
     // 自写：利用哈希表记录字母个数
     func isAnagram_2(_ s: String, _ t: String) -> Bool {
-        if (s.count != t.count) {
+        if s.count != t.count {
             return false
         }
         
-        var dict: [Character: Int] = [:]
-        for i in s {
-            if dict[i] != nil {
-                dict[i]! += 1
+        var map = [Character: Int]()
+
+        for c in Array(s) {
+            map[c, default: 0] += 1
+        }
+
+        for c in Array(t) {
+            if let count = map[c] {
+                map[c] = count - 1
             } else {
-                dict[i] = 1
-            }
-        }
-        for j in t {
-            if dict[j] != nil {
-                dict[j]! -= 1
-            }
-        }
-        for k in dict.values {
-            if k != 0 {
                 return false
             }
         }
+
+        for val in map.values {
+            if val != 0 {
+                return false
+            }
+        }
+
         return true
     }
     
