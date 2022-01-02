@@ -11,11 +11,44 @@ import Foundation
  https://leetcode-cn.com/problems/3sum/
  */
 
-class Solution15 {
+class Solution_15 {
+    // 排序+哈希表
+    func threeSum(_ nums: [Int]) -> [[Int]] {
+        if nums.count < 3 {
+            return []
+        }
+
+        let nums = nums.sorted()
+        let n = nums.count
+        var map = [Int: Int]()
+        var ans = [[Int]]()
+
+        // 生成值和索引对应的哈希表
+        for (idx, i) in nums.enumerated() {
+            map[i] = idx
+        }
+
+        for i in 0..<(n - 2) {
+            if (i != 0) && (nums[i] == nums[i - 1]) { // 第一个元素去重
+                continue
+            }
+            for j in (i + 1)..<(n - 1) {
+                if (j != (i + 1)) && (nums[j] == nums[j - 1]) { // 第二个元素去重
+                    continue
+                }
+                if let k = map[0 - nums[i] - nums[j]], k > j {
+                    ans.append([nums[i], nums[j], nums[k]])
+                }
+            }
+        }
+
+        return ans
+    }
+
     /*
      思路：排序+双指针
      */
-    func threeSum(_ nums: [Int]) -> [[Int]] {
+    func threeSum_1(_ nums: [Int]) -> [[Int]] {
         if nums.count < 3 {
             return []
         }
