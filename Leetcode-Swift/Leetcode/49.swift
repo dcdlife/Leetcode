@@ -13,27 +13,23 @@ import Foundation
 
 class Solution49 {
     
-    /*
-     来自leetcode
-     */
-    func groupAnagrams_leetcode(_ strs: [String]) -> [[String]] {
-        let aUnicodeValue = Int("a".unicodeScalars.first!.value)
-        var strDic = [[Int]: [String]]()
-        
+
+    // 排序+哈希表
+    func groupAnagrams(_ strs: [String]) -> [[String]] {
+        var map = [String: [String]]()
+
         for str in strs {
-            var alphabet = [Int](repeating: 0, count: 26)
-            for unicode in str.unicodeScalars {
-                alphabet[Int(unicode.value) - aUnicodeValue] += 1
-            }
-            strDic[alphabet, default: []].append(str)
+            let key = str.sorted()
+            map[String(key), default: []].append(str)
         }
-        return Array(strDic.values)
+
+        return Array(map.values)
     }
     
     /*
      思路：计数。根据字符串中字母的计数作为key，来存储相同的字母异位词。
      */
-    func groupAnagrams(_ strs: [String]) -> [[String]] {
+    func groupAnagrams_1(_ strs: [String]) -> [[String]] {
         guard strs.count > 0 else {
             return []
         }
