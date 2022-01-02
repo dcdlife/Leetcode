@@ -67,24 +67,16 @@ class Solution_Offer_03 {
     }
     
     func findRepeatNumber_0(_ nums: [Int]) -> Int {
-        // 判断无效输入
-        if nums.count == 0 {
-            return -1
-        }
-        let count = nums.count
-        if nums.filter({ (value) -> Bool in value < 0 || value >= count }).count > 0 {
-            return -1
-        }
+        var map = [Int: Int]()
 
-        var dict = [Int: Int]()
         for i in nums {
-            if let value = dict[i] {
-                return value
+            if let _ = map[i] {
+                return i
             } else {
-                dict[i] = i
+                map[i] = i
             }
         }
-        
+
         return -1
     }
     
