@@ -14,7 +14,6 @@ import Foundation
 
 class Solution_706 {
     class MyHashMap {
-
         class LinkNode {
             var val: Int
             var key: Int
@@ -24,40 +23,39 @@ class Solution_706 {
                 self.val = val
             }
         }
+            
+        static let capacity: Int = 100
+        var data: [LinkNode] = [LinkNode](repeating: LinkNode(0, 0), count: MyHashMap.capacity)
         
-        var data: [LinkNode?] = [LinkNode?](repeating: nil, count: 100)
         /** Initialize your data structure here. */
         init() {
             
         }
+
+        func hash(_ key: Int) -> Int {
+            return key % MyHashMap.capacity
+        }
         
         /** value will always be non-negative. */
         func put(_ key: Int, _ value: Int) {
-            let index = key % 100
-            let head = data[index]
+            let index = hash(key)
+            let virtualHead = data[index]
+            
+            // 删除之前的key
+            remove(key)
+
+            // 插入新的key（头插法）
             let node = LinkNode(key, value)
-            if head == nil {
-                data[index] = node
-            } else {
-                var pre = head
-                var end = head
-                while end != nil {
-                    if end?.key == key {
-                        end?.val = value
-                        return
-                    }
-                    pre = end
-                    end = end?.next
-                }
-                pre?.next = node
-            }
+            node.next = virtualHead.next
+            virtualHead.next = node
         }
         
         /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
         func get(_ key: Int) -> Int {
-            let index = key % 100
-            let head = data[index]
-            var node = head
+            let index = hash(key)
+            let virtualHead = data[index]
+
+            var node = virtualHead.next
             while node != nil {
                 if node!.key == key {
                     return node!.val
@@ -69,19 +67,19 @@ class Solution_706 {
         
         /** Removes the mapping of the specified value key if this map contains a mapping for the key */
         func remove(_ key: Int) {
-            let index = key % 100
-            let head = data[index]
-            if head?.key == key {
-                data[index] = head?.next
-            }
-            var pre = head
-            while pre?.next != nil {
-                let next = pre?.next
-                if next!.key == key {
-                    pre?.next = pre?.next?.next
+            let index = hash(key)
+            let virtualHead = data[index]
+
+            var pre: LinkNode? = virtualHead
+            var cur = virtualHead.next
+            while cur != nil {
+                if cur!.key == key {
+                    pre?.next = cur?.next
                     return
                 }
-                pre = pre?.next
+
+                pre = cur
+                cur = cur?.next
             }
         }
     }

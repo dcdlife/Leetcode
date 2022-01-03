@@ -66,7 +66,7 @@
 		8E1C654C268BD21600B561D7 /* 355.design-twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C654B268BD21600B561D7 /* 355.design-twitter.swift */; };
 		8E1C654F268D22FF00B561D7 /* 432.all-oone-data-structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C654E268D22FF00B561D7 /* 432.all-oone-data-structure.swift */; };
 		8E1C6552268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C6551268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift */; };
-		8E1C6555268FE9FB00B561D7 /* 706.design-hashmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C6554268FE9FB00B561D7 /* 706.design-hashmap.swift */; };
+		8E1C6555268FE9FB00B561D7 /* 706.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C6554268FE9FB00B561D7 /* 706.swift */; };
 		8E1C655826913BE000B561D7 /* 641.design-circular-deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C655726913BE000B561D7 /* 641.design-circular-deque.swift */; };
 		8E1C655B26926C6800B561D7 /* 622.design-circular-queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C655A26926C6800B561D7 /* 622.design-circular-queue.swift */; };
 		8E1C655E2693B5E200B561D7 /* 1171.remove-zero-sum-consecutive-nodes-from-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C655D2693B5E200B561D7 /* 1171.remove-zero-sum-consecutive-nodes-from-linked-list.swift */; };
@@ -449,7 +449,7 @@
 		8E1C654B268BD21600B561D7 /* 355.design-twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "355.design-twitter.swift"; sourceTree = "<group>"; };
 		8E1C654E268D22FF00B561D7 /* 432.all-oone-data-structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "432.all-oone-data-structure.swift"; sourceTree = "<group>"; };
 		8E1C6551268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02.07.intersection-of-two-linked-lists-lcci.swift"; sourceTree = "<group>"; };
-		8E1C6554268FE9FB00B561D7 /* 706.design-hashmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "706.design-hashmap.swift"; sourceTree = "<group>"; };
+		8E1C6554268FE9FB00B561D7 /* 706.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 706.swift; sourceTree = "<group>"; };
 		8E1C655726913BE000B561D7 /* 641.design-circular-deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "641.design-circular-deque.swift"; sourceTree = "<group>"; };
 		8E1C655A26926C6800B561D7 /* 622.design-circular-queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "622.design-circular-queue.swift"; sourceTree = "<group>"; };
 		8E1C655D2693B5E200B561D7 /* 1171.remove-zero-sum-consecutive-nodes-from-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1171.remove-zero-sum-consecutive-nodes-from-linked-list.swift"; sourceTree = "<group>"; };
@@ -1137,6 +1137,7 @@
 				8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */,
 				8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */,
 				8E4EFD552757ADE100160AC9 /* 125.swift */,
+				8E19CD922781C46E00CB4E20 /* 136.swift */,
 				8EB8A54E261801AE001408FD /* 141.linked-list-cycle.swift */,
 				8EB8A55926181CC9001408FD /* 142.linked-list-cycle-ii.swift */,
 				8E63DAFF26330C0100BD8398 /* 146.lru-cache.swift */,
@@ -1170,6 +1171,7 @@
 				8E63DAF026306A1300BD8398 /* 322.coin-change.swift */,
 				8EE95EDA267AA24E00E0C20C /* 328.swift */,
 				8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */,
+				8E19CD942781C5CB00CB4E20 /* 349.swift */,
 				8E63DAC1262B155600BD8398 /* 367.swift */,
 				8E2D98F3277B4CF7005EA957 /* 374.swift */,
 				8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */,
@@ -1177,6 +1179,7 @@
 				8E63DAF92631C68C00BD8398 /* 547.number-of-provinces.swift */,
 				8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */,
 				8E2D98F1277B4BBC005EA957 /* 704.swift */,
+				8E1C6554268FE9FB00B561D7 /* 706.swift */,
 				8E63DAE6262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift */,
 				8EE68BA3276F140E00550C7A /* 739.swift */,
 				8E19CD7A277B533100CB4E20 /* 744.swift */,
@@ -1187,15 +1190,13 @@
 				8E4EFD84275E6B0200160AC9 /* 876.swift */,
 				8EE68BA1276F0AB200550C7A /* 1047.swift */,
 				8E4EFD532756DF3700160AC9 /* 1108.swift */,
+				8E19CD962781F05800CB4E20 /* 1122.swift */,
 				8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */,
 				8E3EF19A2777F29F00111609 /* 1502.swift */,
 				8EE95EC126716E4900E0C20C /* linked-list */,
 				8E73CD0226AF03C400549806 /* Queue */,
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
-				8E19CD922781C46E00CB4E20 /* 136.swift */,
-				8E19CD942781C5CB00CB4E20 /* 349.swift */,
-				8E19CD962781F05800CB4E20 /* 1122.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1240,7 +1241,6 @@
 				8E1C6548268A7ADA00B561D7 /* 114.flatten-binary-tree-to-linked-list.swift */,
 				8E1C654B268BD21600B561D7 /* 355.design-twitter.swift */,
 				8E1C654E268D22FF00B561D7 /* 432.all-oone-data-structure.swift */,
-				8E1C6554268FE9FB00B561D7 /* 706.design-hashmap.swift */,
 				8E1C655726913BE000B561D7 /* 641.design-circular-deque.swift */,
 				8E1C655A26926C6800B561D7 /* 622.design-circular-queue.swift */,
 				8E1C655D2693B5E200B561D7 /* 1171.remove-zero-sum-consecutive-nodes-from-linked-list.swift */,
@@ -1569,7 +1569,7 @@
 				8E44F92F26E97361003C8A2B /* 44_201_Day20Plan.swift in Sources */,
 				8E1C65462686C1D400B561D7 /* 382.linked-list-random-node.swift in Sources */,
 				8E94D17F26BF635200CC5214 /* 779.swift in Sources */,
-				8E1C6555268FE9FB00B561D7 /* 706.design-hashmap.swift in Sources */,
+				8E1C6555268FE9FB00B561D7 /* 706.swift in Sources */,
 				8E1C657D26A0EF6F00B561D7 /* 04.03.swift in Sources */,
 				8E1D003526449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift in Sources */,
 				8EEA6EA42706926200191747 /* 23_145.swift in Sources */,
