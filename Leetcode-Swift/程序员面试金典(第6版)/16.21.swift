@@ -19,7 +19,7 @@ class Solution_Jindian1621 {
         for i in array1 {
             sum1 += i
         }
-
+        
         // 计算array2的和
         var sum2 = 0
         for i in array2 {
