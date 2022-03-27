@@ -54,13 +54,12 @@ class Solution_Offer_03 {
         var nums = nums
         
         for i in 0..<nums.count {
-            if nums[i] == i {
-                continue
+            while nums[i] != i {
+                if nums[i] == nums[nums[i]] {
+                    return nums[i]
+                }
+                nums.swapAt(i, nums[i])
             }
-            if nums[i] == nums[nums[i]] {
-                return nums[i]
-            }
-            nums.swapAt(i, nums[i])
         }
         
         return -1
