@@ -1052,7 +1052,6 @@
 			isa = PBXGroup;
 			children = (
 				8EAC2ACA26A4D98100F8783A /* 94.swift */,
-				8EAC2ACC26A6270300F8783A /* 144.swift */,
 				8EAC2ACE26A62A5200F8783A /* 145.swift */,
 				8EAC2AD026A7868600F8783A /* 150.swift */,
 				8EAC2AD226A8D3E800F8783A /* 173.swift */,
@@ -1200,6 +1199,7 @@
 				8E73CD0226AF03C400549806 /* Queue */,
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
+				8EAC2ACC26A6270300F8783A /* 144.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";

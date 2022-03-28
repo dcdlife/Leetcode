@@ -24,6 +24,26 @@ class Solution_144 {
         return ans
     }
     
+    /// 法一：递归（写法二）
+    func preorderTraversal_2(_ root: TreeNode?) -> [Int] {
+        if root == nil {
+            return []
+        }
+
+        var ans = [Int]()
+        preorderTraversal_core(root, &ans)
+        return ans
+    }
+
+    func preorderTraversal_core(_ root: TreeNode?, _ traversals: inout [Int]) {
+        if root == nil {
+            return
+        }
+        traversals.append(root!.val)
+        preorderTraversal_core(root?.left, &traversals)
+        preorderTraversal_core(root?.right, &traversals)
+    }
+    
     /// 法二：迭代
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         if root == nil {
