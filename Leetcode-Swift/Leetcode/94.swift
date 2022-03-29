@@ -31,6 +31,29 @@ class Solution_94 {
         return ans
     }
     
+    /// 方法一：递归写法二
+    func inorderTraversal_2(_ root: TreeNode?) -> [Int] {
+        if root == nil {
+            return []
+        }
+
+        var ans = [Int]()
+        inorderTraversal_core(root, &ans)
+
+        return ans
+    }
+
+    func inorderTraversal_core(_ root: TreeNode?, _ traversals: inout [Int]) {
+        if root == nil {
+            return
+        }
+
+        inorderTraversal_core(root?.left, &traversals)
+        traversals.append(root!.val)
+        inorderTraversal_core(root?.right, &traversals)
+    }
+    
+// MARK:
     /// 方法二：迭代
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
         var ans = [Int]()
