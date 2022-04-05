@@ -17,24 +17,36 @@ class Solution_102 {
         if root == nil {
             return []
         }
-        
-        var queue = [root]
+
         var ans = [[Int]]()
+        var queue = [root]
+        var levelCount = 1
+
         while !queue.isEmpty {
-            var vals = [Int]()
-            let len = queue.count
-            for _ in 0..<len {
-                let head = queue.removeFirst()!
-                vals.append(head.val)
-                if let left = head.left {
-                    queue.append(left)
+            var levelVals = [Int]()
+            var count = levelCount
+            levelCount = 0
+
+            while count > 0 {
+                let node = queue.removeFirst()
+
+                levelVals.append(node!.val)
+
+                if node?.left != nil {
+                    queue.append(node?.left)
+                    levelCount += 1
                 }
-                if let right = head.right {
-                    queue.append(right)
+                if node?.right != nil {
+                    queue.append(node?.right)
+                    levelCount += 1
                 }
+
+                count -= 1
             }
-            ans.append(vals)
+
+            ans.append(levelVals)
         }
+
         return ans
     }
     
