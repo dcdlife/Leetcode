@@ -17,20 +17,22 @@ class Solution_Offer_32_1 {
         if root == nil {
             return []
         }
-        
+
         var ans = [Int]()
-        var queue = [TreeNode]()
-        queue.append(root!)
-        while queue.count > 0 {
+        var queue = [root]
+
+        while !queue.isEmpty {
             let head = queue.removeFirst()
-            ans.append(head.val)
-            if head.left != nil {
-                queue.append(head.left!)
+            ans.append(head!.val)
+
+            if head?.left != nil {
+                queue.append(head?.left)
             }
-            if head.right != nil {
-                queue.append(head.right!)
+            if head?.right != nil {
+                queue.append(head?.right)
             }
         }
+
         return ans
     }
     

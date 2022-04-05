@@ -96,7 +96,7 @@
 		8E1D008526477AF10067FD06 /* 29.shun-shi-zhen-da-yin-ju-zhen-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D008426477AF10067FD06 /* 29.shun-shi-zhen-da-yin-ju-zhen-lcof.swift */; };
 		8E1D008826478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D008726478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift */; };
 		8E1D00C326488E000067FD06 /* 31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00C226488E000067FD06 /* 31.swift */; };
-		8E1D00C62648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00C52648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift */; };
+		8E1D00C62648978E0067FD06 /* 32.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00C52648978E0067FD06 /* 32.1.swift */; };
 		8E1D00C926489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00C826489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift */; };
 		8E1D00CC2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00CB2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift */; };
 		8E1D00CF264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D00CE264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift */; };
@@ -482,7 +482,7 @@
 		8E1D008426477AF10067FD06 /* 29.shun-shi-zhen-da-yin-ju-zhen-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "29.shun-shi-zhen-da-yin-ju-zhen-lcof.swift"; sourceTree = "<group>"; };
 		8E1D008726478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "30.bao-han-minhan-shu-de-zhan-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00C226488E000067FD06 /* 31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31.swift; sourceTree = "<group>"; };
-		8E1D00C52648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift"; sourceTree = "<group>"; };
+		8E1D00C52648978E0067FD06 /* 32.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 32.1.swift; sourceTree = "<group>"; };
 		8E1D00C826489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00CB2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift"; sourceTree = "<group>"; };
 		8E1D00CE264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift"; sourceTree = "<group>"; };
@@ -864,7 +864,7 @@
 				8E1D008426477AF10067FD06 /* 29.shun-shi-zhen-da-yin-ju-zhen-lcof.swift */,
 				8E1D008726478D130067FD06 /* 30.bao-han-minhan-shu-de-zhan-lcof.swift */,
 				8E1D00C226488E000067FD06 /* 31.swift */,
-				8E1D00C52648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift */,
+				8E1D00C52648978E0067FD06 /* 32.1.swift */,
 				8E1D00C826489AD90067FD06 /* 32.2-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.swift */,
 				8E1D00CB2649E78B0067FD06 /* 32.3-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.swift */,
 				8E1D00CE264B30370067FD06 /* 33.er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.swift */,
@@ -1615,7 +1615,7 @@
 				8E1C6552268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift in Sources */,
 				8E63DAB1262A908F00BD8398 /* [x:2]51.n-queens.swift in Sources */,
 				8EEA6EA02706903000191747 /* 21_144.swift in Sources */,
-				8E1D00C62648978E0067FD06 /* 32.1-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.swift in Sources */,
+				8E1D00C62648978E0067FD06 /* 32.1.swift in Sources */,
 				8E63DB4D26376AA200BD8398 /* 11.xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.swift in Sources */,
 				8E0D610C26DC56F000C2A8D9 /* 22_90_Day20Plan.swift in Sources */,
 				8E63DAE4262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift in Sources */,
