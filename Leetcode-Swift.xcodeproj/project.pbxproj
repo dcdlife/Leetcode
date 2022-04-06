@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		521858D127F3C9590079121F /* 589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858D027F3C9590079121F /* 589.swift */; };
 		521A64E427FA6381001AF6EF /* 590.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E327FA6381001AF6EF /* 590.swift */; };
+		521A64E627FE41D8001AF6EF /* 429.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E527FE41D8001AF6EF /* 429.swift */; };
 		8E0AE8B32659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE8B22659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift */; };
 		8E0AE8B62659C97B007FA553 /* 49.chou-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE8B52659C97B007FA553 /* 49.chou-shu-lcof.swift */; };
 		8E0AE8B9265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE8B8265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift */; };
@@ -395,6 +396,7 @@
 /* Begin PBXFileReference section */
 		521858D027F3C9590079121F /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
 		521A64E327FA6381001AF6EF /* 590.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 590.swift; sourceTree = "<group>"; };
+		521A64E527FE41D8001AF6EF /* 429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 429.swift; sourceTree = "<group>"; };
 		8E0AE8B22659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE8B52659C97B007FA553 /* 49.chou-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49.chou-shu-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE8B8265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift"; sourceTree = "<group>"; };
@@ -1206,6 +1208,7 @@
 				8EAC2AC926A4D96B00F8783A /* Stack */,
 				521858D027F3C9590079121F /* 589.swift */,
 				521A64E327FA6381001AF6EF /* 590.swift */,
+				521A64E527FE41D8001AF6EF /* 429.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1730,6 +1733,7 @@
 				8E63A675261FE1010078BA4C /* 98.validate-binary-search-tree.swift in Sources */,
 				8E995E0E26D85E470007E9D6 /* 14_200_Day20Plan.swift in Sources */,
 				8E63DACB262C7CFE00BD8398 /* 191.number-of-1-bits.swift in Sources */,
+				521A64E627FE41D8001AF6EF /* 429.swift in Sources */,
 				8E1D004C2645FDD30067FD06 /* 26.problems:shu-de-zi-jie-gou-lcof.swift in Sources */,
 				8E0AE97B26624388007FA553 /* 57.1.he-wei-sde-liang-ge-shu-zi-lcof.swift in Sources */,
 				8ED4205526CB262300E4D9DF /* 20_21_Day20Plan.swift in Sources */,
