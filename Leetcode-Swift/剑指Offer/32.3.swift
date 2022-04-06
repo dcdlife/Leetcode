@@ -18,6 +18,51 @@ class Solution_Offer_32_3 {
         if root == nil {
             return []
         }
+
+        var ans = [[Int]]()
+        var queue = [root]
+        var level = -1
+        
+        while !queue.isEmpty {
+            level += 1
+            var vals = [Int]()
+            var nextQueue = [TreeNode?]()
+            // 当前是偶数层：从左到右
+            // 当前是奇数层：从右到左
+            let isEvenLevel = (level & 1 == 0)
+
+            while !queue.isEmpty {
+                let node = queue.removeFirst()
+                vals.append(node!.val)
+                
+                if isEvenLevel {
+                    if node?.left != nil {
+                        nextQueue.insert(node?.left, at: 0)
+                    }
+                    if node?.right != nil {
+                        nextQueue.insert(node?.right, at: 0)
+                    }
+                } else {
+                    if node?.right != nil {
+                        nextQueue.insert(node?.right, at: 0)
+                    }
+                    if node?.left != nil {
+                        nextQueue.insert(node?.left, at: 0)
+                    }
+                }
+            }
+
+            queue = nextQueue
+            ans.append(vals)
+        }
+
+        return ans
+    }
+
+    func levelOrder_2(_ root: TreeNode?) -> [[Int]] {
+        if root == nil {
+            return []
+        }
         
         var stacks = [[TreeNode](), [TreeNode]()]
         var current = 0
