@@ -16,25 +16,28 @@ class Solution_Offer_55_2 {
     
     /// 方法二：利用后序遍历，仅需遍历一次节点
     func isBalanced(_ root: TreeNode?) -> Bool {
+        if root == nil {
+            return true
+        }
+
         var depth = 0
         return isBalancedCore(root, &depth)
     }
-    
+
     func isBalancedCore(_ root: TreeNode?, _ depth: inout Int) -> Bool {
         if root == nil {
             depth = 0
             return true
         }
-        
-        var left = 0, right = 0
-        if isBalancedCore(root?.left, &left) && isBalancedCore(root?.right, &right) {
-            let diff = left - right
-            if diff >= -1 && diff <= 1 {
-                depth = max(left, right) + 1
+
+        var leftHeight = 0, rightHeight = 0
+        if isBalancedCore(root?.left, &leftHeight) && isBalancedCore(root?.right, &rightHeight) {
+            if abs(leftHeight - rightHeight) <= 1 {
+                depth += max(leftHeight, rightHeight) + 1
                 return true
             }
         }
-        
+
         return false
     }
     
