@@ -24,22 +24,28 @@ class Solution_104 {
         if root == nil {
             return 0
         }
+
+        var height = 0
         var queue = [root]
-        var level = 0
-        while queue.count > 0 {
-            let qCount = queue.count
-            for _ in 0..<qCount {
-                let head = queue.removeFirst()
-                if head!.left != nil {
-                    queue.append(head!.left!)
+
+        while !queue.isEmpty {
+            height += 1
+
+            var count = queue.count
+            while count > 0 {
+                let node = queue.removeFirst()
+                if node?.left != nil {
+                    queue.append(node?.left)
                 }
-                if head!.right != nil {
-                    queue.append(head!.right!)
+                if node?.right != nil {
+                    queue.append(node?.right)
                 }
+                
+                count -= 1
             }
-            level += 1
         }
-        return level
+
+        return height
     }
     
     /// 思路：递归
@@ -47,6 +53,7 @@ class Solution_104 {
         if root == nil {
             return 0
         }
+        
         return max(maxDepth(root?.left), maxDepth(root?.right)) + 1
     }
     
