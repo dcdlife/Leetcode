@@ -39,22 +39,30 @@ class Solution_98 {
         if root == nil {
             return true
         }
-        var stack: [TreeNode] = []
-        var cur = root
-        var preVal = Int.min
-        while stack.count > 0 || cur != nil {
-            while cur != nil {
-                stack.append(cur!)
-                cur = cur?.left
+
+        var ans = true
+        var stack = [TreeNode?]()
+        var node = root
+        var preVal: Int?
+
+        while node != nil || !stack.isEmpty {
+            while node != nil {
+                stack.append(node)
+                node = node?.left
             }
-            cur = stack.removeLast()
-            if cur!.val <= preVal {
-                return false
+
+            node = stack.removeLast()
+            let curVal = node!.val
+            if let preVal = preVal, preVal >= curVal {
+                ans = false
+                break
             }
-            preVal = cur!.val
-            cur = cur!.right
+            
+            preVal = curVal
+            node = node?.right
         }
-        return true
+
+        return ans
     }
     
     func test() {
