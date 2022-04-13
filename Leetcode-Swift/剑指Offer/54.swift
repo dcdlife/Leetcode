@@ -49,23 +49,33 @@ class Solution_Offer_54 {
     
     /// beself
     func kthLargest(_ root: TreeNode?, _ k: Int) -> Int {
-        if root == nil || k <= 0 {
-            return -1
+        if root == nil {
+            return 0
         }
-        
-        func inorder(_ root: TreeNode?) -> [Int] {
-            if root == nil {
-                return []
+
+        var ans = root!.val
+        var node = root
+        var stack = [TreeNode?]()
+        var k = k
+
+        while node != nil || !stack.isEmpty {
+            while node != nil {
+                stack.append(node)
+                node = node?.right
             }
-            return inorder(root?.left) + [root!.val] + inorder(root?.right)
+
+            node = stack.removeLast()
+            k -= 1
+
+            if k == 0 {
+                ans = node!.val
+                break
+            }
+
+            node = node?.left
         }
-        
-        let allVals = inorder(root)
-        if allVals.count >= k {
-            return allVals[allVals.count - k]
-        }
-        
-        return -1
+
+        return ans
     }
     
     /*
