@@ -11,52 +11,9 @@ import Foundation
  https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
  */
 
-class Solution236 {
-    /*
-     迭代：遍历树，记录每个节点的父节点。通过利用哈希表记录p和q访问过的父节点，已经访问过的父节点即为最近的公共祖先节点
-     */
-    func dfs(_ root: TreeNode?, _ dict: inout [Int : TreeNode]) {
-        if root == nil {
-            return
-        }
-        if let left = root?.left {
-            dict[left.val] = root
-            dfs(left, &dict)
-        }
-        if let right = root?.right {
-            dict[right.val] = root
-            dfs(right, &dict)
-        }
-    }
+class Solution_236 {
+    /// 递归思路1
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
-        if root == nil || p == nil || q == nil {
-            return nil
-        }
-        var dict: [Int: TreeNode] = [:]
-        dfs(root, &dict)
-        dict[root!.val] = nil
-        
-        var markDict: [Int: Bool] = [:]
-        var tmpP = p
-        while tmpP != nil {
-            markDict[tmpP!.val] = true
-            tmpP = dict[tmpP!.val]
-        }
-        var tmpQ = q
-        while tmpQ != nil {
-            if let exist = markDict[tmpQ!.val], exist == true {
-                return tmpQ
-            }
-            tmpQ = dict[tmpQ!.val]
-        }
-        
-        return nil
-    }
-    
-    /*
-     思路：递归
-     */
-    func lowestCommonAncestor_recursive(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         if root == nil || p == nil || q == nil {
             return nil
         }
@@ -66,6 +23,47 @@ class Solution236 {
         let left = lowestCommonAncestor(root?.left, p, q)
         let right = lowestCommonAncestor(root?.right, p, q)
         return left == nil ? right : (right == nil ? left : root)
+    }
+    
+    /// 递归思路2
+    func lowestCommonAncestor1(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+        if root == nil {
+            return nil
+        }
+
+        var ans: TreeNode?
+        let _ = dfs(root, p, q, &ans)
+        
+        return ans
+    }
+
+    func dfs(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?, _ ans: inout TreeNode?) -> Int {
+        if root == nil {
+            return 0
+        }
+
+        let leftContains = dfs(root?.left, p, q, &ans)
+        if ans != nil {
+            return 2
+        }
+
+        let rightContains = dfs(root?.right, p, q, &ans)
+        if ans != nil {
+            return 2
+        }
+
+        var rootContains = 0
+        if root === p || root === q {
+            rootContains = 1
+        }
+        if rootContains == 0 && leftContains == 1 && rightContains == 1 {
+            ans = root
+        }
+        if rootContains == 1 && (leftContains == 1 || rightContains == 1) {
+            ans = root
+        }
+
+        return leftContains + rootContains + rightContains
     }
     
     /*
