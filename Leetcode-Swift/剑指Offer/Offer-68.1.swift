@@ -19,18 +19,23 @@ class Solution_Offer_68_1 {
         if root == nil || p == nil || q == nil {
             return nil
         }
+        
         if root === p || root === q {
             return root
         }
+        
         let rootValue = root!.val
         let pValue = p!.val
         let qValue = q!.val
+        
         if rootValue > pValue && rootValue > qValue {
             return lowestCommonAncestor(root?.left, p, q)
         }
+        
         if rootValue < pValue && rootValue < qValue {
             return lowestCommonAncestor(root?.right, p, q)
         }
+        
         return root
     }
     
@@ -64,22 +69,23 @@ class Solution_Offer_68_1 {
   * @param {TreeNode} q
   * @return {TreeNode}
   */
-  var lowestCommonAncestor = function(root, p, q) {
+    var lowestCommonAncestor = function(root, p, q) {
      if (root == null || p == null || q == null) {
          return null
      }
+
      if (root == p || root == q) {
          return root
      }
-     let rootValue = root.val
-     let pValue = p.val
-     let qValue = q.val
-     if (rootValue > pValue && rootValue > qValue) {
+
+     if (root.val > p.val && root.val > q.val) {
          return lowestCommonAncestor(root.left, p, q)
      }
-     if (rootValue < pValue && rootValue < qValue) {
+
+     if (root.val < p.val && root.val < q.val) {
          return lowestCommonAncestor(root.right, p, q)
      }
+
      return root
- };
+    };
  */
