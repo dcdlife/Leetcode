@@ -73,7 +73,7 @@
 		8E1C65402683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C653F2683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift */; };
 		8E1C654326854A4500B561D7 /* 705.design-hashset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C654226854A4500B561D7 /* 705.design-hashset.swift */; };
 		8E1C65462686C1D400B561D7 /* 382.linked-list-random-node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C65452686C1D400B561D7 /* 382.linked-list-random-node.swift */; };
-		8E1C6549268A7ADA00B561D7 /* 114.flatten-binary-tree-to-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C6548268A7ADA00B561D7 /* 114.flatten-binary-tree-to-linked-list.swift */; };
+		8E1C6549268A7ADA00B561D7 /* 114.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C6548268A7ADA00B561D7 /* 114.swift */; };
 		8E1C654C268BD21600B561D7 /* 355.design-twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C654B268BD21600B561D7 /* 355.design-twitter.swift */; };
 		8E1C654F268D22FF00B561D7 /* 432.all-oone-data-structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C654E268D22FF00B561D7 /* 432.all-oone-data-structure.swift */; };
 		8E1C6552268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C6551268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift */; };
@@ -467,7 +467,7 @@
 		8E1C653F2683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1019.next-greater-node-in-linked-lis.swift"; sourceTree = "<group>"; };
 		8E1C654226854A4500B561D7 /* 705.design-hashset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "705.design-hashset.swift"; sourceTree = "<group>"; };
 		8E1C65452686C1D400B561D7 /* 382.linked-list-random-node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "382.linked-list-random-node.swift"; sourceTree = "<group>"; };
-		8E1C6548268A7ADA00B561D7 /* 114.flatten-binary-tree-to-linked-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114.flatten-binary-tree-to-linked-list.swift"; sourceTree = "<group>"; };
+		8E1C6548268A7ADA00B561D7 /* 114.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 114.swift; sourceTree = "<group>"; };
 		8E1C654B268BD21600B561D7 /* 355.design-twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "355.design-twitter.swift"; sourceTree = "<group>"; };
 		8E1C654E268D22FF00B561D7 /* 432.all-oone-data-structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "432.all-oone-data-structure.swift"; sourceTree = "<group>"; };
 		8E1C6551268D2FC300B561D7 /* 02.07.intersection-of-two-linked-lists-lcci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02.07.intersection-of-two-linked-lists-lcci.swift"; sourceTree = "<group>"; };
@@ -1230,6 +1230,7 @@
 				52D9781B280388BE00C27D8E /* 226.swift */,
 				52D9781D2804DAAA00C27D8E /* 101.swift */,
 				52D9781F2808CCAA00C27D8E /* 538.swift */,
+				8E1C6548268A7ADA00B561D7 /* 114.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1271,7 +1272,6 @@
 				8E1C653F2683A4E900B561D7 /* 1019.next-greater-node-in-linked-lis.swift */,
 				8E1C654226854A4500B561D7 /* 705.design-hashset.swift */,
 				8E1C65452686C1D400B561D7 /* 382.linked-list-random-node.swift */,
-				8E1C6548268A7ADA00B561D7 /* 114.flatten-binary-tree-to-linked-list.swift */,
 				8E1C654B268BD21600B561D7 /* 355.design-twitter.swift */,
 				8E1C654E268D22FF00B561D7 /* 432.all-oone-data-structure.swift */,
 				8E1C655726913BE000B561D7 /* 641.design-circular-deque.swift */,
@@ -1756,7 +1756,7 @@
 				8EE95EE7267FEB1900E0C20C /* 430.flatten-a-multilevel-doubly-linked-list.swift in Sources */,
 				8E4EFD73275B393900160AC9 /* 16.11.swift in Sources */,
 				8E0D613526E0267200C2A8D9 /* 29_213_Day20Plan.swift in Sources */,
-				8E1C6549268A7ADA00B561D7 /* 114.flatten-binary-tree-to-linked-list.swift in Sources */,
+				8E1C6549268A7ADA00B561D7 /* 114.swift in Sources */,
 				8E63A675261FE1010078BA4C /* 98.swift in Sources */,
 				8E995E0E26D85E470007E9D6 /* 14_200_Day20Plan.swift in Sources */,
 				8E63DACB262C7CFE00BD8398 /* 191.number-of-1-bits.swift in Sources */,
