@@ -13,36 +13,40 @@ import Foundation
  */
 
 class Solution_Jindian_04_03 {
+    
     func listOfDepth(_ tree: TreeNode?) -> [ListNode?] {
         if tree == nil {
             return []
         }
-        
-        var queue = [TreeNode]()
-        queue.append(tree!)
 
-        var ans = [ListNode]()
+        var ans = [ListNode?]()
+        var queue = [tree]
+
         while !queue.isEmpty {
             var count = queue.count
-            // 生成首节点
-            let head = ListNode(0)
-            var cur = Optional(head)
+
+            let dummyNode = ListNode(0)
+            var tail = dummyNode
+
             while count > 0 {
                 let node = queue.removeFirst()
-                if node.left != nil {
-                    queue.append(node.left!)
+                if node?.left != nil {
+                    queue.append(node?.left)
                 }
-                if node.right != nil {
-                    queue.append(node.right!)
+                if node?.right != nil {
+                    queue.append(node?.right)
                 }
+
+                let lNode = ListNode(node!.val)
+                tail.next = lNode
+                tail = lNode
+
                 count -= 1
-                
-                cur?.next = ListNode(node.val)
-                cur = cur?.next
             }
-            ans.append(head.next!)
+
+            ans.append(dummyNode.next)
         }
-        
+
         return ans
     }
     
