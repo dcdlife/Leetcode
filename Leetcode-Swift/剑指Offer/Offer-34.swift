@@ -13,28 +13,39 @@ import Foundation
  */
 
 class Solution_Offer_34 {
+    var curSum = 0
+    var curNodeVals = [Int]()
+    var ans = [[Int]]()
+
     func pathSum(_ root: TreeNode?, _ target: Int) -> [[Int]] {
-        if root == nil {
-            return []
-        }
-        var ans = [[Int]]()
-        _pathSum(root!, [], 0, target, ans: &ans)
+        preorder(root, target)
         return ans
     }
-    
-    func _pathSum(_ root: TreeNode, _ nums: [Int], _ sum: Int, _ target: Int, ans: inout [[Int]]) {
-        if root.left == nil && root.right == nil {
-            if sum + root.val == target {
-                ans.append(nums + [root.val])
-            }
+
+    func preorder(_ root: TreeNode?, _ target: Int) {
+        if root == nil {
             return
         }
-        if root.left != nil {
-            _pathSum(root.left!, nums + [root.val], sum + root.val, target, ans: &ans)
+
+        curSum += root!.val
+        curNodeVals.append(root!.val)
+
+        if (root?.left == nil) && (root?.right == nil) {
+            if target == curSum {
+                ans.append(curNodeVals)
+            }
+
+            curNodeVals.removeLast()
+            curSum -= root!.val
+
+            return
         }
-        if root.right != nil {
-            _pathSum(root.right!, nums + [root.val], sum + root.val, target, ans: &ans)
-        }
+
+        preorder(root?.left, target)
+        preorder(root?.right, target)
+
+        curSum -= root!.val
+        curNodeVals.removeLast()
     }
     
     /*
