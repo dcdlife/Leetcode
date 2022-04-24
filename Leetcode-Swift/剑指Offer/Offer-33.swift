@@ -17,7 +17,7 @@ class Solution_Offer_33 {
         if postorder.isEmpty {
             return true
         }
-
+        
         let root = postorder.last!
         var rootValid = true
         var leftPostOrder = [Int]()
