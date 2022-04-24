@@ -14,42 +14,43 @@ import Foundation
 
 class Solution_Offer_33 {
     func verifyPostorder(_ postorder: [Int]) -> Bool {
-        let count = postorder.count
-        
-        if count <= 1 {
+        if postorder.isEmpty {
             return true
         }
-        
+
         let root = postorder.last!
+        var rootValid = true
+        var leftPostOrder = [Int]()
+        var rightPostOrder = [Int]()
+
+        var index = 0
+        let end = postorder.count - 2
         
-        var left = 0
-        for i in postorder[...(count - 2)] {
-            if i > root  {
+        while index <= end {
+            if postorder[index] < root {
+                leftPostOrder.append(postorder[index])
+            } else {
                 break
             }
-            left += 1
+            index += 1
         }
-        
-        let right = left
-        if right < (count - 1) {
-            for i in postorder[right...(count - 2)] {
-                if i < root {
-                    return false
-                }
+
+        while index <= end {
+            if postorder[index] > root {
+                rightPostOrder.append(postorder[index])
+            } else {
+                rootValid = false
+                break
             }
+
+            index += 1
         }
-        
-        var leftValid = true
-        if left > 0 {
-            leftValid = verifyPostorder(Array(postorder[0...left-1]))
+
+        if !rootValid {
+            return false
         }
-        
-        var rightValid = true
-        if right <= count - 2 {
-            rightValid = verifyPostorder(Array(postorder[right...(count - 2)]))
-        }
-        
-        return leftValid && rightValid
+
+        return verifyPostorder(leftPostOrder) && verifyPostorder(rightPostOrder)
     }
     
     /*
