@@ -22,12 +22,12 @@ class Solution_77 {
 
         let nums: [Int] = Array(1...n)
         var path = [Int]()
-        combine(nums, 0, k, &path)
+        combineCore(nums, 0, k, &path)
 
         return ans
     }
 
-    func combine(_ nums: [Int], _ begin: Int, _ k: Int, _ path: inout [Int]) {
+    func combineCore(_ nums: [Int], _ begin: Int, _ k: Int, _ path: inout [Int]) {
         if k <= 0 {
             ans.append(path)
             return
@@ -37,7 +37,7 @@ class Solution_77 {
             let num = nums[i]
 
             path.append(num)
-            combine(nums, i + 1, k - 1, &path)
+            combineCore(nums, i + 1, k - 1, &path)
             path.removeLast()
         }
     }
