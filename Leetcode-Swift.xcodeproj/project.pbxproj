@@ -12,6 +12,7 @@
 		521A64E627FE41D8001AF6EF /* 429.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E527FE41D8001AF6EF /* 429.swift */; };
 		521A64E827FF8ECA001AF6EF /* 513.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E727FF8ECA001AF6EF /* 513.swift */; };
 		521A64EA280242FB001AF6EF /* 599.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E9280242FB001AF6EF /* 599.swift */; };
+		521E5FE3282204BD00EAB6AE /* 47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E5FE2282204BD00EAB6AE /* 47.swift */; };
 		52D9781A2803843A00C27D8E /* 617.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D978192803843A00C27D8E /* 617.swift */; };
 		52D9781C280388BE00C27D8E /* 226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9781B280388BE00C27D8E /* 226.swift */; };
 		52D9781E2804DAAA00C27D8E /* 101.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9781D2804DAAA00C27D8E /* 101.swift */; };
@@ -418,6 +419,7 @@
 		521A64E527FE41D8001AF6EF /* 429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 429.swift; sourceTree = "<group>"; };
 		521A64E727FF8ECA001AF6EF /* 513.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 513.swift; sourceTree = "<group>"; };
 		521A64E9280242FB001AF6EF /* 599.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 599.swift; sourceTree = "<group>"; };
+		521E5FE2282204BD00EAB6AE /* 47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 47.swift; sourceTree = "<group>"; };
 		52D978192803843A00C27D8E /* 617.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 617.swift; sourceTree = "<group>"; };
 		52D9781B280388BE00C27D8E /* 226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 226.swift; sourceTree = "<group>"; };
 		52D9781D2804DAAA00C27D8E /* 101.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 101.swift; sourceTree = "<group>"; };
@@ -1267,6 +1269,7 @@
 				52D97835281E0A8600C27D8E /* 78.swift */,
 				52D97837281F7E0900C27D8E /* 90.swift */,
 				52D978392820AD4000C27D8E /* 46.swift */,
+				521E5FE2282204BD00EAB6AE /* 47.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1545,6 +1548,7 @@
 				8E63DAF126306A1300BD8398 /* 322.coin-change.swift in Sources */,
 				8EEA6E6526FA8C0500191747 /* 01_217.swift in Sources */,
 				8E0AE9AE26698AA4007FA553 /* 64.qiu-12n-lcof.swift in Sources */,
+				521E5FE3282204BD00EAB6AE /* 47.swift in Sources */,
 				52D9781A2803843A00C27D8E /* 617.swift in Sources */,
 				8E995DD026D709870007E9D6 /* 12_713_Day20Plan.swift in Sources */,
 				8ECF982E26C0A34F00941E47 /* 02_278_Day20Plan.swift in Sources */,
