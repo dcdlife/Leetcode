@@ -14,6 +14,7 @@
 		521A64EA280242FB001AF6EF /* 599.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E9280242FB001AF6EF /* 599.swift */; };
 		521E5FE3282204BD00EAB6AE /* 47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E5FE2282204BD00EAB6AE /* 47.swift */; };
 		528B404828235928009F10A7 /* 39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B404728235928009F10A7 /* 39.swift */; };
+		528B404A28235D81009F10A7 /* 40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B404928235D81009F10A7 /* 40.swift */; };
 		52D9781A2803843A00C27D8E /* 617.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D978192803843A00C27D8E /* 617.swift */; };
 		52D9781C280388BE00C27D8E /* 226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9781B280388BE00C27D8E /* 226.swift */; };
 		52D9781E2804DAAA00C27D8E /* 101.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9781D2804DAAA00C27D8E /* 101.swift */; };
@@ -422,6 +423,7 @@
 		521A64E9280242FB001AF6EF /* 599.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 599.swift; sourceTree = "<group>"; };
 		521E5FE2282204BD00EAB6AE /* 47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 47.swift; sourceTree = "<group>"; };
 		528B404728235928009F10A7 /* 39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 39.swift; sourceTree = "<group>"; };
+		528B404928235D81009F10A7 /* 40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 40.swift; sourceTree = "<group>"; };
 		52D978192803843A00C27D8E /* 617.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 617.swift; sourceTree = "<group>"; };
 		52D9781B280388BE00C27D8E /* 226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 226.swift; sourceTree = "<group>"; };
 		52D9781D2804DAAA00C27D8E /* 101.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 101.swift; sourceTree = "<group>"; };
@@ -1273,6 +1275,7 @@
 				52D978392820AD4000C27D8E /* 46.swift */,
 				521E5FE2282204BD00EAB6AE /* 47.swift */,
 				528B404728235928009F10A7 /* 39.swift */,
+				528B404928235D81009F10A7 /* 40.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1656,6 +1659,7 @@
 				8E63DB532638C0EE00BD8398 /* 13.ji-qi-ren-de-yun-dong-fan-wei-lcof.swift in Sources */,
 				8E0AE9AB26683F91007FA553 /* 63.gu-piao-de-zui-da-li-run-lcof.swift in Sources */,
 				8E1C655826913BE000B561D7 /* 641.design-circular-deque.swift in Sources */,
+				528B404A28235D81009F10A7 /* 40.swift in Sources */,
 				8E44F92F26E97361003C8A2B /* 44_201_Day20Plan.swift in Sources */,
 				8E1C65462686C1D400B561D7 /* 382.linked-list-random-node.swift in Sources */,
 				8E94D17F26BF635200CC5214 /* 779.swift in Sources */,
