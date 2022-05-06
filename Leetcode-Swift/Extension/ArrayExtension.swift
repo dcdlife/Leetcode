@@ -11,6 +11,10 @@ extension Array {
     /// 优化数组的展示
     func print() {
         func recursivePrint(_ i: [Any], indent: String, _ showComma: Bool) {
+            if i.isEmpty {
+                Swift.print("[]")
+                return
+            }
             if (i[0] as? [Any]) == nil {
                 Swift.print("\(indent)\(i)\((showComma ? "," : ""))")
                 return
