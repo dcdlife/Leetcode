@@ -17,6 +17,7 @@
 		528B404A28235D81009F10A7 /* 40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B404928235D81009F10A7 /* 40.swift */; };
 		528E1EC328287C0F008B30BD /* 08.10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E1EC228287C0F008B30BD /* 08.10.swift */; };
 		528E1EC528287C98008B30BD /* 04.01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E1EC428287C98008B30BD /* 04.01.swift */; };
+		528E1EC72829D287008B30BD /* 16.19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E1EC62829D287008B30BD /* 16.19.swift */; };
 		52A259D228249ABD0094A432 /* 216.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A259D128249ABD0094A432 /* 216.swift */; };
 		52A6A43C28260B0B00D3F96C /* 93.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6A43B28260B0B00D3F96C /* 93.swift */; };
 		52D9781A2803843A00C27D8E /* 617.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D978192803843A00C27D8E /* 617.swift */; };
@@ -430,6 +431,7 @@
 		528B404928235D81009F10A7 /* 40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 40.swift; sourceTree = "<group>"; };
 		528E1EC228287C0F008B30BD /* 08.10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 08.10.swift; sourceTree = "<group>"; };
 		528E1EC428287C98008B30BD /* 04.01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 04.01.swift; sourceTree = "<group>"; };
+		528E1EC62829D287008B30BD /* 16.19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16.19.swift; sourceTree = "<group>"; };
 		52A259D128249ABD0094A432 /* 216.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 216.swift; sourceTree = "<group>"; };
 		52A6A43B28260B0B00D3F96C /* 93.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 93.swift; sourceTree = "<group>"; };
 		52D978192803843A00C27D8E /* 617.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 617.swift; sourceTree = "<group>"; };
@@ -886,6 +888,7 @@
 				52D9782F2819F90D00C27D8E /* 08.12.swift */,
 				528E1EC228287C0F008B30BD /* 08.10.swift */,
 				528E1EC428287C98008B30BD /* 04.01.swift */,
+				528E1EC62829D287008B30BD /* 16.19.swift */,
 			);
 			path = "程序员面试金典(第6版)";
 			sourceTree = "<group>";
@@ -1818,6 +1821,7 @@
 				8EE68BA0276ED79500550C7A /* 16.26.swift in Sources */,
 				8E1D00492645F9560067FD06 /* 25_Offer.swift in Sources */,
 				52D978282816034000C27D8E /* 105.swift in Sources */,
+				528E1EC72829D287008B30BD /* 16.19.swift in Sources */,
 				8E1C657A269F942D00B561D7 /* 16.25.swift in Sources */,
 				8E1D0082264774BD0067FD06 /* 28.dui-cheng-de-er-cha-shu-lcof.swift in Sources */,
 				8E0D612D26DE5FC800C2A8D9 /* 25_40_Day20Plan.swift in Sources */,
