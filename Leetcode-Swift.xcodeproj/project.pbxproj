@@ -10,6 +10,7 @@
 		52012DB6282DE0C800C11924 /* 1306.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DB5282DE0C800C11924 /* 1306.swift */; };
 		52012DB8282F922200C11924 /* 752.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DB7282F922200C11924 /* 752.swift */; };
 		52012DBA2830A13900C11924 /* 17.22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DB92830A13900C11924 /* 17.22.swift */; };
+		52012DBC2831F3DB00C11924 /* 416.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DBB2831F3DB00C11924 /* 416.swift */; };
 		521858D127F3C9590079121F /* 589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858D027F3C9590079121F /* 589.swift */; };
 		521A64E427FA6381001AF6EF /* 590.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E327FA6381001AF6EF /* 590.swift */; };
 		521A64E627FE41D8001AF6EF /* 429.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E527FE41D8001AF6EF /* 429.swift */; };
@@ -428,6 +429,7 @@
 		52012DB5282DE0C800C11924 /* 1306.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1306.swift; sourceTree = "<group>"; };
 		52012DB7282F922200C11924 /* 752.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 752.swift; sourceTree = "<group>"; };
 		52012DB92830A13900C11924 /* 17.22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17.22.swift; sourceTree = "<group>"; };
+		52012DBB2831F3DB00C11924 /* 416.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 416.swift; sourceTree = "<group>"; };
 		521858D027F3C9590079121F /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
 		521A64E327FA6381001AF6EF /* 590.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 590.swift; sourceTree = "<group>"; };
 		521A64E527FE41D8001AF6EF /* 429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 429.swift; sourceTree = "<group>"; };
@@ -1303,6 +1305,7 @@
 				8E73CD0226AF03C400549806 /* Queue */,
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
+				52012DBB2831F3DB00C11924 /* 416.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1542,6 +1545,7 @@
 				8EEA6E752700B4FF00191747 /* 09_36.swift in Sources */,
 				8ED4204B26C8E2DF00E4D9DF /* 15_695_Day20Plan.swift in Sources */,
 				8E4EFD582757B9F000160AC9 /* 9.swift in Sources */,
+				52012DBC2831F3DB00C11924 /* 416.swift in Sources */,
 				8E63A67F2622706B0078BA4C /* 50.powx-n.swift in Sources */,
 				8E96642726EABFF800477CCB /* 45_384_Day20Plan.swift in Sources */,
 				8E0AE96F265F07F3007FA553 /* 55.1.er-cha-shu-de-shen-du-lcof.swift in Sources */,
