@@ -13,9 +13,61 @@ import Foundation
  */
 
 class Solution322 {
+
+    /// 动态规划1（优化）
+    func coinChange(_ coins: [Int], _ amount: Int) -> Int {
+        if amount == 0 {
+            return 0
+        }
+        if coins.isEmpty || amount < 0 {
+            return -1
+        }
+        
+        var dp = [Int](repeating: amount + 1, count: amount + 1)
+        dp[0] = 0
+        
+        for i in 1...amount {
+            for coin in coins {
+                if coin <= i {
+                    dp[i] = min(dp[i], dp[i - coin] + 1)
+                }
+            }
+        }
+
+        return dp[amount] > amount ? -1 : dp[amount]
+    }
+    
+    /// 动态规划2（自写）
+    func coinChange_dp2(_ coins: [Int], _ amount: Int) -> Int {
+        if amount == 0 {
+            return 0
+        }
+        if coins.isEmpty || amount < 0 {
+            return -1
+        }
+
+        var dp = [Int](repeating: -1, count: amount + 1)
+        dp[0] = 0
+
+        for i in 1...amount {
+            var minCoins = Int.max
+            for coin in coins {
+                let index = i - coin
+                if (index >= 0) && dp[index] != -1 {
+                    minCoins = min(minCoins, dp[index])
+                }
+            }
+
+            if minCoins != Int.max {
+                dp[i] = minCoins + 1
+            }
+        }
+
+        return dp[amount]
+    }
     
     /// dfs+剪枝
-    func coinChange(_ coins: [Int], _ amount: Int) -> Int {
+    func coinChange_dfs(_ coins: [Int], _ amount: Int) -> Int {
         if amount == 0 {
             return 0
         }
@@ -47,30 +99,6 @@ class Solution322 {
         var count = [Int](repeating: 0, count: amount)
         let _ = inner(coins, amount, &count)
         return count[amount - 1]
-    }
-
-    /// 动态规划
-    func coinChange_dp(_ coins: [Int], _ amount: Int) -> Int {
-        if amount == 0 {
-            return 0
-        }
-        if amount <= 0 {
-            return -1
-        }
-        
-        var dp = [Int](repeating: amount + 1, count: amount + 1)
-        dp[0] = 0
-        var i = 1
-        while i <= amount {
-            for coin in coins {
-                if coin <= i {
-                    dp[i] = min(dp[i], dp[i - coin] + 1)
-                }
-            }
-            i += 1
-        }
-
-        return dp[amount] > amount ? -1 : dp[amount]
     }
     
     func test() {
