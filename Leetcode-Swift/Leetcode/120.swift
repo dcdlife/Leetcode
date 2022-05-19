@@ -12,28 +12,26 @@ import Foundation
  https://leetcode-cn.com/problems/triangle/
  */
 
-class Solution120 {
+class Solution_120 {
     func minimumTotal(_ triangle: [[Int]]) -> Int {
-        guard triangle.count > 0, triangle[0].count > 0 else {
+        if triangle.isEmpty {
             return 0
         }
-        if triangle.count == 1 {
-            return triangle[0][0]
-        }
+
         var triangle = triangle
-        for i in 1..<triangle.count {
-            let count = triangle[i].count
-            for j in 0..<count {
-                if j == 0 {
-                    triangle[i][j] += triangle[i-1][j]
-                } else if j == count - 1 {
-                    triangle[i][j] += triangle[i - 1][j - 1]
-                } else {
-                    triangle[i][j] += min(triangle[i - 1][j], triangle[i - 1][j - 1])
-                }
+        let rows = triangle.count
+
+        for i in 1..<rows {
+            triangle[i][0] = triangle[i][0] + triangle[i - 1][0]
+            
+            for j in 1..<i {
+                triangle[i][j] = triangle[i][j] +  min(triangle[i - 1][j - 1], triangle[i - 1][j])
             }
+            
+            triangle[i][i] = triangle[i][i] + triangle[i - 1][i - 1]
         }
-        return triangle[triangle.count - 1].min()!
+
+        return triangle[rows - 1].min()!
     }
     
     /*
