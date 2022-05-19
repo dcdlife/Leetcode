@@ -14,37 +14,28 @@ import Foundation
 
 class Solution_Offer_47 {
     func maxValue(_ grid: [[Int]]) -> Int {
-        if grid.count == 0 || grid[0].count == 0 {
+        if grid.isEmpty || grid[0].isEmpty {
             return 0
         }
-        
+
+        var grid = grid
         let rows = grid.count
         let cols = grid[0].count
-        
-        if rows == 1 {
-            return grid[0].reduce(0, +)
+
+        for row in 1..<rows {
+            grid[row][0] = grid[row][0] + grid[row - 1][0]
         }
-        
-        if cols == 1 {
-            return grid.reduce(0) { $0 + $1[0] }
+        for col in 1..<cols {
+            grid[0][col] = grid[0][col] + grid[0][col - 1]
         }
-        
-        var ans = [[Int]](repeating: [Int](repeating: 0, count: cols), count: rows)
-        ans[0][0] = grid[0][0]
-        for i in 1..<cols {
-            ans[0][i] = ans[0][i - 1] + grid[0][i]
-        }
-        for j in 1..<rows {
-            ans[j][0] = ans[j - 1][0] + grid[j][0]
-        }
-        
+
         for i in 1..<rows {
             for j in 1..<cols {
-                ans[i][j] = max(ans[i - 1][j], ans[i][j - 1]) + grid[i][j]
+                grid[i][j] = grid[i][j] + max(grid[i - 1][j], grid[i][j - 1])
             }
         }
-        
-        return ans[rows - 1][cols - 1]
+
+        return grid[rows - 1][cols - 1]
     }
     
     /*
