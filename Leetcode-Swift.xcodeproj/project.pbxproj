@@ -233,7 +233,7 @@
 		8E63DACE262C7EEE00BD8398 /* 231.power-of-two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */; };
 		8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */; };
 		8E63DAD4262CE59100BD8398 /* 70.climbing-stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */; };
-		8E63DAD7262CE91600BD8398 /* 120.triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD6262CE91600BD8398 /* 120.triangle.swift */; };
+		8E63DAD7262CE91600BD8398 /* 120.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD6262CE91600BD8398 /* 120.swift */; };
 		8E63DADA262E2E5F00BD8398 /* 152.maximum-product-subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD9262E2E5F00BD8398 /* 152.maximum-product-subarray.swift */; };
 		8E63DADD262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */; };
 		8E63DAE0262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */; };
@@ -655,7 +655,7 @@
 		8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "231.power-of-two.swift"; sourceTree = "<group>"; };
 		8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338.counting-bits.swift"; sourceTree = "<group>"; };
 		8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70.climbing-stairs.swift"; sourceTree = "<group>"; };
-		8E63DAD6262CE91600BD8398 /* 120.triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120.triangle.swift; sourceTree = "<group>"; };
+		8E63DAD6262CE91600BD8398 /* 120.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120.swift; sourceTree = "<group>"; };
 		8E63DAD9262E2E5F00BD8398 /* 152.maximum-product-subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152.maximum-product-subarray.swift"; sourceTree = "<group>"; };
 		8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "123.best-time-to-buy-and-sell-stock-iii.swift"; sourceTree = "<group>"; };
 		8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "188.best-time-to-buy-and-sell-stock-iv.swift"; sourceTree = "<group>"; };
@@ -1230,7 +1230,7 @@
 				52D9782B2817561E00C27D8E /* 106.swift */,
 				8E63DAA72628EA8900BD8398 /* 111.minimum-depth-of-binary-tree.swift */,
 				8E1C6548268A7ADA00B561D7 /* 114.swift */,
-				8E63DAD6262CE91600BD8398 /* 120.triangle.swift */,
+				8E63DAD6262CE91600BD8398 /* 120.swift */,
 				8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */,
 				8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */,
 				8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */,
@@ -1578,7 +1578,7 @@
 				8EEA6E7326FEE55E00191747 /* 08_118.swift in Sources */,
 				8E63DB412636222D00BD8398 /* [x:2]07.zhong-jian-er-cha-shu-lcof.swift in Sources */,
 				8E63DB382634D76100BD8398 /* 05.ti-huan-kong-ge-lcof.swift in Sources */,
-				8E63DAD7262CE91600BD8398 /* 120.triangle.swift in Sources */,
+				8E63DAD7262CE91600BD8398 /* 120.swift in Sources */,
 				8ED4206126CD6CF200E4D9DF /* 26_198_Day20Plan.swift in Sources */,
 				8ED4206526CF0CE500E4D9DF /* 28_213_Day20Plan.swift in Sources */,
 				8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */,
