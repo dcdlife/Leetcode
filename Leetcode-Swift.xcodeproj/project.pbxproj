@@ -14,6 +14,7 @@
 		52012DBE28330F4000C11924 /* 494.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DBD28330F4000C11924 /* 494.swift */; };
 		52012DC22835B61E00C11924 /* 518.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC12835B61E00C11924 /* 518.swift */; };
 		52012DC42836FADB00C11924 /* 64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC32836FADB00C11924 /* 64.swift */; };
+		52012DC628385C1100C11924 /* 62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC528385C1100C11924 /* 62.swift */; };
 		521858D127F3C9590079121F /* 589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858D027F3C9590079121F /* 589.swift */; };
 		521A64E427FA6381001AF6EF /* 590.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E327FA6381001AF6EF /* 590.swift */; };
 		521A64E627FE41D8001AF6EF /* 429.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E527FE41D8001AF6EF /* 429.swift */; };
@@ -341,7 +342,7 @@
 		8ECF89982655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */; };
 		8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */; };
 		8ECF899E26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */; };
-		8ECF89EF26588AEA000652B7 /* 47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89EE26588AEA000652B7 /* 47.swift */; };
+		8ECF89EF26588AEA000652B7 /* Offer-47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89EE26588AEA000652B7 /* Offer-47.swift */; };
 		8ECF982C26C09FC800941E47 /* 01_704_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982B26C09FC800941E47 /* 01_704_Day20Plan.swift */; };
 		8ECF982E26C0A34F00941E47 /* 02_278_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982D26C0A34F00941E47 /* 02_278_Day20Plan.swift */; };
 		8ECF983026C0A92700941E47 /* 03_35_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982F26C0A92700941E47 /* 03_35_Day20Plan.swift */; };
@@ -436,6 +437,7 @@
 		52012DBD28330F4000C11924 /* 494.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 494.swift; sourceTree = "<group>"; };
 		52012DC12835B61E00C11924 /* 518.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 518.swift; sourceTree = "<group>"; };
 		52012DC32836FADB00C11924 /* 64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 64.swift; sourceTree = "<group>"; };
+		52012DC528385C1100C11924 /* 62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 62.swift; sourceTree = "<group>"; };
 		521858D027F3C9590079121F /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
 		521A64E327FA6381001AF6EF /* 590.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 590.swift; sourceTree = "<group>"; };
 		521A64E527FE41D8001AF6EF /* 429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 429.swift; sourceTree = "<group>"; };
@@ -764,7 +766,7 @@
 		8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift"; sourceTree = "<group>"; };
 		8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift"; sourceTree = "<group>"; };
 		8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
-		8ECF89EE26588AEA000652B7 /* 47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 47.swift; sourceTree = "<group>"; };
+		8ECF89EE26588AEA000652B7 /* Offer-47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer-47.swift"; sourceTree = "<group>"; };
 		8ECF982B26C09FC800941E47 /* 01_704_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01_704_Day20Plan.swift; sourceTree = "<group>"; };
 		8ECF982D26C0A34F00941E47 /* 02_278_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02_278_Day20Plan.swift; sourceTree = "<group>"; };
 		8ECF982F26C0A92700941E47 /* 03_35_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03_35_Day20Plan.swift; sourceTree = "<group>"; };
@@ -959,7 +961,7 @@
 				8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */,
 				8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */,
 				8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */,
-				8ECF89EE26588AEA000652B7 /* 47.swift */,
+				8ECF89EE26588AEA000652B7 /* Offer-47.swift */,
 				8E0AE8B22659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift */,
 				8E0AE8B52659C97B007FA553 /* 49.chou-shu-lcof.swift */,
 				8E0AE8B8265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift */,
@@ -1209,6 +1211,7 @@
 				8E4EFD7A275BAEA700160AC9 /* 55.swift */,
 				8E3EF19C2778132F00111609 /* 56.swift */,
 				8E4EFD592757C01800160AC9 /* 58.swift */,
+				52012DC32836FADB00C11924 /* 64.swift */,
 				8E63DABD262AEF3B00BD8398 /* 69.swift */,
 				8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */,
 				8E63DAF32630D7F800BD8398 /* 72.edit-distance.swift */,
@@ -1277,10 +1280,13 @@
 				8E19CD942781C5CB00CB4E20 /* 349.swift */,
 				8E63DAC1262B155600BD8398 /* 367.swift */,
 				8E2D98F3277B4CF7005EA957 /* 374.swift */,
+				52012DBB2831F3DB00C11924 /* 416.swift */,
 				521A64E527FE41D8001AF6EF /* 429.swift */,
 				8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */,
 				8E63A69E262653140078BA4C /* 455.assign-cookies.swift */,
+				52012DBD28330F4000C11924 /* 494.swift */,
 				521A64E727FF8ECA001AF6EF /* 513.swift */,
+				52012DC12835B61E00C11924 /* 518.swift */,
 				52D9781F2808CCAA00C27D8E /* 538.swift */,
 				52D978232812086200C27D8E /* 543.swift */,
 				8E63DAF92631C68C00BD8398 /* 547.number-of-provinces.swift */,
@@ -1311,10 +1317,7 @@
 				8E73CD0226AF03C400549806 /* Queue */,
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
-				52012DBB2831F3DB00C11924 /* 416.swift */,
-				52012DBD28330F4000C11924 /* 494.swift */,
-				52012DC12835B61E00C11924 /* 518.swift */,
-				52012DC32836FADB00C11924 /* 64.swift */,
+				52012DC528385C1100C11924 /* 62.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1542,7 +1545,7 @@
 				8EB8A54526178459001408FD /* 206.swift in Sources */,
 				8E1C658026A24CF900B561D7 /* 03.03.swift in Sources */,
 				8EB8A56D261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift in Sources */,
-				8ECF89EF26588AEA000652B7 /* 47.swift in Sources */,
+				8ECF89EF26588AEA000652B7 /* Offer-47.swift in Sources */,
 				8E3B94C027107A17003BCD22 /* 26_101.swift in Sources */,
 				8EE95EC62672B8A600E0C20C /* 82.remove-duplicates-from-sorted-list-ii.swift in Sources */,
 				8E0D612926DE363100C2A8D9 /* 23_47_Day20Plan.swift in Sources */,
@@ -1702,6 +1705,7 @@
 				8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */,
 				8E63DAC2262B155600BD8398 /* 367.swift in Sources */,
 				8E63DB322634CA4700BD8398 /* 03.swift in Sources */,
+				52012DC628385C1100C11924 /* 62.swift in Sources */,
 				8E19CD952781C5CB00CB4E20 /* 349.swift in Sources */,
 				8EB8A576261DF8E2001408FD /* 242.swift in Sources */,
 				8E4EFD7D275BB89C00160AC9 /* 48.swift in Sources */,
