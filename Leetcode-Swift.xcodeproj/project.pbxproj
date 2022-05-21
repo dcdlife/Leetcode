@@ -16,6 +16,7 @@
 		52012DC42836FADB00C11924 /* 64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC32836FADB00C11924 /* 64.swift */; };
 		52012DC628385C1100C11924 /* 62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC528385C1100C11924 /* 62.swift */; };
 		52012DC828385FCC00C11924 /* 63.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC728385FCC00C11924 /* 63.swift */; };
+		52012DCA2839B05800C11924 /* 198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC92839B05700C11924 /* 198.swift */; };
 		521858D127F3C9590079121F /* 589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858D027F3C9590079121F /* 589.swift */; };
 		521A64E427FA6381001AF6EF /* 590.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E327FA6381001AF6EF /* 590.swift */; };
 		521A64E627FE41D8001AF6EF /* 429.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E527FE41D8001AF6EF /* 429.swift */; };
@@ -440,6 +441,7 @@
 		52012DC32836FADB00C11924 /* 64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 64.swift; sourceTree = "<group>"; };
 		52012DC528385C1100C11924 /* 62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 62.swift; sourceTree = "<group>"; };
 		52012DC728385FCC00C11924 /* 63.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 63.swift; sourceTree = "<group>"; };
+		52012DC92839B05700C11924 /* 198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 198.swift; sourceTree = "<group>"; };
 		521858D027F3C9590079121F /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
 		521A64E327FA6381001AF6EF /* 590.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 590.swift; sourceTree = "<group>"; };
 		521A64E527FE41D8001AF6EF /* 429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 429.swift; sourceTree = "<group>"; };
@@ -1213,6 +1215,8 @@
 				8E4EFD7A275BAEA700160AC9 /* 55.swift */,
 				8E3EF19C2778132F00111609 /* 56.swift */,
 				8E4EFD592757C01800160AC9 /* 58.swift */,
+				52012DC528385C1100C11924 /* 62.swift */,
+				52012DC728385FCC00C11924 /* 63.swift */,
 				52012DC32836FADB00C11924 /* 64.swift */,
 				8E63DABD262AEF3B00BD8398 /* 69.swift */,
 				8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */,
@@ -1319,8 +1323,7 @@
 				8E73CD0226AF03C400549806 /* Queue */,
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
-				52012DC528385C1100C11924 /* 62.swift */,
-				52012DC728385FCC00C11924 /* 63.swift */,
+				52012DC92839B05700C11924 /* 198.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1731,6 +1734,7 @@
 				8ED4205726CB30BF00E4D9DF /* 21_206_Day20Plan.swift in Sources */,
 				528B404828235928009F10A7 /* 39.swift in Sources */,
 				8E63DADA262E2E5F00BD8398 /* 152.maximum-product-subarray.swift in Sources */,
+				52012DCA2839B05800C11924 /* 198.swift in Sources */,
 				8ED4205F26CD6BA600E4D9DF /* 25_70_Day20Plan.swift in Sources */,
 				8E6DC32926D1337600938673 /* 04_977_Day20Plan.swift in Sources */,
 				8E1D00CF264B30370067FD06 /* Offer-33.swift in Sources */,
