@@ -17,6 +17,7 @@
 		52012DC628385C1100C11924 /* 62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC528385C1100C11924 /* 62.swift */; };
 		52012DC828385FCC00C11924 /* 63.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC728385FCC00C11924 /* 63.swift */; };
 		52012DCA2839B05800C11924 /* 198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC92839B05700C11924 /* 198.swift */; };
+		52012DCC2839D2A800C11924 /* 213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DCB2839D2A700C11924 /* 213.swift */; };
 		521858D127F3C9590079121F /* 589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858D027F3C9590079121F /* 589.swift */; };
 		521A64E427FA6381001AF6EF /* 590.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E327FA6381001AF6EF /* 590.swift */; };
 		521A64E627FE41D8001AF6EF /* 429.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E527FE41D8001AF6EF /* 429.swift */; };
@@ -442,6 +443,7 @@
 		52012DC528385C1100C11924 /* 62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 62.swift; sourceTree = "<group>"; };
 		52012DC728385FCC00C11924 /* 63.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 63.swift; sourceTree = "<group>"; };
 		52012DC92839B05700C11924 /* 198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 198.swift; sourceTree = "<group>"; };
+		52012DCB2839D2A700C11924 /* 213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 213.swift; sourceTree = "<group>"; };
 		521858D027F3C9590079121F /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
 		521A64E327FA6381001AF6EF /* 590.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 590.swift; sourceTree = "<group>"; };
 		521A64E527FE41D8001AF6EF /* 429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 429.swift; sourceTree = "<group>"; };
@@ -1324,6 +1326,7 @@
 				8E6A39A926B757DE005296B6 /* Recursion */,
 				8EAC2AC926A4D96B00F8783A /* Stack */,
 				52012DC92839B05700C11924 /* 198.swift */,
+				52012DCB2839D2A700C11924 /* 213.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1638,6 +1641,7 @@
 				8E4EFD5A2757C01800160AC9 /* 58.swift in Sources */,
 				8E0AE97E26624631007FA553 /* 57.2.he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.swift in Sources */,
 				8EEA6E7126FEDD5A00191747 /* 07_566.swift in Sources */,
+				52012DCC2839D2A800C11924 /* 213.swift in Sources */,
 				8EEA6E8B270351DC00191747 /* 17_206.swift in Sources */,
 				8E3605F3271E21AF0005A43E /* 148.swift in Sources */,
 				8EEA6E912705E4D000191747 /* 20_232.swift in Sources */,
