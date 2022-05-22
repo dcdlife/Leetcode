@@ -34,15 +34,13 @@ class Solution_213 {
     func robRange(_ nums: [Int], _ start: Int, _ end: Int) -> Int {
         var first = nums[start]
         var second = max(first, nums[start + 1])
-        var ans = max(first, second)
 
         for i in (start + 2)..<end {
             let newSecond = max(first + nums[i], second)
             first = second
             second = newSecond
-            ans = max(first, second)
         }
 
-        return ans
+        return second
     }
 }

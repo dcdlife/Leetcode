@@ -21,14 +21,15 @@ class Solution_198 {
             return nums[0]
         }
 
-        var dp = [Int](repeating: 0, count: nums.count)
-        dp[0] = nums[0]
-        dp[1] = max(nums[0], nums[1])
+        var first = nums[0]
+        var second = max(first, nums[1])
 
         for i in 2..<nums.count {
-            dp[i] = max(dp[i - 1], nums[i] + dp[i - 2])
+            let newSecond = max(first + nums[i], second)
+            first = second
+            second = newSecond
         }
 
-        return dp.last!
+        return second
     }
 }
