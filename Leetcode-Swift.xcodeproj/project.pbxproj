@@ -243,7 +243,7 @@
 		8E63DADD262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */; };
 		8E63DAE0262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */; };
 		8E63DAE4262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAE3262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift */; };
-		8E63DAE7262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAE6262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift */; };
+		8E63DAE7262F88FD00BD8398 /* 714.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAE6262F88FD00BD8398 /* 714.swift */; };
 		8E63DAEE263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */; };
 		8E63DAF126306A1300BD8398 /* 322.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAF026306A1300BD8398 /* 322.swift */; };
 		8E63DAF42630D7F800BD8398 /* 72.edit-distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAF32630D7F800BD8398 /* 72.edit-distance.swift */; };
@@ -670,7 +670,7 @@
 		8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "123.best-time-to-buy-and-sell-stock-iii.swift"; sourceTree = "<group>"; };
 		8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "188.best-time-to-buy-and-sell-stock-iv.swift"; sourceTree = "<group>"; };
 		8E63DAE3262F839400BD8398 /* 309.best-time-to-buy-and-sell-stock-with-cooldown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309.best-time-to-buy-and-sell-stock-with-cooldown.swift"; sourceTree = "<group>"; };
-		8E63DAE6262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift"; sourceTree = "<group>"; };
+		8E63DAE6262F88FD00BD8398 /* 714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 714.swift; sourceTree = "<group>"; };
 		8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "[x:2]300.longest-increasing-subsequence.swift"; sourceTree = "<group>"; };
 		8E63DAF026306A1300BD8398 /* 322.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 322.swift; sourceTree = "<group>"; };
 		8E63DAF32630D7F800BD8398 /* 72.edit-distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "72.edit-distance.swift"; sourceTree = "<group>"; };
@@ -1307,7 +1307,7 @@
 				8EB8A56C261BDACE001408FD /* 703.kth-largest-element-in-a-stream.swift */,
 				8E2D98F1277B4BBC005EA957 /* 704.swift */,
 				8E1C6554268FE9FB00B561D7 /* 706.swift */,
-				8E63DAE6262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift */,
+				8E63DAE6262F88FD00BD8398 /* 714.swift */,
 				8EE68BA3276F140E00550C7A /* 739.swift */,
 				8E19CD7A277B533100CB4E20 /* 744.swift */,
 				52012DB7282F922200C11924 /* 752.swift */,
@@ -1535,7 +1535,7 @@
 				8E0AE95F265B0CC0007FA553 /* 51.swift in Sources */,
 				8E63DB4A2637690300BD8398 /* 10.2.swift in Sources */,
 				8E63DB562638D1DA00BD8398 /* 14-1.jian-sheng-zi-lcof.swift in Sources */,
-				8E63DAE7262F88FD00BD8398 /* 714.best-time-to-buy-and-sell-stock-with-transaction-fee.swift in Sources */,
+				8E63DAE7262F88FD00BD8398 /* 714.swift in Sources */,
 				8EC4A1F1266C3AEE00405E66 /* 68.2.er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.swift in Sources */,
 				8E995E1F26DB3C5A0007E9D6 /* ArrayExtension.swift in Sources */,
 				8E0AE969265DAF2F007FA553 /* 53.2.que-shi-de-shu-zi-lcof.swift in Sources */,
