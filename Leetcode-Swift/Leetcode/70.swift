@@ -17,14 +17,16 @@ class Solution_70 {
         if n <= 2 {
             return n
         }
-        
+
         var f1 = 1
         var f2 = 2
+        
         for _ in 3...n {
-            let next = f1 + f2
+            let newF2 = f1 + f2
             f1 = f2
-            f2 = next
+            f2 = newF2
         }
+
         return f2
     }
     
