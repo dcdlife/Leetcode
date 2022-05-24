@@ -237,7 +237,7 @@
 		8E63DACB262C7CFE00BD8398 /* 191.number-of-1-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACA262C7CFE00BD8398 /* 191.number-of-1-bits.swift */; };
 		8E63DACE262C7EEE00BD8398 /* 231.power-of-two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */; };
 		8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */; };
-		8E63DAD4262CE59100BD8398 /* 70.climbing-stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */; };
+		8E63DAD4262CE59100BD8398 /* 70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD3262CE59100BD8398 /* 70.swift */; };
 		8E63DAD7262CE91600BD8398 /* 120.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD6262CE91600BD8398 /* 120.swift */; };
 		8E63DADA262E2E5F00BD8398 /* 152.maximum-product-subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD9262E2E5F00BD8398 /* 152.maximum-product-subarray.swift */; };
 		8E63DADD262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */; };
@@ -664,7 +664,7 @@
 		8E63DACA262C7CFE00BD8398 /* 191.number-of-1-bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191.number-of-1-bits.swift"; sourceTree = "<group>"; };
 		8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "231.power-of-two.swift"; sourceTree = "<group>"; };
 		8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338.counting-bits.swift"; sourceTree = "<group>"; };
-		8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70.climbing-stairs.swift"; sourceTree = "<group>"; };
+		8E63DAD3262CE59100BD8398 /* 70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70.swift; sourceTree = "<group>"; };
 		8E63DAD6262CE91600BD8398 /* 120.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120.swift; sourceTree = "<group>"; };
 		8E63DAD9262E2E5F00BD8398 /* 152.maximum-product-subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152.maximum-product-subarray.swift"; sourceTree = "<group>"; };
 		8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "123.best-time-to-buy-and-sell-stock-iii.swift"; sourceTree = "<group>"; };
@@ -1223,7 +1223,7 @@
 				52012DC728385FCC00C11924 /* 63.swift */,
 				52012DC32836FADB00C11924 /* 64.swift */,
 				8E63DABD262AEF3B00BD8398 /* 69.swift */,
-				8E63DAD3262CE59100BD8398 /* 70.climbing-stairs.swift */,
+				8E63DAD3262CE59100BD8398 /* 70.swift */,
 				8E63DAF32630D7F800BD8398 /* 72.edit-distance.swift */,
 				8E19CD8A277E02AB00CB4E20 /* 74.swift */,
 				8E3EF19E27782E5E00111609 /* 75.swift */,
@@ -1634,7 +1634,7 @@
 				8EEA6E8927020BAD00191747 /* 16_203.swift in Sources */,
 				8E3B953227179B16003BCD22 /* 30_701.swift in Sources */,
 				8EB8A55A26181CC9001408FD /* 142.linked-list-cycle-ii.swift in Sources */,
-				8E63DAD4262CE59100BD8398 /* 70.climbing-stairs.swift in Sources */,
+				8E63DAD4262CE59100BD8398 /* 70.swift in Sources */,
 				8E63DAA22627974300BD8398 /* 102.swift in Sources */,
 				8E63DAC8262BB17700BD8398 /* 212.word-search-ii.swift in Sources */,
 				8E1D00CC2649E78B0067FD06 /* 32.3.swift in Sources */,
