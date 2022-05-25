@@ -14,42 +14,50 @@ import Foundation
 
 class Solution_Offer_46 {
     func translateNum(_ num: Int) -> Int {
-        if num <= 0 {
-            return num == 0 ? 1 : 0
+        let digits = getDigits(num)
+        let count = digits.count
+
+        if count <= 0 {
+            return 0
         }
-        
-        var nums = [Int]()
+        if count == 1 {
+            return 1
+        }
+
+        // 元组表示：(与前一个数组合，不与前一个数组合)
+        var dp = Array<(Int, Int)>.init(repeating: (0, 0), count: count + 1)
+        dp[1] = (0, 1)
+
+        for i in 2...count {
+            let curDigit = digits[i - 1]
+            let lastDigit = digits[i - 2]
+
+            if lastDigit == 0 || lastDigit * 10 + curDigit > 25 {
+                dp[i] = (0, dp[i - 1].0 + dp[i - 1].1)
+            } else {
+                dp[i] = (dp[i - 1].1, dp[i - 1].0 + dp[i - 1].1)
+            }
+        }
+
+        return dp.last!.0 + dp.last!.1
+    }
+
+    func getDigits(_ num: Int) -> [Int] {
+        if num < 0 {
+            return []
+        }
+        if num == 0 {
+            return [0]
+        }
+
         var num = num
+        var nums = [Int]()
         while num > 0 {
             nums.insert(num % 10, at: 0)
             num /= 10
         }
-        
-        let total = nums.count
-        var counts = [Int](repeating: 0, count: total)
-        
-        // 12258
-        for i in stride(from: total - 1, to: -1, by: -1) {
-            var count = 0
-            if i < total - 1 {
-                count = counts[i + 1]
-            } else {
-                count = 1
-            }
-            
-            if i < total - 1 {
-                if nums[i] != 0 && nums[i] * 10 + nums[i + 1] <= 25 { // 不要忘记num[i] == 0的情况
-                    if i == total - 2 {
-                        count += 1
-                    } else {
-                        count += counts[i + 2]
-                    }
-                }
-            }
-            counts[i] = count
-        }
-    
-        return counts[0]
+
+        return nums
     }
     
     /*
@@ -58,6 +66,7 @@ class Solution_Offer_46 {
      2. 特殊输入测试：0、包含25、26的数
      */
     func test() {
+        print(translateNum(99999999999))
         print(translateNum(9))
         print(translateNum(12258))
         print(translateNum(122581224))
