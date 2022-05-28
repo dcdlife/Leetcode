@@ -2,7 +2,7 @@
 //  234.palindrome-linked-list.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/6/11.
+//  Created by devcz on 2021/6/11.
 //
 
 import Foundation

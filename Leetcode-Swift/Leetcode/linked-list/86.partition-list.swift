@@ -2,7 +2,7 @@
 //  86.partition-list.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/6/12.
+//  Created by devcz on 2021/6/12.
 //
 
 import Foundation

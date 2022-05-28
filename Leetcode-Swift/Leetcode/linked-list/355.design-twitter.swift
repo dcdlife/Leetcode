@@ -2,7 +2,7 @@
 //  355.design-twitter.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/6/30.
+//  Created by devcz on 2021/6/30.
 //
 
 import Foundation

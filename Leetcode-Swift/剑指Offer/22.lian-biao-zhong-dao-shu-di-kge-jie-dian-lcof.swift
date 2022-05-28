@@ -2,7 +2,7 @@
 //  22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/5/7.
+//  Created by devcz on 2021/5/7.
 //
 
 import Foundation

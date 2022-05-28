@@ -2,7 +2,7 @@
 //  152.maximum-product-subarray.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/4/20.
+//  Created by devcz on 2021/4/20.
 //
 
 import Foundation

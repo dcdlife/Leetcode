@@ -2,7 +2,7 @@
 //  58.2.zuo-xuan-zhuan-zi-fu-chuan-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/5/30.
+//  Created by devcz on 2021/5/30.
 //
 
 import Foundation

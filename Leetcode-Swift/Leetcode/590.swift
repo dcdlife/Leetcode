@@ -2,7 +2,7 @@
 //  590.swift
 //  Leetcode-Swift
 //
-//  Created by yefeng on 2022/4/4.
+//  Created by devcz on 2022/4/4.
 //
 
 import Foundation

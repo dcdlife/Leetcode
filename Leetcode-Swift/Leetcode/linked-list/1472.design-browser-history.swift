@@ -2,7 +2,7 @@
 //  1472.design-browser-history.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/7/10.
+//  Created by devcz on 2021/7/10.
 //
 
 import Foundation

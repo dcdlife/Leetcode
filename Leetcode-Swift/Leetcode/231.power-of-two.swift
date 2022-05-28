@@ -2,7 +2,7 @@
 //  231.power-of-two.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/4/18.
+//  Created by devcz on 2021/4/18.
 //
 
 import Foundation

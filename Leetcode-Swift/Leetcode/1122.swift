@@ -2,7 +2,7 @@
 //  1122.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2022/1/2.
+//  Created by devcz on 2022/1/2.
 //
 
 import Foundation

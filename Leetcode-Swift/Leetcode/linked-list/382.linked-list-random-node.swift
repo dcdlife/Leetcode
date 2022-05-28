@@ -2,7 +2,7 @@
 //  382.linked-list-random-node.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/6/26.
+//  Created by devcz on 2021/6/26.
 //
 
 import Foundation

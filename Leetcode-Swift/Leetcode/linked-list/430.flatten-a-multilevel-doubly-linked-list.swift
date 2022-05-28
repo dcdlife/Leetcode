@@ -2,7 +2,7 @@
 //  430.flatten-a-multilevel-doubly-linked-list.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/6/21.
+//  Created by devcz on 2021/6/21.
 //
 
 import Foundation

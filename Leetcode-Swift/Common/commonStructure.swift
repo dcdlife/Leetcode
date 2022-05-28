@@ -2,7 +2,7 @@
 //  commonStructure.swift
 //  Leetcode-Swift
 //
-//  Created by devshiye on 2021/4/3.
+//  Created by devcz on 2021/4/3.
 //
 
 import Foundation
