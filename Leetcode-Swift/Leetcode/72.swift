@@ -14,47 +14,38 @@ import Foundation
 
 class Solution72 {
     func minDistance(_ word1: String, _ word2: String) -> Int {
-        if word1.count == 0 && word2.count == 0 {
-            return 0
+        if word1.isEmpty {
+            return word2.count
         }
-        let m = word1.count, n = word2.count
+        if word2.isEmpty {
+            return word1.count
+        }
+
+        let words1 = Array(word1)
+        let words2 = Array(word2)
+        let m = word1.count
+        let n = word2.count
+
         var dp = [[Int]](repeating: [Int](repeating: 0, count: n + 1), count: m + 1)
-        for i in 0..<m+1 {
+        for i in 0...m {
             dp[i][0] = i
         }
-        for j in 0..<n+1 {
+        for j in 0...n {
             dp[0][j] = j
         }
-        
-        for i in 1..<m + 1 {
-            for j in 1..<n + 1 {
-                let char1 = word1[word1.index(word1.startIndex, offsetBy: i - 1)]
-                let char2 = word2[word2.index(word2.startIndex, offsetBy: j - 1)]
-                dp[i][j] = min(
-                    dp[i - 1][j - 1] + (char1 == char2 ? 0 : 1),
-                    dp[i - 1][j] + 1,
-                    dp[i][j - 1] + 1
-                )
+
+        for i in 1...m {
+            for j in 1...n {
+                let up = dp[i - 1][j] + 1
+                let left = dp[i][j - 1] + 1
+                var leftUp = dp[i - 1][j - 1]
+                if words1[i - 1] != words2[j - 1] {
+                    leftUp += 1
+                }
+                dp[i][j] = min(up, left, leftUp)
             }
         }
-        
+
         return dp[m][n]
-    }
-    
-    /*
-     测试用例：
-     1. 全等；全不等；有等有不等（word1个数 >或<或= word2个数）
-     2. 两个空
-     */
-    func test() {
-        print(minDistance("horse", "ros"))
-        print(minDistance("intention", "execution"))
-        
-        print(minDistance("abc", "abc"))
-        print(minDistance("abc", "def"))
-        print(minDistance("abc", "defgh"))
-        print(minDistance("abcxx", "def"))
-        
-        print(minDistance("", ""))
     }
 }
