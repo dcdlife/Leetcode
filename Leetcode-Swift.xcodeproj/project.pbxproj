@@ -246,7 +246,7 @@
 		8E63DAE0262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */; };
 		8E63DAE4262F839400BD8398 /* 309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAE3262F839400BD8398 /* 309.swift */; };
 		8E63DAE7262F88FD00BD8398 /* 714.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAE6262F88FD00BD8398 /* 714.swift */; };
-		8E63DAEE263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */; };
+		8E63DAEE263069D300BD8398 /* 300.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAED263069D300BD8398 /* 300.swift */; };
 		8E63DAF126306A1300BD8398 /* 322.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAF026306A1300BD8398 /* 322.swift */; };
 		8E63DAF42630D7F800BD8398 /* 72.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAF32630D7F800BD8398 /* 72.swift */; };
 		8E63DAF72631B94100BD8398 /* 200.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAF62631B94100BD8398 /* 200.swift */; };
@@ -675,7 +675,7 @@
 		8E63DADF262F7F2E00BD8398 /* 188.best-time-to-buy-and-sell-stock-iv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "188.best-time-to-buy-and-sell-stock-iv.swift"; sourceTree = "<group>"; };
 		8E63DAE3262F839400BD8398 /* 309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 309.swift; sourceTree = "<group>"; };
 		8E63DAE6262F88FD00BD8398 /* 714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 714.swift; sourceTree = "<group>"; };
-		8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "[x:2]300.longest-increasing-subsequence.swift"; sourceTree = "<group>"; };
+		8E63DAED263069D300BD8398 /* 300.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 300.swift; sourceTree = "<group>"; };
 		8E63DAF026306A1300BD8398 /* 322.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 322.swift; sourceTree = "<group>"; };
 		8E63DAF32630D7F800BD8398 /* 72.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 72.swift; sourceTree = "<group>"; };
 		8E63DAF62631B94100BD8398 /* 200.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 200.swift; sourceTree = "<group>"; };
@@ -1190,7 +1190,7 @@
 			isa = PBXGroup;
 			children = (
 				8E63DAB0262A908F00BD8398 /* [x:2]51.n-queens.swift */,
-				8E63DAED263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift */,
+				8E63DAED263069D300BD8398 /* 300.swift */,
 				8EB8A570261BE648001408FD /* [x]239.sliding-window-maximum.swift */,
 				8EB8A541261783B7001408FD /* 1.swift */,
 				8E4EFD882760F49800160AC9 /* 2.swift */,
@@ -1659,7 +1659,7 @@
 				8E3B95112716499C003BCD22 /* 28_112.swift in Sources */,
 				52D978222808D2A300C27D8E /* 04.06.swift in Sources */,
 				8ECF898926532340000652B7 /* 41.shu-ju-liu-zhong-de-zhong-wei-shu-lcof.swift in Sources */,
-				8E63DAEE263069D300BD8398 /* [x:2]300.longest-increasing-subsequence.swift in Sources */,
+				8E63DAEE263069D300BD8398 /* 300.swift in Sources */,
 				8E1D0103264F3F5A0067FD06 /* 37.xu-lie-hua-er-cha-shu-lcof.swift in Sources */,
 				8E73CD0C26B37EAC00549806 /* 918.swift in Sources */,
 				528E1EC328287C0F008B30BD /* 08.10.swift in Sources */,
