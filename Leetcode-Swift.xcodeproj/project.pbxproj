@@ -28,6 +28,7 @@
 		528649C3283EFFA6008D8FF0 /* 139.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528649C2283EFFA6008D8FF0 /* 139.swift */; };
 		528649C52840453F008D8FF0 /* 1143.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528649C42840453F008D8FF0 /* 1143.swift */; };
 		528649C72842EBD6008D8FF0 /* 344.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528649C62842EBD6008D8FF0 /* 344.swift */; };
+		528649C92842EEF7008D8FF0 /* 16.24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528649C82842EEF7008D8FF0 /* 16.24.swift */; };
 		528B404828235928009F10A7 /* 39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B404728235928009F10A7 /* 39.swift */; };
 		528B404A28235D81009F10A7 /* 40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B404928235D81009F10A7 /* 40.swift */; };
 		528E1EC328287C0F008B30BD /* 08.10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E1EC228287C0F008B30BD /* 08.10.swift */; };
@@ -457,6 +458,7 @@
 		528649C2283EFFA6008D8FF0 /* 139.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 139.swift; sourceTree = "<group>"; };
 		528649C42840453F008D8FF0 /* 1143.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1143.swift; sourceTree = "<group>"; };
 		528649C62842EBD6008D8FF0 /* 344.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 344.swift; sourceTree = "<group>"; };
+		528649C82842EEF7008D8FF0 /* 16.24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16.24.swift; sourceTree = "<group>"; };
 		528B404728235928009F10A7 /* 39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 39.swift; sourceTree = "<group>"; };
 		528B404928235D81009F10A7 /* 40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 40.swift; sourceTree = "<group>"; };
 		528E1EC228287C0F008B30BD /* 08.10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 08.10.swift; sourceTree = "<group>"; };
@@ -898,10 +900,13 @@
 				8E1C658226A4382700B561D7 /* 02.08.swift */,
 				8E5AECDF276A34480056BEEC /* 03.01.swift */,
 				8E1C657F26A24CF900B561D7 /* 03.03.swift */,
+				528E1EC428287C98008B30BD /* 04.01.swift */,
 				8E1C657C26A0EF6F00B561D7 /* 04.03.swift */,
 				52D978212808D2A300C27D8E /* 04.06.swift */,
 				8E3EF19427760C7100111609 /* 08.01.swift */,
 				8E3EF1962776159D00111609 /* 08.05.swift */,
+				528E1EC228287C0F008B30BD /* 08.10.swift */,
+				52D9782F2819F90D00C27D8E /* 08.12.swift */,
 				8E3EF1982777610000111609 /* 10.01.swift */,
 				8E63A691262503E40078BA4C /* 10.02.group-anagrams-lcci.swift */,
 				8E19CD80277C9CE100CB4E20 /* 10.05.swift */,
@@ -909,17 +914,15 @@
 				8E4EFD78275BA15200160AC9 /* 16.04.swift */,
 				8E4EFD72275B393900160AC9 /* 16.11.swift */,
 				8E4EFD76275B494D00160AC9 /* 16.15.swift */,
+				528E1EC62829D287008B30BD /* 16.19.swift */,
 				8E19CD982782861100CB4E20 /* 16.21.swift */,
+				528649C82842EEF7008D8FF0 /* 16.24.swift */,
 				8E1C6579269F942D00B561D7 /* 16.25.swift */,
 				8EE68B9F276ED79500550C7A /* 16.26.swift */,
 				8E1C6573269CF04500B561D7 /* 17.12.swift */,
 				8E3EF1A227786B6300111609 /* 17.14.swift */,
-				8ECB991C276A297A00085C1A /* 0305.swift */,
-				52D9782F2819F90D00C27D8E /* 08.12.swift */,
-				528E1EC228287C0F008B30BD /* 08.10.swift */,
-				528E1EC428287C98008B30BD /* 04.01.swift */,
-				528E1EC62829D287008B30BD /* 16.19.swift */,
 				52012DB92830A13900C11924 /* 17.22.swift */,
+				8ECB991C276A297A00085C1A /* 0305.swift */,
 			);
 			path = "程序员面试金典(第6版)";
 			sourceTree = "<group>";
@@ -1857,6 +1860,7 @@
 				8E1C653D2683A45200B561D7 /* 707.design-linked-list.swift in Sources */,
 				8EEA6E8727020A2800191747 /* 15_21.swift in Sources */,
 				8E63DADD262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift in Sources */,
+				528649C92842EEF7008D8FF0 /* 16.24.swift in Sources */,
 				8EE95EC326716E8100E0C20C /* 61.rotate-list.swift in Sources */,
 				528649C3283EFFA6008D8FF0 /* 139.swift in Sources */,
 				8ED4206B26D02E0600E4D9DF /* 31_136_Day20Plan.swift in Sources */,
