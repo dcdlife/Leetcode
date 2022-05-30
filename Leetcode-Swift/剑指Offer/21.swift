@@ -12,63 +12,36 @@ import Foundation
  https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/
  */
 
-/*
- 思路：
- 法1. O(n^2)，每遇到偶数，将后面的数字前移，当前偶数放入最后
- 法2. 双指针
- 法3. 对双指针的优化
- */
 class Solution_Offer_21 {
     
-    // 2021/12/26
     func exchange(_ nums: [Int]) -> [Int] {
+        return exchangeCore(nums, conditionFn: isOdd(_:))
+    }
+    
+    func exchangeCore(_ nums: [Int], conditionFn: (Int) -> Bool) -> [Int] {
         var nums = nums
         var left = 0
         var right = nums.count - 1
+
         while left < right {
-            while left < right && (nums[left] & 1 == 1) {
+            if conditionFn(nums[left]) {
                 left += 1
+                continue
             }
-            while left < right && (nums[right] & 1 == 0) {
+            if !conditionFn(nums[right]) {
                 right -= 1
+                continue
             }
-            if left < right {
-                let tmp = nums[left]
-                nums[left] = nums[right]
-                nums[right] = tmp
-            }
+            nums.swapAt(left, right)
+            left += 1
+            right -= 1
         }
+
         return nums
     }
     
-    func exchange_1(_ nums: [Int]) -> [Int] {
-        return _exchange(nums, conditionFn: isEven(_:))
-    }
-    
-    func _exchange(_ nums: [Int], conditionFn: (Int) -> Bool) -> [Int] {
-        if nums.count == 0 {
-            return []
-        }
-        var begin = 0
-        var end = nums.count - 1
-        var nums = nums
-        while begin < end {
-            while begin < end && !conditionFn(nums[begin]) {
-                begin += 1
-            }
-            while begin < end && conditionFn(nums[end]) {
-                end -= 1
-            }
-            if begin < end {
-                nums.swapAt(begin, end)
-            }
-        }
-        
-        return nums
-    }
-    
-    func isEven(_ num: Int) -> Bool {
-        return num & 1 == 0
+    func isOdd(_ num: Int) -> Bool {
+        return num & 1 == 1
     }
     
     /*
