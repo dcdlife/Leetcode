@@ -48,43 +48,44 @@ class Solution_15 {
     /*
      思路：排序+双指针
      */
-    func threeSum_1(_ nums: [Int]) -> [[Int]] {
+    func threeSum_v1(_ nums: [Int]) -> [[Int]] {
         if nums.count < 3 {
             return []
         }
-        let sortedNums = nums.sorted()
-        var res: [[Int]] = []
+
+        let nums = nums.sorted()
         let count = nums.count
+        var ans = [[Int]]()
+
         for i in 0..<(count - 2) {
-            if i != 0 && sortedNums[i] == sortedNums[i - 1] {
+            if i > 0 && (nums[i] == nums[i - 1]) {
                 continue
             }
-            let a = sortedNums[i]
             var left = i + 1
             var right = count - 1
             while left < right {
-                let b = sortedNums[left]
-                let c = sortedNums[right]
-                if a + b + c == 0 {
-                    res.append([a, b, c])
+                if left > (i + 1) && (nums[left] == nums[left - 1]) {
                     left += 1
-                    while left < right && sortedNums[left] == sortedNums[left - 1] {
-                        left += 1
-                    }
+                    continue
+                }
+                if right < (count - 1) && (nums[right] == nums[right + 1]) {
                     right -= 1
-                    while left < right && sortedNums[right] == sortedNums[right + 1] {
-                        right -= 1
-                    }
+                    continue
+                }
+                let sum = nums[i] + nums[left] + nums[right]
+                if sum == 0 {
+                    ans.append([nums[i], nums[left], nums[right]])
+                    left += 1
+                    right -= 1
+                } else if (sum > 0) {
+                    right -= 1
                 } else {
-                    if a + b + c > 0 {
-                        right -= 1
-                    } else {
-                        left += 1
-                    }
+                    left += 1
                 }
             }
         }
-        return res
+
+        return ans
     }
     
     /*
