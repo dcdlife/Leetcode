@@ -18,55 +18,32 @@ class Solution_75 {
             return
         }
 
-        var left = 0
-        var right = nums.count - 1
-
-        // 先排序蓝色的
-        while left < right {
-            while left < right && nums[left] != 2 {
-                left += 1
-            }
-            while left < right && nums[right] == 2 {
-                right -= 1
-            }
-            if left < right {
-                swap(&nums, left, right)
-
-                left += 1
-                right -= 1
-            }
+        var partition = sortColorsCore(&nums, 0, nums.count - 1) { $0 == 0 }
+        if nums[partition] == 0 {
+            partition += 1
         }
-
-        // 寻找新的right
-        if left == right {
-            if nums[left] == 2 {
-                right -= 1
-            }
-        }
-
-        // 新的left从索引0开始
-        left = 0
-
-        // 排序红色和白色
-        while left < right {
-            while left < right && nums[left] == 0 {
-                left += 1
-            }
-            while left < right && nums[right] == 1 {
-                right -= 1
-            }
-            if left < right {
-                swap(&nums, left, right)
-
-                left += 1
-                right -= 1
-            }
-        }
+        let _ = sortColorsCore(&nums, partition, nums.count - 1) { $0 == 1 }
     }
-    
-    func swap(_ nums: inout [Int], _ i: Int, _ j: Int) {
-        let tmp = nums[i]
-        nums[i] = nums[j]
-        nums[j] = tmp
+
+    func sortColorsCore(_ nums: inout [Int], _ left: Int, _ right: Int, _ conditionFn: (Int) -> Bool) -> Int {
+        var left = left
+        var right = right
+
+        while left < right {
+            if conditionFn(nums[left]) {
+                left += 1
+                continue
+            }
+            if !conditionFn(nums[right]) {
+                right -= 1
+                continue
+            }
+            
+            nums.swapAt(left, right)
+            left += 1
+            right -= 1
+        }
+
+        return left
     }
 }
