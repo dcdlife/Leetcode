@@ -57,7 +57,7 @@
 		52D97836281E0A8600C27D8E /* 78.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D97835281E0A8600C27D8E /* 78.swift */; };
 		52D97838281F7E0900C27D8E /* 90.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D97837281F7E0900C27D8E /* 90.swift */; };
 		52D9783A2820AD4000C27D8E /* 46.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D978392820AD4000C27D8E /* 46.swift */; };
-		8E0AE8B32659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE8B22659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift */; };
+		8E0AE8B32659C386007FA553 /* Offer-48.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE8B22659C386007FA553 /* Offer-48.swift */; };
 		8E0AE8B62659C97B007FA553 /* 49.chou-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE8B52659C97B007FA553 /* 49.chou-shu-lcof.swift */; };
 		8E0AE8B9265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE8B8265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift */; };
 		8E0AE95F265B0CC0007FA553 /* 51.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AE95E265B0CC0007FA553 /* 51.swift */; };
@@ -490,7 +490,7 @@
 		52D97835281E0A8600C27D8E /* 78.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 78.swift; sourceTree = "<group>"; };
 		52D97837281F7E0900C27D8E /* 90.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 90.swift; sourceTree = "<group>"; };
 		52D978392820AD4000C27D8E /* 46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46.swift; sourceTree = "<group>"; };
-		8E0AE8B22659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
+		8E0AE8B22659C386007FA553 /* Offer-48.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer-48.swift"; sourceTree = "<group>"; };
 		8E0AE8B52659C97B007FA553 /* 49.chou-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49.chou-shu-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE8B8265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift"; sourceTree = "<group>"; };
 		8E0AE95E265B0CC0007FA553 /* 51.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 51.swift; sourceTree = "<group>"; };
@@ -985,7 +985,7 @@
 				8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */,
 				8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */,
 				8ECF89EE26588AEA000652B7 /* Offer-47.swift */,
-				8E0AE8B22659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift */,
+				8E0AE8B22659C386007FA553 /* Offer-48.swift */,
 				8E0AE8B52659C97B007FA553 /* 49.chou-shu-lcof.swift */,
 				8E0AE8B8265A2350007FA553 /* 50.di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.swift */,
 				8E0AE95E265B0CC0007FA553 /* 51.swift */,
@@ -1538,7 +1538,7 @@
 				8EEA6E8F2705E2E900191747 /* 19_20.swift in Sources */,
 				52012DC22835B61E00C11924 /* 518.swift in Sources */,
 				52D9782E2818A94600C27D8E /* 100.swift in Sources */,
-				8E0AE8B32659C386007FA553 /* 48.zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.swift in Sources */,
+				8E0AE8B32659C386007FA553 /* Offer-48.swift in Sources */,
 				8EB8A56926199380001408FD /* 20.swift in Sources */,
 				8E19CD972781F05900CB4E20 /* 1122.swift in Sources */,
 				8ECF895526509C89000652B7 /* 38.zi-fu-chuan-de-pai-lie-lcof.swift in Sources */,
