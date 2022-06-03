@@ -14,7 +14,28 @@ import Foundation
 
 class Solution_Offer_48 {
     func lengthOfLongestSubstring(_ s: String) -> Int {
-        if s.count == 0 {
+        if s.isEmpty {
+            return 0
+        }
+
+        let chars: [Character] = Array(s)
+        var ans = 0
+        var charSet = Array<Character>()
+
+        for char in chars {
+            while charSet.contains(char) {
+                charSet.removeFirst()
+            }
+
+            charSet.append(char)
+            ans = max(ans, charSet.count)
+        }
+
+        return ans
+    }
+    
+    func lengthOfLongestSubstring_v1(_ s: String) -> Int {
+        if s.isEmpty {
             return 0
         }
         
