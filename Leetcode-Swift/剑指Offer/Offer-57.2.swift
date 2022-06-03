@@ -14,6 +14,33 @@ import Foundation
 
 class Solution_Offer_57_2 {
     func findContinuousSequence(_ target: Int) -> [[Int]] {
+            if target < 3 {
+                return []
+            }
+
+            var left = 1
+            var right = 2
+            var sum = 3
+            var ans = [[Int]]()
+
+            while left < right {
+                if sum == target {
+                    ans.append(Array(left...right))
+                    sum -= left
+                    left += 1
+                } else if sum > target {
+                    sum -= left
+                    left += 1
+                } else {
+                    right += 1
+                    sum += right
+                }
+            }
+
+            return ans
+        }
+    
+    func findContinuousSequence_v1(_ target: Int) -> [[Int]] {
         if target <= 2 {
             return []
         }
