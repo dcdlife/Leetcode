@@ -221,7 +221,7 @@
 		8E63A67F2622706B0078BA4C /* 50.powx-n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A67E2622706B0078BA4C /* 50.powx-n.swift */; };
 		8E63A6832622C9AF0078BA4C /* 169.majority-element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A6822622C9AF0078BA4C /* 169.majority-element.swift */; };
 		8E63A6872622D9120078BA4C /* 53.maximum-subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A6862622D9120078BA4C /* 53.maximum-subarray.swift */; };
-		8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */; };
+		8E63A68B2623A3940078BA4C /* 438.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A68A2623A3940078BA4C /* 438.swift */; };
 		8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */; };
 		8E63A692262503E40078BA4C /* 10.02.group-anagrams-lcci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A691262503E40078BA4C /* 10.02.group-anagrams-lcci.swift */; };
 		8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */; };
@@ -654,7 +654,7 @@
 		8E63A67E2622706B0078BA4C /* 50.powx-n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50.powx-n.swift"; sourceTree = "<group>"; };
 		8E63A6822622C9AF0078BA4C /* 169.majority-element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169.majority-element.swift"; sourceTree = "<group>"; };
 		8E63A6862622D9120078BA4C /* 53.maximum-subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53.maximum-subarray.swift"; sourceTree = "<group>"; };
-		8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438.find-all-anagrams-in-a-string.swift"; sourceTree = "<group>"; };
+		8E63A68A2623A3940078BA4C /* 438.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 438.swift; sourceTree = "<group>"; };
 		8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1347.minimum-number-of-steps-to-make-two-strings-anagram.swift"; sourceTree = "<group>"; };
 		8E63A691262503E40078BA4C /* 10.02.group-anagrams-lcci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10.02.group-anagrams-lcci.swift"; sourceTree = "<group>"; };
 		8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.best-time-to-buy-and-sell-stock-ii.swift"; sourceTree = "<group>"; };
@@ -1311,7 +1311,7 @@
 				8E2D98F3277B4CF7005EA957 /* 374.swift */,
 				52012DBB2831F3DB00C11924 /* 416.swift */,
 				521A64E527FE41D8001AF6EF /* 429.swift */,
-				8E63A68A2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift */,
+				8E63A68A2623A3940078BA4C /* 438.swift */,
 				8E63A69E262653140078BA4C /* 455.assign-cookies.swift */,
 				52012DBD28330F4000C11924 /* 494.swift */,
 				521A64E727FF8ECA001AF6EF /* 513.swift */,
@@ -1732,7 +1732,7 @@
 				8EAC2AD326A8D3E800F8783A /* 173.swift in Sources */,
 				8EBA554D26D452F500A52A2D /* 06_82_Day20Plan.swift in Sources */,
 				8ECF984026C5D5A800941E47 /* 11_19_Day20Plan.swift in Sources */,
-				8E63A68B2623A3940078BA4C /* 438.find-all-anagrams-in-a-string.swift in Sources */,
+				8E63A68B2623A3940078BA4C /* 438.swift in Sources */,
 				528649C52840453F008D8FF0 /* 1143.swift in Sources */,
 				8E1C656A269921BB00B561D7 /* 1472.design-browser-history.swift in Sources */,
 				8E4EFD8B27649BE400160AC9 /* 19.swift in Sources */,
