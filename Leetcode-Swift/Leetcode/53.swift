@@ -11,13 +11,22 @@ import Foundation
  https://leetcode-cn.com/problems/maximum-subarray/
  */
 
-/*
- 思路：
- 1. 动态规划（ 一次遍历）
- 2. 分治
- */
 class Solution53 {
     func maxSubArray(_ nums: [Int]) -> Int {
+        if nums.isEmpty {
+            return 0
+        }
+        
+        var sum = 0, ans = Int.min
+        for i in nums {
+            sum = sum < 0 ? i : sum + i
+            ans = max(ans, sum)
+        }
+        
+        return ans
+    }
+
+    func maxSubArray_v1(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return -1
         }
@@ -44,43 +53,5 @@ class Solution53 {
             return combine(lSub, rSub)
         }
         return getInfo(nums, 0, nums.count - 1).mSum
-    }
-    
-    func maxSubArray_oneIteration(_ nums: [Int]) -> Int {
-        let count = nums.count
-        if count == 0 {
-            return 0
-        }
-        if count == 1 {
-            return nums[0]
-        }
-        var maxSum = nums[0]
-        var preSum = maxSum
-        for i in nums[1...] {
-            if preSum <= 0 {
-                preSum = i
-            } else {
-                preSum += i
-            }
-            maxSum = max(maxSum,preSum)
-        }
-        return maxSum
-    }
-    
-    /*
-     测试用例：
-     1. 两个（一正一负）、多个值
-     2. 仅1个元素
-     3. 空元素
-     */
-    func test() {
-        print(maxSubArray([-1,10]))
-        print(maxSubArray([-1,10, 5, -10]))
-        print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
-        print(maxSubArray([1]))
-        print(maxSubArray([-1]))
-        print(maxSubArray([]))
-        
-        print(maxSubArray([5,4,-1,7,8]))
     }
 }
