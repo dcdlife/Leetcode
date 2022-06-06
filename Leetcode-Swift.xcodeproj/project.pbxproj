@@ -225,7 +225,7 @@
 		8E63A68E2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */; };
 		8E63A692262503E40078BA4C /* 10.02.group-anagrams-lcci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A691262503E40078BA4C /* 10.02.group-anagrams-lcci.swift */; };
 		8E63A6962625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */; };
-		8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */; };
+		8E63A69926264AF70078BA4C /* 121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69826264AF70078BA4C /* 121.swift */; };
 		8E63A69C26264E400078BA4C /* 860.lemonade-change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69B26264E400078BA4C /* 860.lemonade-change.swift */; };
 		8E63A69F262653140078BA4C /* 455.assign-cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A69E262653140078BA4C /* 455.assign-cookies.swift */; };
 		8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63A6A126271A6C0078BA4C /* 874.walking-robot-simulation.swift */; };
@@ -658,7 +658,7 @@
 		8E63A68D2624FCC20078BA4C /* 1347.minimum-number-of-steps-to-make-two-strings-anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1347.minimum-number-of-steps-to-make-two-strings-anagram.swift"; sourceTree = "<group>"; };
 		8E63A691262503E40078BA4C /* 10.02.group-anagrams-lcci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10.02.group-anagrams-lcci.swift"; sourceTree = "<group>"; };
 		8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.best-time-to-buy-and-sell-stock-ii.swift"; sourceTree = "<group>"; };
-		8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.best-time-to-buy-and-sell-stock.swift"; sourceTree = "<group>"; };
+		8E63A69826264AF70078BA4C /* 121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 121.swift; sourceTree = "<group>"; };
 		8E63A69B26264E400078BA4C /* 860.lemonade-change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "860.lemonade-change.swift"; sourceTree = "<group>"; };
 		8E63A69E262653140078BA4C /* 455.assign-cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "455.assign-cookies.swift"; sourceTree = "<group>"; };
 		8E63A6A126271A6C0078BA4C /* 874.walking-robot-simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "874.walking-robot-simulation.swift"; sourceTree = "<group>"; };
@@ -1257,7 +1257,7 @@
 				8E63DAA72628EA8900BD8398 /* 111.minimum-depth-of-binary-tree.swift */,
 				8E1C6548268A7ADA00B561D7 /* 114.swift */,
 				8E63DAD6262CE91600BD8398 /* 120.swift */,
-				8E63A69826264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift */,
+				8E63A69826264AF70078BA4C /* 121.swift */,
 				8E63A6952625E5E70078BA4C /* 122.best-time-to-buy-and-sell-stock-ii.swift */,
 				8E63DADC262E3DD500BD8398 /* 123.best-time-to-buy-and-sell-stock-iii.swift */,
 				52D978252813767C00C27D8E /* 124.swift */,
@@ -1813,7 +1813,7 @@
 				8E0AE98D26653E28007FA553 /* [x]60.nge-tou-zi-de-dian-shu-lcof.swift in Sources */,
 				8E1C655B26926C6800B561D7 /* 622.design-circular-queue.swift in Sources */,
 				8E4EFD8D2764D51900160AC9 /* 160.swift in Sources */,
-				8E63A69926264AF70078BA4C /* 121.best-time-to-buy-and-sell-stock.swift in Sources */,
+				8E63A69926264AF70078BA4C /* 121.swift in Sources */,
 				8EE68BA6276F171400550C7A /* 42.swift in Sources */,
 				8E63A69F262653140078BA4C /* 455.assign-cookies.swift in Sources */,
 				8EB8A54B2617849E001408FD /* commonMethods.swift in Sources */,
