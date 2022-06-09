@@ -20,8 +20,8 @@ class Solution_05_07 {
         var even = 1 << 1
 
         while count < 16 {
-            var oddVal = num & odd
-            var evenVal = num & even
+            let oddVal = num & odd
+            let evenVal = num & even
 
             if oddVal == 0 {
                 num &= (~even)
