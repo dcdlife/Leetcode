@@ -14,73 +14,34 @@ import Foundation
 
 class Solution_Offer_56_1 {
     func singleNumbers(_ nums: [Int]) -> [Int] {
-        if nums.count == 0 {
+        if nums.count < 2 {
             return []
         }
-        
-        var xorRes = nums.first!
-        for i in nums[1...] {
-            xorRes ^= i
-        }
-        
-        if xorRes == 0 {
-            return []
-        }
-        
-        let firstBit1Index = findFirstBitIs1(xorRes)
-        
-        var a: Int? = nil
-        var b: Int? = nil
+
+        var xorVal = 0
         for i in nums {
-            if isBit1OfIndex(i, firstBit1Index) {
-                if a != nil {
-                    a = a! ^ i
-                } else {
-                    a = i
-                }
+            xorVal ^= i
+        }
+
+        if xorVal == 0 {
+            return []
+        }
+
+        var findMaxBitOf1 = 1
+        while xorVal & findMaxBitOf1 == 0 {
+            findMaxBitOf1 <<= 1
+        }
+
+        var ans1 = 0
+        var ans2 = 0
+        for i in nums {
+            if (i & findMaxBitOf1) == 0 {
+                ans1 ^= i
             } else {
-                if b != nil {
-                    b = b! ^ i
-                } else {
-                    b = i
-                }
+                ans2 ^= i
             }
         }
-        
-        if a == nil || b == nil {
-            return []
-        }
-        
-        return [a!, b!]
-    }
-    
-    func isBit1OfIndex(_ num: Int, _ indexBit: Int) -> Bool {
-        var num = num
-        num = num >> indexBit
-        return num & 1 == 1
-    }
 
-    func findFirstBitIs1(_ num: Int) -> Int {
-        var num = num
-        var indexBit = 0
-        while ((num & 1) == 0 && num > 0) {
-            num = num >> 1
-            indexBit += 1
-        }
-        return indexBit
-    }
-    
-    /*
-     测试用例：
-     1. 用例：多多对重复的数字；无多对重复的数字
-     */
-    func test() {
-        let tests = [
-            [1,1,2,3,3,4],
-            [1,2]
-        ]
-        for i in tests {
-            print(singleNumbers(i))
-        }
+        return [ans1, ans2]
     }
 }
