@@ -15,21 +15,24 @@ import Foundation
 class Solution_Offer_56_2 {
     func singleNumber(_ nums: [Int]) -> Int {
         if nums.count == 0 {
-            return -1
+            return 0
         }
         
         var counts = [Int](repeating: 0, count: 32)
-        for var i in nums {
+        for i in nums {
+            var mask = 1
             for j in 0...31 {
-                counts[j] += i & 1
-                i >>= 1
+                let andVal = i & mask
+                counts[j] += (andVal != 0 ? 1 : 0)
+                mask <<= 1
             }
         }
         
-        var ans = 0, times = 3
+        var ans = 0
         for i in 0...31 {
-            ans <<= 1
-            ans |= counts[31 - i] % times
+            if (counts[i] % 3) == 1 {
+                ans |= (1 << i)
+            }
         }
         
         return ans
