@@ -250,7 +250,7 @@
 		8E63DAC5262B940200BD8398 /* 208.implement-trie-prefix-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAC4262B940200BD8398 /* 208.implement-trie-prefix-tree.swift */; };
 		8E63DAC8262BB17700BD8398 /* 212.word-search-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAC7262BB17700BD8398 /* 212.word-search-ii.swift */; };
 		8E63DACB262C7CFE00BD8398 /* 191.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACA262C7CFE00BD8398 /* 191.swift */; };
-		8E63DACE262C7EEE00BD8398 /* 231.power-of-two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */; };
+		8E63DACE262C7EEE00BD8398 /* 231.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DACD262C7EEE00BD8398 /* 231.swift */; };
 		8E63DAD1262C827500BD8398 /* 338.counting-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */; };
 		8E63DAD4262CE59100BD8398 /* 70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD3262CE59100BD8398 /* 70.swift */; };
 		8E63DAD7262CE91600BD8398 /* 120.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63DAD6262CE91600BD8398 /* 120.swift */; };
@@ -691,7 +691,7 @@
 		8E63DAC4262B940200BD8398 /* 208.implement-trie-prefix-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "208.implement-trie-prefix-tree.swift"; sourceTree = "<group>"; };
 		8E63DAC7262BB17700BD8398 /* 212.word-search-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "212.word-search-ii.swift"; sourceTree = "<group>"; };
 		8E63DACA262C7CFE00BD8398 /* 191.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 191.swift; sourceTree = "<group>"; };
-		8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "231.power-of-two.swift"; sourceTree = "<group>"; };
+		8E63DACD262C7EEE00BD8398 /* 231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 231.swift; sourceTree = "<group>"; };
 		8E63DAD0262C827500BD8398 /* 338.counting-bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338.counting-bits.swift"; sourceTree = "<group>"; };
 		8E63DAD3262CE59100BD8398 /* 70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70.swift; sourceTree = "<group>"; };
 		8E63DAD6262CE91600BD8398 /* 120.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120.swift; sourceTree = "<group>"; };
@@ -1312,7 +1312,7 @@
 				52A259D128249ABD0094A432 /* 216.swift */,
 				8EB8A56426198CD3001408FD /* 225.swift */,
 				52D9781B280388BE00C27D8E /* 226.swift */,
-				8E63DACD262C7EEE00BD8398 /* 231.power-of-two.swift */,
+				8E63DACD262C7EEE00BD8398 /* 231.swift */,
 				8EB8A56026195C0B001408FD /* 232.implement-queue-using-stacks.swift */,
 				8EE95EC82672CE1E00E0C20C /* 234.swift */,
 				8E63A67726214EC40078BA4C /* 235.lowest-common-ancestor-of-a-binary-search-tree.swift */,
@@ -1916,7 +1916,7 @@
 				8E63DAC5262B940200BD8398 /* 208.implement-trie-prefix-tree.swift in Sources */,
 				8E1C655E2693B5E200B561D7 /* 1171.remove-zero-sum-consecutive-nodes-from-linked-list.swift in Sources */,
 				8EAC2ACD26A6270300F8783A /* 144.swift in Sources */,
-				8E63DACE262C7EEE00BD8398 /* 231.power-of-two.swift in Sources */,
+				8E63DACE262C7EEE00BD8398 /* 231.swift in Sources */,
 				8EE95EE1267D559200E0C20C /* 1721.swapping-nodes-in-a-linked-list.swift in Sources */,
 				8ED4206326CD6FE600E4D9DF /* 27_120_Day20Plan.swift in Sources */,
 				8E1C656D269B206A00B561D7 /* 02.02.kth-node-from-end-of-list-lcci.swift in Sources */,
