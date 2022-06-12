@@ -13,11 +13,7 @@ import Foundation
  */
 
 class Solution_1 {
-    
-    /*
-     思路：利用一个哈希表（里面存放为 key：元素，value：元素索引），依次遍历数组元素，以目标值减去当前元素的值为key，
-     在哈希表中查找，如果找到，返回[当前遍历元素的索引, 哈希表中目标值减去当前元素的值为key所对应的value]
-     */
+    // MARK: - 哈希表思路
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         if nums.count < 2 {
             return []
@@ -25,19 +21,78 @@ class Solution_1 {
 
         var map = [Int: Int]()
 
-        for (idxI, i) in nums.enumerated() {
-            if let idxJ = map[target - i] {
-                return [idxI, idxJ]
-            } else {
-                map[i] = idxI
+        for (index, val) in nums.enumerated() {
+            if let anotherIndex = map[target - val] {
+                return [index, anotherIndex]
+            }
+            map[val] = index
+        }
+
+        return []
+    }
+    
+    // MARK: - 暴力枚举 两重for循环思路
+    func twoSum_v2(_ nums: [Int], _ target: Int) -> [Int] {
+        if nums.count < 2 {
+            return []
+        }
+
+        let count = nums.count
+        for i in 0...(count - 2) {
+            for j in (i + 1)...(count - 1) {
+                if (nums[i] + nums[j]) == target {
+                    return [i, j]
+                }
             }
         }
 
         return []
     }
     
-    func test() {
-        print(twoSum([2,7,11,15], 9))
+    // MARK: - 排序、双指针、索引查找
+    func twoSum_v3(_ nums: [Int], _ target: Int) -> [Int] {
+        if nums.count < 2 {
+            return []
+        }
+
+        let count = nums.count
+        var copyNums = nums
+        copyNums = copyNums.sorted()
+        var left = 0
+        var right = count - 1
+
+        while left < right {
+            let sum = copyNums[left] + copyNums[right]
+            if sum == target {
+                return indexesOf(nums, copyNums[left], copyNums[right])
+            } else if sum > target {
+                right -= 1
+            } else {
+                left += 1
+            }
+        }
+
+        return []
+    }
+
+    func indexesOf(_ nums: [Int], _ a: Int, _ b: Int) -> [Int] {
+        var used = [Bool](repeating: false, count: nums.count)
+        var ans = [Int]()
+        for i in 0..<(nums.count) {
+            if (nums[i] == a) && !used[i] {
+                ans.append(i)
+                used[i] = true
+            }
+            if (nums[i] == b) && !used[i] {
+                ans.append(i)
+                used[i] = true
+            }
+            if ans.count == 2 {
+                return ans
+            }
+        }
+
+        return []
     }
 }
 
