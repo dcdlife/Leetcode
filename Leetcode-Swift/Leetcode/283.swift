@@ -13,42 +13,29 @@ import Foundation
  */
 
 class Solution_283 {
+    // MARK: - 单指针
     func moveZeroes(_ nums: inout [Int]) {
-        let count = nums.count
         var left = 0
         
-        for right in 0..<count {
-            if nums[right] != 0 {
-                nums.swapAt(left, right)
+        for i in 0..<nums.count {
+            if nums[i] != 0 {
+                nums.swapAt(left, i)
                 left += 1
             }
         }
     }
     
-    func moveZeroes_v1(_ nums: inout [Int]) {
-        if nums.isEmpty {
-            return
-        }
-
-        let count = nums.count
+    // MARK: - 双指针
+    func moveZeroes_v2(_ nums: inout [Int]) {
         var left = 0
         var right = 0
-
-        while left < count || right < count {
-            while (left < count) && (nums[left] != 0) {
+        
+        while right < nums.count {
+            if nums[right] != 0 {
+                nums.swapAt(left, right)
                 left += 1
-                right = left
             }
-            while (right < count) && (nums[right] == 0) {
-                right += 1
-            }
-
-            if left == count || right == count {
-                break
-            }
-
-            nums.swapAt(left, right)
-            left += 1
+            
             right += 1
         }
     }
