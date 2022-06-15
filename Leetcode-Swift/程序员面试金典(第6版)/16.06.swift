@@ -13,27 +13,25 @@ import Foundation
  */
 
 class Solution_16_06 {
+    // MARK: - 排序+双指针
     func smallestDifference(_ a: [Int], _ b: [Int]) -> Int {
         let a = a.sorted()
         let b = b.sorted()
 
         var ans = Int.max
-        let countA = a.count
-        let countB = b.count
-        var indexA = 0
-        var indexB = 0
+        var p0 = 0
+        var p1 = 0
         
-        while indexA < countA && indexB < countB {
-            let valA = a[indexA]
-            let valB = b[indexB]
+        while p0 < a.count && p1 < b.count {
+            let valA = a[p0]
+            let valB = b[p1]
 
             if valA == valB {
                 return 0
             }
 
             ans = min(ans, abs(valA - valB))
-
-            valA < valB ? (indexA += 1) : (indexB += 1)
+            valA < valB ? (p0 += 1) : (p1 += 1)
         }
 
         return ans
