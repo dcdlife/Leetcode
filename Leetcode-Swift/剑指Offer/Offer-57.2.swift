@@ -13,74 +13,35 @@ import Foundation
  */
 
 class Solution_Offer_57_2 {
+    // MARK: - 双指针
     func findContinuousSequence(_ target: Int) -> [[Int]] {
-            if target < 3 {
-                return []
-            }
-
-            var left = 1
-            var right = 2
-            var sum = 3
-            var ans = [[Int]]()
-
-            while left < right {
-                if sum == target {
-                    ans.append(Array(left...right))
-                    sum -= left
-                    left += 1
-                } else if sum > target {
-                    sum -= left
-                    left += 1
-                } else {
-                    right += 1
-                    sum += right
-                }
-            }
-
-            return ans
-        }
-    
-    func findContinuousSequence_v1(_ target: Int) -> [[Int]] {
-        if target <= 2 {
+        if target < 3 {
             return []
         }
-        
+
+        var left = 1
+        var right = 2
+        var sum = 3
         var ans = [[Int]]()
-        var counts = [Int]()
-        var sum = 0
-        var cur = 1
-        let end = target / 2 + 1
-        
-        while cur <= end {
-            counts.append(cur)
-            sum += cur
-            
-            while sum >= target && counts.count > 0 {
-                if sum == target && counts.count >= 2 {
-                    ans.append(counts)
-                }
-                
-                sum -= counts.removeFirst()
+
+        while left < right {
+            if sum == target {
+                ans.append(Array(left...right))
+
+                // 同时移动两个指针
+                sum -= left
+                left += 1
+                right += 1
+                sum += right
+            } else if sum > target {
+                sum -= left
+                left += 1
+            } else {
+                right += 1
+                sum += right
             }
-            
-            cur += 1
         }
-        
+
         return ans
-    }
-    
-    /*
-     测试用例：
-     1. 功能：3、4、5等正数有和为target的连续正数序列
-     2. 特殊：小于等于2；大数
-     */
-    func test() {
-        let tests = [
-            3,4,5,6,7,8,9,15,100
-        ]
-        
-        for i in tests {
-            print(findContinuousSequence(i))
-        }
     }
 }
