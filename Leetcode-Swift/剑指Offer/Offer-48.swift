@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_Offer_48 {
+    // MARK: - 滑动窗口
     func lengthOfLongestSubstring(_ s: String) -> Int {
         if s.isEmpty {
             return 0
@@ -34,35 +35,31 @@ class Solution_Offer_48 {
         return ans
     }
     
-    func lengthOfLongestSubstring_v1(_ s: String) -> Int {
+    // MARK: - 滑动窗口 v2
+    func lengthOfLongestSubstring_v2(_ s: String) -> Int {
         if s.isEmpty {
             return 0
         }
         
+        let chars: [Character] = Array(s)
+        let count = chars.count
+        var charSet = Set<Character>()
+        var right = -1
         var ans = 0
-        var subStrArray = [Character]()
-        for i in s {
-            if subStrArray.contains(i) {
-                let index = subStrArray.firstIndex(of: i)!
-                subStrArray = index != subStrArray.count - 1 ? Array(subStrArray[(index+1)...]) : [Character]()
+        
+        for i in 0..<count {
+            if i != 0 {
+                charSet.remove(chars[i - 1])
             }
-            subStrArray.append(i)
-            ans = max(ans, subStrArray.count)
+            
+            while (right + 1 < count) && !charSet.contains(chars[right + 1]) {
+                charSet.insert(chars[right + 1])
+                right += 1
+            }
+            
+            ans = max(ans, right - i + 1)
         }
+        
         return ans
-    }
-    
-    /*
-     测试用例：
-     1. 功能测试：不含重复子字符串；含1个、多个重复子字符串；字符串全一样
-     2. 特殊输入测试：仅1个字符的字符串；空串
-     */
-    func test() {
-        print(lengthOfLongestSubstring("abcdefg"))
-        print(lengthOfLongestSubstring("abcdeff"))
-        print(lengthOfLongestSubstring("aabbccdd"))
-        print(lengthOfLongestSubstring("aaaaaa"))
-        print(lengthOfLongestSubstring("a"))
-        print(lengthOfLongestSubstring(""))
     }
 }

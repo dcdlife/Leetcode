@@ -13,7 +13,7 @@ import Foundation
  */
 
 class Solution_Offer_57_2 {
-    // MARK: - 双指针
+    // MARK: - 滑动窗口（双指针）
     func findContinuousSequence(_ target: Int) -> [[Int]] {
         if target < 3 {
             return []
