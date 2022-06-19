@@ -12,7 +12,7 @@ import Foundation
  */
 
 class Solution438 {
-    /// 滑动窗口 + 双指针
+    // MARK: - 滑动窗口 + 双指针
     func findAnagrams(_ s: String, _ p: String) -> [Int] {
         if s.isEmpty || p.isEmpty || s.count < p.count {
             return []
@@ -52,7 +52,7 @@ class Solution438 {
         return ans
     }
     
-    /// 滑动窗口+数组
+    // MARK: - 滑动窗口+数组
     func findAnagrams_v1(_ s: String, _ p: String) -> [Int] {
         if s.count == 0 || p.count == 0 || s.count < p.count {
             return []
@@ -85,24 +85,5 @@ class Solution438 {
         }
         
         return ans
-    }
-    
-    /*
-     测试用例：
-     1. p为1个、两个、多个
-     2. s或p为空
-     3. s少于p
-     */
-    func test() {
-        print(findAnagrams("cbaebabacd", "abc"))
-        print(findAnagrams("abab", "ab"))
-        
-        print(findAnagrams("abcdedebca", "a"))
-        print(findAnagrams("abcdedebca", "ab"))
-        print(findAnagrams("abcdedebca", "abc"))
-        print(findAnagrams("abcdedebcad", "abcd"))
-        print(findAnagrams("", "abcd"))
-        print(findAnagrams("abcdedebcad", ""))
-        print(findAnagrams("a", "abcd"))
     }
 }
