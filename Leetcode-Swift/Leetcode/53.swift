@@ -12,20 +12,23 @@ import Foundation
  */
 
 class Solution53 {
+    // MARK: - 动态规划
     func maxSubArray(_ nums: [Int]) -> Int {
         if nums.isEmpty {
             return 0
         }
         
-        var sum = 0, ans = Int.min
+        var pre = 0, ans = nums[0]
         for i in nums {
-            sum = sum < 0 ? i : sum + i
-            ans = max(ans, sum)
+            pre = max(pre + i, i)
+            ans = max(pre, ans)
         }
         
         return ans
     }
 
+    // MARK: 分治
+    // https://leetcode.cn/problems/maximum-subarray/solution/zui-da-zi-xu-he-by-leetcode-solution/
     func maxSubArray_v1(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return -1
