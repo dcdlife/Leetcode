@@ -25,6 +25,7 @@
 		521A64E827FF8ECA001AF6EF /* 513.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E727FF8ECA001AF6EF /* 513.swift */; };
 		521A64EA280242FB001AF6EF /* 599.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E9280242FB001AF6EF /* 599.swift */; };
 		521E5FE3282204BD00EAB6AE /* 47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E5FE2282204BD00EAB6AE /* 47.swift */; };
+		526EA46E285ED3B700A2EC3E /* 76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EA46D285ED3B700A2EC3E /* 76.swift */; };
 		52727EC5284EE1B2004E2055 /* 238.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52727EC4284EE1B2004E2055 /* 238.swift */; };
 		52727EC7284EF1D1004E2055 /* 05.03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52727EC6284EF1D1004E2055 /* 05.03.swift */; };
 		52727EC928501F78004E2055 /* 461.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52727EC828501F78004E2055 /* 461.swift */; };
@@ -466,6 +467,7 @@
 		521A64E727FF8ECA001AF6EF /* 513.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 513.swift; sourceTree = "<group>"; };
 		521A64E9280242FB001AF6EF /* 599.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 599.swift; sourceTree = "<group>"; };
 		521E5FE2282204BD00EAB6AE /* 47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 47.swift; sourceTree = "<group>"; };
+		526EA46D285ED3B700A2EC3E /* 76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76.swift; sourceTree = "<group>"; };
 		52727EC4284EE1B2004E2055 /* 238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 238.swift; sourceTree = "<group>"; };
 		52727EC6284EF1D1004E2055 /* 05.03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 05.03.swift; sourceTree = "<group>"; };
 		52727EC828501F78004E2055 /* 461.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 461.swift; sourceTree = "<group>"; };
@@ -1372,6 +1374,7 @@
 				8EAC2AC926A4D96B00F8783A /* Stack */,
 				52727EC828501F78004E2055 /* 461.swift */,
 				52727ED828541CE6004E2055 /* 16.01.swift */,
+				526EA46D285ED3B700A2EC3E /* 76.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1552,6 +1555,7 @@
 				8EC5199A263CCA4200DD36D9 /* 17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.swift in Sources */,
 				521A64EA280242FB001AF6EF /* 599.swift in Sources */,
 				8E63A6A226271A6C0078BA4C /* 874.walking-robot-simulation.swift in Sources */,
+				526EA46E285ED3B700A2EC3E /* 76.swift in Sources */,
 				52D978302819F90D00C27D8E /* 08.12.swift in Sources */,
 				8E4EFD79275BA15200160AC9 /* 16.04.swift in Sources */,
 				52727ECB285024B5004E2055 /* 05.06.swift in Sources */,
