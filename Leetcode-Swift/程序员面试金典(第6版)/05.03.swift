@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_05_03 {
+    // MARK: - 前缀后缀统计
     func reverseBits(_ num: Int) -> Int {
         var binarys = [Int](repeating: 0, count: 32)
 
@@ -30,15 +31,16 @@ class Solution_05_03 {
         var pre = binarys[0]
         for i in 1..<32 {
             counts[i] = pre
+            // 增加这个代码，考虑这种情况：2147483647
             maxLeftAndRight1Count = max(maxLeftAndRight1Count, pre)
-            pre = binarys[i] == 0 ? 0 : (pre == 0 ? 1 : pre + 1)
+            pre = binarys[i] == 0 ? 0 : pre + 1
         }
         
         pre = binarys[31]
         for i in (0...30).reversed() {
             counts[i] += pre
             maxLeftAndRight1Count = max(maxLeftAndRight1Count, counts[i])
-            pre = binarys[i] == 0 ? 0 : (pre == 0 ? 1 : pre + 1)
+            pre = binarys[i] == 0 ? 0 : pre + 1
         }
 
         return maxLeftAndRight1Count + 1

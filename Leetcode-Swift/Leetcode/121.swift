@@ -12,6 +12,7 @@ import Foundation
  */
 
 class Solution_121 {
+    // MARK: 一次遍历
     func maxProfit(_ prices: [Int]) -> Int {
         if prices.isEmpty {
             return 0

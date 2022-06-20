@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_238 {
+    // MARK: 前缀后缀统计（空间复杂度O(1)）
     func productExceptSelf(_ nums: [Int]) -> [Int] {
         if nums.isEmpty {
             return []
