@@ -11,8 +11,8 @@ import Foundation
  https://leetcode-cn.com/problems/maximum-subarray/
  */
 
-class Solution53 {
-    // MARK: - 动态规划
+class Solution_53 {
+    // MARK: - 滑动窗口（动态规划）
     func maxSubArray(_ nums: [Int]) -> Int {
         if nums.isEmpty {
             return 0
@@ -26,10 +26,70 @@ class Solution53 {
         
         return ans
     }
+    
+    // MARK: - 前缀后缀统计
+    func maxSubArray_v2(_ nums: [Int]) -> Int {
+        if nums.isEmpty {
+            return 0
+        }
+        
+        let count = nums.count
+        var ans = Int.min
 
-    // MARK: 分治
+        // 3层循环（超时）
+        // for i in 0..<count {
+        //     for j in i..<count {
+        //         var sum = 0
+        //         for k in i...j {
+        //             sum += nums[k]
+        //             ans = max(ans, sum)
+        //         }
+        //     }
+        // }
+
+        // 前缀和
+        var preSums = [Int](repeating: 0, count: count)
+        preSums[0] = nums[0]
+        for i in 1..<count {
+            preSums[i] = preSums[i - 1] + nums[i]
+        }
+
+        // 2层循环（超时）
+//        for i in 0..<count {
+//            for j in i..<count {
+//                if i == 0 {
+//                    ans = max(ans, preSums[j])
+//                } else {
+//                    ans = max(ans, preSums[j] - preSums[i - 1])
+//                }
+//            }
+//        }
+        
+        // 后缀最大
+        var rightMaxs = [Int](repeating: 0, count: count)
+        var curMax = Int.min
+        for i in (0..<(count)).reversed() {
+            if curMax < preSums[i] {
+                curMax = preSums[i]
+            }
+            rightMaxs[i] = curMax
+        }
+        
+        // 1层循环
+        for i in 0..<count {
+            if i == 0 {
+                ans = max(ans, rightMaxs[0])
+            } else {
+                ans = max(ans, rightMaxs[i] - preSums[i - 1])
+            }
+        }
+
+        return ans
+    }
+
+    // MARK: - 分治
     // https://leetcode.cn/problems/maximum-subarray/solution/zui-da-zi-xu-he-by-leetcode-solution/
-    func maxSubArray_v1(_ nums: [Int]) -> Int {
+    func maxSubArray_v3(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return -1
         }
