@@ -13,33 +13,22 @@ import Foundation
  */
 
 class Solution_05_07 {
+    // MARK: - 位运算，遍历num/2次
     func exchangeBits(_ num: Int) -> Int {
-        var num = num
-        var count = 0
-        var odd = 1
-        var even = 1 << 1
-
-        while count < 16 {
-            let oddVal = num & odd
-            let evenVal = num & even
-
-            if oddVal == 0 {
-                num &= (~even)
-            } else {
-                num |= (even)
+        var ans = 0
+        
+        for i in stride(from: 0, to: 32, by: 2) {
+            let odd = num & (1 << i)
+            let even = num & (1 << (i + 1))
+            
+            if odd != 0 {
+                ans |= (1 << (i + 1))
             }
-
-            if evenVal == 0 {
-                num &= (~odd)
-            } else {
-                num |= (odd)
+            if even != 0 {
+                ans |= (1 << i)
             }
-
-            count += 1
-            odd <<= 2
-            even <<= 2
         }
 
-        return num
+        return ans
     }
 }
