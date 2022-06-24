@@ -12,8 +12,8 @@ import Foundation
  https://leetcode-cn.com/problems/number-of-1-bits/
  */
 
-class Solution191 {
-    // MARK: - x & (x - 1)可以去掉最右侧的1（无法针对负数做处理）
+class Solution_191 {
+    // MARK: - x & (x - 1)可以去掉最右侧的1（此实现如果要算负数，需另外处理，可参考 Solution_461）
     func hammingWeight(_ n: Int) -> Int {
         var ans = 0
         var n = n

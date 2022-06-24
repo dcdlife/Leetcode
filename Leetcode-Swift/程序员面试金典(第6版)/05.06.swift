@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_05_06 {
+    // MARK: - x & (x - 1)可以去掉最右侧的1（需要针对负数做单独处理）
     func convertInteger(_ A: Int, _ B: Int) -> Int {
         if A == B {
             return 0
@@ -31,6 +32,23 @@ class Solution_05_06 {
             ans += 1
         }
 
+        return ans
+    }
+    
+    // MARK: - 通过掩码计算每个位
+    func convertInteger_v2(_ A: Int, _ B: Int) -> Int {
+        let xorVal = A ^ B
+        var ans = 0
+        var mask = 1
+        
+        for _ in 0..<32 {
+            if xorVal & mask != 0 {
+                ans += 1
+            }
+            
+            mask <<= 1
+        }
+        
         return ans
     }
 }
