@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_461 {
+    // MARK: - x & (x - 1)可以去掉最右侧的1（无法针对负数做处理）
     func hammingDistance(_ x: Int, _ y: Int) -> Int {
         var xorVal = x ^ y
         var ans = 0
@@ -22,6 +23,23 @@ class Solution_461 {
             ans += 1
         }
 
+        return ans
+    }
+    
+    // MARK: - 考虑负数
+    func hammingDistance_v2(_ x: Int, _ y: Int) -> Int {
+        let xorVal = x ^ y
+        var ans = 0
+        var mask = 1
+        
+        for _ in 0..<32 {
+            if xorVal & mask != 0 {
+                ans += 1
+            }
+            
+            mask <<= 1
+        }
+        
         return ans
     }
 }

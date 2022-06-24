@@ -39,7 +39,6 @@ class Solution191 {
             mask <<= 1
         }
         
-        
         return ans
     }
 }
