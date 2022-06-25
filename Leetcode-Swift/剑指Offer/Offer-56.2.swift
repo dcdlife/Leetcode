@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_Offer_56_2 {
+    // MARK: - 位运算（算每个位的个数，然后取余3）
     func singleNumber(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return 0
@@ -22,30 +23,20 @@ class Solution_Offer_56_2 {
         for i in nums {
             var mask = 1
             for j in 0...31 {
-                let andVal = i & mask
-                counts[j] += (andVal != 0 ? 1 : 0)
+                if (i & mask) != 0 {
+                    counts[j] = (counts[j] + 1) % 3
+                }
                 mask <<= 1
             }
         }
         
         var ans = 0
         for i in 0...31 {
-            if (counts[i] % 3) == 1 {
+            if counts[i] != 0 {
                 ans |= (1 << i)
             }
         }
         
         return ans
-    }
-    
-    func test() {
-        let tests = [
-            [3,4,3,3],
-            [9,1,7,9,7,9,7]
-        ]
-        
-        for i in tests {
-            print(singleNumber(i))
-        }
     }
 }
