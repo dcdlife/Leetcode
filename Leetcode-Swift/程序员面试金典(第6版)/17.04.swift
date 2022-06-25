@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_17_04 {
+    // MARK: - 位运算
     func missingNumber(_ nums: [Int]) -> Int {
         if nums.isEmpty {
             return 0
@@ -25,5 +26,20 @@ class Solution_17_04 {
         }
 
         return xorVal
+    }
+    
+    // MARK: - 数学
+    func missingNumber_v2(_ nums: [Int]) -> Int {
+        if nums.isEmpty {
+            return 0
+        }
+        
+        var sum1 = 0, sum2 = 0
+        for i in 1...nums.count {
+            sum1 += i
+            sum2 += nums[i - 1]
+        }
+
+        return sum1 - sum2
     }
 }
