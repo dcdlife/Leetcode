@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_16_01 {
+    // MARK: - 两数交替异或
     func swapNumbers(_ numbers: [Int]) -> [Int] {
         if numbers.count < 2 {
             return []
