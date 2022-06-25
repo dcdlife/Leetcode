@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_Offer_56_1 {
+    // MARK: - 位运算（分组异或）
     func singleNumbers(_ nums: [Int]) -> [Int] {
         if nums.count < 2 {
             return []
@@ -27,15 +28,15 @@ class Solution_Offer_56_1 {
             return []
         }
 
-        var findMaxBitOf1 = 1
-        while xorVal & findMaxBitOf1 == 0 {
-            findMaxBitOf1 <<= 1
+        var tag = 1
+        while (xorVal & tag) == 0 {
+            tag <<= 1
         }
 
         var ans1 = 0
         var ans2 = 0
         for i in nums {
-            if (i & findMaxBitOf1) == 0 {
+            if (i & tag) == 0 {
                 ans1 ^= i
             } else {
                 ans2 ^= i
