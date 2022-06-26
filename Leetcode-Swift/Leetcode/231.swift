@@ -13,7 +13,13 @@ import Foundation
  */
 
 class Solution231 {
+    // MARK: - 二进制表示
     func isPowerOfTwo(_ n: Int) -> Bool {
         return (n > 0) && (n & (n - 1) == 0)
+    }
+    
+    // MARK: - 判断是否为最大 22 的幂的约数
+    func isPowerOfTwo_2(_ n: Int) -> Bool {
+        return (n > 0) && ((1 << 30) % n == 0)
     }
 }
