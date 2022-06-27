@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_416 {
+    // MARK: - 动态规划解法
     func canPartition(_ nums: [Int]) -> Bool {
         if nums.isEmpty || nums.count < 2 {
             return false
