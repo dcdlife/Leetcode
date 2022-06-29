@@ -2,7 +2,7 @@
 //  02.03.delete-middle-node-lcci.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/7/12.
+//  Created by 95cc on 2021/7/12.
 //
 
 import Foundation

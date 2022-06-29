@@ -2,7 +2,7 @@
 //  328.odd-even-linked-list.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/6/17.
+//  Created by 95cc on 2021/6/17.
 //
 
 import Foundation

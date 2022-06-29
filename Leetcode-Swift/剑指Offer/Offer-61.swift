@@ -2,7 +2,7 @@
 //  61.bu-ke-pai-zhong-de-shun-zi-lcof.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/6/2.
+//  Created by 95cc on 2021/6/2.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  120.triangle.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/4/19.
+//  Created by 95cc on 2021/4/19.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  98.validate-binary-search-tree.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/4/9.
+//  Created by 95cc on 2021/4/9.
 //
 
 import Foundation

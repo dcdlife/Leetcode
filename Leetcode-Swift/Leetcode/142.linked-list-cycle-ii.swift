@@ -2,7 +2,7 @@
 //  142.linked-list-cycle-ii.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/4/3.
+//  Created by 95cc on 2021/4/3.
 //
 
 import Foundation

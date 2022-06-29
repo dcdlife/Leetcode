@@ -2,7 +2,7 @@
 //  52.n-queens-ii.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/4/17.
+//  Created by 95cc on 2021/4/17.
 //
 
 import Foundation

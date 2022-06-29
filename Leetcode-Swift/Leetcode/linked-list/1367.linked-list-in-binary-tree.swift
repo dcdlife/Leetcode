@@ -2,7 +2,7 @@
 //  1367.linked-list-in-binary-tree.swift
 //  Leetcode-Swift
 //
-//  Created by devcz on 2021/7/9.
+//  Created by 95cc on 2021/7/9.
 //
 
 import Foundation
