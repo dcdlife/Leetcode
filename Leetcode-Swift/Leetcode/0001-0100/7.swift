@@ -14,6 +14,7 @@ import Foundation
 
 class Solution_7 {
     // MARK: - 提前判断是否将要溢出（优化）
+    // 参考: https://leetcode.cn/problems/reverse-integer/solution/zheng-shu-fan-zhuan-by-leetcode-solution-bccn/
     func reverse(_ x: Int) -> Int {
         // Int32.max: 2147483647
         // Int32.min: -2147483648
@@ -33,6 +34,7 @@ class Solution_7 {
     }
     
     // MARK: - 提前判断是否将要溢出
+    // 参考: https://leetcode.cn/problems/reverse-integer/solution/tu-jie-7-zheng-shu-fan-zhuan-by-wang_ni_ma/
     func reverse_v2(_ x: Int) -> Int {
         // Int32.max: 2147483647
         // Int32.min: -2147483648
