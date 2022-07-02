@@ -1,6 +1,6 @@
 ### [算法基础](https://leetcode-cn.com/study-plan/algorithms/?progress=99veaf7)
 
-| 21天                               | 题目                                                         | 本库实现                                                     |
+| 21天                               | 题目                                                         | 实现                                                     |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Day1 (二分查找)                    | [34. 在排序数组中查找元素的第一个和最后一个位置 (中等)](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) <br />[33. 搜索旋转排序数组 (中等)](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)<br />[74. 搜索二维矩阵 (中等)](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [34](https://git.io/JETxO)<br />[33](https://git.io/JETxZ)<br />[74](https://git.io/JETx4) |
 | Day2 (二分查找)                    | [153. 寻找旋转排序数组中的最小值 (中等)](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) <br />[162. 寻找峰值 (中等)](https://leetcode-cn.com/problems/find-peak-element/) |                                                              |
