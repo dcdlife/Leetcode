@@ -19,6 +19,7 @@
 		52012DCA2839B05800C11924 /* 198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DC92839B05700C11924 /* 198.swift */; };
 		52012DCC2839D2A800C11924 /* 213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DCB2839D2A700C11924 /* 213.swift */; };
 		52012DCE283AF4E400C11924 /* 337.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52012DCD283AF4E300C11924 /* 337.swift */; };
+		520F1B3E28704526004142B5 /* 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F1B3D28704526004142B5 /* 7.swift */; };
 		521858D127F3C9590079121F /* 589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858D027F3C9590079121F /* 589.swift */; };
 		521A64E427FA6381001AF6EF /* 590.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E327FA6381001AF6EF /* 590.swift */; };
 		521A64E627FE41D8001AF6EF /* 429.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A64E527FE41D8001AF6EF /* 429.swift */; };
@@ -461,6 +462,7 @@
 		52012DC92839B05700C11924 /* 198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 198.swift; sourceTree = "<group>"; };
 		52012DCB2839D2A700C11924 /* 213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 213.swift; sourceTree = "<group>"; };
 		52012DCD283AF4E300C11924 /* 337.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 337.swift; sourceTree = "<group>"; };
+		520F1B3D28704526004142B5 /* 7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7.swift; sourceTree = "<group>"; };
 		521858D027F3C9590079121F /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
 		521A64E327FA6381001AF6EF /* 590.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 590.swift; sourceTree = "<group>"; };
 		521A64E527FE41D8001AF6EF /* 429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 429.swift; sourceTree = "<group>"; };
@@ -897,6 +899,7 @@
 				8E63DAB0262A908F00BD8398 /* [x:2]51.n-queens.swift */,
 				8EB8A541261783B7001408FD /* 1.swift */,
 				8E4EFD882760F49800160AC9 /* 2.swift */,
+				520F1B3D28704526004142B5 /* 7.swift */,
 				8E4EFD572757B9F000160AC9 /* 9.swift */,
 				8EB8A578261E00F5001408FD /* 15.swift */,
 				52D97831281CA7B900C27D8E /* 17.swift */,
@@ -1920,6 +1923,7 @@
 				8EAC2AD526AA29AA00F8783A /* 224.swift in Sources */,
 				8EC51991263A183E00DD36D9 /* 14-2.jian-sheng-zi-ii-lcof.swift in Sources */,
 				521858D127F3C9590079121F /* 589.swift in Sources */,
+				520F1B3E28704526004142B5 /* 7.swift in Sources */,
 				52012DC42836FADB00C11924 /* 64.swift in Sources */,
 				8E3605F5272051DD0005A43E /* 207.swift in Sources */,
 				521A64E827FF8ECA001AF6EF /* 513.swift in Sources */,
