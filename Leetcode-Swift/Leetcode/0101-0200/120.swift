@@ -13,36 +13,47 @@ import Foundation
  */
 
 class Solution_120 {
+    // MARK: - 动态规划
     func minimumTotal(_ triangle: [[Int]]) -> Int {
         if triangle.isEmpty {
             return 0
         }
 
-        var triangle = triangle
-        let rows = triangle.count
+        var dp = triangle
+        let rows = dp.count
 
         for i in 1..<rows {
-            triangle[i][0] = triangle[i][0] + triangle[i - 1][0]
-            
+            dp[i][0] = triangle[i][0] + dp[i - 1][0]
             for j in 1..<i {
-                triangle[i][j] = triangle[i][j] +  min(triangle[i - 1][j - 1], triangle[i - 1][j])
+                dp[i][j] = triangle[i][j] +  min(dp[i - 1][j - 1], dp[i - 1][j])
             }
-            
-            triangle[i][i] = triangle[i][i] + triangle[i - 1][i - 1]
+            dp[i][i] = triangle[i][i] + dp[i - 1][i - 1]
         }
 
-        return triangle[rows - 1].min()!
+        var ans = dp[rows - 1][0]
+        dp[rows - 1].forEach { i in
+            ans = min(ans, i)
+        }
+
+        return ans
     }
     
-    /*
-     测试用例：
-     1. 最短路径在最左侧；最右侧；中间
-     2. 仅1个元素
-     */
-    func test() {
-        print(minimumTotal([[2],[3,4],[5,6,7],[8,9,10,11]]))
-        print(minimumTotal([[2],[4,3],[7,6,5],[11,10,9,8]]))
-        print(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]))
-        print(minimumTotal([[5]]))
+    // MARK: - 动态规划（优化）
+    func minimumTotal_v2(_ triangle: [[Int]]) -> Int {
+        if triangle.isEmpty {
+            return 0
+        }
+
+        let count = triangle.count
+        var dp = Array(repeating: 0, count: count + 1)
+
+        // 思路：三角形倒过来遍历
+        for i in stride(from: count - 1, through: 0, by: -1) {
+            for j in 0...i {
+                dp[j] = min(dp[j], dp[j + 1]) + triangle[i][j]
+            }
+        }
+
+        return dp[0]
     }
 }
