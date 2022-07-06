@@ -13,7 +13,7 @@ import Foundation
  */
 
 class Solution_337 {
-    // MARK: - 动态规划（利用二叉树的后序遍历）
+    // MARK: - 树形动态规划（利用二叉树的后序遍历）
     func rob(_ root: TreeNode?) -> Int {
         if root == nil {
             return 0
