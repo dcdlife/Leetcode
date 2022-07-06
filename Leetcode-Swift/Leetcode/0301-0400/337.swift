@@ -13,27 +13,27 @@ import Foundation
  */
 
 class Solution_337 {
+    // MARK: - 动态规划（利用二叉树的后序遍历）
     func rob(_ root: TreeNode?) -> Int {
         if root == nil {
             return 0
         }
 
-        let val = dfs(root)
-
-        return max(val.0, val.1)
+        let money: (Int, Int) = postorder(root)
+        return max(money.0, money.1)
     }
 
-    // 返回元组 (不选，选)
-    func dfs(_ root: TreeNode?) -> (Int, Int) {
+    // 后序遍历，返回不选与选当前节点的最大值组成的元组（最大值（不选），最大值（选））
+    func postorder(_ root: TreeNode?) -> (Int, Int) {
         if root == nil {
             return (0, 0)
         }
 
-        let l = dfs(root?.left)
-        let r = dfs(root?.right)
+        let left = postorder(root?.left)
+        let right = postorder(root?.right)
         
-        let noChoose = max(l.0, l.1) + max(r.0, r.1)
-        let choose = root!.val + l.0 + r.0
+        let noChoose = max(left.0, left.1) + max(right.0, right.1)
+        let choose = root!.val + left.0 + right.0
 
         return (noChoose, choose)
     }
