@@ -23,6 +23,8 @@ class Solution_198 {
         }
 
         let count = nums.count
+        // dp[i][0]表示第i个物品没有选时的最大金额
+        // dp[i][1]表示第i个物品选择时的最大金额
         var dp = [[Int]](repeating: [Int](repeating: 0, count: 2), count: count)
         dp[0][0] = 0
         dp[0][1] = nums[0]
