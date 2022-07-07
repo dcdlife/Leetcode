@@ -13,15 +13,41 @@ import Foundation
  */
 
 class Solution_309 {
-    /*
-     f0: 持有股票的最大收益
-     f1: 不持有股票，处于冷冻期
-     f2: 不持有股票，不处于冷冻期
-     */
+    // MARK: - 动态规划
     func maxProfit(_ prices: [Int]) -> Int {
-        if prices.count == 0 {
+        guard prices.count >= 2 else {
             return 0
         }
+        if prices.count == 2 { return prices[1] > prices[0] ? prices[1] - prices[0] : 0 }
+
+        // 元组代表
+        // 0: 手上持有股票的最大收益
+        // 1: 手上不持有股票，并且处于冷冻期中的累计最大收益
+        // 2: 手上不持有股票，并且不在冷冻期中的累计最大收益
+        var dp = Array<(Int, Int, Int)>.init(repeating: (0, 0, 0), count: prices.count)
+        dp[0] = (-prices[0], 0, 0)
+
+        for i in 1..<prices.count {
+            let a = max(dp[i - 1].0, dp[i - 1].2 - prices[i])
+            let b = dp[i - 1].0 + prices[i]
+            let c = max(dp[i - 1].1, dp[i - 1].2)
+            dp[i] = (a, b, c)
+        }
+
+        return max(dp.last!.1, dp.last!.2)
+    }
+    
+    // MARK: - 动态规划（优化）
+    func maxProfit_v1(_ prices: [Int]) -> Int {
+        guard !prices.isEmpty else {
+            return 0
+        }
+        
+        /*
+         f0: 持有股票的最大收益
+         f1: 不持有股票，处于冷冻期
+         f2: 不持有股票，不处于冷冻期
+         */
         var f0 = -prices[0]
         var f1 = 0
         var f2 = 0
@@ -35,47 +61,5 @@ class Solution_309 {
             f2 = newf2
         }
         return max(f1, f2)
-    }
-    
-    func maxProfit_v1(_ prices: [Int]) -> Int {
-        if prices.isEmpty {
-            return 0
-        }
-        if prices.count == 1 {
-            return 0
-        }
-        if prices.count == 2 {
-            return prices[1] > prices[0] ? prices[1] - prices[0] : 0
-        }
-
-        // 元组代表
-        // 0: 手上持有股票的最大收益
-        // 1: 手上不持有股票，并且处于冷冻期中的累计最大收益
-        // 2: 手上不持有股票，并且不在冷冻期中的累计最大收益
-        var dp = Array<(Int, Int, Int)>.init(repeating: (0, 0, 0), count: prices.count)
-        dp[0] = (-prices[0], 0, 0)
-
-        for i in 1..<prices.count {
-            let ele0 = max(dp[i - 1].0, dp[i - 1].2 - prices[i])
-            let ele1 = dp[i - 1].0 + prices[i]
-            let ele2 = max(dp[i - 1].1, dp[i - 1].2)
-            dp[i] = (ele0, ele1, ele2)
-        }
-
-        return max(dp[prices.count - 1].1, dp[prices.count - 1].2)
-    }
-    
-    /*
-     测试用例：
-     1. 全跌、全涨、全平、跌宕起伏
-     2. 空
-     */
-    func test() {
-        
-        print(maxProfit([1,2,3,0,2]))
-        print(maxProfit([5,3,1]))
-        print(maxProfit([1,3,5,9]))
-        print(maxProfit([3,3,3,3]))
-        print(maxProfit([9,3,0,1,3,5,3,1]))
     }
 }
