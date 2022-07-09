@@ -69,4 +69,27 @@ class Solution_322 {
 
         return dp[amount] > amount ? -1 : dp[amount]
     }
+    
+    // MARK: - 爬楼梯思路
+    func coinChange_v3(_ coins: [Int], _ amount: Int) -> Int {
+        if amount == 0 {
+            return 0
+        }
+        if coins.isEmpty || amount < 0 {
+            return -1
+        }
+        
+        var dp = [Int](repeating: Int.max, count: amount + 1)
+        dp[0] = 0
+
+        for i in 1...amount {
+            for coin in coins {
+                if i >= coin && (dp[i - coin] != Int.max) {
+                    dp[i] = min(dp[i], dp[i - coin] + 1)
+                }
+            }
+        }
+
+        return dp[amount] != Int.max ? dp[amount] : -1
+    }
 }
