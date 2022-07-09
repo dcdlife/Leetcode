@@ -13,7 +13,25 @@ import Foundation
  */
 
 class Solution_70 {
+    // MARK: - 动态规划
     func climbStairs(_ n: Int) -> Int {
+        if n <= 2 {
+            return n
+        }
+
+        var dp = [Int](repeating: 0, count: n + 1)
+        dp[1] = 1
+        dp[2] = 2
+
+        for i in 3...n {
+            dp[i] = dp[i - 1] + dp[i - 2]
+        }
+
+        return dp[n]
+    }
+    
+    // MARK: - 动态规划（优化）
+    func climbStairs_v2(_ n: Int) -> Int {
         if n <= 2 {
             return n
         }
@@ -28,12 +46,5 @@ class Solution_70 {
         }
 
         return f2
-    }
-    
-    func test() {
-        let cases = [0,1,2,3,4,5,6,7,8]
-        for i in cases {
-            print(climbStairs(i))
-        }
     }
 }
