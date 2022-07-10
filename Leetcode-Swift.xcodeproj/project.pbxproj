@@ -364,7 +364,7 @@
 		8ECF89952655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89942655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift */; };
 		8ECF89982655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */; };
 		8ECF899B265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */; };
-		8ECF899E26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */; };
+		8ECF899E26571C45000652B7 /* Offer-46.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF899D26571C45000652B7 /* Offer-46.swift */; };
 		8ECF89EF26588AEA000652B7 /* Offer-47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF89EE26588AEA000652B7 /* Offer-47.swift */; };
 		8ECF982C26C09FC800941E47 /* 01_704_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982B26C09FC800941E47 /* 01_704_Day20Plan.swift */; };
 		8ECF982E26C0A34F00941E47 /* 02_278_Day20Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF982D26C0A34F00941E47 /* 02_278_Day20Plan.swift */; };
@@ -811,7 +811,7 @@
 		8ECF89942655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift"; sourceTree = "<group>"; };
 		8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift"; sourceTree = "<group>"; };
 		8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift"; sourceTree = "<group>"; };
-		8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift"; sourceTree = "<group>"; };
+		8ECF899D26571C45000652B7 /* Offer-46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer-46.swift"; sourceTree = "<group>"; };
 		8ECF89EE26588AEA000652B7 /* Offer-47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer-47.swift"; sourceTree = "<group>"; };
 		8ECF982B26C09FC800941E47 /* 01_704_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01_704_Day20Plan.swift; sourceTree = "<group>"; };
 		8ECF982D26C0A34F00941E47 /* 02_278_Day20Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02_278_Day20Plan.swift; sourceTree = "<group>"; };
@@ -1336,7 +1336,7 @@
 				8ECF89942655B9CC000652B7 /* 43.1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.swift */,
 				8ECF89972655CA98000652B7 /* 44.shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.swift */,
 				8ECF899A265715CA000652B7 /* 45.ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.swift */,
-				8ECF899D26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift */,
+				8ECF899D26571C45000652B7 /* Offer-46.swift */,
 				8ECF89EE26588AEA000652B7 /* Offer-47.swift */,
 				8E0AE8B22659C386007FA553 /* Offer-48.swift */,
 				8E0AE8B52659C97B007FA553 /* 49.chou-shu-lcof.swift */,
@@ -1918,7 +1918,7 @@
 				52D9783A2820AD4000C27D8E /* 46.swift in Sources */,
 				8E1D003526449A190067FD06 /* 20.biao-shi-shu-zhi-de-zi-fu-chuan-lcof.swift in Sources */,
 				8EEA6EA42706926200191747 /* 23_145.swift in Sources */,
-				8ECF899E26571C45000652B7 /* 46.ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.swift in Sources */,
+				8ECF899E26571C45000652B7 /* Offer-46.swift in Sources */,
 				8E995DC226D5EC500007E9D6 /* 09_986_Day20Plan.swift in Sources */,
 				8ED4204F26C9025200E4D9DF /* 17_116_Day20Plan.swift in Sources */,
 				8E5AECE0276A34480056BEEC /* 03.01.swift in Sources */,
