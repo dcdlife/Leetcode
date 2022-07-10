@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_139 {
+    // MARK: - 动态规划（爬楼梯思路）
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
         if s.isEmpty || wordDict.isEmpty {
             return false
@@ -23,16 +24,19 @@ class Solution_139 {
         dp[0] = true
 
         for i in 1...count {
-            for start in stride(from: i - 1, to: -1, by: -1) {
+            for word in wordDict {
+                let start = i - word.count
+                if start < 0 {
+                    continue
+                }
+                
                 let startIndex = s.index(s.startIndex, offsetBy: start)
-                let endIndex = s.index(s.startIndex, offsetBy: i)
+                let endIndex = s.index(startIndex, offsetBy: word.count)
                 let subString = String(s[startIndex..<endIndex])
-
-                if wordDict.contains(subString) {
-                    if start == 0 || dp[start] {
-                        dp[i] = true
-                        break
-                    }
+                
+                if subString == word && dp[start] {
+                    dp[i] = true
+                    break
                 }
             }
         }
