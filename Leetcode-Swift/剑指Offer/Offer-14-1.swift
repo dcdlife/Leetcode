@@ -13,34 +13,20 @@ import Foundation
  */
 
 class Solution_Offer_14_1 {
+    // MARK: - 动态规划（爬楼梯思路）
     func cuttingRope(_ n: Int) -> Int {
-        if n < 2 {
-            return 0
-        }
-        if n == 2 {
-            return 1
-        }
-        if n == 3 {
-            return 2
-        }
+        if n == 1 || n == 2 { return 1 }
+        if n == 3 { return 2 }
         
         var dp = [Int](repeating: 0, count: n + 1)
-        dp[0] = 0
-        dp[1] = 1
-        dp[2] = 2
-        dp[3] = 3
-        for i in 4...n {
-            var maxProduct = 0
-            for j in 1...(i / 2) {
-                maxProduct = max(maxProduct, dp[j] * dp[i - j])
-                dp[i] = maxProduct
+        dp[0] = 1
+        
+        for i in 1...n {
+            for j in 1...i {
+                dp[i] = max(dp[i], j * dp[i - j])
             }
         }
+
         return dp[n]
-    }
-    
-    func test() {
-        print(cuttingRope(2))
-        print(cuttingRope(10))
     }
 }
