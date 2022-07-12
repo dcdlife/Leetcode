@@ -16,6 +16,7 @@ class Solution_Offer_13 {
     var visited = [[Bool]]()
     var ans = 0
 
+    // MARK: - DFS（深度优先搜索）
     func movingCount(_ m: Int, _ n: Int, _ k: Int) -> Int {
         if (m < 0) || (n < 0) || (k < 0) {
             return 0
@@ -28,10 +29,6 @@ class Solution_Offer_13 {
     }
 
     func dfs(_ row: Int, _ rows: Int, _ col: Int, _ cols: Int, _ k : Int) {
-        if (row < 0) || (row >= rows) || (col < 0) || (col >= cols) || visited[row][col] {
-            return
-        }
-
         let sum = getDititSum(row) + getDititSum(col)
         if sum > k {
             return
@@ -41,8 +38,13 @@ class Solution_Offer_13 {
         ans += 1
 
         let directioins = [(0, -1), (0, 1), (-1, 0), (1, 0)]
-        for directioin in directioins {
-            dfs(row + directioin.0, rows, col + directioin.1, cols, k)
+        for dir in directioins {
+            let newRow = row + dir.0
+            let newCol = col + dir.1
+            if (newRow < 0) || (newRow >= rows) || (newCol < 0) || (newCol >= cols) || visited[newRow][newCol] {
+                continue
+            }
+            dfs(newRow, rows, newCol, cols, k)
         }
     }
 
@@ -54,24 +56,5 @@ class Solution_Offer_13 {
             num = (num / 10)
         }
         return sum
-    }
-    
-    /*
-     测试用例：
-     1. 功能测试：多行多列；k为正数
-     2. 边界值测试：只有1行、只有1列；k=0
-     3. 特殊测试：k为负数
-     */
-    func test() {
-        print(movingCount(2, 3, 1))
-        print(movingCount(3, 1, 0))
-        
-        print(movingCount(10, 20, 20))
-        print(movingCount(39, 19, 25))
-        print(movingCount(1, 0, 10))
-        print(movingCount(0, 1, 10))
-        print(movingCount(3, 10, 0))
-        
-        print(movingCount(10, 10, -1))
     }
 }
