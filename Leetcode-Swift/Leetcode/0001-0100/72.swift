@@ -12,7 +12,8 @@ import Foundation
  https://leetcode-cn.com/problems/edit-distance/
  */
 
-class Solution72 {
+class Solution_72 {
+    // MARK: - 动态规划
     func minDistance(_ word1: String, _ word2: String) -> Int {
         if word1.isEmpty {
             return word2.count

@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_300 {
+    // MARK: - 动态规划
     func lengthOfLIS(_ nums: [Int]) -> Int {
         if nums.isEmpty {
             return 0
@@ -23,9 +24,8 @@ class Solution_300 {
         var ans = 1
 
         for i in 1..<count {
-            let curNumber = nums[i]
             for j in 0..<i {
-                if nums[j] < curNumber {
+                if nums[j] < nums[i] {
                     dp[i] = max(dp[i], dp[j] + 1)
                 }
             }
