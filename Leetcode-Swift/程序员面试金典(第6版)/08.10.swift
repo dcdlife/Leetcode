@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_08_10 {
+    // MARK: - DFS
     func floodFill(_ image: [[Int]], _ sr: Int, _ sc: Int, _ newColor: Int) -> [[Int]] {
         if image.isEmpty {
             return []
@@ -35,10 +36,7 @@ class Solution_08_10 {
         for i in directions {
             let newSr = sr + i.0
             let newSc = sc + i.1
-            if (newSr < 0) || (newSr >= image.count) || (newSc < 0) || (newSc >= image[0].count) {
-                continue
-            }
-            if (image[newSr][newSc] != initialColor) {
+            if (newSr < 0) || (newSr >= image.count) || (newSc < 0) || (newSc >= image[0].count) || (image[newSr][newSc] != initialColor) {
                 continue
             }
             dfs(&image, newSr, newSc, initialColor, newColor)

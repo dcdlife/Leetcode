@@ -14,48 +14,48 @@ import Foundation
 
 class Solution_04_01 {
     var visited = [Int: Bool]()
+    var found = false
 
+    // MARK: - DFS
     func findWhetherExistsPath(_ n: Int, _ graph: [[Int]], _ start: Int, _ target: Int) -> Bool {
         if graph.isEmpty {
             return false
         }
 
-        var digraph = [Int: [Int]]()
+        found = false
+
+        var digraphs = [Int: [Int]]()
         for i in graph {
-            if let _ = digraph[i[0]] {
-                if !(digraph[i[0]]!.contains(i[1]) ){
-                    digraph[i[0]]!.append(i[1])
-                }
+            let pointA = i[0]
+            let pointB = i[1]
+            if let array = digraphs[pointA], !array.contains(pointB) {
+                digraphs[pointA]!.append(pointB)
             } else {
-                digraph[i[0]] = [i[1]]
-                visited[i[0]] = false
+                digraphs[pointA] = [pointB]
+                visited[pointA] = false
             }
         }
 
-        return dfs(digraph, start, target)
+        dfs(digraphs, start, target)
+
+        return found
     }
 
-    func dfs(_ digraph: [Int: [Int]], _ begin: Int, _ target: Int) -> Bool {
-        if digraph[begin] == nil {
-            return false
+    func dfs(_ digraphs: [Int: [Int]], _ begin: Int, _ target: Int) {
+        if found { return }
+        if begin == target {
+            found = true
+            return
         }
-        if visited[begin]! {
-            return false
+
+        guard let points = digraphs[begin], let isVisited = visited[begin], !isVisited else {
+            return
         }
 
         visited[begin]! = true
 
-        for i in digraph[begin]! {
-            if i == target {
-                return true
-            }
-            if (dfs(digraph, i, target)) {
-                return true
-            }
+        for i in points {
+            dfs(digraphs, i, target)
         }
-
-        visited[begin]! = false
-
-        return false
     }
 }
