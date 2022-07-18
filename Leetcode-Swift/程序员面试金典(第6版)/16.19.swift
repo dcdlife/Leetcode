@@ -13,25 +13,24 @@ import Foundation
  */
 
 class Solution_16_19 {
-    var visited = [[Bool]]()
+    var count = 0
 
+    // MARK: - DFS
     func pondSizes(_ land: [[Int]]) -> [Int] {
         if land.isEmpty || land[0].isEmpty {
             return []
         }
 
+        var land = land
+        var ans = [Int]()
         let rows = land.count
         let cols = land[0].count
-        visited = [[Bool]](repeating: [Bool](repeating: false, count: cols), count: rows)
-        var ans = [Int]()
-        var curWaterAreaCount = 0
-
         for i in 0..<rows {
             for j in 0..<cols {
-                if !visited[i][j] && land[i][j] == 0 {
-                    curWaterAreaCount = 0
-                    dfs(land, &curWaterAreaCount, i, j, rows, cols)
-                    ans.append(curWaterAreaCount)
+                if land[i][j] == 0 {
+                    count = 0
+                    dfs(&land, i, j, rows, cols)
+                    ans.append(count)
                 }
             }
         }
@@ -39,26 +38,24 @@ class Solution_16_19 {
         return ans.sorted()
     }
 
-    func dfs(_ land: [[Int]], _ waterAreaCount: inout Int, _ row: Int, _ col: Int, _ rows: Int, _ cols: Int) {
-        waterAreaCount += 1
-        visited[row][col] = true
-
-        let directions = [
-            (0,-1), (0,1),
-            (-1,0), (1,0),
-            (-1,-1), (1,1),
-            (1,-1), (-1,1)
+    func dfs(_ land: inout [[Int]], _ i: Int, _ j: Int, _ rows: Int, _ cols: Int) {
+        count += 1
+        land[i][j] = 1
+        let dirs = [
+            (i - 1, j),
+            (i + 1, j),
+            (i, j - 1),
+            (i, j + 1),
+            (i - 1, j - 1),
+            (i + 1, j - 1),
+            (i - 1, j + 1),
+            (i + 1, j + 1)
         ]
-        for i in directions {
-            let newRow = row + i.0
-            let newCol = col + i.1
-
-            if newRow < 0 || newCol < 0 || newRow >= rows || newCol >= cols {
+        for (i, j) in dirs {
+            if i < 0 || j < 0 || i >= rows || j >= cols || land[i][j] != 0 {
                 continue
             }
-            if !visited[newRow][newCol] && land[newRow][newCol] == 0 {
-                dfs(land, &waterAreaCount, newRow, newCol, rows, cols)
-            }
+            dfs(&land, i, j, rows, cols)
         }
     }
 }
