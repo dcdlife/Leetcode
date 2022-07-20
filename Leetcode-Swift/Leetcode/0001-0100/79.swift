@@ -13,6 +13,7 @@ import Foundation
  */
 
 class Solution_79 {
+    // MARK: - DFS
     func exist(_ board: [[Character]], _ word: String) -> Bool {
         if board.isEmpty || board[0].isEmpty {
             return false
@@ -26,10 +27,7 @@ class Solution_79 {
         var ans = false
         
         func dfs(_ row: Int, _ col: Int, _ wordIndex: Int) {
-            if visited[row][col] {
-                return
-            }
-            if board[row][col] != word[wordIndex] {
+            if board[row][col] != word[wordIndex]  {
                 return
             }
             if wordIndex == wordLen - 1 {
@@ -39,14 +37,14 @@ class Solution_79 {
             
             visited[row][col] = true
             
-            let directions = [(0,-1), (0,1), (-1,0), (1,0)]
-            for i in directions {
-                let newX = row + i.0
-                let newY = col + i.1
-                if newX < 0 || newX >= rows || newY < 0 || newY >= cols {
+            let dirs = [(0,-1), (0,1), (-1,0), (1,0)]
+            for i in dirs {
+                let newRow = row + i.0
+                let newCol = col + i.1
+                if newRow < 0 || newRow >= rows || newCol < 0 || newCol >= cols || visited[newRow][newCol] {
                     continue
                 }
-                dfs(newX, newY, wordIndex + 1)
+                dfs(newRow, newCol, wordIndex + 1)
                 if ans {
                     break
                 }
