@@ -13,8 +13,7 @@ import Foundation
  */
 
 class Solution_1306 {
-    var visited = [Bool]()
-
+    // MARK: - DFS
     func canReach(_ arr: [Int], _ start: Int) -> Bool {
         if arr.isEmpty {
             return true
@@ -24,12 +23,12 @@ class Solution_1306 {
             return false
         }
 
-        visited = [Bool](repeating: false, count: arr.count)
+        var visited = [Bool](repeating: false, count: arr.count)
 
-        return dfs(arr, start)
+        return dfs(arr, start, &visited)
     }
 
-    func dfs(_ arr: [Int], _ start: Int) -> Bool {
+    func dfs(_ arr: [Int], _ start: Int, _ visited: inout [Bool]) -> Bool {
         if arr[start] == 0 {
             return true
         }
@@ -42,22 +41,14 @@ class Solution_1306 {
         visited[start] = true
 
         for index in nextIndexes {
-            if index < 0 || index >= arr.count {
+            if index < 0 || index >= arr.count || visited[index] {
                 continue
             }
-            if visited[index] {
-                continue
-            }
-
-            if dfs(arr, index) {
+            if dfs(arr, index, &visited) {
                 return true
             }
         }
-        
-        visited[start] = false
 
         return false
     }
 }
-
-
