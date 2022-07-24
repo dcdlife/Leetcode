@@ -13,14 +13,13 @@ import Foundation
  */
 
 class Solution_752 {
+    // MARK: - BFS
     func openLock(_ deadends: [String], _ target: String) -> Int {
-        if target.count != 4 {
-            return -1
-        }
         if target == "0000" {
             return 0
         }
-        if deadends.contains(target) || deadends.contains("0000") {
+        
+        if target.count != 4 || deadends.contains(target) || deadends.contains("0000") {
             return -1
         }
 
