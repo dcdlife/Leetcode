@@ -59,13 +59,16 @@ class Solution_17_22 {
     }
 
     func isValidChange(_ word: String, _ targetWord: String) -> Bool {
-        var diffCount = 0
-        for i in 0..<word.count {
-            let index = targetWord.index(targetWord.startIndex, offsetBy: i)
-            if word[index...index] != targetWord[index...index] {
-                diffCount += 1
+        var diff = 0
+        var index1 = word.startIndex
+        var index2 = targetWord.startIndex
+        while index1 < word.endIndex, index2 < targetWord.endIndex {
+            if word[index1] != targetWord[index2] {
+                diff += 1
             }
+            index1 = word.index(index1, offsetBy: 1)
+            index2 = targetWord.index(index2, offsetBy: 1)
         }
-        return diffCount == 1
+        return diff == 1
     }
 }
